@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Mimi",
+  "version": "0.1.0",
+  "identifier": "com.mimi.dictation",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Mimi",
+        "width": 1280,
+        "height": 720,
+        "minWidth": 1100,
+        "minHeight": 600,
+        "decorations": false,
+        "visible": false,
+        "label": "main",
+        "additionalBrowserArgs": "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection,msEdgeAutofillGooglePay,AutofillServerCommunication,OptimizationHints,MediaRouter --disable-background-networking --disable-component-update --disable-domain-reliability --disable-sync --no-pings --metrics-recording-only --no-first-run"
+      },
+      {
+        "label": "indicator",
+        "title": "Mimi indicator",
+        "url": "indicator.html",
+        "width": 400,
+        "height": 76,
+        "visible": false,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "skipTaskbar": true,
+        "resizable": false,
+        "focus": false,
+        "shadow": false,
+        "additionalBrowserArgs": "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection,msEdgeAutofillGooglePay,AutofillServerCommunication,OptimizationHints,MediaRouter --disable-background-networking --disable-component-update --disable-domain-reliability --disable-sync --no-pings --metrics-recording-only --no-first-run"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' data: asset:; style-src 'self' 'unsafe-inline'; connect-src 'self' ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "publisher": "Mimi",
+    "shortDescription": "Offline dictation",
+    "longDescription": "Mimi turns your voice into text on this PC, offline, in any app.",
+    "resources": {
+      "../../models/parakeet-tdt-0.6b-v3-int8/": "models/parakeet-tdt-0.6b-v3-int8/",
+      "../../models/whisper/ggml-large-v3-turbo-q5_0.bin": "models/whisper/ggml-large-v3-turbo-q5_0.bin",
+      "../../models/whisper/ggml-small-q5_1.bin": "models/whisper/ggml-small-q5_1.bin",
+      "bundle-files/": "./"
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "compression": "none"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Stage recording indicator</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700&display=swap" rel="stylesheet">
+<style>
+body { margin: 0; }
+.ai-bar { display: block; width: 3px; background: #FF8F96; animation: ai-bar 800ms ease-in-out infinite alternate; }
+.ai-spin { animation: ai-spin 900ms linear infinite; transform-origin: center; }
+@keyframes ai-bar { from { transform: scaleY(0.25); } to { transform: scaleY(1); } }
+@keyframes ai-spin { to { transform: rotate(360deg); } }
+</style>
+</helmet>
+<div style="width: 620px; height: 300px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 22px; background: #AEB2BA; font-family: Oxanium, sans-serif;">
+
+  <div style="display: flex; align-items: center; gap: 14px; height: 60px; padding: 0 22px 0 8px; background: #1E1D24; color: #FFFFFF; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));">
+    <div style="position: relative; flex: none; width: 44px; height: 44px; overflow: hidden; background: #FF8F96; clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 9px 100%, 0 calc(100% - 9px));">
+      <img src="/_blob/cad65e7676f56b7b9ca6097c5cf1ce0e" alt="Mimi smiling" style="position: absolute; left: -62px; top: -19px; width: 175px; height: auto; max-width: none;">
+    </div>
+    <div aria-hidden="true" style="display: flex; align-items: center; gap: 3px; height: 26px;">
+      <sc-for list="{{bars}}" as="bar" hint-placeholder-count="14">
+        <span class="ai-bar" style="height: {{bar.h}}; animation-delay: {{bar.delay}};"></span>
+      </sc-for>
+    </div>
+    <span style="font-weight: 700; font-size: 15px; letter-spacing: 1px;">LISTENING</span>
+    <span style="font-weight: 600; font-size: 14px; color: #D5D7DC;">0:07</span>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 14px; height: 60px; padding: 0 22px 0 8px; background: #1E1D24; color: #FFFFFF; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));">
+    <div style="position: relative; flex: none; width: 44px; height: 44px; overflow: hidden; background: #FF8F96; clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 9px 100%, 0 calc(100% - 9px));">
+      <img src="/_blob/cad65e7676f56b7b9ca6097c5cf1ce0e" alt="Mimi smiling" style="position: absolute; left: -62px; top: -19px; width: 175px; height: auto; max-width: none;">
+    </div>
+    <svg class="ai-spin" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#FF8F96" stroke-width="2.4"><path d="M10 2a8 8 0 1 1-8 8"></path></svg>
+    <span style="font-weight: 700; font-size: 15px; letter-spacing: 1px;">TYPING</span>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":620,"height":300}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const heights = [10, 18, 26, 14, 24, 8, 20, 26, 12, 22, 16, 26, 10, 18];
+    return { bars: heights.map((h, i) => ({ h: h + 'px', delay: (i * 83) % 800 + 'ms' })) };
+  }
+}
+</script>
+</body>
+</html>

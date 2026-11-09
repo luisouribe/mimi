@@ -1,0 +1,6 @@
+{"mic_ready_ms":2.9602,"recorded_seconds":5.855,"speech_seconds":5.663,"chunk_count":1,"cleanup_ms":28.5722,"recognition_ms":461.2966,"total_ms":490.3808}
+{"mic_ready_ms":44.5692,"recorded_seconds":8.18,"speech_seconds":7.636,"chunk_count":1,"cleanup_ms":117.335,"recognition_ms":614.6393,"total_ms":732.0396000000001}
+{"mic_ready_ms":2.7767999999999997,"recorded_seconds":3.0,"speech_seconds":0.0,"chunk_count":0,"cleanup_ms":27.4221,"recognition_ms":0.0,"total_ms":27.4999}
+{"mic_ready_ms":5.7128,"recorded_seconds":3.0,"speech_seconds":0.0,"chunk_count":0,"cleanup_ms":37.7469,"recognition_ms":0.0,"total_ms":37.822}
+{"mic_ready_ms":6.7609,"recorded_seconds":3.0,"speech_seconds":0.0,"chunk_count":0,"cleanup_ms":41.6046,"recognition_ms":0.0,"total_ms":41.6625}
+{"mic_ready_ms":3.1199,"recorded_seconds":3.0,"speech_seconds":0.0,"chunk_count":0,"cleanup_ms":41.8742,"recognition_ms":0.0,"total_ms":41.9838}

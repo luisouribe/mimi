@@ -1,0 +1,45 @@
+ggml_vulkan: Found 2 Vulkan devices:
+ggml_vulkan: 0 = Intel(R) UHD Graphics (Intel Corporation) | uma: 1 | fp16: 1 | bf16: 0 | warp size: 32 | shared memory: 32768 | int dot: 1 | matrix cores: none
+ggml_vulkan: 1 = NVIDIA GeForce RTX 3060 Laptop GPU (NVIDIA) | uma: 0 | fp16: 1 | bf16: 1 | warp size: 32 | shared memory: 49152 | int dot: 1 | matrix cores: NV_coopmat2
+register_backend: registered backend Vulkan (2 devices)
+register_device: registered device Vulkan0 (Intel(R) UHD Graphics)
+register_device: registered device Vulkan1 (NVIDIA GeForce RTX 3060 Laptop GPU)
+register_backend: registered backend CPU (1 devices)
+register_device: registered device CPU (11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz)
+whisper_init_from_file_with_params_no_state: loading model from 'C:\Users\Luiso Uribe\Documents\Claude\DictatorApp\models\whisper\ggml-large-v3-turbo-q5_0.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 1
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 3
+whisper_init_with_params_no_state: backends   = 2
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 4
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 8
+whisper_model_load: qntvr         = 2
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:      Vulkan1 total size =   573.40 MB
+whisper_model_load: model size    =  573.40 MB
+whisper_backend_init_gpu: device 0: Vulkan0 (type: 2)
+whisper_backend_init_gpu: found GPU device 0: Vulkan0 (type: 2, cnt: 0)
+whisper_backend_init_gpu: device 1: Vulkan1 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: Vulkan1 (type: 1, cnt: 1)
+whisper_backend_init_gpu: using Vulkan1 backend
+whisper_init_state: kv self size  =   10.49 MB
+whisper_init_state: kv cross size =   31.46 MB
+whisper_init_state: kv pad  size  =    7.86 MB
+whisper_init_state: compute buffer (conv)   =   37.69 MB
+whisper_init_state: compute buffer (encode) =   55.35 MB
+whisper_init_state: compute buffer (cross)  =   39.99 MB
+whisper_init_state: compute buffer (decode) =  100.04 MB

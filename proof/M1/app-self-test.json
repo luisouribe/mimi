@@ -1,0 +1,160 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\en\\000.wav",
+      "dictation": {
+        "heard_speech": true,
+        "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 28.5722,
+          "mic_ready_ms": 2.9602,
+          "recognition_ms": 461.2966,
+          "recorded_seconds": 5.855,
+          "speech_seconds": 5.663,
+          "total_ms": 490.3808
+        },
+        "word_count": 17
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 124,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\48k-stereo\\es\\001.wav",
+      "dictation": {
+        "heard_speech": true,
+        "text": "Cuando cae el dolor, se oyen a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 117.335,
+          "mic_ready_ms": 44.5692,
+          "recognition_ms": 614.6393,
+          "recorded_seconds": 8.18,
+          "speech_seconds": 7.636,
+          "total_ms": 732.0396000000001
+        },
+        "word_count": 20
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 166,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\special\\silence.wav",
+      "dictation": {
+        "heard_speech": false,
+        "text": "",
+        "timings": {
+          "chunk_count": 0,
+          "cleanup_ms": 27.4221,
+          "mic_ready_ms": 2.7767999999999997,
+          "recognition_ms": 0,
+          "recorded_seconds": 3,
+          "speech_seconds": 0,
+          "total_ms": 27.4999
+        },
+        "word_count": 0
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\special\\room-noise.wav",
+      "dictation": {
+        "heard_speech": false,
+        "text": "",
+        "timings": {
+          "chunk_count": 0,
+          "cleanup_ms": 37.7469,
+          "mic_ready_ms": 5.7128,
+          "recognition_ms": 0,
+          "recorded_seconds": 3,
+          "speech_seconds": 0,
+          "total_ms": 37.822
+        },
+        "word_count": 0
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\special\\loud-noise.wav",
+      "dictation": {
+        "heard_speech": false,
+        "text": "",
+        "timings": {
+          "chunk_count": 0,
+          "cleanup_ms": 41.6046,
+          "mic_ready_ms": 6.7609,
+          "recognition_ms": 0,
+          "recorded_seconds": 3,
+          "speech_seconds": 0,
+          "total_ms": 41.6625
+        },
+        "word_count": 0
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\special\\hum.wav",
+      "dictation": {
+        "heard_speech": false,
+        "text": "",
+        "timings": {
+          "chunk_count": 0,
+          "cleanup_ms": 41.8742,
+          "mic_ready_ms": 3.1199,
+          "recognition_ms": 0,
+          "recorded_seconds": 3,
+          "speech_seconds": 0,
+          "total_ms": 41.9838
+        },
+        "word_count": 0
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 3.1638575,
+    "state": "ready"
+  },
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  }
+}

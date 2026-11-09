@@ -1,0 +1,18 @@
+# id	language	voice	text ("|" is a pause of 800 ms, {300} a pause of 300 ms)
+# "a" and "b" clips should insert a snippet. "n" clips only contain similar words and shouldn't.
+a1	es	Microsoft Sabina Desktop	Mi dirección.
+a2	es	Microsoft Sabina Desktop	Hola Juan | mi dirección | gracias por tu mensaje.
+a3	es	Microsoft Sabina Desktop	Hola Juan {300} mi dirección {300} gracias por tu mensaje.
+a4	en	Microsoft Zira Desktop	My email.
+a5	en	Microsoft David Desktop	Hi John | my email | talk to you soon.
+a6	en	Microsoft Zira Desktop	Hi John {300} my email {300} talk to you soon.
+b1	es	Microsoft Sabina Desktop	Puedes mandarla a mi dirección por favor.
+b2	es	Microsoft Sabina Desktop	Hola Juan puedes mandarlo a mi dirección gracias por el mensaje.
+b3	en	Microsoft David Desktop	Please send it to my email today.
+b4	en	Microsoft Zira Desktop	Did you read my email yesterday?
+n1	es	Microsoft Sabina Desktop	Mi nueva dirección es Calle Luna cinco.
+n2	es	Microsoft Sabina Desktop	La dirección de mi casa es muy grande.
+n3	es	Microsoft Sabina Desktop	Cambié de dirección ayer.
+n4	en	Microsoft David Desktop	Please check my emails today.
+n5	en	Microsoft Zira Desktop	My new email is not working.
+n6	en	Microsoft David Desktop	Email me tomorrow.

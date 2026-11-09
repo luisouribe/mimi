@@ -1,0 +1,99 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\ja\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Chrome",
+          "created_at_ms": 1793847170738,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 3.19,
+          "text": "水をマレーシアから買わなくてはならないのです。",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "水をマレーシアから買わなくてはならないのです。",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 13.7279,
+          "mic_ready_ms": 0.8928999999999999,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0039,
+          "recognition_ms": 8191.304799999999,
+          "recorded_seconds": 3.19,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.19,
+          "stop_to_text_ms": 12929.0633,
+          "total_ms": 12929.3577
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 71,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 8.0004645,
+    "model": "whisper-small",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": false
+  },
+  "history": [
+    {
+      "app_name": "Chrome",
+      "created_at_ms": 1793847170738,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 3.19,
+      "text": "水をマレーシアから買わなくてはならないのです。",
+      "word_count": 1
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "Spanish, English and 23 more. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "Japanese and 100+ languages. Most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "Japanese and 100+ languages. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "settings": {
+    "language": "ja",
+    "model": "whisper-small",
+    "whisper_cpu_only": true
+  },
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": []
+}

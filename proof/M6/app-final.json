@@ -1,0 +1,1788 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\a1.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895280376,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 1.312,
+          "text": "Calle Luna 5,\nCiudad de México",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Calle Luna 5,\nCiudad de México",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 7.17,
+          "mic_ready_ms": 0.9048,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0036,
+          "recognition_ms": 120.2066,
+          "recorded_seconds": 1.63,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.312,
+          "stop_to_text_ms": 127.6951,
+          "tidy_ms": 0.1371,
+          "total_ms": 127.8599
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 46,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\a2.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895287039,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 4.8,
+          "text": "Hola Juan. Calle Luna 5,\nCiudad de México. Gracias por tu mensaje.",
+          "word_count": 12
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hola Juan. Calle Luna 5,\nCiudad de México. Gracias por tu mensaje.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 21.1769,
+          "mic_ready_ms": 1.0294,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031,
+          "recognition_ms": 320.9366,
+          "recorded_seconds": 5.125,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.8,
+          "stop_to_text_ms": 342.5222,
+          "tidy_ms": 0.1035,
+          "total_ms": 342.634
+        },
+        "word_count": 12
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 126,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\a3.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895292596,
+          "id": 3,
+          "pasted": false,
+          "speech_seconds": 3.808,
+          "text": "Hola Juan, Calle Luna 5,\nCiudad de México, gracias por tu mensaje.",
+          "word_count": 12
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hola Juan, Calle Luna 5,\nCiudad de México, gracias por tu mensaje.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 17.046100000000003,
+          "mic_ready_ms": 0.8767,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0037,
+          "recognition_ms": 228.7659,
+          "recorded_seconds": 4.125,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.808,
+          "stop_to_text_ms": 245.974,
+          "tidy_ms": 0.0891,
+          "total_ms": 246.1149
+        },
+        "word_count": 12
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\a4.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895295024,
+          "id": 4,
+          "pasted": false,
+          "speech_seconds": 1.216,
+          "text": "luis@example.com",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "luis@example.com",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 7.165,
+          "mic_ready_ms": 0.8758,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0036,
+          "recognition_ms": 107.635,
+          "recorded_seconds": 1.585,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.216,
+          "stop_to_text_ms": 114.9483,
+          "tidy_ms": 0.061500000000000006,
+          "total_ms": 115.0686
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 46,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\a5.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895300600,
+          "id": 5,
+          "pasted": false,
+          "speech_seconds": 4.416,
+          "text": "Hi John. luis@example.com. Talk to you soon.",
+          "word_count": 7
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hi John. luis@example.com. Talk to you soon.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 19.397,
+          "mic_ready_ms": 1.0139,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0033,
+          "recognition_ms": 244.6235,
+          "recorded_seconds": 4.815,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.416,
+          "stop_to_text_ms": 264.18039999999996,
+          "tidy_ms": 0.07150000000000001,
+          "total_ms": 264.30219999999997
+        },
+        "word_count": 7
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\a6.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895305146,
+          "id": 6,
+          "pasted": false,
+          "speech_seconds": 3.488,
+          "text": "Hi John, luis@example.com, talk to you soon.",
+          "word_count": 7
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hi John, luis@example.com, talk to you soon.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 15.8772,
+          "mic_ready_ms": 0.964,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0040999999999999995,
+          "recognition_ms": 216.982,
+          "recorded_seconds": 3.845,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.488,
+          "stop_to_text_ms": 233.0018,
+          "tidy_ms": 0.0802,
+          "total_ms": 233.123
+        },
+        "word_count": 7
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\b1.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895308657,
+          "id": 7,
+          "pasted": false,
+          "speech_seconds": 2.624,
+          "text": "Puedes mandarla a Calle Luna 5,\nCiudad de México, por favor.",
+          "word_count": 11
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Puedes mandarla a Calle Luna 5,\nCiudad de México, por favor.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 12.1457,
+          "mic_ready_ms": 0.8419,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0037,
+          "recognition_ms": 186.1737,
+          "recorded_seconds": 2.95,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.624,
+          "stop_to_text_ms": 198.478,
+          "tidy_ms": 0.076,
+          "total_ms": 198.765
+        },
+        "word_count": 11
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\b2.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895314222,
+          "id": 8,
+          "pasted": false,
+          "speech_seconds": 3.776,
+          "text": "Hola Juan, puedes mandarlo a Calle Luna 5,\nCiudad de México gracias por el mensaje.",
+          "word_count": 15
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hola Juan, puedes mandarlo a Calle Luna 5,\nCiudad de México gracias por el mensaje.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 16.4529,
+          "mic_ready_ms": 0.9122,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.003,
+          "recognition_ms": 231.4134,
+          "recorded_seconds": 4.095,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.776,
+          "stop_to_text_ms": 248.0447,
+          "tidy_ms": 0.0952,
+          "total_ms": 248.1552
+        },
+        "word_count": 15
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\b3.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895317712,
+          "id": 9,
+          "pasted": false,
+          "speech_seconds": 2.336,
+          "text": "Please send it to luis@example.com today.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Please send it to luis@example.com today.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 11.092,
+          "mic_ready_ms": 0.7088,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0042,
+          "recognition_ms": 169.5993,
+          "recorded_seconds": 2.71,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.336,
+          "stop_to_text_ms": 180.86,
+          "tidy_ms": 0.0702,
+          "total_ms": 180.9909
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\b4.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895321201,
+          "id": 10,
+          "pasted": false,
+          "speech_seconds": 2.272,
+          "text": "Did you read luis@example.com yesterday?",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Did you read luis@example.com yesterday?",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 11.0504,
+          "mic_ready_ms": 1.0395,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031999999999999997,
+          "recognition_ms": 161.0968,
+          "recorded_seconds": 2.615,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.272,
+          "stop_to_text_ms": 172.2975,
+          "tidy_ms": 0.0634,
+          "total_ms": 172.4078
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\n1.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895325713,
+          "id": 11,
+          "pasted": false,
+          "speech_seconds": 2.72,
+          "text": "Mi nueva dirección es calle Luna 5.",
+          "word_count": 7
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Mi nueva dirección es calle Luna 5.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 12.1925,
+          "mic_ready_ms": 0.9743,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031,
+          "recognition_ms": 188.4851,
+          "recorded_seconds": 3.025,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.72,
+          "stop_to_text_ms": 200.8059,
+          "tidy_ms": 0.06830000000000001,
+          "total_ms": 200.9263
+        },
+        "word_count": 7
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\n2.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895329223,
+          "id": 12,
+          "pasted": false,
+          "speech_seconds": 2.592,
+          "text": "La dirección de mi casa es muy grande.",
+          "word_count": 8
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "La dirección de mi casa es muy grande.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 12.1151,
+          "mic_ready_ms": 0.86,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0033,
+          "recognition_ms": 182.86649999999997,
+          "recorded_seconds": 2.915,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.592,
+          "stop_to_text_ms": 195.1263,
+          "tidy_ms": 0.07540000000000001,
+          "total_ms": 195.2331
+        },
+        "word_count": 8
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\n3.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895332700,
+          "id": 13,
+          "pasted": false,
+          "speech_seconds": 1.824,
+          "text": "Cambie de dirección ayer.",
+          "word_count": 4
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Cambie de dirección ayer.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 9.0714,
+          "mic_ready_ms": 0.8277,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031,
+          "recognition_ms": 153.2045,
+          "recorded_seconds": 2.15,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.824,
+          "stop_to_text_ms": 162.4027,
+          "tidy_ms": 0.0549,
+          "total_ms": 162.5152
+        },
+        "word_count": 4
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\n4.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895336185,
+          "id": 14,
+          "pasted": false,
+          "speech_seconds": 2.176,
+          "text": "Please check my emails today.",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Please check my emails today.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 10.4522,
+          "mic_ready_ms": 0.7919999999999999,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0033,
+          "recognition_ms": 161.8059,
+          "recorded_seconds": 2.545,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.176,
+          "stop_to_text_ms": 172.4174,
+          "tidy_ms": 0.0617,
+          "total_ms": 172.5354
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\n5.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895339667,
+          "id": 15,
+          "pasted": false,
+          "speech_seconds": 2.208,
+          "text": "My new email is not working.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "My new email is not working.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 10.720199999999998,
+          "mic_ready_ms": 0.9115,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031,
+          "recognition_ms": 153.8003,
+          "recorded_seconds": 2.55,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.208,
+          "stop_to_text_ms": 164.7898,
+          "tidy_ms": 0.2008,
+          "total_ms": 164.9005
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\n6.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895342117,
+          "id": 16,
+          "pasted": false,
+          "speech_seconds": 1.568,
+          "text": "Email me tomorrow.",
+          "word_count": 3
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Email me tomorrow.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 8.4296,
+          "mic_ready_ms": 0.6628,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0033,
+          "recognition_ms": 129.0422,
+          "recorded_seconds": 1.935,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.568,
+          "stop_to_text_ms": 137.6002,
+          "tidy_ms": 0.0486,
+          "total_ms": 137.81740000000002
+        },
+        "word_count": 3
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 46,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\a1.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895347521,
+          "id": 17,
+          "pasted": false,
+          "speech_seconds": 1.312,
+          "text": "Calle Luna 5,\nCiudad de México",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Calle Luna 5,\nCiudad de México",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 6.8753,
+          "mic_ready_ms": 0.9099,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0027,
+          "recognition_ms": 207.1431,
+          "recorded_seconds": 1.63,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.312,
+          "stop_to_text_ms": 214.1225,
+          "tidy_ms": 0.0435,
+          "total_ms": 214.2274
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 46,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\a2.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895354104,
+          "id": 18,
+          "pasted": false,
+          "speech_seconds": 4.8,
+          "text": "Hola Juan. Calle Luna 5,\nCiudad de México. Gracias por tu mensaje.",
+          "word_count": 12
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hola Juan. Calle Luna 5,\nCiudad de México. Gracias por tu mensaje.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 20.5185,
+          "mic_ready_ms": 1.1832,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0028,
+          "recognition_ms": 241.6286,
+          "recorded_seconds": 5.125,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.8,
+          "stop_to_text_ms": 262.2837,
+          "tidy_ms": 0.0727,
+          "total_ms": 262.3895
+        },
+        "word_count": 12
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 126,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\a3.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895359947,
+          "id": 19,
+          "pasted": false,
+          "speech_seconds": 3.808,
+          "text": "Hola Juan, Calle Luna 5,\nCiudad de México, gracias por tu mensaje.",
+          "word_count": 12
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hola Juan, Calle Luna 5,\nCiudad de México, gracias por tu mensaje.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 17.0884,
+          "mic_ready_ms": 0.996,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031999999999999997,
+          "recognition_ms": 503.3265,
+          "recorded_seconds": 4.125,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.808,
+          "stop_to_text_ms": 520.5839,
+          "tidy_ms": 0.068,
+          "total_ms": 520.6889
+        },
+        "word_count": 12
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\a4.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895362675,
+          "id": 20,
+          "pasted": false,
+          "speech_seconds": 1.216,
+          "text": "luis@example.com",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "luis@example.com",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 6.6016,
+          "mic_ready_ms": 0.761,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.003,
+          "recognition_ms": 398.532,
+          "recorded_seconds": 1.585,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.216,
+          "stop_to_text_ms": 405.239,
+          "tidy_ms": 0.0442,
+          "total_ms": 405.347
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 46,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\a5.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895368549,
+          "id": 21,
+          "pasted": false,
+          "speech_seconds": 4.416,
+          "text": "Hi John. luis@example.com. Talk to you soon.",
+          "word_count": 7
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hi John. luis@example.com. Talk to you soon.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 19.5801,
+          "mic_ready_ms": 1.0312,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0027,
+          "recognition_ms": 530.9986,
+          "recorded_seconds": 4.815,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.416,
+          "stop_to_text_ms": 550.7282,
+          "tidy_ms": 0.0684,
+          "total_ms": 550.8399000000001
+        },
+        "word_count": 7
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\a6.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895373329,
+          "id": 22,
+          "pasted": false,
+          "speech_seconds": 3.488,
+          "text": "Hi John, luis@example.com, talk to you soon.",
+          "word_count": 7
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hi John, luis@example.com, talk to you soon.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 22.5748,
+          "mic_ready_ms": 0.9342,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0027,
+          "recognition_ms": 429.3537,
+          "recorded_seconds": 3.845,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.488,
+          "stop_to_text_ms": 452.1143,
+          "tidy_ms": 0.0759,
+          "total_ms": 452.2242
+        },
+        "word_count": 7
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\b1.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895377131,
+          "id": 23,
+          "pasted": false,
+          "speech_seconds": 2.624,
+          "text": "Puedes mandarla a Calle Luna 5,\nCiudad de México por favor.",
+          "word_count": 11
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Puedes mandarla a Calle Luna 5,\nCiudad de México por favor.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 12.1093,
+          "mic_ready_ms": 0.8996,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031999999999999997,
+          "recognition_ms": 464.8887,
+          "recorded_seconds": 2.95,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.624,
+          "stop_to_text_ms": 477.1267,
+          "tidy_ms": 0.0636,
+          "total_ms": 477.235
+        },
+        "word_count": 11
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\b2.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895382977,
+          "id": 24,
+          "pasted": false,
+          "speech_seconds": 3.776,
+          "text": "Hola Juan, puedes mandarlo a Calle Luna 5,\nCiudad de México. Gracias por el mensaje.",
+          "word_count": 15
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hola Juan, puedes mandarlo a Calle Luna 5,\nCiudad de México. Gracias por el mensaje.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 16.4709,
+          "mic_ready_ms": 0.9416,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0034,
+          "recognition_ms": 502.9501,
+          "recorded_seconds": 4.095,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.776,
+          "stop_to_text_ms": 519.587,
+          "tidy_ms": 0.0872,
+          "total_ms": 519.6982999999999
+        },
+        "word_count": 15
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\b3.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895386712,
+          "id": 25,
+          "pasted": false,
+          "speech_seconds": 2.336,
+          "text": "Please send it to luis@example.com today.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Please send it to luis@example.com today.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 11.0192,
+          "mic_ready_ms": 0.8551,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.003,
+          "recognition_ms": 400.2205,
+          "recorded_seconds": 2.71,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.336,
+          "stop_to_text_ms": 411.3936000000001,
+          "tidy_ms": 0.0658,
+          "total_ms": 411.5019
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\b4.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895390492,
+          "id": 26,
+          "pasted": false,
+          "speech_seconds": 2.272,
+          "text": "Did you read luis@example.com yesterday?",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Did you read luis@example.com yesterday?",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 11.0357,
+          "mic_ready_ms": 0.9649,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.003,
+          "recognition_ms": 438.2190000000001,
+          "recorded_seconds": 2.615,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.272,
+          "stop_to_text_ms": 449.415,
+          "tidy_ms": 0.0701,
+          "total_ms": 449.5189
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\n1.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895395302,
+          "id": 27,
+          "pasted": false,
+          "speech_seconds": 2.72,
+          "text": "Mi nueva dirección es calle Luna 5.",
+          "word_count": 7
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Mi nueva dirección es calle Luna 5.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 12.6121,
+          "mic_ready_ms": 0.9143,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0038,
+          "recognition_ms": 477.1837,
+          "recorded_seconds": 3.025,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.72,
+          "stop_to_text_ms": 489.9557,
+          "tidy_ms": 0.0872,
+          "total_ms": 490.0933
+        },
+        "word_count": 7
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\n2.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895399092,
+          "id": 28,
+          "pasted": false,
+          "speech_seconds": 2.592,
+          "text": "La dirección de mi casa es muy grande.",
+          "word_count": 8
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "La dirección de mi casa es muy grande.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 11.987,
+          "mic_ready_ms": 0.9124,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0034,
+          "recognition_ms": 452.057,
+          "recorded_seconds": 2.915,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.592,
+          "stop_to_text_ms": 464.1984,
+          "tidy_ms": 0.076,
+          "total_ms": 464.3122
+        },
+        "word_count": 8
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\es\\n3.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895402896,
+          "id": 29,
+          "pasted": false,
+          "speech_seconds": 1.824,
+          "text": "Cambié de dirección ayer.",
+          "word_count": 4
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Cambié de dirección ayer.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 9.1923,
+          "mic_ready_ms": 0.7837000000000001,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.003,
+          "recognition_ms": 470.8195,
+          "recorded_seconds": 2.15,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.824,
+          "stop_to_text_ms": 480.1416,
+          "tidy_ms": 0.0506,
+          "total_ms": 480.2466
+        },
+        "word_count": 4
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\n4.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895406697,
+          "id": 30,
+          "pasted": false,
+          "speech_seconds": 2.176,
+          "text": "Please check my emails today.",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Please check my emails today.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 10.5731,
+          "mic_ready_ms": 0.8708,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0025,
+          "recognition_ms": 469.0204,
+          "recorded_seconds": 2.545,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.176,
+          "stop_to_text_ms": 479.7263,
+          "tidy_ms": 0.06899999999999999,
+          "total_ms": 479.8288
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\n5.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895410476,
+          "id": 31,
+          "pasted": false,
+          "speech_seconds": 2.208,
+          "text": "My new email is not working.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "My new email is not working.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 10.3591,
+          "mic_ready_ms": 0.7628999999999999,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0033,
+          "recognition_ms": 445.7728,
+          "recorded_seconds": 2.55,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.208,
+          "stop_to_text_ms": 456.2606,
+          "tidy_ms": 0.0633,
+          "total_ms": 456.4227
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m6\\en\\n6.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793895413230,
+          "id": 32,
+          "pasted": false,
+          "speech_seconds": 1.568,
+          "text": "Email me tomorrow.",
+          "word_count": 3
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Email me tomorrow.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 8.2358,
+          "mic_ready_ms": 0.7031000000000001,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031,
+          "recognition_ms": 420.4877,
+          "recorded_seconds": 1.935,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.568,
+          "stop_to_text_ms": 428.863,
+          "tidy_ms": 0.0448,
+          "total_ms": 428.9695
+        },
+        "word_count": 3
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 46,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 2.7264447,
+    "model": "whisper-turbo",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": true
+  },
+  "history": [
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895413230,
+      "id": 32,
+      "pasted": false,
+      "speech_seconds": 1.568,
+      "text": "Email me tomorrow.",
+      "word_count": 3
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895410476,
+      "id": 31,
+      "pasted": false,
+      "speech_seconds": 2.208,
+      "text": "My new email is not working.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895406697,
+      "id": 30,
+      "pasted": false,
+      "speech_seconds": 2.176,
+      "text": "Please check my emails today.",
+      "word_count": 5
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895402896,
+      "id": 29,
+      "pasted": false,
+      "speech_seconds": 1.824,
+      "text": "Cambié de dirección ayer.",
+      "word_count": 4
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895399092,
+      "id": 28,
+      "pasted": false,
+      "speech_seconds": 2.592,
+      "text": "La dirección de mi casa es muy grande.",
+      "word_count": 8
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895395302,
+      "id": 27,
+      "pasted": false,
+      "speech_seconds": 2.72,
+      "text": "Mi nueva dirección es calle Luna 5.",
+      "word_count": 7
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895390492,
+      "id": 26,
+      "pasted": false,
+      "speech_seconds": 2.272,
+      "text": "Did you read luis@example.com yesterday?",
+      "word_count": 5
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895386712,
+      "id": 25,
+      "pasted": false,
+      "speech_seconds": 2.336,
+      "text": "Please send it to luis@example.com today.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895382977,
+      "id": 24,
+      "pasted": false,
+      "speech_seconds": 3.776,
+      "text": "Hola Juan, puedes mandarlo a Calle Luna 5,\nCiudad de México. Gracias por el mensaje.",
+      "word_count": 15
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895377131,
+      "id": 23,
+      "pasted": false,
+      "speech_seconds": 2.624,
+      "text": "Puedes mandarla a Calle Luna 5,\nCiudad de México por favor.",
+      "word_count": 11
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895373329,
+      "id": 22,
+      "pasted": false,
+      "speech_seconds": 3.488,
+      "text": "Hi John, luis@example.com, talk to you soon.",
+      "word_count": 7
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895368549,
+      "id": 21,
+      "pasted": false,
+      "speech_seconds": 4.416,
+      "text": "Hi John. luis@example.com. Talk to you soon.",
+      "word_count": 7
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895362675,
+      "id": 20,
+      "pasted": false,
+      "speech_seconds": 1.216,
+      "text": "luis@example.com",
+      "word_count": 1
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895359947,
+      "id": 19,
+      "pasted": false,
+      "speech_seconds": 3.808,
+      "text": "Hola Juan, Calle Luna 5,\nCiudad de México, gracias por tu mensaje.",
+      "word_count": 12
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895354104,
+      "id": 18,
+      "pasted": false,
+      "speech_seconds": 4.8,
+      "text": "Hola Juan. Calle Luna 5,\nCiudad de México. Gracias por tu mensaje.",
+      "word_count": 12
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895347521,
+      "id": 17,
+      "pasted": false,
+      "speech_seconds": 1.312,
+      "text": "Calle Luna 5,\nCiudad de México",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895342117,
+      "id": 16,
+      "pasted": false,
+      "speech_seconds": 1.568,
+      "text": "Email me tomorrow.",
+      "word_count": 3
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895339667,
+      "id": 15,
+      "pasted": false,
+      "speech_seconds": 2.208,
+      "text": "My new email is not working.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895336185,
+      "id": 14,
+      "pasted": false,
+      "speech_seconds": 2.176,
+      "text": "Please check my emails today.",
+      "word_count": 5
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895332700,
+      "id": 13,
+      "pasted": false,
+      "speech_seconds": 1.824,
+      "text": "Cambie de dirección ayer.",
+      "word_count": 4
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895329223,
+      "id": 12,
+      "pasted": false,
+      "speech_seconds": 2.592,
+      "text": "La dirección de mi casa es muy grande.",
+      "word_count": 8
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895325713,
+      "id": 11,
+      "pasted": false,
+      "speech_seconds": 2.72,
+      "text": "Mi nueva dirección es calle Luna 5.",
+      "word_count": 7
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895321201,
+      "id": 10,
+      "pasted": false,
+      "speech_seconds": 2.272,
+      "text": "Did you read luis@example.com yesterday?",
+      "word_count": 5
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895317712,
+      "id": 9,
+      "pasted": false,
+      "speech_seconds": 2.336,
+      "text": "Please send it to luis@example.com today.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895314222,
+      "id": 8,
+      "pasted": false,
+      "speech_seconds": 3.776,
+      "text": "Hola Juan, puedes mandarlo a Calle Luna 5,\nCiudad de México gracias por el mensaje.",
+      "word_count": 15
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895308657,
+      "id": 7,
+      "pasted": false,
+      "speech_seconds": 2.624,
+      "text": "Puedes mandarla a Calle Luna 5,\nCiudad de México, por favor.",
+      "word_count": 11
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895305146,
+      "id": 6,
+      "pasted": false,
+      "speech_seconds": 3.488,
+      "text": "Hi John, luis@example.com, talk to you soon.",
+      "word_count": 7
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895300600,
+      "id": 5,
+      "pasted": false,
+      "speech_seconds": 4.416,
+      "text": "Hi John. luis@example.com. Talk to you soon.",
+      "word_count": 7
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895295024,
+      "id": 4,
+      "pasted": false,
+      "speech_seconds": 1.216,
+      "text": "luis@example.com",
+      "word_count": 1
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895292596,
+      "id": 3,
+      "pasted": false,
+      "speech_seconds": 3.808,
+      "text": "Hola Juan, Calle Luna 5,\nCiudad de México, gracias por tu mensaje.",
+      "word_count": 12
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895287039,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 4.8,
+      "text": "Hola Juan. Calle Luna 5,\nCiudad de México. Gracias por tu mensaje.",
+      "word_count": 12
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793895280376,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 1.312,
+      "text": "Calle Luna 5,\nCiudad de México",
+      "word_count": 6
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "Spanish, English and 23 more. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "Japanese and 100+ languages. Most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "Japanese and 100+ languages. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "screen": {
+    "animateSwitchWorks": true,
+    "hideAllowed": true,
+    "manropeLoaded": true,
+    "mimiCanvasWidth": 523,
+    "oxaniumLoaded": true
+  },
+  "settings": {
+    "animate_mimi": true,
+    "cleanup": true,
+    "language": "en",
+    "model": "whisper-turbo",
+    "whisper_cpu_only": false
+  },
+  "snippets": [
+    {
+      "id": 1,
+      "phrase": "mi dirección",
+      "text": "Calle Luna 5,\nCiudad de México"
+    },
+    {
+      "id": 2,
+      "phrase": "mi enlace",
+      "text": "https://example.com/mimi"
+    },
+    {
+      "id": 3,
+      "phrase": "my email",
+      "text": "luis@example.com"
+    }
+  ],
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "",
+      "model": "parakeet",
+      "seconds": 1.853199999988079,
+      "status": {
+        "load_seconds": 1.5850209,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 2.87409999999404,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.005900000005960465,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.006099999994039536,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.006299999982118607,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.006,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.007900000005960464,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.008099999994039535,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.006799999982118606,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.0065,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.007700000017881394,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.005700000017881394,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.006300000011920929,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.005900000005960465,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.005800000011920929,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.006599999994039535,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.005099999994039536,
+      "status": {
+        "load_seconds": 2.7264447,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    }
+  ]
+}

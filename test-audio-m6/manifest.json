@@ -1,0 +1,98 @@
+[
+    {
+        "lang":  "es",
+        "file":  "es/a1.wav",
+        "seconds":  1.63,
+        "reference":  "Mi dirección."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/a2.wav",
+        "seconds":  5.13,
+        "reference":  "Hola Juan / mi dirección / gracias por tu mensaje."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/a3.wav",
+        "seconds":  4.13,
+        "reference":  "Hola Juan / mi dirección / gracias por tu mensaje."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/a4.wav",
+        "seconds":  1.59,
+        "reference":  "My email."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/a5.wav",
+        "seconds":  4.82,
+        "reference":  "Hi John / my email / talk to you soon."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/a6.wav",
+        "seconds":  3.85,
+        "reference":  "Hi John / my email / talk to you soon."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/b1.wav",
+        "seconds":  2.95,
+        "reference":  "Puedes mandarla a mi dirección por favor."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/b2.wav",
+        "seconds":  4.1,
+        "reference":  "Hola Juan puedes mandarlo a mi dirección gracias por el mensaje."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/b3.wav",
+        "seconds":  2.71,
+        "reference":  "Please send it to my email today."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/b4.wav",
+        "seconds":  2.62,
+        "reference":  "Did you read my email yesterday?"
+    },
+    {
+        "lang":  "es",
+        "file":  "es/n1.wav",
+        "seconds":  3.03,
+        "reference":  "Mi nueva dirección es Calle Luna cinco."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/n2.wav",
+        "seconds":  2.92,
+        "reference":  "La dirección de mi casa es muy grande."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/n3.wav",
+        "seconds":  2.15,
+        "reference":  "Cambié de dirección ayer."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/n4.wav",
+        "seconds":  2.55,
+        "reference":  "Please check my emails today."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/n5.wav",
+        "seconds":  2.55,
+        "reference":  "My new email is not working."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/n6.wav",
+        "seconds":  1.94,
+        "reference":  "Email me tomorrow."
+    }
+]

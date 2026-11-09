@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mimi-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "mimi", "run", "dev"],
+      "port": 1420
+    },
+    {
+      "name": "mimi-built-screens",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "mimi", "run", "preview", "--", "--port", "1421", "--strictPort"],
+      "port": 1421
+    }
+  ]
+}

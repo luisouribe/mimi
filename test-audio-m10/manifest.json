@@ -1,0 +1,218 @@
+[
+ {
+  "lang": "es",
+  "file": "es/f01-loud-before.wav",
+  "seconds": 3.67,
+  "reference": "Este / quería preguntarte algo."
+ },
+ {
+  "lang": "es",
+  "file": "es/f01-soft-before.wav",
+  "seconds": 3.67,
+  "reference": "Este / quería preguntarte algo."
+ },
+ {
+  "lang": "es",
+  "file": "es/f01-soft-over.wav",
+  "seconds": 3.35,
+  "reference": "Este / quería preguntarte algo."
+ },
+ {
+  "lang": "es",
+  "file": "es/f02-loud-before.wav",
+  "seconds": 4.65,
+  "reference": "Fui a la / este / tienda de la esquina."
+ },
+ {
+  "lang": "es",
+  "file": "es/f02-soft-before.wav",
+  "seconds": 4.65,
+  "reference": "Fui a la / este / tienda de la esquina."
+ },
+ {
+  "lang": "es",
+  "file": "es/f02-soft-over.wav",
+  "seconds": 4.33,
+  "reference": "Fui a la / este / tienda de la esquina."
+ },
+ {
+  "lang": "es",
+  "file": "es/f03-loud-before.wav",
+  "seconds": 3.65,
+  "reference": "Pues este / no sé qué decirte."
+ },
+ {
+  "lang": "es",
+  "file": "es/f03-soft-before.wav",
+  "seconds": 3.65,
+  "reference": "Pues este / no sé qué decirte."
+ },
+ {
+  "lang": "es",
+  "file": "es/f03-soft-over.wav",
+  "seconds": 3.33,
+  "reference": "Pues este / no sé qué decirte."
+ },
+ {
+  "lang": "es",
+  "file": "es/f04-loud-before.wav",
+  "seconds": 5.47,
+  "reference": "Hola Juan. / Este / te llamo mañana."
+ },
+ {
+  "lang": "es",
+  "file": "es/f04-soft-before.wav",
+  "seconds": 5.47,
+  "reference": "Hola Juan. / Este / te llamo mañana."
+ },
+ {
+  "lang": "es",
+  "file": "es/f04-soft-over.wav",
+  "seconds": 5.15,
+  "reference": "Hola Juan. / Este / te llamo mañana."
+ },
+ {
+  "lang": "es",
+  "file": "es/k01-loud-before.wav",
+  "seconds": 2.51,
+  "reference": "Este libro es muy bueno."
+ },
+ {
+  "lang": "es",
+  "file": "es/k01-soft-before.wav",
+  "seconds": 2.51,
+  "reference": "Este libro es muy bueno."
+ },
+ {
+  "lang": "es",
+  "file": "es/k01-soft-over.wav",
+  "seconds": 2.19,
+  "reference": "Este libro es muy bueno."
+ },
+ {
+  "lang": "es",
+  "file": "es/k02-loud-before.wav",
+  "seconds": 3.16,
+  "reference": "Quiero este / no ese."
+ },
+ {
+  "lang": "es",
+  "file": "es/k02-soft-before.wav",
+  "seconds": 3.16,
+  "reference": "Quiero este / no ese."
+ },
+ {
+  "lang": "es",
+  "file": "es/k02-soft-over.wav",
+  "seconds": 2.83,
+  "reference": "Quiero este / no ese."
+ },
+ {
+  "lang": "es",
+  "file": "es/k03-loud-before.wav",
+  "seconds": 3.18,
+  "reference": "Este año fue muy bueno para todos."
+ },
+ {
+  "lang": "es",
+  "file": "es/k03-soft-before.wav",
+  "seconds": 3.18,
+  "reference": "Este año fue muy bueno para todos."
+ },
+ {
+  "lang": "es",
+  "file": "es/k03-soft-over.wav",
+  "seconds": 2.85,
+  "reference": "Este año fue muy bueno para todos."
+ },
+ {
+  "lang": "es",
+  "file": "es/k04-loud-before.wav",
+  "seconds": 2.27,
+  "reference": "Me gusta más este."
+ },
+ {
+  "lang": "es",
+  "file": "es/k04-soft-before.wav",
+  "seconds": 2.27,
+  "reference": "Me gusta más este."
+ },
+ {
+  "lang": "es",
+  "file": "es/k04-soft-over.wav",
+  "seconds": 1.95,
+  "reference": "Me gusta más este."
+ },
+ {
+  "lang": "es",
+  "file": "es/f05-loud-before.wav",
+  "seconds": 2.79,
+  "reference": "Este quería preguntarte algo."
+ },
+ {
+  "lang": "es",
+  "file": "es/f05-soft-before.wav",
+  "seconds": 2.79,
+  "reference": "Este quería preguntarte algo."
+ },
+ {
+  "lang": "es",
+  "file": "es/f05-soft-over.wav",
+  "seconds": 2.47,
+  "reference": "Este quería preguntarte algo."
+ },
+ {
+  "lang": "es",
+  "file": "es/f06-loud-before.wav",
+  "seconds": 7.01,
+  "reference": "Bueno, estamos probando otra vez la aplicación de Mimi, este ahora vamos a ver una segunda prueba."
+ },
+ {
+  "lang": "es",
+  "file": "es/f06-soft-before.wav",
+  "seconds": 7.01,
+  "reference": "Bueno, estamos probando otra vez la aplicación de Mimi, este ahora vamos a ver una segunda prueba."
+ },
+ {
+  "lang": "es",
+  "file": "es/f06-soft-over.wav",
+  "seconds": 6.68,
+  "reference": "Bueno, estamos probando otra vez la aplicación de Mimi, este ahora vamos a ver una segunda prueba."
+ },
+ {
+  "lang": "es",
+  "file": "es/k05-loud-before.wav",
+  "seconds": 2.03,
+  "reference": "Quiero este ahora."
+ },
+ {
+  "lang": "es",
+  "file": "es/k05-soft-before.wav",
+  "seconds": 2.03,
+  "reference": "Quiero este ahora."
+ },
+ {
+  "lang": "es",
+  "file": "es/k05-soft-over.wav",
+  "seconds": 1.71,
+  "reference": "Quiero este ahora."
+ },
+ {
+  "lang": "es",
+  "file": "es/k06-loud-before.wav",
+  "seconds": 2.2,
+  "reference": "Este no me gusta."
+ },
+ {
+  "lang": "es",
+  "file": "es/k06-soft-before.wav",
+  "seconds": 2.2,
+  "reference": "Este no me gusta."
+ },
+ {
+  "lang": "es",
+  "file": "es/k06-soft-over.wav",
+  "seconds": 1.88,
+  "reference": "Este no me gusta."
+ }
+]

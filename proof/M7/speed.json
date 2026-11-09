@@ -1,0 +1,79 @@
+{
+  "entries": 10000,
+  "file_mb": 3.0859375,
+  "fill_seconds": 6.0320078,
+  "timings": [
+    {
+      "action": "Search: reunion",
+      "matches": 200,
+      "typical_ms": 0.5567000000000001,
+      "slowest_ms": 0.7657999999999999
+    },
+    {
+      "action": "Search: MAÑANA",
+      "matches": 200,
+      "typical_ms": 0.5308999999999999,
+      "slowest_ms": 0.5844999999999999
+    },
+    {
+      "action": "Search: presupuesto cliente",
+      "matches": 200,
+      "typical_ms": 0.5575000000000001,
+      "slowest_ms": 0.6596
+    },
+    {
+      "action": "Search: pres",
+      "matches": 200,
+      "typical_ms": 0.48040000000000005,
+      "slowest_ms": 0.5819
+    },
+    {
+      "action": "Search: meeting budget",
+      "matches": 200,
+      "typical_ms": 0.4597,
+      "slowest_ms": 0.7045
+    },
+    {
+      "action": "Search: 予約",
+      "matches": 200,
+      "typical_ms": 1.2178,
+      "slowest_ms": 1.5012
+    },
+    {
+      "action": "Search: 編集が",
+      "matches": 200,
+      "typical_ms": 1.3131,
+      "slowest_ms": 1.4733999999999998
+    },
+    {
+      "action": "Search: nothing like this",
+      "matches": 0,
+      "typical_ms": 0.0802,
+      "slowest_ms": 0.2195
+    },
+    {
+      "action": "Open: newest 100",
+      "matches": 100,
+      "typical_ms": 0.0498,
+      "slowest_ms": 0.08
+    },
+    {
+      "action": "Scroll: 100 older, halfway back",
+      "matches": 100,
+      "typical_ms": 0.16620000000000001,
+      "slowest_ms": 0.18569999999999998
+    },
+    {
+      "action": "Save a dictation",
+      "matches": 1,
+      "typical_ms": 0.549,
+      "slowest_ms": 0.9085
+    },
+    {
+      "action": "Delete a dictation",
+      "matches": 1,
+      "typical_ms": 0.5295,
+      "slowest_ms": 3.1097
+    }
+  ]
+}

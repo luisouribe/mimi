@@ -1,0 +1,22 @@
+[package]
+name = "mimi-bench"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace]
+
+[dependencies]
+anyhow = "1"
+# transcribe-rs 0.3.12 breaks on ort rc.15, so stay on the version it was written for.
+ort = "=2.0.0-rc.12"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+transcribe-rs = { version = "0.3", features = ["onnx", "whisper-cpp", "whisper-vulkan"] }
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_System_ProcessStatus", "Win32_System_Threading"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4
+strip = true

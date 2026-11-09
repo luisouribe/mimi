@@ -1,0 +1,10 @@
+﻿started 11/03/2026 21:50:55
+=== parakeet-v3
+parakeet-v3 exit 
+=== parakeet-v3-weak-pc
+parakeet-v3-weak-pc exit 
+=== whisper-turbo-gpu
+whisper-turbo-gpu exit 
+=== whisper-small-gpu
+whisper-small-gpu exit 
+finished 11/03/2026 21:55:48

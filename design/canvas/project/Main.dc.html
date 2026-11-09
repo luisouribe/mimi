@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mimi Stage home</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700;800&family=Manrope:wght@500;600&family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+<style>
+body { margin: 0; background: #E6E8EC; }
+button { font: inherit; color: inherit; border: 0; background: none; cursor: pointer; }
+button:focus-visible { outline: 2px solid #1E1D24; outline-offset: -4px; }
+.a-shell { display: grid; grid-template-columns: 230px minmax(0, 1fr) 420px; height: 756px; }
+.a-stage { position: relative; min-width: 0; }
+.a-mimi { position: absolute; left: 50%; bottom: -6px; height: 736px; width: auto; transform: translateX(-50%); animation: a-float 5s ease-in-out infinite; }
+.a-mimi.gl-on { opacity: 0; animation: none; }
+.a-mimi-gl { position: absolute; left: 50%; bottom: -12px; width: 585px; height: 766px; transform: translateX(-50%); pointer-events: none; }
+.a-word { position: absolute; left: 50%; top: 44px; transform: translateX(-50%); font-family: Oxanium, sans-serif; font-weight: 800; font-size: 214px; line-height: 1; letter-spacing: 8px; color: #F2606B; white-space: nowrap; user-select: none; }
+.a-ring { position: absolute; left: 50%; bottom: 8px; width: 300px; height: 34px; margin-left: -150px; border-radius: 50%; background: #1E1D24; opacity: 0.14; }
+.a-ring.on { animation: a-ring 1.2s ease-in-out infinite; }
+.a-bar { display: block; width: 4px; background: #1E1D24; transform: scaleY(0.14); transform-origin: center; transition: transform 200ms ease; }
+.a-wave.on .a-bar { background: #D93A47; animation: a-bar 800ms ease-in-out infinite alternate; }
+.a-scroll { overflow-y: auto; scrollbar-width: thin; scrollbar-color: #A9ADB6 transparent; }
+@keyframes a-float { 0%, 100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(-7px); } }
+@keyframes a-bar { from { transform: scaleY(0.2); } to { transform: scaleY(1); } }
+@keyframes a-ring { 0%, 100% { opacity: 0.12; } 50% { opacity: 0.26; } }
+@media (max-width: 960px) {
+  .a-shell { grid-template-columns: minmax(0, 1fr); height: auto; }
+  .a-stage { height: 560px; order: -1; overflow: hidden; }
+  .a-mimi { height: 540px; }
+  .a-mimi-gl { width: 429px; height: 562px; }
+  .a-word { font-size: 110px; top: 30px; }
+  .a-nav { flex-direction: row; flex-wrap: wrap; }
+}
+</style>
+</helmet>
+
+<div style="position: relative; width: 100%; min-height: 800px; overflow: hidden; color: #1E1D24; font-family: Manrope, sans-serif; background-color: #E6E8EC; background-image: radial-gradient(#C4C7CE 1px, transparent 1px); background-size: 28px 28px;">
+
+  <header style="position: relative; z-index: 3; display: flex; align-items: center; justify-content: space-between; height: 44px; padding-left: 24px; background: #E6E8EC; border-bottom: 1px solid #C4C7CE;">
+    <div style="display: flex; align-items: baseline; gap: 10px;">
+      <span style="font-family: Oxanium, sans-serif; font-weight: 800; font-size: 20px; letter-spacing: 1px;">mimi</span>
+      <span style="font-family: 'Noto Sans JP', sans-serif; font-weight: 700; font-size: 12px; color: #565963;">ミミ</span>
+    </div>
+    <div style="display: flex;">
+      <button type="button" aria-label="Minimize window" style="width: 44px; height: 44px; display: grid; place-items: center;">
+        <svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="#1E1D24" stroke-width="1.6"><path d="M2 7h10"></path></svg>
+      </button>
+      <button type="button" aria-label="Hide Mimi to the system tray" style="width: 44px; height: 44px; display: grid; place-items: center;">
+        <svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="#1E1D24" stroke-width="1.6"><path d="M3 3l8 8M11 3l-8 8"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="a-shell">
+
+    <aside style="position: relative; z-index: 2; display: flex; flex-direction: column; justify-content: space-between; padding: 40px 0 28px 24px; min-width: 0;">
+      <nav aria-label="Main" class="a-nav" style="display: flex; flex-direction: column; gap: 6px;">
+        <button type="button" aria-current="page" style="height: 46px; padding: 0 18px; text-align: left; background: #1E1D24; color: #FFFFFF; font-family: Oxanium, sans-serif; font-weight: 600; font-size: 15px; letter-spacing: 1.5px; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);">HOME</button>
+        <button type="button" style="height: 46px; padding: 0 18px; text-align: left; font-family: Oxanium, sans-serif; font-weight: 600; font-size: 15px; letter-spacing: 1.5px;">SNIPPETS</button>
+        <button type="button" style="height: 46px; padding: 0 18px; text-align: left; font-family: Oxanium, sans-serif; font-weight: 600; font-size: 15px; letter-spacing: 1.5px;">SETTINGS</button>
+      </nav>
+
+      <dl style="margin: 0; display: flex; flex-direction: column; gap: 14px; font-family: Oxanium, sans-serif;">
+        <div>
+          <dt style="font-size: 12px; font-weight: 600; letter-spacing: 1.5px; color: #565963;">LANGUAGE</dt>
+          <dd style="margin: 2px 0 0; font-size: 15px; font-weight: 600;">Español / English</dd>
+        </div>
+        <div>
+          <dt style="font-size: 12px; font-weight: 600; letter-spacing: 1.5px; color: #565963;">MODEL</dt>
+          <dd style="margin: 2px 0 0; font-size: 15px; font-weight: 600;">Parakeet V3</dd>
+        </div>
+        <div>
+          <dt style="font-size: 12px; font-weight: 600; letter-spacing: 1.5px; color: #565963;">AUDIO</dt>
+          <dd style="margin: 2px 0 0; font-size: 15px; font-weight: 600;">Offline, stays on this PC</dd>
+        </div>
+      </dl>
+    </aside>
+
+    <section class="a-stage" aria-label="Mimi">
+      <div aria-hidden="true" style="position: absolute; top: 0; bottom: 0; left: 50%; width: 300px; margin-left: -150px; background: #FF8F96;"></div>
+      <div aria-hidden="true" class="a-word">MIMI</div>
+      <div aria-hidden="true" class="a-ring {{ringClass}}"></div>
+      <img class="a-mimi {{imgClass}}" src="/_blob/cad65e7676f56b7b9ca6097c5cf1ce0e" alt="Mimi, a smiling anime girl with long pink twin tails, cat-ear headband and headphones around her neck">
+      <canvas class="a-mimi-gl" aria-hidden="true" ref="{{glRef}}"></canvas>
+    </section>
+
+    <section aria-label="Dictation" style="position: relative; z-index: 2; display: flex; flex-direction: column; gap: 20px; padding: 28px 24px 24px 12px; min-width: 0; min-height: 0;">
+
+      <div style="display: flex; flex-direction: column; gap: 14px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px;">
+          <p role="status" style="margin: 0; font-family: Oxanium, sans-serif; font-weight: 700; font-size: 46px; line-height: 1; letter-spacing: 0.5px;">{{statusWord}}</p>
+          <div aria-hidden="true" class="a-wave {{waveClass}}" style="display: flex; align-items: center; gap: 3px; height: 44px;">
+            <sc-for list="{{bars}}" as="bar" hint-placeholder-count="20">
+              <span class="a-bar" style="height: {{bar.h}}; animation-delay: {{bar.delay}};"></span>
+            </sc-for>
+          </div>
+        </div>
+
+        <p style="margin: 0; display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: #565963;">
+          <kbd style="padding: 4px 9px; background: #F7F8FA; color: #1E1D24; font-family: Oxanium, sans-serif; font-weight: 600; font-size: 13px; border: 1px solid #A9ADB6;">Ctrl</kbd>
+          <span aria-hidden="true">+</span>
+          <kbd style="padding: 4px 9px; background: #F7F8FA; color: #1E1D24; font-family: Oxanium, sans-serif; font-weight: 600; font-size: 13px; border: 1px solid #A9ADB6;">Space</kbd>
+          <span style="margin-left: 4px;">{{hint}}</span>
+        </p>
+
+        <button type="button" onClick="{{toggle}}" disabled="{{isWorking}}" style="display: flex; align-items: center; justify-content: space-between; height: 58px; padding: 0 22px; background: #FF8F96; color: #1E1D24; font-family: Oxanium, sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 1px; clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));">
+          <span>{{buttonLabel}}</span>
+          <svg aria-hidden="true" width="30" height="14" viewBox="0 0 30 14" fill="none" stroke="#1E1D24" stroke-width="2"><path d="M0 7h28M22 1l6 6-6 6"></path></svg>
+        </button>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px; flex: 1 1 0; min-height: 260px;">
+        <h2 style="margin: 0; font-family: Oxanium, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: 1.5px; color: #565963;">HISTORY</h2>
+        <ul class="a-scroll" style="list-style: none; margin: 0; padding: 0 4px 0 0; display: flex; flex-direction: column; gap: 8px; flex: 1 1 0; min-height: 0;">
+          <sc-for list="{{entries}}" as="entry" hint-placeholder-count="4">
+            <li style="display: flex; gap: 6px; padding: 12px 6px 12px 14px; background: #F7F8FA; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);">
+              <div style="flex: 1 1 auto; min-width: 0;">
+                <p style="margin: 0 0 4px; font-family: Oxanium, sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.5px; color: #565963;">{{entry.app}} / {{entry.time}}</p>
+                <p style="margin: 0; font-size: 14px; font-weight: 500; line-height: 1.45;">{{entry.text}}</p>
+              </div>
+              <button type="button" onClick="{{entry.copy}}" aria-label="{{entry.copyLabel}}" style="flex: none; width: 44px; height: 44px; display: grid; place-items: center;">
+                <sc-if value="{{entry.isCopied}}" hint-placeholder-val="{{false}}">
+                  <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#C22B38" stroke-width="2.2"><path d="M3 9.5l4 4 8-9"></path></svg>
+                </sc-if>
+                <sc-if value="{{entry.notCopied}}" hint-placeholder-val="{{true}}">
+                  <svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="#1E1D24" stroke-width="1.6"><rect x="6" y="6" width="9" height="10"></rect><path d="M12 6V2.5H3V13h3"></path></svg>
+                </sc-if>
+              </button>
+            </li>
+          </sc-for>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":800}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = {
+      phase: 'idle',
+      copied: null,
+      demoIndex: 0,
+      entries: [
+        { id: 3, app: 'WhatsApp', time: '12:41', text: 'Llego en veinte minutos. Guárdame un sitio, por favor.' },
+        { id: 2, app: 'ChatGPT', time: '11:58', text: 'Give me five title ideas for a short video about old Tokyo train stations.' },
+        { id: 1, app: 'Gmail', time: '10:15', text: 'Hola Andrea, te confirmo la reunión del jueves a las diez. Te mando el enlace por correo.' }
+      ]
+    };
+    this.demoLines = [
+      { app: 'Word', text: 'Can you send me the final cut by Friday? I would like to review it before the weekend.' },
+      { app: 'Gmail', text: 'Muchas gracias por tu ayuda. Te escribo la próxima semana con más detalles.' }
+    ];
+    this.nextId = 4;
+    this.state.glReady = false;
+    this.setCanvas = (element) => {
+      if (element) this.startAnimation(element);
+    };
+  }
+  componentWillUnmount() {
+    clearTimeout(this.workTimer);
+    clearTimeout(this.copyTimer);
+    this.stopped = true;
+    cancelAnimationFrame(this.frameId);
+    if (this.observer) this.observer.disconnect();
+    if (this.onVisibility) document.removeEventListener('visibilitychange', this.onVisibility);
+  }
+  async startAnimation(canvas) {
+    if (this.animationStarted) return;
+    this.animationStarted = true;
+    try {
+      const gl = canvas.getContext('webgl2', { alpha: true, premultipliedAlpha: true, antialias: false });
+      if (!gl) return;
+      const load = async (url, options) => createImageBitmap(await (await fetch(url)).blob(), options);
+      const [art, map] = await Promise.all([
+        load('/_blob/cad65e7676f56b7b9ca6097c5cf1ce0e', { premultiplyAlpha: 'premultiply', colorSpaceConversion: 'none' }),
+        load('/_blob/edb74c379518540c2b8f1ae60c3976b1', { premultiplyAlpha: 'none', colorSpaceConversion: 'none' })
+      ]);
+      if (this.stopped) return;
+      this.runAnimation(gl, canvas, art, map);
+      this.setState({ glReady: true });
+    } catch (error) {
+      console.warn('Mimi animation unavailable, showing the still image', error);
+    }
+  }
+  runAnimation(gl, canvas, art, map) {
+    const vertexSource = `#version 300 es
+      in vec2 position;
+      out vec2 vUv;
+      void main() {
+        vUv = vec2(position.x * 0.5 + 0.5, 0.5 - position.y * 0.5);
+        gl_Position = vec4(position, 0.0, 1.0);
+      }`;
+    const fragmentSource = `#version 300 es
+      precision highp float;
+      in vec2 vUv;
+      out vec4 color;
+      uniform sampler2D art;
+      uniform sampler2D motion;
+      uniform float time;
+      uniform float phase;
+      uniform float energy;
+      uniform float level;
+      uniform float glow;
+      const vec2 padStart = vec2(60.0 / 585.0, 24.0 / 766.0);
+      const vec2 padEnd = vec2(60.0 / 585.0, 6.0 / 766.0);
+      const vec2 aspect = vec2(0.632, 1.0);
+      const vec2 feet = vec2(0.46, 0.985);
+      void main() {
+        vec2 uv = (vUv - padStart) / (1.0 - padStart - padEnd);
+        float breath = sin(time * 1.35);
+        float lean = sin(time * 0.62 + 0.7) * 0.0032 * (1.0 + 0.6 * energy);
+        vec2 p = (uv - feet) * aspect;
+        float c = cos(lean);
+        float s = sin(lean);
+        p = vec2(c * p.x + s * p.y, -s * p.x + c * p.y);
+        p.y /= 1.0 + 0.0045 * breath + 0.0045 * level * energy;
+        uv = p / aspect + feet;
+        uv.y += (0.5 + 0.5 * breath) * 0.007;
+        vec3 m = texture(motion, uv).rgb;
+        // The pigtails only float slightly. There is no wave along them, so they never bend.
+        vec2 move = vec2(0.0);
+        move.x += m.r * 0.006 * sin(phase * 1.1);
+        move.y += m.r * 0.002 * sin(phase * 1.1 + 1.2);
+        move.x += m.g * 0.006 * sin(phase * 0.95 + 2.1);
+        move.y += m.g * 0.002 * sin(phase * 0.95 + 3.3);
+        move.x += m.b * 0.0065 * (1.0 + 0.7 * energy) * sin(phase * 2.0 - m.b * 2.0);
+        uv -= move;
+        vec4 pixel = texture(art, uv);
+        if (uv.x < 0.0 || uv.x > 1.0 || uv.y < 0.0 || uv.y > 1.0) pixel = vec4(0.0);
+        if (pixel.a > 0.01) {
+          vec3 straight = pixel.rgb / pixel.a;
+          float cyan = smoothstep(0.04, 0.2, straight.b - straight.r) * smoothstep(-0.06, 0.06, straight.g - straight.r);
+          pixel.rgb += vec3(0.35, 0.8, 1.0) * cyan * glow * pixel.a * 0.4;
+        }
+        color = pixel;
+      }`;
+    const compile = (type, source) => {
+      const shader = gl.createShader(type);
+      gl.shaderSource(shader, source);
+      gl.compileShader(shader);
+      if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(shader));
+      return shader;
+    };
+    const program = gl.createProgram();
+    gl.attachShader(program, compile(gl.VERTEX_SHADER, vertexSource));
+    gl.attachShader(program, compile(gl.FRAGMENT_SHADER, fragmentSource));
+    gl.linkProgram(program);
+    if (!gl.getProgramParameter(program, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(program));
+    gl.useProgram(program);
+
+    const buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+    const position = gl.getAttribLocation(program, 'position');
+    gl.enableVertexAttribArray(position);
+    gl.vertexAttribPointer(position, 2, gl.FLOAT, false, 0, 0);
+
+    const addTexture = (unit, name, image, mipmaps) => {
+      gl.activeTexture(gl.TEXTURE0 + unit);
+      gl.bindTexture(gl.TEXTURE_2D, gl.createTexture());
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, mipmaps ? gl.LINEAR_MIPMAP_LINEAR : gl.LINEAR);
+      if (mipmaps) gl.generateMipmap(gl.TEXTURE_2D);
+      gl.uniform1i(gl.getUniformLocation(program, name), unit);
+    };
+    addTexture(0, 'art', art, true);
+    addTexture(1, 'motion', map, false);
+
+    const uniforms = {};
+    ['time', 'phase', 'energy', 'level', 'glow'].forEach((name) => {
+      uniforms[name] = gl.getUniformLocation(program, name);
+    });
+
+    let last = performance.now();
+    let time = 0;
+    let phase = 0;
+    let energy = 0;
+    let level = 0;
+    let glow = 0.12;
+    const approach = (value, target, dt, seconds) => value + (target - value) * (1 - Math.exp(-dt / seconds));
+
+    const frame = (now) => {
+      if (this.stopped) return;
+      this.frameId = requestAnimationFrame(frame);
+      if (now - last < 31) return;
+      const dt = Math.min(0.05, (now - last) / 1000);
+      last = now;
+      time += dt;
+      const current = this.state.phase;
+      const listening = current === 'listening';
+      energy = approach(energy, listening ? 1 : 0, dt, 0.25);
+      phase += dt * (1 + 0.45 * energy);
+      const voice = Math.max(0, Math.min(1, 0.5 + 0.3 * Math.sin(time * 8.3) + 0.2 * Math.sin(time * 13.7 + 1.3) + 0.15 * Math.sin(time * 3.9)));
+      level = approach(level, listening ? voice : 0, dt, 0.06);
+      const targetGlow = listening ? 0.3 + 0.7 * voice : current === 'working' ? 0.6 : 0.12;
+      glow = approach(glow, targetGlow, dt, 0.09);
+
+      const scale = Math.min(window.devicePixelRatio || 1, 2);
+      const width = Math.round(canvas.clientWidth * scale);
+      const height = Math.round(canvas.clientHeight * scale);
+      if (canvas.width !== width || canvas.height !== height) {
+        canvas.width = width;
+        canvas.height = height;
+        gl.viewport(0, 0, width, height);
+      }
+      gl.uniform1f(uniforms.time, time);
+      gl.uniform1f(uniforms.phase, phase);
+      gl.uniform1f(uniforms.energy, energy);
+      gl.uniform1f(uniforms.level, level);
+      gl.uniform1f(uniforms.glow, glow);
+      gl.drawArrays(gl.TRIANGLES, 0, 3);
+    };
+
+    let onScreen = true;
+    const update = () => {
+      cancelAnimationFrame(this.frameId);
+      if (onScreen && !document.hidden && !this.stopped) {
+        last = performance.now();
+        this.frameId = requestAnimationFrame(frame);
+      }
+    };
+    this.observer = new IntersectionObserver((records) => {
+      onScreen = records[records.length - 1].isIntersecting;
+      update();
+    });
+    this.observer.observe(canvas);
+    this.onVisibility = update;
+    document.addEventListener('visibilitychange', this.onVisibility);
+    update();
+  }
+  toggle() {
+    if (this.state.phase === 'idle') {
+      this.setState({ phase: 'listening' });
+    } else if (this.state.phase === 'listening') {
+      this.setState({ phase: 'working' });
+      this.workTimer = setTimeout(() => {
+        const line = this.demoLines[this.state.demoIndex % this.demoLines.length];
+        this.setState({
+          phase: 'idle',
+          demoIndex: this.state.demoIndex + 1,
+          entries: [{ id: this.nextId++, app: line.app, time: 'Just now', text: line.text }].concat(this.state.entries)
+        });
+      }, 500);
+    }
+  }
+  copy(entry) {
+    try {
+      if (navigator.clipboard) navigator.clipboard.writeText(entry.text).catch(() => {});
+    } catch (error) {}
+    this.setState({ copied: entry.id });
+    clearTimeout(this.copyTimer);
+    this.copyTimer = setTimeout(() => this.setState({ copied: null }), 1800);
+  }
+  renderVals() {
+    const phase = this.state.phase;
+    const heights = [16, 26, 38, 22, 44, 30, 18, 36, 44, 24, 14, 32, 42, 20, 34, 26, 12, 28, 40, 18];
+    return {
+      imgClass: this.state.glReady ? 'gl-on' : '',
+      glRef: this.setCanvas,
+      statusWord: phase === 'idle' ? 'Ready' : phase === 'listening' ? 'Listening' : 'Typing',
+      hint: phase === 'listening' ? 'Press again to finish' : 'Hold to talk, or tap',
+      buttonLabel: phase === 'listening' ? 'STOP AND TYPE' : 'START TALKING',
+      isWorking: phase === 'working',
+      waveClass: phase === 'listening' ? 'on' : '',
+      ringClass: phase === 'listening' ? 'on' : '',
+      toggle: () => this.toggle(),
+      bars: heights.map((h, i) => ({ h: h + 'px', delay: (i * 67) % 800 + 'ms' })),
+      entries: this.state.entries.map((entry) => ({
+        ...entry,
+        isCopied: this.state.copied === entry.id,
+        notCopied: this.state.copied !== entry.id,
+        copyLabel: this.state.copied === entry.id ? 'Copied' : 'Copy this text',
+        copy: () => this.copy(entry)
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>

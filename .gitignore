@@ -1,0 +1,25 @@
+# Built or downloaded again on each computer.
+mimi/node_modules/
+mimi/dist/
+mimi/src-tauri/target/
+mimi/src-tauri/gen/
+
+# The speech models are 1.4 GB, too big for GitHub. tools/mac/get_models.sh downloads them.
+models/
+
+# Windows libraries copied in by tools/m8/collect_files.ps1 before each Windows build.
+mimi/src-tauri/bundle-files/*.dll
+
+# Large generated test audio. The smaller test-audio folders are kept.
+test-audio-variants/
+
+# Kept on this computer only: voice recordings from other people's collections, which
+# tools/benchmark/fetch_samples.py can download again, and reference images made by others.
+test-audio/
+design/references/
+
+# Logs and editor files.
+*.log
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,122 @@
+[
+ {
+  "model": "parakeet",
+  "clip": "l01",
+  "raw": "Para mañana necesito. Primero. Comprar pan. Segundo. Llamar a Juan. Y tercero. Mandar el video.",
+  "cleaned": "Para mañana necesito:\n1. Comprar pan.\n2. Llamar a Juan.\n3. Mandar el video."
+ },
+ {
+  "model": "parakeet",
+  "clip": "l02",
+  "raw": "Ingredientes. Viñeta. Harina. Viñeta. Huevos. Vineta. Leche.",
+  "cleaned": "Ingredientes:\n- Harina\n- Huevos\n- Leche"
+ },
+ {
+  "model": "parakeet",
+  "clip": "l03",
+  "raw": "Tengo tres cosas. Primero, el guión. Segundo. El casting. Y por último, la locación.",
+  "cleaned": "Tengo tres cosas:\n1. El guión.\n2. El casting.\n3. La locación."
+ },
+ {
+  "model": "parakeet",
+  "clip": "l04",
+  "raw": "1. Revisar el correo. 2. Editar el video. 3. Subirlo a YouTube.",
+  "cleaned": "1. Revisar el correo.\n2. Editar el video.\n3. Subirlo a YouTube."
+ },
+ {
+  "model": "parakeet",
+  "clip": "l05",
+  "raw": "We need three things. First, a script. Second. A camera. And third. A crew.",
+  "cleaned": "We need three things:\n1. A script.\n2. A camera.\n3. A crew."
+ },
+ {
+  "model": "parakeet",
+  "clip": "l06",
+  "raw": "Shopping list Bullet Point Apples Bullet Point Bread Bullet Point Milk",
+  "cleaned": "Shopping list:\n- Apples\n- Bread\n- Milk"
+ },
+ {
+  "model": "parakeet",
+  "clip": "n01",
+  "raw": "Primero voy a comer y luego me duermo.",
+  "cleaned": "Primero voy a comer y luego me duermo."
+ },
+ {
+  "model": "parakeet",
+  "clip": "n02",
+  "raw": "Compré dos panes y tres leches para la casa.",
+  "cleaned": "Compré dos panes y tres leches para la casa."
+ },
+ {
+  "model": "parakeet",
+  "clip": "n03",
+  "raw": "Esta viñeta del cómic es muy buena.",
+  "cleaned": "Esta viñeta del cómic es muy buena."
+ },
+ {
+  "model": "parakeet",
+  "clip": "n04",
+  "raw": "First I want to thank you all for coming.",
+  "cleaned": "First I want to thank you all for coming."
+ },
+ {
+  "model": "turbo",
+  "clip": "l01",
+  "raw": "Para mañana necesito. Primero, comprar pan. Segundo, llamar a Juan. Y tercero, mandar el video.",
+  "cleaned": "Para mañana necesito:\n1. Comprar pan.\n2. Llamar a Juan.\n3. Mandar el video."
+ },
+ {
+  "model": "turbo",
+  "clip": "l02",
+  "raw": "Ingredientes. Viñeta. Harina. Viñeta. Huevos. Viñeta. Leche.",
+  "cleaned": "Ingredientes:\n- Harina\n- Huevos\n- Leche"
+ },
+ {
+  "model": "turbo",
+  "clip": "l03",
+  "raw": "Tengo tres cosas. Primero, el guión. Segundo, el casting. Y por último, la locación.",
+  "cleaned": "Tengo tres cosas:\n1. El guión.\n2. El casting.\n3. La locación."
+ },
+ {
+  "model": "turbo",
+  "clip": "l04",
+  "raw": "1. Revisar el correo. 2. Editar el video. 3. Subirlo a YouTube.",
+  "cleaned": "1. Revisar el correo.\n2. Editar el video.\n3. Subirlo a YouTube."
+ },
+ {
+  "model": "turbo",
+  "clip": "l05",
+  "raw": "We need three things. First, a script. Second, a camera. And third, a crew.",
+  "cleaned": "We need three things:\n1. A script.\n2. A camera.\n3. A crew."
+ },
+ {
+  "model": "turbo",
+  "clip": "l06",
+  "raw": "Shopping list. Bullet point. Apples. Bullet point. Bread. Bullet point. Milk.",
+  "cleaned": "Shopping list:\n- Apples\n- Bread\n- Milk"
+ },
+ {
+  "model": "turbo",
+  "clip": "n01",
+  "raw": "Primero voy a comer y luego me duermo.",
+  "cleaned": "Primero voy a comer y luego me duermo."
+ },
+ {
+  "model": "turbo",
+  "clip": "n02",
+  "raw": "Compré dos panes y tres leches para la casa.",
+  "cleaned": "Compré dos panes y tres leches para la casa."
+ },
+ {
+  "model": "turbo",
+  "clip": "n03",
+  "raw": "Esta viñeta del cómic es muy buena.",
+  "cleaned": "Esta viñeta del cómic es muy buena."
+ },
+ {
+  "model": "turbo",
+  "clip": "n04",
+  "raw": "First I want to thank you all for coming.",
+  "cleaned": "First I want to thank you all for coming."
+ }
+]

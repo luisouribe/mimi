@@ -1,0 +1,7233 @@
+{
+  "engine": "mimi-pipeline",
+  "model": "parakeet",
+  "load_seconds": 1.8654484,
+  "peak_memory_mb": 855.953125,
+  "rate": 16000,
+  "gain": 1.0,
+  "lead_silence": 0.0,
+  "first_words": [
+    {
+      "text": "mister",
+      "start": 0.06999999,
+      "end": 0.46999997
+    },
+    {
+      "text": "Quilter",
+      "start": 0.46999997,
+      "end": 1.1899999
+    },
+    {
+      "text": "is",
+      "start": 1.1899999,
+      "end": 1.27
+    },
+    {
+      "text": "the",
+      "start": 1.27,
+      "end": 1.43
+    },
+    {
+      "text": "apostle",
+      "start": 1.43,
+      "end": 1.9099998
+    },
+    {
+      "text": "of",
+      "start": 1.9099998,
+      "end": 2.07
+    },
+    {
+      "text": "the",
+      "start": 2.07,
+      "end": 2.1499999
+    },
+    {
+      "text": "Middle",
+      "start": 2.1499999,
+      "end": 2.55
+    }
+  ],
+  "clips": [
+    {
+      "lang": "en",
+      "file": "en/000.wav",
+      "seconds": 5.86,
+      "elapsed": 0.4896589,
+      "cleanup_ms": 25.8196,
+      "speech_seconds": 5.663,
+      "chunks": 1,
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+      "tidied": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+      "words": [
+        {
+          "text": "mister",
+          "start": 0.06999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "Quilter",
+          "start": 0.46999997,
+          "end": 1.1899999
+        },
+        {
+          "text": "is",
+          "start": 1.1899999,
+          "end": 1.27
+        },
+        {
+          "text": "the",
+          "start": 1.27,
+          "end": 1.43
+        },
+        {
+          "text": "apostle",
+          "start": 1.43,
+          "end": 1.9099998
+        },
+        {
+          "text": "of",
+          "start": 1.9099998,
+          "end": 2.07
+        },
+        {
+          "text": "the",
+          "start": 2.07,
+          "end": 2.1499999
+        },
+        {
+          "text": "Middle",
+          "start": 2.1499999,
+          "end": 2.55
+        },
+        {
+          "text": "Classes,",
+          "start": 2.55,
+          "end": 3.03
+        },
+        {
+          "text": "and",
+          "start": 3.03,
+          "end": 3.27
+        },
+        {
+          "text": "we",
+          "start": 3.27,
+          "end": 3.4299998
+        },
+        {
+          "text": "are",
+          "start": 3.4299998,
+          "end": 3.59
+        },
+        {
+          "text": "glad",
+          "start": 3.59,
+          "end": 3.83
+        },
+        {
+          "text": "to",
+          "start": 3.83,
+          "end": 3.9899998
+        },
+        {
+          "text": "welcome",
+          "start": 3.9899998,
+          "end": 4.47
+        },
+        {
+          "text": "his",
+          "start": 4.47,
+          "end": 4.71
+        },
+        {
+          "text": "gospel.",
+          "start": 4.71,
+          "end": 5.48
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/001.wav",
+      "seconds": 4.82,
+      "elapsed": 0.3025397,
+      "cleanup_ms": 20.456,
+      "speech_seconds": 4.623,
+      "chunks": 1,
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "text": "Nor is mister Quilter's manner less interesting than his matter.",
+      "tidied": "Nor is mister Quilter's manner less interesting than his matter.",
+      "words": [
+        {
+          "text": "Nor",
+          "start": 0.06999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "is",
+          "start": 0.46999997,
+          "end": 0.63
+        },
+        {
+          "text": "mister",
+          "start": 0.63,
+          "end": 1.03
+        },
+        {
+          "text": "Quilter's",
+          "start": 1.03,
+          "end": 1.8299999
+        },
+        {
+          "text": "manner",
+          "start": 1.8299999,
+          "end": 2.23
+        },
+        {
+          "text": "less",
+          "start": 2.23,
+          "end": 2.47
+        },
+        {
+          "text": "interesting",
+          "start": 2.47,
+          "end": 3.11
+        },
+        {
+          "text": "than",
+          "start": 3.11,
+          "end": 3.35
+        },
+        {
+          "text": "his",
+          "start": 3.35,
+          "end": 3.59
+        },
+        {
+          "text": "matter.",
+          "start": 3.59,
+          "end": 4.44
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/002.wav",
+      "seconds": 12.49,
+      "elapsed": 0.8796638,
+      "cleanup_ms": 53.678,
+      "speech_seconds": 12.128,
+      "chunks": 1,
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+      "tidied": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+      "words": [
+        {
+          "text": "He",
+          "start": 0.06999999,
+          "end": 0.31
+        },
+        {
+          "text": "tells",
+          "start": 0.31,
+          "end": 0.78999996
+        },
+        {
+          "text": "us",
+          "start": 0.78999996,
+          "end": 1.03
+        },
+        {
+          "text": "that",
+          "start": 1.03,
+          "end": 1.3499999
+        },
+        {
+          "text": "at",
+          "start": 1.3499999,
+          "end": 1.51
+        },
+        {
+          "text": "this",
+          "start": 1.51,
+          "end": 1.75
+        },
+        {
+          "text": "festive",
+          "start": 1.75,
+          "end": 2.3899999
+        },
+        {
+          "text": "season",
+          "start": 2.3899999,
+          "end": 2.79
+        },
+        {
+          "text": "of",
+          "start": 2.79,
+          "end": 2.9499998
+        },
+        {
+          "text": "the",
+          "start": 2.9499998,
+          "end": 3.11
+        },
+        {
+          "text": "year,",
+          "start": 3.11,
+          "end": 3.75
+        },
+        {
+          "text": "with",
+          "start": 3.75,
+          "end": 4.0699997
+        },
+        {
+          "text": "Christmas",
+          "start": 4.0699997,
+          "end": 4.63
+        },
+        {
+          "text": "and",
+          "start": 4.63,
+          "end": 4.87
+        },
+        {
+          "text": "roast",
+          "start": 4.87,
+          "end": 5.27
+        },
+        {
+          "text": "beef",
+          "start": 5.27,
+          "end": 5.5899997
+        },
+        {
+          "text": "looming",
+          "start": 5.5899997,
+          "end": 6.1499996
+        },
+        {
+          "text": "before",
+          "start": 6.1499996,
+          "end": 6.5499997
+        },
+        {
+          "text": "us,",
+          "start": 6.5499997,
+          "end": 7.19
+        },
+        {
+          "text": "similes",
+          "start": 7.19,
+          "end": 8.07
+        },
+        {
+          "text": "drawn",
+          "start": 8.07,
+          "end": 8.389999
+        },
+        {
+          "text": "from",
+          "start": 8.389999,
+          "end": 8.63
+        },
+        {
+          "text": "eating",
+          "start": 8.63,
+          "end": 9.03
+        },
+        {
+          "text": "and",
+          "start": 9.03,
+          "end": 9.19
+        },
+        {
+          "text": "its",
+          "start": 9.19,
+          "end": 9.349999
+        },
+        {
+          "text": "results",
+          "start": 9.349999,
+          "end": 9.83
+        },
+        {
+          "text": "occur",
+          "start": 9.83,
+          "end": 10.389999
+        },
+        {
+          "text": "most",
+          "start": 10.389999,
+          "end": 10.63
+        },
+        {
+          "text": "readily",
+          "start": 10.63,
+          "end": 11.11
+        },
+        {
+          "text": "to",
+          "start": 11.11,
+          "end": 11.2699995
+        },
+        {
+          "text": "the",
+          "start": 11.2699995,
+          "end": 11.429999
+        },
+        {
+          "text": "mind.",
+          "start": 11.429999,
+          "end": 11.88
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/003.wav",
+      "seconds": 9.9,
+      "elapsed": 0.678344,
+      "cleanup_ms": 42.3681,
+      "speech_seconds": 9.632,
+      "chunks": 1,
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "text": "He has grave doubts whether Sir Frederick Leighton's work is really Greek after all, and can discover in it but little of Rocky Ithaca.",
+      "tidied": "He has grave doubts whether Sir Frederick Leighton's work is really Greek after all, and can discover in it but little of Rocky Ithaca.",
+      "words": [
+        {
+          "text": "He",
+          "start": 0.06999999,
+          "end": 0.31
+        },
+        {
+          "text": "has",
+          "start": 0.31,
+          "end": 0.54999995
+        },
+        {
+          "text": "grave",
+          "start": 0.54999995,
+          "end": 0.9499999
+        },
+        {
+          "text": "doubts",
+          "start": 0.9499999,
+          "end": 1.51
+        },
+        {
+          "text": "whether",
+          "start": 1.51,
+          "end": 1.75
+        },
+        {
+          "text": "Sir",
+          "start": 1.75,
+          "end": 1.99
+        },
+        {
+          "text": "Frederick",
+          "start": 1.99,
+          "end": 2.47
+        },
+        {
+          "text": "Leighton's",
+          "start": 2.47,
+          "end": 3.1899998
+        },
+        {
+          "text": "work",
+          "start": 3.1899998,
+          "end": 3.4299998
+        },
+        {
+          "text": "is",
+          "start": 3.4299998,
+          "end": 3.6699998
+        },
+        {
+          "text": "really",
+          "start": 3.6699998,
+          "end": 4.0699997
+        },
+        {
+          "text": "Greek",
+          "start": 4.0699997,
+          "end": 4.63
+        },
+        {
+          "text": "after",
+          "start": 4.63,
+          "end": 5.0299997
+        },
+        {
+          "text": "all,",
+          "start": 5.0299997,
+          "end": 5.67
+        },
+        {
+          "text": "and",
+          "start": 5.67,
+          "end": 5.91
+        },
+        {
+          "text": "can",
+          "start": 5.91,
+          "end": 6.1499996
+        },
+        {
+          "text": "discover",
+          "start": 6.1499996,
+          "end": 6.71
+        },
+        {
+          "text": "in",
+          "start": 6.71,
+          "end": 6.87
+        },
+        {
+          "text": "it",
+          "start": 6.87,
+          "end": 7.1099997
+        },
+        {
+          "text": "but",
+          "start": 7.1099997,
+          "end": 7.35
+        },
+        {
+          "text": "little",
+          "start": 7.35,
+          "end": 7.5899997
+        },
+        {
+          "text": "of",
+          "start": 7.5899997,
+          "end": 7.83
+        },
+        {
+          "text": "Rocky",
+          "start": 7.83,
+          "end": 8.55
+        },
+        {
+          "text": "Ithaca.",
+          "start": 8.55,
+          "end": 9.48
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/004.wav",
+      "seconds": 29.4,
+      "elapsed": 2.2546353,
+      "cleanup_ms": 124.3329,
+      "speech_seconds": 29.208,
+      "chunks": 2,
+      "reference": "LINNELL'S PICTURES ARE A SORT OF UP GUARDS AND AT EM PAINTINGS AND MASON'S EXQUISITE IDYLLS ARE AS NATIONAL AS A JINGO POEM MISTER BIRKET FOSTER'S LANDSCAPES SMILE AT ONE MUCH IN THE SAME WAY THAT MISTER CARKER USED TO FLASH HIS TEETH AND MISTER JOHN COLLIER GIVES HIS SITTER A CHEERFUL SLAP ON THE BACK BEFORE HE SAYS LIKE A SHAMPOOER IN A TURKISH BATH NEXT MAN",
+      "text": "Lynell's pictures are a sort of Up Guards and Adam paintings, and Mason's exquisite idols are as national as a jingo poem. mister Burkett Foster's landscapes smile at one much in the same way that mister Carker used to flash his teeth. And mister John Collier gives his sitter a cheerful slap on the back, before he says, like a shampooer in a Turkish bath Next, man.",
+      "tidied": "Lynell's pictures are a sort of Up Guards and Adam paintings, and Mason's exquisite idols are as national as a jingo poem. mister Burkett Foster's landscapes smile at one much in the same way that mister Carker used to flash his teeth. And mister John Collier gives his sitter a cheerful slap on the back, before he says, like a shampooer in a Turkish bath Next, man.",
+      "words": [
+        {
+          "text": "Lynell's",
+          "start": 0.06999999,
+          "end": 1.11
+        },
+        {
+          "text": "pictures",
+          "start": 1.11,
+          "end": 1.5899999
+        },
+        {
+          "text": "are",
+          "start": 1.5899999,
+          "end": 1.8299999
+        },
+        {
+          "text": "a",
+          "start": 1.8299999,
+          "end": 1.99
+        },
+        {
+          "text": "sort",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "of",
+          "start": 2.23,
+          "end": 2.55
+        },
+        {
+          "text": "Up",
+          "start": 2.55,
+          "end": 2.9499998
+        },
+        {
+          "text": "Guards",
+          "start": 2.9499998,
+          "end": 3.4299998
+        },
+        {
+          "text": "and",
+          "start": 3.4299998,
+          "end": 3.59
+        },
+        {
+          "text": "Adam",
+          "start": 3.59,
+          "end": 4.23
+        },
+        {
+          "text": "paintings,",
+          "start": 4.23,
+          "end": 4.95
+        },
+        {
+          "text": "and",
+          "start": 4.95,
+          "end": 5.19
+        },
+        {
+          "text": "Mason's",
+          "start": 5.19,
+          "end": 5.99
+        },
+        {
+          "text": "exquisite",
+          "start": 5.99,
+          "end": 6.47
+        },
+        {
+          "text": "idols",
+          "start": 6.47,
+          "end": 7.19
+        },
+        {
+          "text": "are",
+          "start": 7.19,
+          "end": 7.43
+        },
+        {
+          "text": "as",
+          "start": 7.43,
+          "end": 7.6699996
+        },
+        {
+          "text": "national",
+          "start": 7.6699996,
+          "end": 8.23
+        },
+        {
+          "text": "as",
+          "start": 8.23,
+          "end": 8.389999
+        },
+        {
+          "text": "a",
+          "start": 8.389999,
+          "end": 8.55
+        },
+        {
+          "text": "jingo",
+          "start": 8.55,
+          "end": 9.349999
+        },
+        {
+          "text": "poem.",
+          "start": 9.349999,
+          "end": 10.87
+        },
+        {
+          "text": "mister",
+          "start": 10.87,
+          "end": 11.349999
+        },
+        {
+          "text": "Burkett",
+          "start": 11.349999,
+          "end": 11.99
+        },
+        {
+          "text": "Foster's",
+          "start": 11.99,
+          "end": 12.63
+        },
+        {
+          "text": "landscapes",
+          "start": 12.63,
+          "end": 13.429999
+        },
+        {
+          "text": "smile",
+          "start": 13.429999,
+          "end": 13.91
+        },
+        {
+          "text": "at",
+          "start": 13.91,
+          "end": 14.15
+        },
+        {
+          "text": "one",
+          "start": 14.15,
+          "end": 14.469999
+        },
+        {
+          "text": "much",
+          "start": 14.469999,
+          "end": 14.71
+        },
+        {
+          "text": "in",
+          "start": 14.71,
+          "end": 14.87
+        },
+        {
+          "text": "the",
+          "start": 14.87,
+          "end": 14.95
+        },
+        {
+          "text": "same",
+          "start": 14.95,
+          "end": 15.19
+        },
+        {
+          "text": "way",
+          "start": 15.19,
+          "end": 15.429999
+        },
+        {
+          "text": "that",
+          "start": 15.429999,
+          "end": 15.67
+        },
+        {
+          "text": "mister",
+          "start": 15.67,
+          "end": 15.99
+        },
+        {
+          "text": "Carker",
+          "start": 15.99,
+          "end": 16.789999
+        },
+        {
+          "text": "used",
+          "start": 16.789999,
+          "end": 17.029999
+        },
+        {
+          "text": "to",
+          "start": 17.029999,
+          "end": 17.27
+        },
+        {
+          "text": "flash",
+          "start": 17.27,
+          "end": 17.75
+        },
+        {
+          "text": "his",
+          "start": 17.75,
+          "end": 17.99
+        },
+        {
+          "text": "teeth.",
+          "start": 17.99,
+          "end": 18.679998
+        },
+        {
+          "text": "And",
+          "start": 19.19,
+          "end": 19.51
+        },
+        {
+          "text": "mister",
+          "start": 19.51,
+          "end": 19.830002
+        },
+        {
+          "text": "John",
+          "start": 19.830002,
+          "end": 20.150002
+        },
+        {
+          "text": "Collier",
+          "start": 20.150002,
+          "end": 21.11
+        },
+        {
+          "text": "gives",
+          "start": 21.11,
+          "end": 21.35
+        },
+        {
+          "text": "his",
+          "start": 21.35,
+          "end": 21.51
+        },
+        {
+          "text": "sitter",
+          "start": 21.51,
+          "end": 22.150002
+        },
+        {
+          "text": "a",
+          "start": 22.150002,
+          "end": 22.230001
+        },
+        {
+          "text": "cheerful",
+          "start": 22.230001,
+          "end": 22.87
+        },
+        {
+          "text": "slap",
+          "start": 22.87,
+          "end": 23.35
+        },
+        {
+          "text": "on",
+          "start": 23.35,
+          "end": 23.51
+        },
+        {
+          "text": "the",
+          "start": 23.51,
+          "end": 23.670002
+        },
+        {
+          "text": "back,",
+          "start": 23.670002,
+          "end": 24.230001
+        },
+        {
+          "text": "before",
+          "start": 24.230001,
+          "end": 24.630001
+        },
+        {
+          "text": "he",
+          "start": 24.630001,
+          "end": 24.79
+        },
+        {
+          "text": "says,",
+          "start": 24.79,
+          "end": 25.27
+        },
+        {
+          "text": "like",
+          "start": 25.27,
+          "end": 25.51
+        },
+        {
+          "text": "a",
+          "start": 25.51,
+          "end": 25.67
+        },
+        {
+          "text": "shampooer",
+          "start": 25.67,
+          "end": 26.550001
+        },
+        {
+          "text": "in",
+          "start": 26.550001,
+          "end": 26.710001
+        },
+        {
+          "text": "a",
+          "start": 26.710001,
+          "end": 26.79
+        },
+        {
+          "text": "Turkish",
+          "start": 26.79,
+          "end": 27.19
+        },
+        {
+          "text": "bath",
+          "start": 27.19,
+          "end": 27.990002
+        },
+        {
+          "text": "Next,",
+          "start": 27.990002,
+          "end": 28.470001
+        },
+        {
+          "text": "man.",
+          "start": 28.470001,
+          "end": 29.080002
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/005.wav",
+      "seconds": 9.01,
+      "elapsed": 0.5538802,
+      "cleanup_ms": 36.7592,
+      "speech_seconds": 8.768,
+      "chunks": 1,
+      "reference": "IT IS OBVIOUSLY UNNECESSARY FOR US TO POINT OUT HOW LUMINOUS THESE CRITICISMS ARE HOW DELICATE IN EXPRESSION",
+      "text": "It is obviously unnecessary for us to point out how luminous these criticisms are, how delicate in expression.",
+      "tidied": "It is obviously unnecessary for us to point out how luminous these criticisms are, how delicate in expression.",
+      "words": [
+        {
+          "text": "It",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "is",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "obviously",
+          "start": 0.63,
+          "end": 1.3499999
+        },
+        {
+          "text": "unnecessary",
+          "start": 1.3499999,
+          "end": 2.23
+        },
+        {
+          "text": "for",
+          "start": 2.23,
+          "end": 2.3899999
+        },
+        {
+          "text": "us",
+          "start": 2.3899999,
+          "end": 2.6299999
+        },
+        {
+          "text": "to",
+          "start": 2.6299999,
+          "end": 2.79
+        },
+        {
+          "text": "point",
+          "start": 2.79,
+          "end": 3.03
+        },
+        {
+          "text": "out",
+          "start": 3.03,
+          "end": 3.27
+        },
+        {
+          "text": "how",
+          "start": 3.27,
+          "end": 3.4299998
+        },
+        {
+          "text": "luminous",
+          "start": 3.4299998,
+          "end": 4.31
+        },
+        {
+          "text": "these",
+          "start": 4.31,
+          "end": 4.63
+        },
+        {
+          "text": "criticisms",
+          "start": 4.63,
+          "end": 5.5099998
+        },
+        {
+          "text": "are,",
+          "start": 5.5099998,
+          "end": 6.1499996
+        },
+        {
+          "text": "how",
+          "start": 6.1499996,
+          "end": 6.5499997
+        },
+        {
+          "text": "delicate",
+          "start": 6.5499997,
+          "end": 7.27
+        },
+        {
+          "text": "in",
+          "start": 7.27,
+          "end": 7.5899997
+        },
+        {
+          "text": "expression.",
+          "start": 7.5899997,
+          "end": 8.52
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/006.wav",
+      "seconds": 5.64,
+      "elapsed": 0.3601732,
+      "cleanup_ms": 22.5137,
+      "speech_seconds": 5.416,
+      "chunks": 1,
+      "reference": "ON THE GENERAL PRINCIPLES OF ART MISTER QUILTER WRITES WITH EQUAL LUCIDITY",
+      "text": "On the general principles of art, Mr. Quilter writes with equal lucidity.",
+      "tidied": "On the general principles of art, Mr. Quilter writes with equal lucidity.",
+      "words": [
+        {
+          "text": "On",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "the",
+          "start": 0.39,
+          "end": 0.54999995
+        },
+        {
+          "text": "general",
+          "start": 0.54999995,
+          "end": 1.03
+        },
+        {
+          "text": "principles",
+          "start": 1.03,
+          "end": 1.51
+        },
+        {
+          "text": "of",
+          "start": 1.51,
+          "end": 1.5899999
+        },
+        {
+          "text": "art,",
+          "start": 1.5899999,
+          "end": 1.99
+        },
+        {
+          "text": "Mr.",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "Quilter",
+          "start": 2.23,
+          "end": 3.11
+        },
+        {
+          "text": "writes",
+          "start": 3.11,
+          "end": 3.4299998
+        },
+        {
+          "text": "with",
+          "start": 3.4299998,
+          "end": 3.59
+        },
+        {
+          "text": "equal",
+          "start": 3.59,
+          "end": 3.9899998
+        },
+        {
+          "text": "lucidity.",
+          "start": 3.9899998,
+          "end": 5.2400002
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/007.wav",
+      "seconds": 9.24,
+      "elapsed": 0.5814574,
+      "cleanup_ms": 42.4643,
+      "speech_seconds": 8.896,
+      "chunks": 1,
+      "reference": "PAINTING HE TELLS US IS OF A DIFFERENT QUALITY TO MATHEMATICS AND FINISH IN ART IS ADDING MORE FACT",
+      "text": "Painting, he tells us, is of a different quality to mathematics, and finish in art is adding more fact.",
+      "tidied": "Painting, he tells us, is of a different quality to mathematics, and finish in art is adding more fact.",
+      "words": [
+        {
+          "text": "Painting,",
+          "start": 0.06999999,
+          "end": 0.78999996
+        },
+        {
+          "text": "he",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "tells",
+          "start": 0.9499999,
+          "end": 1.27
+        },
+        {
+          "text": "us,",
+          "start": 1.27,
+          "end": 1.67
+        },
+        {
+          "text": "is",
+          "start": 1.67,
+          "end": 2.07
+        },
+        {
+          "text": "of",
+          "start": 2.07,
+          "end": 2.31
+        },
+        {
+          "text": "a",
+          "start": 2.31,
+          "end": 2.47
+        },
+        {
+          "text": "different",
+          "start": 2.47,
+          "end": 2.87
+        },
+        {
+          "text": "quality",
+          "start": 2.87,
+          "end": 3.35
+        },
+        {
+          "text": "to",
+          "start": 3.35,
+          "end": 3.6699998
+        },
+        {
+          "text": "mathematics,",
+          "start": 3.6699998,
+          "end": 4.79
+        },
+        {
+          "text": "and",
+          "start": 4.79,
+          "end": 5.1099997
+        },
+        {
+          "text": "finish",
+          "start": 5.1099997,
+          "end": 5.75
+        },
+        {
+          "text": "in",
+          "start": 5.75,
+          "end": 5.99
+        },
+        {
+          "text": "art",
+          "start": 5.99,
+          "end": 6.5499997
+        },
+        {
+          "text": "is",
+          "start": 6.5499997,
+          "end": 7.0299997
+        },
+        {
+          "text": "adding",
+          "start": 7.0299997,
+          "end": 7.6699996
+        },
+        {
+          "text": "more",
+          "start": 7.6699996,
+          "end": 8.07
+        },
+        {
+          "text": "fact.",
+          "start": 8.07,
+          "end": 8.76
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/008.wav",
+      "seconds": 5.12,
+      "elapsed": 0.316344,
+      "cleanup_ms": 20.5095,
+      "speech_seconds": 4.8,
+      "chunks": 1,
+      "reference": "AS FOR ETCHINGS THEY ARE OF TWO KINDS BRITISH AND FOREIGN",
+      "text": "As for etchings, they are of two kinds, British and foreign.",
+      "tidied": "As for etchings, they are of two kinds, British and foreign.",
+      "words": [
+        {
+          "text": "As",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "for",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "etchings,",
+          "start": 0.63,
+          "end": 1.43
+        },
+        {
+          "text": "they",
+          "start": 1.43,
+          "end": 1.5899999
+        },
+        {
+          "text": "are",
+          "start": 1.5899999,
+          "end": 1.75
+        },
+        {
+          "text": "of",
+          "start": 1.75,
+          "end": 1.99
+        },
+        {
+          "text": "two",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "kinds,",
+          "start": 2.23,
+          "end": 3.03
+        },
+        {
+          "text": "British",
+          "start": 3.03,
+          "end": 3.6699998
+        },
+        {
+          "text": "and",
+          "start": 3.6699998,
+          "end": 3.9099998
+        },
+        {
+          "text": "foreign.",
+          "start": 3.9099998,
+          "end": 4.6800003
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/009.wav",
+      "seconds": 18.29,
+      "elapsed": 1.4082967,
+      "cleanup_ms": 69.3749,
+      "speech_seconds": 18.048,
+      "chunks": 1,
+      "reference": "HE LAMENTS MOST BITTERLY THE DIVORCE THAT HAS BEEN MADE BETWEEN DECORATIVE ART AND WHAT WE USUALLY CALL PICTURES MAKES THE CUSTOMARY APPEAL TO THE LAST JUDGMENT AND REMINDS US THAT IN THE GREAT DAYS OF ART MICHAEL ANGELO WAS THE FURNISHING UPHOLSTERER",
+      "text": "He laments most bitterly the divorce that has been made between decorative art and what we usually call pictures, makes a customary appeal to the last judgment and reminds us that in the great days of art Michelangelo was the furnishing upholsterer.",
+      "tidied": "He laments most bitterly the divorce that has been made between decorative art and what we usually call pictures, makes a customary appeal to the last judgment and reminds us that in the great days of art Michelangelo was the furnishing upholsterer.",
+      "words": [
+        {
+          "text": "He",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "laments",
+          "start": 0.39,
+          "end": 1.11
+        },
+        {
+          "text": "most",
+          "start": 1.11,
+          "end": 1.43
+        },
+        {
+          "text": "bitterly",
+          "start": 1.43,
+          "end": 2.07
+        },
+        {
+          "text": "the",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "divorce",
+          "start": 2.23,
+          "end": 2.71
+        },
+        {
+          "text": "that",
+          "start": 2.71,
+          "end": 2.87
+        },
+        {
+          "text": "has",
+          "start": 2.87,
+          "end": 3.11
+        },
+        {
+          "text": "been",
+          "start": 3.11,
+          "end": 3.27
+        },
+        {
+          "text": "made",
+          "start": 3.27,
+          "end": 3.51
+        },
+        {
+          "text": "between",
+          "start": 3.51,
+          "end": 3.9099998
+        },
+        {
+          "text": "decorative",
+          "start": 3.9099998,
+          "end": 4.71
+        },
+        {
+          "text": "art",
+          "start": 4.71,
+          "end": 5.19
+        },
+        {
+          "text": "and",
+          "start": 5.19,
+          "end": 5.83
+        },
+        {
+          "text": "what",
+          "start": 5.83,
+          "end": 6.1499996
+        },
+        {
+          "text": "we",
+          "start": 6.1499996,
+          "end": 6.47
+        },
+        {
+          "text": "usually",
+          "start": 6.47,
+          "end": 6.87
+        },
+        {
+          "text": "call",
+          "start": 6.87,
+          "end": 7.27
+        },
+        {
+          "text": "pictures,",
+          "start": 7.27,
+          "end": 8.55
+        },
+        {
+          "text": "makes",
+          "start": 8.55,
+          "end": 8.87
+        },
+        {
+          "text": "a",
+          "start": 8.87,
+          "end": 9.03
+        },
+        {
+          "text": "customary",
+          "start": 9.03,
+          "end": 9.75
+        },
+        {
+          "text": "appeal",
+          "start": 9.75,
+          "end": 10.23
+        },
+        {
+          "text": "to",
+          "start": 10.23,
+          "end": 10.389999
+        },
+        {
+          "text": "the",
+          "start": 10.389999,
+          "end": 10.55
+        },
+        {
+          "text": "last",
+          "start": 10.55,
+          "end": 10.87
+        },
+        {
+          "text": "judgment",
+          "start": 10.87,
+          "end": 11.429999
+        },
+        {
+          "text": "and",
+          "start": 11.429999,
+          "end": 11.67
+        },
+        {
+          "text": "reminds",
+          "start": 11.67,
+          "end": 12.15
+        },
+        {
+          "text": "us",
+          "start": 12.15,
+          "end": 12.389999
+        },
+        {
+          "text": "that",
+          "start": 12.389999,
+          "end": 12.71
+        },
+        {
+          "text": "in",
+          "start": 12.71,
+          "end": 12.87
+        },
+        {
+          "text": "the",
+          "start": 12.87,
+          "end": 13.03
+        },
+        {
+          "text": "great",
+          "start": 13.03,
+          "end": 13.349999
+        },
+        {
+          "text": "days",
+          "start": 13.349999,
+          "end": 13.67
+        },
+        {
+          "text": "of",
+          "start": 13.67,
+          "end": 13.83
+        },
+        {
+          "text": "art",
+          "start": 13.83,
+          "end": 14.309999
+        },
+        {
+          "text": "Michelangelo",
+          "start": 14.309999,
+          "end": 15.429999
+        },
+        {
+          "text": "was",
+          "start": 15.429999,
+          "end": 15.67
+        },
+        {
+          "text": "the",
+          "start": 15.67,
+          "end": 15.99
+        },
+        {
+          "text": "furnishing",
+          "start": 15.99,
+          "end": 16.71
+        },
+        {
+          "text": "upholsterer.",
+          "start": 16.71,
+          "end": 17.88
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/010.wav",
+      "seconds": 5.6,
+      "elapsed": 0.3749301,
+      "cleanup_ms": 21.932299999999998,
+      "speech_seconds": 5.472,
+      "chunks": 1,
+      "reference": "NEAR THE FIRE AND THE ORNAMENTS FRED BROUGHT HOME FROM INDIA ON THE MANTEL BOARD",
+      "text": "near the fire, and the ornaments Fred brought home from India on the mantle board.",
+      "tidied": "near the fire, and the ornaments Fred brought home from India on the mantle board.",
+      "words": [
+        {
+          "text": "near",
+          "start": 0.0,
+          "end": 0.46999997
+        },
+        {
+          "text": "the",
+          "start": 0.46999997,
+          "end": 0.63
+        },
+        {
+          "text": "fire,",
+          "start": 0.63,
+          "end": 1.27
+        },
+        {
+          "text": "and",
+          "start": 1.27,
+          "end": 1.5899999
+        },
+        {
+          "text": "the",
+          "start": 1.5899999,
+          "end": 1.75
+        },
+        {
+          "text": "ornaments",
+          "start": 1.75,
+          "end": 2.3899999
+        },
+        {
+          "text": "Fred",
+          "start": 2.3899999,
+          "end": 2.79
+        },
+        {
+          "text": "brought",
+          "start": 2.79,
+          "end": 3.11
+        },
+        {
+          "text": "home",
+          "start": 3.11,
+          "end": 3.35
+        },
+        {
+          "text": "from",
+          "start": 3.35,
+          "end": 3.51
+        },
+        {
+          "text": "India",
+          "start": 3.51,
+          "end": 3.9899998
+        },
+        {
+          "text": "on",
+          "start": 3.9899998,
+          "end": 4.15
+        },
+        {
+          "text": "the",
+          "start": 4.15,
+          "end": 4.31
+        },
+        {
+          "text": "mantle",
+          "start": 4.31,
+          "end": 4.79
+        },
+        {
+          "text": "board.",
+          "start": 4.79,
+          "end": 5.32
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/011.wav",
+      "seconds": 15.12,
+      "elapsed": 1.097903,
+      "cleanup_ms": 61.6044,
+      "speech_seconds": 14.923,
+      "chunks": 1,
+      "reference": "IN FACT HE IS QUITE SEVERE ON MISTER RUSKIN FOR NOT RECOGNISING THAT A PICTURE SHOULD DENOTE THE FRAILTY OF MAN AND REMARKS WITH PLEASING COURTESY AND FELICITOUS GRACE THAT MANY PHASES OF FEELING",
+      "text": "In fact, he is quite severe on mister Ruskin for not recognizing that a picture should denote the frailty of man, and remarks with pleasing courtesy and felicitous grace that many phases of feeling",
+      "tidied": "In fact, he is quite severe on mister Ruskin for not recognizing that a picture should denote the frailty of man, and remarks with pleasing courtesy and felicitous grace that many phases of feeling",
+      "words": [
+        {
+          "text": "In",
+          "start": 0.14999998,
+          "end": 0.39
+        },
+        {
+          "text": "fact,",
+          "start": 0.39,
+          "end": 0.9499999
+        },
+        {
+          "text": "he",
+          "start": 0.9499999,
+          "end": 1.11
+        },
+        {
+          "text": "is",
+          "start": 1.11,
+          "end": 1.3499999
+        },
+        {
+          "text": "quite",
+          "start": 1.3499999,
+          "end": 1.5899999
+        },
+        {
+          "text": "severe",
+          "start": 1.5899999,
+          "end": 1.99
+        },
+        {
+          "text": "on",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "mister",
+          "start": 2.23,
+          "end": 2.55
+        },
+        {
+          "text": "Ruskin",
+          "start": 2.55,
+          "end": 3.35
+        },
+        {
+          "text": "for",
+          "start": 3.35,
+          "end": 3.59
+        },
+        {
+          "text": "not",
+          "start": 3.59,
+          "end": 3.83
+        },
+        {
+          "text": "recognizing",
+          "start": 3.83,
+          "end": 4.71
+        },
+        {
+          "text": "that",
+          "start": 4.71,
+          "end": 5.1099997
+        },
+        {
+          "text": "a",
+          "start": 5.1099997,
+          "end": 5.35
+        },
+        {
+          "text": "picture",
+          "start": 5.35,
+          "end": 5.83
+        },
+        {
+          "text": "should",
+          "start": 5.83,
+          "end": 6.0699997
+        },
+        {
+          "text": "denote",
+          "start": 6.0699997,
+          "end": 6.47
+        },
+        {
+          "text": "the",
+          "start": 6.47,
+          "end": 6.5499997
+        },
+        {
+          "text": "frailty",
+          "start": 6.5499997,
+          "end": 7.27
+        },
+        {
+          "text": "of",
+          "start": 7.27,
+          "end": 7.43
+        },
+        {
+          "text": "man,",
+          "start": 7.43,
+          "end": 8.389999
+        },
+        {
+          "text": "and",
+          "start": 8.389999,
+          "end": 8.71
+        },
+        {
+          "text": "remarks",
+          "start": 8.71,
+          "end": 9.429999
+        },
+        {
+          "text": "with",
+          "start": 9.429999,
+          "end": 9.67
+        },
+        {
+          "text": "pleasing",
+          "start": 9.67,
+          "end": 10.15
+        },
+        {
+          "text": "courtesy",
+          "start": 10.15,
+          "end": 10.71
+        },
+        {
+          "text": "and",
+          "start": 10.71,
+          "end": 10.87
+        },
+        {
+          "text": "felicitous",
+          "start": 10.87,
+          "end": 11.83
+        },
+        {
+          "text": "grace",
+          "start": 11.83,
+          "end": 12.389999
+        },
+        {
+          "text": "that",
+          "start": 12.389999,
+          "end": 12.95
+        },
+        {
+          "text": "many",
+          "start": 12.95,
+          "end": 13.349999
+        },
+        {
+          "text": "phases",
+          "start": 13.349999,
+          "end": 13.91
+        },
+        {
+          "text": "of",
+          "start": 13.91,
+          "end": 14.07
+        },
+        {
+          "text": "feeling",
+          "start": 14.07,
+          "end": 14.44
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/012.wav",
+      "seconds": 5.38,
+      "elapsed": 0.3273521,
+      "cleanup_ms": 21.9075,
+      "speech_seconds": 5.188,
+      "chunks": 1,
+      "reference": "ONLY UNFORTUNATELY HIS OWN WORK NEVER DOES GET GOOD",
+      "text": "Only, unfortunately, his own work never does get good.",
+      "tidied": "Only, unfortunately, his own work never does get good.",
+      "words": [
+        {
+          "text": "Only,",
+          "start": 0.14999998,
+          "end": 0.9499999
+        },
+        {
+          "text": "unfortunately,",
+          "start": 0.9499999,
+          "end": 2.07
+        },
+        {
+          "text": "his",
+          "start": 2.07,
+          "end": 2.31
+        },
+        {
+          "text": "own",
+          "start": 2.31,
+          "end": 2.71
+        },
+        {
+          "text": "work",
+          "start": 2.71,
+          "end": 3.11
+        },
+        {
+          "text": "never",
+          "start": 3.11,
+          "end": 3.51
+        },
+        {
+          "text": "does",
+          "start": 3.51,
+          "end": 3.9099998
+        },
+        {
+          "text": "get",
+          "start": 3.9099998,
+          "end": 4.31
+        },
+        {
+          "text": "good.",
+          "start": 4.31,
+          "end": 4.92
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/013.wav",
+      "seconds": 7.1,
+      "elapsed": 0.4255357,
+      "cleanup_ms": 28.933799999999998,
+      "speech_seconds": 6.816,
+      "chunks": 1,
+      "reference": "MISTER QUILTER HAS MISSED HIS CHANCE FOR HE HAS FAILED EVEN TO MAKE HIMSELF THE TUPPER OF PAINTING",
+      "text": "mister Quilter has missed his chance, for he has failed even to make himself the Tupper of Painting.",
+      "tidied": "mister Quilter has missed his chance, for he has failed even to make himself the Tupper of Painting.",
+      "words": [
+        {
+          "text": "mister",
+          "start": 0.06999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "Quilter",
+          "start": 0.46999997,
+          "end": 1.27
+        },
+        {
+          "text": "has",
+          "start": 1.27,
+          "end": 1.43
+        },
+        {
+          "text": "missed",
+          "start": 1.43,
+          "end": 1.8299999
+        },
+        {
+          "text": "his",
+          "start": 1.8299999,
+          "end": 1.99
+        },
+        {
+          "text": "chance,",
+          "start": 1.99,
+          "end": 2.79
+        },
+        {
+          "text": "for",
+          "start": 2.79,
+          "end": 3.11
+        },
+        {
+          "text": "he",
+          "start": 3.11,
+          "end": 3.27
+        },
+        {
+          "text": "has",
+          "start": 3.27,
+          "end": 3.51
+        },
+        {
+          "text": "failed",
+          "start": 3.51,
+          "end": 4.0699997
+        },
+        {
+          "text": "even",
+          "start": 4.0699997,
+          "end": 4.31
+        },
+        {
+          "text": "to",
+          "start": 4.31,
+          "end": 4.47
+        },
+        {
+          "text": "make",
+          "start": 4.47,
+          "end": 4.63
+        },
+        {
+          "text": "himself",
+          "start": 4.63,
+          "end": 4.95
+        },
+        {
+          "text": "the",
+          "start": 4.95,
+          "end": 5.1099997
+        },
+        {
+          "text": "Tupper",
+          "start": 5.1099997,
+          "end": 5.83
+        },
+        {
+          "text": "of",
+          "start": 5.83,
+          "end": 5.99
+        },
+        {
+          "text": "Painting.",
+          "start": 5.99,
+          "end": 6.6
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/014.wav",
+      "seconds": 2.25,
+      "elapsed": 0.1575886,
+      "cleanup_ms": 9.15,
+      "speech_seconds": 2.245,
+      "chunks": 1,
+      "reference": "BY HARRY QUILTER M A",
+      "text": "by Harry Quilter, M.A.",
+      "tidied": "by Harry Quilter, M.A.",
+      "words": [
+        {
+          "text": "by",
+          "start": 0.06999999,
+          "end": 0.22999999
+        },
+        {
+          "text": "Harry",
+          "start": 0.22999999,
+          "end": 0.63
+        },
+        {
+          "text": "Quilter,",
+          "start": 0.63,
+          "end": 1.43
+        },
+        {
+          "text": "M.A.",
+          "start": 1.43,
+          "end": 1.8
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/015.wav",
+      "seconds": 10.89,
+      "elapsed": 0.7226093,
+      "cleanup_ms": 46.506899999999995,
+      "speech_seconds": 10.624,
+      "chunks": 1,
+      "reference": "BECAUSE YOU WERE SLEEPING INSTEAD OF CONQUERING THE LOVELY ROSE PRINCESS HAS BECOME A FIDDLE WITHOUT A BOW WHILE POOR SHAGGY SITS THERE A COOING DOVE",
+      "text": "Because you are sleeping instead of conquering, the lovely rose princess has become a fiddle without a bow, while poor Shaggy sits there a cooing dove.",
+      "tidied": "Because you are sleeping instead of conquering, the lovely rose princess has become a fiddle without a bow, while poor Shaggy sits there a cooing dove.",
+      "words": [
+        {
+          "text": "Because",
+          "start": 0.06999999,
+          "end": 0.54999995
+        },
+        {
+          "text": "you",
+          "start": 0.54999995,
+          "end": 0.71
+        },
+        {
+          "text": "are",
+          "start": 0.71,
+          "end": 1.03
+        },
+        {
+          "text": "sleeping",
+          "start": 1.03,
+          "end": 1.51
+        },
+        {
+          "text": "instead",
+          "start": 1.51,
+          "end": 1.8299999
+        },
+        {
+          "text": "of",
+          "start": 1.8299999,
+          "end": 1.99
+        },
+        {
+          "text": "conquering,",
+          "start": 1.99,
+          "end": 3.03
+        },
+        {
+          "text": "the",
+          "start": 3.03,
+          "end": 3.27
+        },
+        {
+          "text": "lovely",
+          "start": 3.27,
+          "end": 3.75
+        },
+        {
+          "text": "rose",
+          "start": 3.75,
+          "end": 4.23
+        },
+        {
+          "text": "princess",
+          "start": 4.23,
+          "end": 4.71
+        },
+        {
+          "text": "has",
+          "start": 4.71,
+          "end": 4.87
+        },
+        {
+          "text": "become",
+          "start": 4.87,
+          "end": 5.1099997
+        },
+        {
+          "text": "a",
+          "start": 5.1099997,
+          "end": 5.27
+        },
+        {
+          "text": "fiddle",
+          "start": 5.27,
+          "end": 5.91
+        },
+        {
+          "text": "without",
+          "start": 5.91,
+          "end": 6.23
+        },
+        {
+          "text": "a",
+          "start": 6.23,
+          "end": 6.39
+        },
+        {
+          "text": "bow,",
+          "start": 6.39,
+          "end": 6.95
+        },
+        {
+          "text": "while",
+          "start": 6.95,
+          "end": 7.27
+        },
+        {
+          "text": "poor",
+          "start": 7.27,
+          "end": 7.75
+        },
+        {
+          "text": "Shaggy",
+          "start": 7.75,
+          "end": 8.47
+        },
+        {
+          "text": "sits",
+          "start": 8.47,
+          "end": 8.71
+        },
+        {
+          "text": "there",
+          "start": 8.71,
+          "end": 9.03
+        },
+        {
+          "text": "a",
+          "start": 9.03,
+          "end": 9.19
+        },
+        {
+          "text": "cooing",
+          "start": 9.19,
+          "end": 9.91
+        },
+        {
+          "text": "dove.",
+          "start": 9.91,
+          "end": 10.44
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/016.wav",
+      "seconds": 11.13,
+      "elapsed": 0.7289747,
+      "cleanup_ms": 42.9763,
+      "speech_seconds": 10.784,
+      "chunks": 1,
+      "reference": "HE HAS GONE AND GONE FOR GOOD ANSWERED POLYCHROME WHO HAD MANAGED TO SQUEEZE INTO THE ROOM BESIDE THE DRAGON AND HAD WITNESSED THE OCCURRENCES WITH MUCH INTEREST",
+      "text": "He has gone, and gone for good, answered Polychrome, who had managed to squeeze into the room beside the dragon, and had witnessed the occurrences with much interest.",
+      "tidied": "He has gone, and gone for good, answered Polychrome, who had managed to squeeze into the room beside the dragon, and had witnessed the occurrences with much interest.",
+      "words": [
+        {
+          "text": "He",
+          "start": 0.14999998,
+          "end": 0.39
+        },
+        {
+          "text": "has",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "gone,",
+          "start": 0.63,
+          "end": 1.11
+        },
+        {
+          "text": "and",
+          "start": 1.11,
+          "end": 1.3499999
+        },
+        {
+          "text": "gone",
+          "start": 1.3499999,
+          "end": 1.67
+        },
+        {
+          "text": "for",
+          "start": 1.67,
+          "end": 1.8299999
+        },
+        {
+          "text": "good,",
+          "start": 1.8299999,
+          "end": 2.3899999
+        },
+        {
+          "text": "answered",
+          "start": 2.3899999,
+          "end": 2.71
+        },
+        {
+          "text": "Polychrome,",
+          "start": 2.71,
+          "end": 3.83
+        },
+        {
+          "text": "who",
+          "start": 3.83,
+          "end": 3.9099998
+        },
+        {
+          "text": "had",
+          "start": 3.9099998,
+          "end": 4.0699997
+        },
+        {
+          "text": "managed",
+          "start": 4.0699997,
+          "end": 4.47
+        },
+        {
+          "text": "to",
+          "start": 4.47,
+          "end": 4.5499997
+        },
+        {
+          "text": "squeeze",
+          "start": 4.5499997,
+          "end": 5.1099997
+        },
+        {
+          "text": "into",
+          "start": 5.1099997,
+          "end": 5.35
+        },
+        {
+          "text": "the",
+          "start": 5.35,
+          "end": 5.5099998
+        },
+        {
+          "text": "room",
+          "start": 5.5099998,
+          "end": 5.83
+        },
+        {
+          "text": "beside",
+          "start": 5.83,
+          "end": 6.23
+        },
+        {
+          "text": "the",
+          "start": 6.23,
+          "end": 6.39
+        },
+        {
+          "text": "dragon,",
+          "start": 6.39,
+          "end": 7.19
+        },
+        {
+          "text": "and",
+          "start": 7.19,
+          "end": 7.43
+        },
+        {
+          "text": "had",
+          "start": 7.43,
+          "end": 7.75
+        },
+        {
+          "text": "witnessed",
+          "start": 7.75,
+          "end": 8.309999
+        },
+        {
+          "text": "the",
+          "start": 8.309999,
+          "end": 8.47
+        },
+        {
+          "text": "occurrences",
+          "start": 8.47,
+          "end": 9.2699995
+        },
+        {
+          "text": "with",
+          "start": 9.2699995,
+          "end": 9.51
+        },
+        {
+          "text": "much",
+          "start": 9.51,
+          "end": 9.83
+        },
+        {
+          "text": "interest.",
+          "start": 9.83,
+          "end": 10.5199995
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/017.wav",
+      "seconds": 11.48,
+      "elapsed": 0.7665543,
+      "cleanup_ms": 49.8691,
+      "speech_seconds": 11.392,
+      "chunks": 1,
+      "reference": "I HAVE REMAINED A PRISONER ONLY BECAUSE I WISHED TO BE ONE AND WITH THIS HE STEPPED FORWARD AND BURST THE STOUT CHAINS AS EASILY AS IF THEY HAD BEEN THREADS",
+      "text": "I have remained a prisoner only because I wished to be one. And with this he stepped forward and burst the stout chains as easily as if they had been threads.",
+      "tidied": "I have remained a prisoner only because I wished to be one. And with this he stepped forward and burst the stout chains as easily as if they had been threads.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "have",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "remained",
+          "start": 0.63,
+          "end": 1.1899999
+        },
+        {
+          "text": "a",
+          "start": 1.1899999,
+          "end": 1.3499999
+        },
+        {
+          "text": "prisoner",
+          "start": 1.3499999,
+          "end": 1.99
+        },
+        {
+          "text": "only",
+          "start": 1.99,
+          "end": 2.3899999
+        },
+        {
+          "text": "because",
+          "start": 2.3899999,
+          "end": 2.71
+        },
+        {
+          "text": "I",
+          "start": 2.71,
+          "end": 3.03
+        },
+        {
+          "text": "wished",
+          "start": 3.03,
+          "end": 3.59
+        },
+        {
+          "text": "to",
+          "start": 3.59,
+          "end": 3.75
+        },
+        {
+          "text": "be",
+          "start": 3.75,
+          "end": 4.0699997
+        },
+        {
+          "text": "one.",
+          "start": 4.0699997,
+          "end": 5.43
+        },
+        {
+          "text": "And",
+          "start": 5.43,
+          "end": 5.75
+        },
+        {
+          "text": "with",
+          "start": 5.75,
+          "end": 5.99
+        },
+        {
+          "text": "this",
+          "start": 5.99,
+          "end": 6.31
+        },
+        {
+          "text": "he",
+          "start": 6.31,
+          "end": 6.47
+        },
+        {
+          "text": "stepped",
+          "start": 6.47,
+          "end": 6.87
+        },
+        {
+          "text": "forward",
+          "start": 6.87,
+          "end": 7.19
+        },
+        {
+          "text": "and",
+          "start": 7.19,
+          "end": 7.35
+        },
+        {
+          "text": "burst",
+          "start": 7.35,
+          "end": 7.91
+        },
+        {
+          "text": "the",
+          "start": 7.91,
+          "end": 7.99
+        },
+        {
+          "text": "stout",
+          "start": 7.99,
+          "end": 8.55
+        },
+        {
+          "text": "chains",
+          "start": 8.55,
+          "end": 8.95
+        },
+        {
+          "text": "as",
+          "start": 8.95,
+          "end": 9.11
+        },
+        {
+          "text": "easily",
+          "start": 9.11,
+          "end": 9.51
+        },
+        {
+          "text": "as",
+          "start": 9.51,
+          "end": 9.67
+        },
+        {
+          "text": "if",
+          "start": 9.67,
+          "end": 9.91
+        },
+        {
+          "text": "they",
+          "start": 9.91,
+          "end": 10.07
+        },
+        {
+          "text": "had",
+          "start": 10.07,
+          "end": 10.23
+        },
+        {
+          "text": "been",
+          "start": 10.23,
+          "end": 10.469999
+        },
+        {
+          "text": "threads.",
+          "start": 10.469999,
+          "end": 11.16
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/018.wav",
+      "seconds": 4.76,
+      "elapsed": 0.3137325,
+      "cleanup_ms": 20.0399,
+      "speech_seconds": 4.736,
+      "chunks": 1,
+      "reference": "THE LITTLE GIRL HAD BEEN ASLEEP BUT SHE HEARD THE RAPS AND OPENED THE DOOR",
+      "text": "The little girl had been asleep, but she heard the raps and opened the door.",
+      "tidied": "The little girl had been asleep, but she heard the raps and opened the door.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "little",
+          "start": 0.22999999,
+          "end": 0.54999995
+        },
+        {
+          "text": "girl",
+          "start": 0.54999995,
+          "end": 0.87
+        },
+        {
+          "text": "had",
+          "start": 0.87,
+          "end": 1.11
+        },
+        {
+          "text": "been",
+          "start": 1.11,
+          "end": 1.3499999
+        },
+        {
+          "text": "asleep,",
+          "start": 1.3499999,
+          "end": 1.99
+        },
+        {
+          "text": "but",
+          "start": 1.99,
+          "end": 2.31
+        },
+        {
+          "text": "she",
+          "start": 2.31,
+          "end": 2.47
+        },
+        {
+          "text": "heard",
+          "start": 2.47,
+          "end": 2.79
+        },
+        {
+          "text": "the",
+          "start": 2.79,
+          "end": 2.87
+        },
+        {
+          "text": "raps",
+          "start": 2.87,
+          "end": 3.4299998
+        },
+        {
+          "text": "and",
+          "start": 3.4299998,
+          "end": 3.59
+        },
+        {
+          "text": "opened",
+          "start": 3.59,
+          "end": 3.9899998
+        },
+        {
+          "text": "the",
+          "start": 3.9899998,
+          "end": 4.0699997
+        },
+        {
+          "text": "door.",
+          "start": 4.0699997,
+          "end": 4.6
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/019.wav",
+      "seconds": 4.23,
+      "elapsed": 0.2535729,
+      "cleanup_ms": 17.2378,
+      "speech_seconds": 4.16,
+      "chunks": 1,
+      "reference": "THE KING HAS FLED IN DISGRACE AND YOUR FRIENDS ARE ASKING FOR YOU",
+      "text": "The king has flooded in disgrace and your friends are asking for you.",
+      "tidied": "The king has flooded in disgrace and your friends are asking for you.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.06999999,
+          "end": 0.31
+        },
+        {
+          "text": "king",
+          "start": 0.31,
+          "end": 0.63
+        },
+        {
+          "text": "has",
+          "start": 0.63,
+          "end": 0.87
+        },
+        {
+          "text": "flooded",
+          "start": 0.87,
+          "end": 1.3499999
+        },
+        {
+          "text": "in",
+          "start": 1.3499999,
+          "end": 1.51
+        },
+        {
+          "text": "disgrace",
+          "start": 1.51,
+          "end": 1.99
+        },
+        {
+          "text": "and",
+          "start": 1.99,
+          "end": 2.1499999
+        },
+        {
+          "text": "your",
+          "start": 2.1499999,
+          "end": 2.31
+        },
+        {
+          "text": "friends",
+          "start": 2.31,
+          "end": 2.6299999
+        },
+        {
+          "text": "are",
+          "start": 2.6299999,
+          "end": 2.87
+        },
+        {
+          "text": "asking",
+          "start": 2.87,
+          "end": 3.27
+        },
+        {
+          "text": "for",
+          "start": 3.27,
+          "end": 3.51
+        },
+        {
+          "text": "you.",
+          "start": 3.51,
+          "end": 3.96
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/020.wav",
+      "seconds": 4.63,
+      "elapsed": 0.3084236,
+      "cleanup_ms": 18.3256,
+      "speech_seconds": 4.593,
+      "chunks": 1,
+      "reference": "I BEGGED RUGGEDO LONG AGO TO SEND HIM AWAY BUT HE WOULD NOT DO SO",
+      "text": "I begged Rugado long ago to send him away, but he would not do so.",
+      "tidied": "I begged Rugado long ago to send him away, but he would not do so.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "begged",
+          "start": 0.22999999,
+          "end": 0.63
+        },
+        {
+          "text": "Rugado",
+          "start": 0.63,
+          "end": 1.5899999
+        },
+        {
+          "text": "long",
+          "start": 1.5899999,
+          "end": 1.75
+        },
+        {
+          "text": "ago",
+          "start": 1.75,
+          "end": 2.07
+        },
+        {
+          "text": "to",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "send",
+          "start": 2.23,
+          "end": 2.3899999
+        },
+        {
+          "text": "him",
+          "start": 2.3899999,
+          "end": 2.6299999
+        },
+        {
+          "text": "away,",
+          "start": 2.6299999,
+          "end": 2.9499998
+        },
+        {
+          "text": "but",
+          "start": 2.9499998,
+          "end": 3.11
+        },
+        {
+          "text": "he",
+          "start": 3.11,
+          "end": 3.27
+        },
+        {
+          "text": "would",
+          "start": 3.27,
+          "end": 3.51
+        },
+        {
+          "text": "not",
+          "start": 3.51,
+          "end": 3.75
+        },
+        {
+          "text": "do",
+          "start": 3.75,
+          "end": 3.9899998
+        },
+        {
+          "text": "so.",
+          "start": 3.9899998,
+          "end": 4.44
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/021.wav",
+      "seconds": 4.09,
+      "elapsed": 0.2486158,
+      "cleanup_ms": 15.961599999999999,
+      "speech_seconds": 4.026,
+      "chunks": 1,
+      "reference": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+      "text": "I also offered to help your brother to escape, but he would not go.",
+      "tidied": "I also offered to help your brother to escape, but he would not go.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "also",
+          "start": 0.39,
+          "end": 0.71
+        },
+        {
+          "text": "offered",
+          "start": 0.71,
+          "end": 1.11
+        },
+        {
+          "text": "to",
+          "start": 1.11,
+          "end": 1.1899999
+        },
+        {
+          "text": "help",
+          "start": 1.1899999,
+          "end": 1.43
+        },
+        {
+          "text": "your",
+          "start": 1.43,
+          "end": 1.5899999
+        },
+        {
+          "text": "brother",
+          "start": 1.5899999,
+          "end": 1.9099998
+        },
+        {
+          "text": "to",
+          "start": 1.9099998,
+          "end": 2.07
+        },
+        {
+          "text": "escape,",
+          "start": 2.07,
+          "end": 2.47
+        },
+        {
+          "text": "but",
+          "start": 2.47,
+          "end": 2.6299999
+        },
+        {
+          "text": "he",
+          "start": 2.6299999,
+          "end": 2.79
+        },
+        {
+          "text": "would",
+          "start": 2.79,
+          "end": 3.03
+        },
+        {
+          "text": "not",
+          "start": 3.03,
+          "end": 3.27
+        },
+        {
+          "text": "go.",
+          "start": 3.27,
+          "end": 3.7199998
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/022.wav",
+      "seconds": 4.06,
+      "elapsed": 0.2414228,
+      "cleanup_ms": 16.3187,
+      "speech_seconds": 3.831,
+      "chunks": 1,
+      "reference": "HE EATS AND SLEEPS VERY STEADILY REPLIED THE NEW KING",
+      "text": "He eats and sleeps very steadily, replied the new king.",
+      "tidied": "He eats and sleeps very steadily, replied the new king.",
+      "words": [
+        {
+          "text": "He",
+          "start": 0.06999999,
+          "end": 0.31
+        },
+        {
+          "text": "eats",
+          "start": 0.31,
+          "end": 0.78999996
+        },
+        {
+          "text": "and",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "sleeps",
+          "start": 0.9499999,
+          "end": 1.43
+        },
+        {
+          "text": "very",
+          "start": 1.43,
+          "end": 1.5899999
+        },
+        {
+          "text": "steadily,",
+          "start": 1.5899999,
+          "end": 2.31
+        },
+        {
+          "text": "replied",
+          "start": 2.31,
+          "end": 2.6299999
+        },
+        {
+          "text": "the",
+          "start": 2.6299999,
+          "end": 2.71
+        },
+        {
+          "text": "new",
+          "start": 2.71,
+          "end": 3.11
+        },
+        {
+          "text": "king.",
+          "start": 3.11,
+          "end": 3.6399999
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/023.wav",
+      "seconds": 3.67,
+      "elapsed": 0.2237658,
+      "cleanup_ms": 14.5837,
+      "speech_seconds": 3.478,
+      "chunks": 1,
+      "reference": "I HOPE HE DOESN'T WORK TOO HARD SAID SHAGGY",
+      "text": "I hope he doesn't work too hard, said Shaggy.",
+      "tidied": "I hope he doesn't work too hard, said Shaggy.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.06999999,
+          "end": 0.22999999
+        },
+        {
+          "text": "hope",
+          "start": 0.22999999,
+          "end": 0.63
+        },
+        {
+          "text": "he",
+          "start": 0.63,
+          "end": 0.78999996
+        },
+        {
+          "text": "doesn't",
+          "start": 0.78999996,
+          "end": 1.11
+        },
+        {
+          "text": "work",
+          "start": 1.11,
+          "end": 1.43
+        },
+        {
+          "text": "too",
+          "start": 1.43,
+          "end": 1.67
+        },
+        {
+          "text": "hard,",
+          "start": 1.67,
+          "end": 2.23
+        },
+        {
+          "text": "said",
+          "start": 2.23,
+          "end": 2.3899999
+        },
+        {
+          "text": "Shaggy.",
+          "start": 2.3899999,
+          "end": 3.32
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/024.wav",
+      "seconds": 1.91,
+      "elapsed": 0.1334035,
+      "cleanup_ms": 7.6789,
+      "speech_seconds": 1.718,
+      "chunks": 1,
+      "reference": "HE DOESN'T WORK AT ALL",
+      "text": "He doesn't work at all.",
+      "tidied": "He doesn't work at all.",
+      "words": [
+        {
+          "text": "He",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "doesn't",
+          "start": 0.39,
+          "end": 0.71
+        },
+        {
+          "text": "work",
+          "start": 0.71,
+          "end": 0.9499999
+        },
+        {
+          "text": "at",
+          "start": 0.9499999,
+          "end": 1.11
+        },
+        {
+          "text": "all.",
+          "start": 1.11,
+          "end": 1.4799999
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/000.wav",
+      "seconds": 16.27,
+      "elapsed": 1.1188338,
+      "cleanup_ms": 63.61450000000001,
+      "speech_seconds": 16.0,
+      "chunks": 1,
+      "reference": "y las almas buscando algún alivio se revuelven ansiosas y hacen el mundo que así resulta ser del dolor obra el dolor o la nada quien tenga corazón venga y escoja",
+      "text": "Y las almas, buscando algún alivio, se revuelven ansiosas y hacen el mundo, que así resulta ser del dolor obra, el dolor o la nada. Quien tenga corazón venga y escoja.",
+      "tidied": "Y las almas, buscando algún alivio, se revuelven ansiosas y hacen el mundo, que así resulta ser del dolor obra, el dolor o la nada. Quien tenga corazón venga y escoja.",
+      "words": [
+        {
+          "text": "Y",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "text": "las",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "almas,",
+          "start": 0.63,
+          "end": 1.43
+        },
+        {
+          "text": "buscando",
+          "start": 1.43,
+          "end": 2.07
+        },
+        {
+          "text": "algún",
+          "start": 2.07,
+          "end": 2.3899999
+        },
+        {
+          "text": "alivio,",
+          "start": 2.3899999,
+          "end": 3.27
+        },
+        {
+          "text": "se",
+          "start": 3.27,
+          "end": 3.4299998
+        },
+        {
+          "text": "revuelven",
+          "start": 3.4299998,
+          "end": 4.15
+        },
+        {
+          "text": "ansiosas",
+          "start": 4.15,
+          "end": 4.79
+        },
+        {
+          "text": "y",
+          "start": 4.79,
+          "end": 4.95
+        },
+        {
+          "text": "hacen",
+          "start": 4.95,
+          "end": 5.35
+        },
+        {
+          "text": "el",
+          "start": 5.35,
+          "end": 5.5899997
+        },
+        {
+          "text": "mundo,",
+          "start": 5.5899997,
+          "end": 6.39
+        },
+        {
+          "text": "que",
+          "start": 6.39,
+          "end": 6.71
+        },
+        {
+          "text": "así",
+          "start": 6.71,
+          "end": 7.43
+        },
+        {
+          "text": "resulta",
+          "start": 7.43,
+          "end": 8.23
+        },
+        {
+          "text": "ser",
+          "start": 8.23,
+          "end": 8.71
+        },
+        {
+          "text": "del",
+          "start": 8.71,
+          "end": 9.03
+        },
+        {
+          "text": "dolor",
+          "start": 9.03,
+          "end": 9.83
+        },
+        {
+          "text": "obra,",
+          "start": 9.83,
+          "end": 11.11
+        },
+        {
+          "text": "el",
+          "start": 11.11,
+          "end": 11.429999
+        },
+        {
+          "text": "dolor",
+          "start": 11.429999,
+          "end": 11.91
+        },
+        {
+          "text": "o",
+          "start": 11.91,
+          "end": 12.23
+        },
+        {
+          "text": "la",
+          "start": 12.23,
+          "end": 12.389999
+        },
+        {
+          "text": "nada.",
+          "start": 12.389999,
+          "end": 13.11
+        },
+        {
+          "text": "Quien",
+          "start": 13.11,
+          "end": 13.429999
+        },
+        {
+          "text": "tenga",
+          "start": 13.429999,
+          "end": 13.75
+        },
+        {
+          "text": "corazón",
+          "start": 13.75,
+          "end": 14.309999
+        },
+        {
+          "text": "venga",
+          "start": 14.309999,
+          "end": 14.79
+        },
+        {
+          "text": "y",
+          "start": 14.79,
+          "end": 14.95
+        },
+        {
+          "text": "escoja.",
+          "start": 14.95,
+          "end": 15.639999
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/001.wav",
+      "seconds": 18.62,
+      "elapsed": 1.3074855,
+      "cleanup_ms": 75.22330000000001,
+      "speech_seconds": 18.016,
+      "chunks": 1,
+      "reference": "cuando calla el dolor se oye a la muerte las alas tenebrosas batir en los profundos cual si fuesen las olas del mar de la ilusión en que los seres sin rumbo bogan donde se mecen frágiles barquillas las fugitivas formas",
+      "text": "Cuando cae el dolor, se oye a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las olas del mar de la ilusión, en que los seres sin rumbo bogan, donde se mecen frágiles barquillas, las fugitivas formas.",
+      "tidied": "Cuando cae el dolor, se oye a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las olas del mar de la ilusión, en que los seres sin rumbo bogan, donde se mecen frágiles barquillas, las fugitivas formas.",
+      "words": [
+        {
+          "text": "Cuando",
+          "start": 0.06999999,
+          "end": 0.63
+        },
+        {
+          "text": "cae",
+          "start": 0.63,
+          "end": 1.11
+        },
+        {
+          "text": "el",
+          "start": 1.11,
+          "end": 1.27
+        },
+        {
+          "text": "dolor,",
+          "start": 1.27,
+          "end": 1.99
+        },
+        {
+          "text": "se",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "oye",
+          "start": 2.23,
+          "end": 2.6299999
+        },
+        {
+          "text": "a",
+          "start": 2.6299999,
+          "end": 2.71
+        },
+        {
+          "text": "la",
+          "start": 2.71,
+          "end": 2.87
+        },
+        {
+          "text": "muerte",
+          "start": 2.87,
+          "end": 3.27
+        },
+        {
+          "text": "las",
+          "start": 3.27,
+          "end": 3.4299998
+        },
+        {
+          "text": "alas",
+          "start": 3.4299998,
+          "end": 3.83
+        },
+        {
+          "text": "tenebrosas",
+          "start": 3.83,
+          "end": 4.63
+        },
+        {
+          "text": "batir",
+          "start": 4.63,
+          "end": 5.1099997
+        },
+        {
+          "text": "en",
+          "start": 5.1099997,
+          "end": 5.27
+        },
+        {
+          "text": "los",
+          "start": 5.27,
+          "end": 5.5099998
+        },
+        {
+          "text": "profundos,",
+          "start": 5.5099998,
+          "end": 6.47
+        },
+        {
+          "text": "cual",
+          "start": 6.47,
+          "end": 6.79
+        },
+        {
+          "text": "si",
+          "start": 6.79,
+          "end": 7.0299997
+        },
+        {
+          "text": "fuesen",
+          "start": 7.0299997,
+          "end": 7.5099998
+        },
+        {
+          "text": "las",
+          "start": 7.5099998,
+          "end": 7.6699996
+        },
+        {
+          "text": "olas",
+          "start": 7.6699996,
+          "end": 8.07
+        },
+        {
+          "text": "del",
+          "start": 8.07,
+          "end": 8.309999
+        },
+        {
+          "text": "mar",
+          "start": 8.309999,
+          "end": 8.55
+        },
+        {
+          "text": "de",
+          "start": 8.55,
+          "end": 8.71
+        },
+        {
+          "text": "la",
+          "start": 8.71,
+          "end": 8.87
+        },
+        {
+          "text": "ilusión,",
+          "start": 8.87,
+          "end": 9.83
+        },
+        {
+          "text": "en",
+          "start": 9.83,
+          "end": 10.07
+        },
+        {
+          "text": "que",
+          "start": 10.07,
+          "end": 10.309999
+        },
+        {
+          "text": "los",
+          "start": 10.309999,
+          "end": 10.469999
+        },
+        {
+          "text": "seres",
+          "start": 10.469999,
+          "end": 10.79
+        },
+        {
+          "text": "sin",
+          "start": 10.79,
+          "end": 11.11
+        },
+        {
+          "text": "rumbo",
+          "start": 11.11,
+          "end": 11.59
+        },
+        {
+          "text": "bogan,",
+          "start": 11.59,
+          "end": 12.79
+        },
+        {
+          "text": "donde",
+          "start": 12.79,
+          "end": 13.2699995
+        },
+        {
+          "text": "se",
+          "start": 13.2699995,
+          "end": 13.509999
+        },
+        {
+          "text": "mecen",
+          "start": 13.509999,
+          "end": 14.23
+        },
+        {
+          "text": "frágiles",
+          "start": 14.23,
+          "end": 14.95
+        },
+        {
+          "text": "barquillas,",
+          "start": 14.95,
+          "end": 15.91
+        },
+        {
+          "text": "las",
+          "start": 15.91,
+          "end": 16.15
+        },
+        {
+          "text": "fugitivas",
+          "start": 16.15,
+          "end": 17.029999
+        },
+        {
+          "text": "formas.",
+          "start": 17.029999,
+          "end": 17.64
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/002.wav",
+      "seconds": 17.86,
+      "elapsed": 1.2842017000000001,
+      "cleanup_ms": 76.83460000000001,
+      "speech_seconds": 17.86,
+      "chunks": 1,
+      "reference": "echar fuera la vida y acallar las domésticas cuestiones con el huero fragor de las políticas no hagas caso á los hombres que se juntan y gritan hojas sus gritos son que el viento lleva mientras en silencio su dolor radica",
+      "text": "echar fuera la vida y acallar las domésticas cuestiones con el güero fragor de las políticas. No hagas caso a los hombres que se juntan y gritan, hojas sus gritos son, que el viento lleva, mientras en silencio su dolor radica.",
+      "tidied": "echar fuera la vida y acallar las domésticas cuestiones con el güero fragor de las políticas. No hagas caso a los hombres que se juntan y gritan, hojas sus gritos son, que el viento lleva, mientras en silencio su dolor radica.",
+      "words": [
+        {
+          "text": "echar",
+          "start": 0.14999998,
+          "end": 0.71
+        },
+        {
+          "text": "fuera",
+          "start": 0.71,
+          "end": 1.11
+        },
+        {
+          "text": "la",
+          "start": 1.11,
+          "end": 1.27
+        },
+        {
+          "text": "vida",
+          "start": 1.27,
+          "end": 1.51
+        },
+        {
+          "text": "y",
+          "start": 1.51,
+          "end": 1.67
+        },
+        {
+          "text": "acallar",
+          "start": 1.67,
+          "end": 2.31
+        },
+        {
+          "text": "las",
+          "start": 2.31,
+          "end": 2.47
+        },
+        {
+          "text": "domésticas",
+          "start": 2.47,
+          "end": 3.1899998
+        },
+        {
+          "text": "cuestiones",
+          "start": 3.1899998,
+          "end": 3.6699998
+        },
+        {
+          "text": "con",
+          "start": 3.6699998,
+          "end": 3.83
+        },
+        {
+          "text": "el",
+          "start": 3.83,
+          "end": 3.9899998
+        },
+        {
+          "text": "güero",
+          "start": 3.9899998,
+          "end": 4.47
+        },
+        {
+          "text": "fragor",
+          "start": 4.47,
+          "end": 5.0299997
+        },
+        {
+          "text": "de",
+          "start": 5.0299997,
+          "end": 5.19
+        },
+        {
+          "text": "las",
+          "start": 5.19,
+          "end": 5.35
+        },
+        {
+          "text": "políticas.",
+          "start": 5.35,
+          "end": 6.5499997
+        },
+        {
+          "text": "No",
+          "start": 6.5499997,
+          "end": 6.79
+        },
+        {
+          "text": "hagas",
+          "start": 6.79,
+          "end": 7.19
+        },
+        {
+          "text": "caso",
+          "start": 7.19,
+          "end": 7.5099998
+        },
+        {
+          "text": "a",
+          "start": 7.5099998,
+          "end": 7.5899997
+        },
+        {
+          "text": "los",
+          "start": 7.5899997,
+          "end": 7.75
+        },
+        {
+          "text": "hombres",
+          "start": 7.75,
+          "end": 8.07
+        },
+        {
+          "text": "que",
+          "start": 8.07,
+          "end": 8.23
+        },
+        {
+          "text": "se",
+          "start": 8.23,
+          "end": 8.389999
+        },
+        {
+          "text": "juntan",
+          "start": 8.389999,
+          "end": 8.79
+        },
+        {
+          "text": "y",
+          "start": 8.79,
+          "end": 8.95
+        },
+        {
+          "text": "gritan,",
+          "start": 8.95,
+          "end": 10.309999
+        },
+        {
+          "text": "hojas",
+          "start": 10.309999,
+          "end": 11.11
+        },
+        {
+          "text": "sus",
+          "start": 11.11,
+          "end": 11.349999
+        },
+        {
+          "text": "gritos",
+          "start": 11.349999,
+          "end": 11.99
+        },
+        {
+          "text": "son,",
+          "start": 11.99,
+          "end": 12.469999
+        },
+        {
+          "text": "que",
+          "start": 12.469999,
+          "end": 12.71
+        },
+        {
+          "text": "el",
+          "start": 12.71,
+          "end": 12.87
+        },
+        {
+          "text": "viento",
+          "start": 12.87,
+          "end": 13.349999
+        },
+        {
+          "text": "lleva,",
+          "start": 13.349999,
+          "end": 14.23
+        },
+        {
+          "text": "mientras",
+          "start": 14.23,
+          "end": 14.87
+        },
+        {
+          "text": "en",
+          "start": 14.87,
+          "end": 15.11
+        },
+        {
+          "text": "silencio",
+          "start": 15.11,
+          "end": 16.07
+        },
+        {
+          "text": "su",
+          "start": 16.07,
+          "end": 16.31
+        },
+        {
+          "text": "dolor",
+          "start": 16.31,
+          "end": 16.789999
+        },
+        {
+          "text": "radica.",
+          "start": 16.789999,
+          "end": 17.64
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/003.wav",
+      "seconds": 18.09,
+      "elapsed": 1.2683123,
+      "cleanup_ms": 77.9697,
+      "speech_seconds": 17.664,
+      "chunks": 1,
+      "reference": "el vivir con el hombre pobre bestia te ha dado acaso un anhelar oscuro que el lobo no conoce tal vez cuando acostabas la cabeza en mi regazo vagamente soñabas en ser hombre después de muerto ser hombre pobre bestia",
+      "text": "El vivir con el hombre, pobre bestia, te ha dado acaso un anhelar oscuro que el lobo no conoce. Tal vez cuando acostabas la cabeza en mi regazo, vagamente soñabas en ser hombre después de muerto. Ser hombre, pobre bestia.",
+      "tidied": "El vivir con el hombre, pobre bestia, te ha dado acaso un anhelar oscuro que el lobo no conoce. Tal vez cuando acostabas la cabeza en mi regazo, vagamente soñabas en ser hombre después de muerto. Ser hombre, pobre bestia.",
+      "words": [
+        {
+          "text": "El",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "text": "vivir",
+          "start": 0.39,
+          "end": 0.78999996
+        },
+        {
+          "text": "con",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "el",
+          "start": 0.9499999,
+          "end": 1.11
+        },
+        {
+          "text": "hombre,",
+          "start": 1.11,
+          "end": 1.67
+        },
+        {
+          "text": "pobre",
+          "start": 1.67,
+          "end": 2.07
+        },
+        {
+          "text": "bestia,",
+          "start": 2.07,
+          "end": 2.87
+        },
+        {
+          "text": "te",
+          "start": 2.87,
+          "end": 3.11
+        },
+        {
+          "text": "ha",
+          "start": 3.11,
+          "end": 3.27
+        },
+        {
+          "text": "dado",
+          "start": 3.27,
+          "end": 3.51
+        },
+        {
+          "text": "acaso",
+          "start": 3.51,
+          "end": 3.9099998
+        },
+        {
+          "text": "un",
+          "start": 3.9099998,
+          "end": 3.9899998
+        },
+        {
+          "text": "anhelar",
+          "start": 3.9899998,
+          "end": 4.5499997
+        },
+        {
+          "text": "oscuro",
+          "start": 4.5499997,
+          "end": 5.0299997
+        },
+        {
+          "text": "que",
+          "start": 5.0299997,
+          "end": 5.1099997
+        },
+        {
+          "text": "el",
+          "start": 5.1099997,
+          "end": 5.27
+        },
+        {
+          "text": "lobo",
+          "start": 5.27,
+          "end": 5.75
+        },
+        {
+          "text": "no",
+          "start": 5.75,
+          "end": 5.91
+        },
+        {
+          "text": "conoce.",
+          "start": 5.91,
+          "end": 7.83
+        },
+        {
+          "text": "Tal",
+          "start": 7.83,
+          "end": 8.15
+        },
+        {
+          "text": "vez",
+          "start": 8.15,
+          "end": 8.71
+        },
+        {
+          "text": "cuando",
+          "start": 8.71,
+          "end": 9.03
+        },
+        {
+          "text": "acostabas",
+          "start": 9.03,
+          "end": 9.83
+        },
+        {
+          "text": "la",
+          "start": 9.83,
+          "end": 9.99
+        },
+        {
+          "text": "cabeza",
+          "start": 9.99,
+          "end": 10.309999
+        },
+        {
+          "text": "en",
+          "start": 10.309999,
+          "end": 10.469999
+        },
+        {
+          "text": "mi",
+          "start": 10.469999,
+          "end": 10.63
+        },
+        {
+          "text": "regazo,",
+          "start": 10.63,
+          "end": 11.2699995
+        },
+        {
+          "text": "vagamente",
+          "start": 11.2699995,
+          "end": 11.91
+        },
+        {
+          "text": "soñabas",
+          "start": 11.91,
+          "end": 12.63
+        },
+        {
+          "text": "en",
+          "start": 12.63,
+          "end": 12.79
+        },
+        {
+          "text": "ser",
+          "start": 12.79,
+          "end": 13.11
+        },
+        {
+          "text": "hombre",
+          "start": 13.11,
+          "end": 13.509999
+        },
+        {
+          "text": "después",
+          "start": 13.509999,
+          "end": 13.83
+        },
+        {
+          "text": "de",
+          "start": 13.83,
+          "end": 14.07
+        },
+        {
+          "text": "muerto.",
+          "start": 14.07,
+          "end": 15.2699995
+        },
+        {
+          "text": "Ser",
+          "start": 15.2699995,
+          "end": 15.75
+        },
+        {
+          "text": "hombre,",
+          "start": 15.75,
+          "end": 16.47
+        },
+        {
+          "text": "pobre",
+          "start": 16.47,
+          "end": 16.949999
+        },
+        {
+          "text": "bestia.",
+          "start": 16.949999,
+          "end": 17.48
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/004.wav",
+      "seconds": 19.2,
+      "elapsed": 1.3463467,
+      "cleanup_ms": 82.58160000000001,
+      "speech_seconds": 18.528,
+      "chunks": 1,
+      "reference": "no sabe lo que busca y tú para él mi alma sólo tienes esta palabra nunca a dar voces vacías pobrecillos se juntan y gritan y más gritan y sus penas ocultan y piden no sé que ni ellos saben aunque crean saberlo en su locura",
+      "text": "No sabe lo que busca, y tú para él, mi alma, solo tienes esta palabra. Nunca. A dar voces vacías, pobrecillos se juntan, y gritan, y más gritan, y sus penas ocultan, y piden no sé qué, ni ellos saben, aunque crean saberlo en su locura.",
+      "tidied": "No sabe lo que busca, y tú para él, mi alma, solo tienes esta palabra. Nunca. A dar voces vacías, pobrecillos se juntan, y gritan, y más gritan, y sus penas ocultan, y piden no sé qué, ni ellos saben, aunque crean saberlo en su locura.",
+      "words": [
+        {
+          "text": "No",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "sabe",
+          "start": 0.39,
+          "end": 0.78999996
+        },
+        {
+          "text": "lo",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "que",
+          "start": 0.9499999,
+          "end": 1.11
+        },
+        {
+          "text": "busca,",
+          "start": 1.11,
+          "end": 1.5899999
+        },
+        {
+          "text": "y",
+          "start": 1.5899999,
+          "end": 1.75
+        },
+        {
+          "text": "tú",
+          "start": 1.75,
+          "end": 1.99
+        },
+        {
+          "text": "para",
+          "start": 1.99,
+          "end": 2.1499999
+        },
+        {
+          "text": "él,",
+          "start": 2.1499999,
+          "end": 2.47
+        },
+        {
+          "text": "mi",
+          "start": 2.47,
+          "end": 2.71
+        },
+        {
+          "text": "alma,",
+          "start": 2.71,
+          "end": 3.1899998
+        },
+        {
+          "text": "solo",
+          "start": 3.1899998,
+          "end": 3.59
+        },
+        {
+          "text": "tienes",
+          "start": 3.59,
+          "end": 4.0699997
+        },
+        {
+          "text": "esta",
+          "start": 4.0699997,
+          "end": 4.39
+        },
+        {
+          "text": "palabra.",
+          "start": 4.39,
+          "end": 5.5099998
+        },
+        {
+          "text": "Nunca.",
+          "start": 5.5099998,
+          "end": 6.95
+        },
+        {
+          "text": "A",
+          "start": 6.95,
+          "end": 7.19
+        },
+        {
+          "text": "dar",
+          "start": 7.19,
+          "end": 7.5899997
+        },
+        {
+          "text": "voces",
+          "start": 7.5899997,
+          "end": 7.99
+        },
+        {
+          "text": "vacías,",
+          "start": 7.99,
+          "end": 8.71
+        },
+        {
+          "text": "pobrecillos",
+          "start": 8.71,
+          "end": 9.51
+        },
+        {
+          "text": "se",
+          "start": 9.51,
+          "end": 9.67
+        },
+        {
+          "text": "juntan,",
+          "start": 9.67,
+          "end": 10.389999
+        },
+        {
+          "text": "y",
+          "start": 10.389999,
+          "end": 10.63
+        },
+        {
+          "text": "gritan,",
+          "start": 10.63,
+          "end": 11.19
+        },
+        {
+          "text": "y",
+          "start": 11.19,
+          "end": 11.429999
+        },
+        {
+          "text": "más",
+          "start": 11.429999,
+          "end": 11.59
+        },
+        {
+          "text": "gritan,",
+          "start": 11.59,
+          "end": 12.07
+        },
+        {
+          "text": "y",
+          "start": 12.07,
+          "end": 12.23
+        },
+        {
+          "text": "sus",
+          "start": 12.23,
+          "end": 12.469999
+        },
+        {
+          "text": "penas",
+          "start": 12.469999,
+          "end": 12.95
+        },
+        {
+          "text": "ocultan,",
+          "start": 12.95,
+          "end": 13.429999
+        },
+        {
+          "text": "y",
+          "start": 13.429999,
+          "end": 13.59
+        },
+        {
+          "text": "piden",
+          "start": 13.59,
+          "end": 14.07
+        },
+        {
+          "text": "no",
+          "start": 14.07,
+          "end": 14.15
+        },
+        {
+          "text": "sé",
+          "start": 14.15,
+          "end": 14.309999
+        },
+        {
+          "text": "qué,",
+          "start": 14.309999,
+          "end": 14.63
+        },
+        {
+          "text": "ni",
+          "start": 14.63,
+          "end": 14.79
+        },
+        {
+          "text": "ellos",
+          "start": 14.79,
+          "end": 15.11
+        },
+        {
+          "text": "saben,",
+          "start": 15.11,
+          "end": 15.67
+        },
+        {
+          "text": "aunque",
+          "start": 15.67,
+          "end": 16.07
+        },
+        {
+          "text": "crean",
+          "start": 16.07,
+          "end": 16.55
+        },
+        {
+          "text": "saberlo",
+          "start": 16.55,
+          "end": 17.27
+        },
+        {
+          "text": "en",
+          "start": 17.27,
+          "end": 17.43
+        },
+        {
+          "text": "su",
+          "start": 17.43,
+          "end": 17.59
+        },
+        {
+          "text": "locura.",
+          "start": 17.59,
+          "end": 18.199999
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/005.wav",
+      "seconds": 14.96,
+      "elapsed": 1.0158964,
+      "cleanup_ms": 64.45439999999999,
+      "speech_seconds": 14.432,
+      "chunks": 1,
+      "reference": "como todas las penas aunque tantas son una sola pena una sola infinita soberana la pena de vivir llevando al todo temblando ante la nada",
+      "text": "Como todas las penas, aunque tantas, son una sola pena, una sola, infinita, soberana, la pena de vivir llevando al todo, temblando ante la nada.",
+      "tidied": "Como todas las penas, aunque tantas, son una sola pena, una sola, infinita, soberana, la pena de vivir llevando al todo, temblando ante la nada.",
+      "words": [
+        {
+          "text": "Como",
+          "start": 0.06999999,
+          "end": 0.71
+        },
+        {
+          "text": "todas",
+          "start": 0.71,
+          "end": 1.03
+        },
+        {
+          "text": "las",
+          "start": 1.03,
+          "end": 1.27
+        },
+        {
+          "text": "penas,",
+          "start": 1.27,
+          "end": 1.9099998
+        },
+        {
+          "text": "aunque",
+          "start": 1.9099998,
+          "end": 2.3899999
+        },
+        {
+          "text": "tantas,",
+          "start": 2.3899999,
+          "end": 3.27
+        },
+        {
+          "text": "son",
+          "start": 3.27,
+          "end": 3.75
+        },
+        {
+          "text": "una",
+          "start": 3.75,
+          "end": 3.9899998
+        },
+        {
+          "text": "sola",
+          "start": 3.9899998,
+          "end": 4.39
+        },
+        {
+          "text": "pena,",
+          "start": 4.39,
+          "end": 5.27
+        },
+        {
+          "text": "una",
+          "start": 5.27,
+          "end": 5.67
+        },
+        {
+          "text": "sola,",
+          "start": 5.67,
+          "end": 6.5499997
+        },
+        {
+          "text": "infinita,",
+          "start": 6.5499997,
+          "end": 7.91
+        },
+        {
+          "text": "soberana,",
+          "start": 7.91,
+          "end": 9.349999
+        },
+        {
+          "text": "la",
+          "start": 9.349999,
+          "end": 9.67
+        },
+        {
+          "text": "pena",
+          "start": 9.67,
+          "end": 10.07
+        },
+        {
+          "text": "de",
+          "start": 10.07,
+          "end": 10.23
+        },
+        {
+          "text": "vivir",
+          "start": 10.23,
+          "end": 10.71
+        },
+        {
+          "text": "llevando",
+          "start": 10.71,
+          "end": 11.2699995
+        },
+        {
+          "text": "al",
+          "start": 11.2699995,
+          "end": 11.59
+        },
+        {
+          "text": "todo,",
+          "start": 11.59,
+          "end": 12.309999
+        },
+        {
+          "text": "temblando",
+          "start": 12.309999,
+          "end": 13.19
+        },
+        {
+          "text": "ante",
+          "start": 13.19,
+          "end": 13.509999
+        },
+        {
+          "text": "la",
+          "start": 13.509999,
+          "end": 13.75
+        },
+        {
+          "text": "nada.",
+          "start": 13.75,
+          "end": 14.12
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/006.wav",
+      "seconds": 14.71,
+      "elapsed": 1.0575695999999999,
+      "cleanup_ms": 63.42150000000001,
+      "speech_seconds": 14.55,
+      "chunks": 1,
+      "reference": "pero allí no tendremos en torno de nuestra alma las almas de las cosas de que vive el alma de los campos las almas de las rocas las almas de los árboles y ríos las de las bestias",
+      "text": "Pero allí no tendremos en torno de nuestra alma las almas de las cosas de que vive, el alma de los campos, las almas de las rocas, las almas de los árboles y ríos, las de las bestias.",
+      "tidied": "Pero allí no tendremos en torno de nuestra alma las almas de las cosas de que vive, el alma de los campos, las almas de las rocas, las almas de los árboles y ríos, las de las bestias.",
+      "words": [
+        {
+          "text": "Pero",
+          "start": 0.06999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "allí",
+          "start": 0.46999997,
+          "end": 1.1899999
+        },
+        {
+          "text": "no",
+          "start": 1.1899999,
+          "end": 1.51
+        },
+        {
+          "text": "tendremos",
+          "start": 1.51,
+          "end": 2.31
+        },
+        {
+          "text": "en",
+          "start": 2.31,
+          "end": 2.3899999
+        },
+        {
+          "text": "torno",
+          "start": 2.3899999,
+          "end": 2.87
+        },
+        {
+          "text": "de",
+          "start": 2.87,
+          "end": 3.03
+        },
+        {
+          "text": "nuestra",
+          "start": 3.03,
+          "end": 3.35
+        },
+        {
+          "text": "alma",
+          "start": 3.35,
+          "end": 3.83
+        },
+        {
+          "text": "las",
+          "start": 3.83,
+          "end": 4.0699997
+        },
+        {
+          "text": "almas",
+          "start": 4.0699997,
+          "end": 4.5499997
+        },
+        {
+          "text": "de",
+          "start": 4.5499997,
+          "end": 4.71
+        },
+        {
+          "text": "las",
+          "start": 4.71,
+          "end": 4.95
+        },
+        {
+          "text": "cosas",
+          "start": 4.95,
+          "end": 5.35
+        },
+        {
+          "text": "de",
+          "start": 5.35,
+          "end": 5.5899997
+        },
+        {
+          "text": "que",
+          "start": 5.5899997,
+          "end": 5.83
+        },
+        {
+          "text": "vive,",
+          "start": 5.83,
+          "end": 6.5499997
+        },
+        {
+          "text": "el",
+          "start": 6.5499997,
+          "end": 6.79
+        },
+        {
+          "text": "alma",
+          "start": 6.79,
+          "end": 7.19
+        },
+        {
+          "text": "de",
+          "start": 7.19,
+          "end": 7.35
+        },
+        {
+          "text": "los",
+          "start": 7.35,
+          "end": 7.5899997
+        },
+        {
+          "text": "campos,",
+          "start": 7.5899997,
+          "end": 8.55
+        },
+        {
+          "text": "las",
+          "start": 8.55,
+          "end": 8.71
+        },
+        {
+          "text": "almas",
+          "start": 8.71,
+          "end": 9.11
+        },
+        {
+          "text": "de",
+          "start": 9.11,
+          "end": 9.2699995
+        },
+        {
+          "text": "las",
+          "start": 9.2699995,
+          "end": 9.429999
+        },
+        {
+          "text": "rocas,",
+          "start": 9.429999,
+          "end": 10.309999
+        },
+        {
+          "text": "las",
+          "start": 10.309999,
+          "end": 10.469999
+        },
+        {
+          "text": "almas",
+          "start": 10.469999,
+          "end": 10.95
+        },
+        {
+          "text": "de",
+          "start": 10.95,
+          "end": 11.03
+        },
+        {
+          "text": "losárboles",
+          "start": 11.03,
+          "end": 11.91
+        },
+        {
+          "text": "y",
+          "start": 11.91,
+          "end": 12.07
+        },
+        {
+          "text": "ríos,",
+          "start": 12.07,
+          "end": 12.87
+        },
+        {
+          "text": "las",
+          "start": 12.87,
+          "end": 13.03
+        },
+        {
+          "text": "de",
+          "start": 13.03,
+          "end": 13.19
+        },
+        {
+          "text": "las",
+          "start": 13.19,
+          "end": 13.349999
+        },
+        {
+          "text": "bestias.",
+          "start": 13.349999,
+          "end": 14.28
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/007.wav",
+      "seconds": 10.49,
+      "elapsed": 0.6485852,
+      "cleanup_ms": 44.439600000000006,
+      "speech_seconds": 9.92,
+      "chunks": 1,
+      "reference": "tú has muerto en mansedumbre tú con dulzura entregándote á mí en la suprema sumisión de la vida pero él",
+      "text": "Tú has muerto en mansedumbre, tú con dulzura, entregándote a mí en la suprema sumisión de la vida, pero él",
+      "tidied": "Tú has muerto en mansedumbre, tú con dulzura, entregándote a mí en la suprema sumisión de la vida, pero él",
+      "words": [
+        {
+          "text": "Tú",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "has",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "muerto",
+          "start": 0.63,
+          "end": 1.03
+        },
+        {
+          "text": "en",
+          "start": 1.03,
+          "end": 1.1899999
+        },
+        {
+          "text": "mansedumbre,",
+          "start": 1.1899999,
+          "end": 2.87
+        },
+        {
+          "text": "tú",
+          "start": 2.87,
+          "end": 3.35
+        },
+        {
+          "text": "con",
+          "start": 3.35,
+          "end": 3.6699998
+        },
+        {
+          "text": "dulzura,",
+          "start": 3.6699998,
+          "end": 4.95
+        },
+        {
+          "text": "entregándote",
+          "start": 4.95,
+          "end": 5.91
+        },
+        {
+          "text": "a",
+          "start": 5.91,
+          "end": 6.0699997
+        },
+        {
+          "text": "mí",
+          "start": 6.0699997,
+          "end": 6.31
+        },
+        {
+          "text": "en",
+          "start": 6.31,
+          "end": 6.47
+        },
+        {
+          "text": "la",
+          "start": 6.47,
+          "end": 6.6299996
+        },
+        {
+          "text": "suprema",
+          "start": 6.6299996,
+          "end": 7.19
+        },
+        {
+          "text": "sumisión",
+          "start": 7.19,
+          "end": 7.91
+        },
+        {
+          "text": "de",
+          "start": 7.91,
+          "end": 8.07
+        },
+        {
+          "text": "la",
+          "start": 8.07,
+          "end": 8.23
+        },
+        {
+          "text": "vida,",
+          "start": 8.23,
+          "end": 8.87
+        },
+        {
+          "text": "pero",
+          "start": 8.87,
+          "end": 9.19
+        },
+        {
+          "text": "él",
+          "start": 9.19,
+          "end": 9.24
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/008.wav",
+      "seconds": 13.51,
+      "elapsed": 0.9881721,
+      "cleanup_ms": 58.4365,
+      "speech_seconds": 13.222,
+      "chunks": 1,
+      "reference": "el que gime junto a la tumba de su dios de su amo ni morir sabe tú al morir presentías vagamente vivir en mi memoria no morirte del todo",
+      "text": "El que gime junto a la tumba de su Dios, de su amo, ni morir sabe. Tú, al morir, presentías vagamente vivir en mi memoria, no morirte del todo.",
+      "tidied": "El que gime junto a la tumba de su Dios, de su amo, ni morir sabe. Tú, al morir, presentías vagamente vivir en mi memoria, no morirte del todo.",
+      "words": [
+        {
+          "text": "El",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "que",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "gime",
+          "start": 0.63,
+          "end": 1.27
+        },
+        {
+          "text": "junto",
+          "start": 1.27,
+          "end": 1.51
+        },
+        {
+          "text": "a",
+          "start": 1.51,
+          "end": 1.67
+        },
+        {
+          "text": "la",
+          "start": 1.67,
+          "end": 1.75
+        },
+        {
+          "text": "tumba",
+          "start": 1.75,
+          "end": 2.1499999
+        },
+        {
+          "text": "de",
+          "start": 2.1499999,
+          "end": 2.31
+        },
+        {
+          "text": "su",
+          "start": 2.31,
+          "end": 2.55
+        },
+        {
+          "text": "Dios,",
+          "start": 2.55,
+          "end": 3.27
+        },
+        {
+          "text": "de",
+          "start": 3.27,
+          "end": 3.4299998
+        },
+        {
+          "text": "su",
+          "start": 3.4299998,
+          "end": 3.6699998
+        },
+        {
+          "text": "amo,",
+          "start": 3.6699998,
+          "end": 4.31
+        },
+        {
+          "text": "ni",
+          "start": 4.31,
+          "end": 4.71
+        },
+        {
+          "text": "morir",
+          "start": 4.71,
+          "end": 5.27
+        },
+        {
+          "text": "sabe.",
+          "start": 5.27,
+          "end": 6.6299996
+        },
+        {
+          "text": "Tú,",
+          "start": 6.6299996,
+          "end": 7.35
+        },
+        {
+          "text": "al",
+          "start": 7.35,
+          "end": 7.6699996
+        },
+        {
+          "text": "morir,",
+          "start": 7.6699996,
+          "end": 8.309999
+        },
+        {
+          "text": "presentías",
+          "start": 8.309999,
+          "end": 9.19
+        },
+        {
+          "text": "vagamente",
+          "start": 9.19,
+          "end": 9.91
+        },
+        {
+          "text": "vivir",
+          "start": 9.91,
+          "end": 10.23
+        },
+        {
+          "text": "en",
+          "start": 10.23,
+          "end": 10.389999
+        },
+        {
+          "text": "mi",
+          "start": 10.389999,
+          "end": 10.63
+        },
+        {
+          "text": "memoria,",
+          "start": 10.63,
+          "end": 11.429999
+        },
+        {
+          "text": "no",
+          "start": 11.429999,
+          "end": 11.67
+        },
+        {
+          "text": "morirte",
+          "start": 11.67,
+          "end": 12.309999
+        },
+        {
+          "text": "del",
+          "start": 12.309999,
+          "end": 12.549999
+        },
+        {
+          "text": "todo.",
+          "start": 12.549999,
+          "end": 12.92
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/009.wav",
+      "seconds": 16.61,
+      "elapsed": 1.2174968,
+      "cleanup_ms": 72.00370000000001,
+      "speech_seconds": 16.16,
+      "chunks": 1,
+      "reference": "allá en el otro mundo tu alma pobre perro no habrá de recostar en mi regazo espiritual su espiritual cabeza la lengua de tu alma pobre amigo no lamerá la mano de mi alma",
+      "text": "Allá, en el otro mundo, tu alma, pobre perro, no habrá de recostar en mi regazo espiritual su espiritual cabeza. La lengua de tu alma, pobre amigo, no lamirá la mano de mi alma.",
+      "tidied": "Allá, en el otro mundo, tu alma, pobre perro, no habrá de recostar en mi regazo espiritual su espiritual cabeza. La lengua de tu alma, pobre amigo, no lamirá la mano de mi alma.",
+      "words": [
+        {
+          "text": "Allá,",
+          "start": 0.06999999,
+          "end": 0.87
+        },
+        {
+          "text": "en",
+          "start": 0.87,
+          "end": 1.03
+        },
+        {
+          "text": "el",
+          "start": 1.03,
+          "end": 1.1899999
+        },
+        {
+          "text": "otro",
+          "start": 1.1899999,
+          "end": 1.5899999
+        },
+        {
+          "text": "mundo,",
+          "start": 1.5899999,
+          "end": 2.3899999
+        },
+        {
+          "text": "tu",
+          "start": 2.3899999,
+          "end": 2.6299999
+        },
+        {
+          "text": "alma,",
+          "start": 2.6299999,
+          "end": 3.27
+        },
+        {
+          "text": "pobre",
+          "start": 3.27,
+          "end": 3.75
+        },
+        {
+          "text": "perro,",
+          "start": 3.75,
+          "end": 4.39
+        },
+        {
+          "text": "no",
+          "start": 4.39,
+          "end": 4.5499997
+        },
+        {
+          "text": "habrá",
+          "start": 4.5499997,
+          "end": 4.87
+        },
+        {
+          "text": "de",
+          "start": 4.87,
+          "end": 5.0299997
+        },
+        {
+          "text": "recostar",
+          "start": 5.0299997,
+          "end": 5.5899997
+        },
+        {
+          "text": "en",
+          "start": 5.5899997,
+          "end": 5.75
+        },
+        {
+          "text": "mi",
+          "start": 5.75,
+          "end": 5.91
+        },
+        {
+          "text": "regazo",
+          "start": 5.91,
+          "end": 6.47
+        },
+        {
+          "text": "espiritual",
+          "start": 6.47,
+          "end": 7.1099997
+        },
+        {
+          "text": "su",
+          "start": 7.1099997,
+          "end": 7.43
+        },
+        {
+          "text": "espiritual",
+          "start": 7.43,
+          "end": 8.15
+        },
+        {
+          "text": "cabeza.",
+          "start": 8.15,
+          "end": 10.389999
+        },
+        {
+          "text": "La",
+          "start": 10.389999,
+          "end": 10.63
+        },
+        {
+          "text": "lengua",
+          "start": 10.63,
+          "end": 11.19
+        },
+        {
+          "text": "de",
+          "start": 11.19,
+          "end": 11.349999
+        },
+        {
+          "text": "tu",
+          "start": 11.349999,
+          "end": 11.59
+        },
+        {
+          "text": "alma,",
+          "start": 11.59,
+          "end": 12.309999
+        },
+        {
+          "text": "pobre",
+          "start": 12.309999,
+          "end": 12.87
+        },
+        {
+          "text": "amigo,",
+          "start": 12.87,
+          "end": 13.75
+        },
+        {
+          "text": "no",
+          "start": 13.75,
+          "end": 13.99
+        },
+        {
+          "text": "lamirá",
+          "start": 13.99,
+          "end": 14.63
+        },
+        {
+          "text": "la",
+          "start": 14.63,
+          "end": 14.79
+        },
+        {
+          "text": "mano",
+          "start": 14.79,
+          "end": 15.11
+        },
+        {
+          "text": "de",
+          "start": 15.11,
+          "end": 15.19
+        },
+        {
+          "text": "mi",
+          "start": 15.19,
+          "end": 15.349999
+        },
+        {
+          "text": "alma.",
+          "start": 15.349999,
+          "end": 16.039999
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/010.wav",
+      "seconds": 17.28,
+      "elapsed": 1.2996328,
+      "cleanup_ms": 71.11760000000001,
+      "speech_seconds": 17.152,
+      "chunks": 1,
+      "reference": "métete en tu dolor y en él trabaja por escardar la broza cinco no te acuerdas mi amor que te decía cómo en mi seno luchan por darse a luz oscuros pensamientos sin voz y sin figura",
+      "text": "Métete en tu dolor y en el trabaja por escardar la brosa. 5.¿No te acuerdas, mi amor, que te decía cómo en mi seno luchan por darse a luz oscuros pensamientos, sin voz y sin figura?",
+      "tidied": "Métete en tu dolor y en el trabaja por escardar la brosa. 5. ¿No te acuerdas, mi amor, que te decía cómo en mi seno luchan por darse a luz oscuros pensamientos, sin voz y sin figura?",
+      "words": [
+        {
+          "text": "Métete",
+          "start": 0.06999999,
+          "end": 0.9499999
+        },
+        {
+          "text": "en",
+          "start": 0.9499999,
+          "end": 1.11
+        },
+        {
+          "text": "tu",
+          "start": 1.11,
+          "end": 1.27
+        },
+        {
+          "text": "dolor",
+          "start": 1.27,
+          "end": 1.99
+        },
+        {
+          "text": "y",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "en",
+          "start": 2.23,
+          "end": 2.47
+        },
+        {
+          "text": "el",
+          "start": 2.47,
+          "end": 2.79
+        },
+        {
+          "text": "trabaja",
+          "start": 2.79,
+          "end": 3.83
+        },
+        {
+          "text": "por",
+          "start": 3.83,
+          "end": 4.23
+        },
+        {
+          "text": "escardar",
+          "start": 4.23,
+          "end": 4.95
+        },
+        {
+          "text": "la",
+          "start": 4.95,
+          "end": 5.27
+        },
+        {
+          "text": "brosa.5.",
+          "start": 5.27,
+          "end": 8.309999
+        },
+        {
+          "text": "¿No",
+          "start": 8.309999,
+          "end": 8.71
+        },
+        {
+          "text": "te",
+          "start": 8.71,
+          "end": 8.95
+        },
+        {
+          "text": "acuerdas,",
+          "start": 8.95,
+          "end": 9.59
+        },
+        {
+          "text": "mi",
+          "start": 9.59,
+          "end": 9.75
+        },
+        {
+          "text": "amor,",
+          "start": 9.75,
+          "end": 10.309999
+        },
+        {
+          "text": "que",
+          "start": 10.309999,
+          "end": 10.55
+        },
+        {
+          "text": "te",
+          "start": 10.55,
+          "end": 10.71
+        },
+        {
+          "text": "decía",
+          "start": 10.71,
+          "end": 11.19
+        },
+        {
+          "text": "cómo",
+          "start": 11.19,
+          "end": 11.429999
+        },
+        {
+          "text": "en",
+          "start": 11.429999,
+          "end": 11.509999
+        },
+        {
+          "text": "mi",
+          "start": 11.509999,
+          "end": 11.67
+        },
+        {
+          "text": "seno",
+          "start": 11.67,
+          "end": 12.15
+        },
+        {
+          "text": "luchan",
+          "start": 12.15,
+          "end": 12.549999
+        },
+        {
+          "text": "por",
+          "start": 12.549999,
+          "end": 12.71
+        },
+        {
+          "text": "darse",
+          "start": 12.71,
+          "end": 13.03
+        },
+        {
+          "text": "a",
+          "start": 13.03,
+          "end": 13.19
+        },
+        {
+          "text": "luz",
+          "start": 13.19,
+          "end": 13.509999
+        },
+        {
+          "text": "oscuros",
+          "start": 13.509999,
+          "end": 14.15
+        },
+        {
+          "text": "pensamientos,",
+          "start": 14.15,
+          "end": 15.11
+        },
+        {
+          "text": "sin",
+          "start": 15.11,
+          "end": 15.429999
+        },
+        {
+          "text": "voz",
+          "start": 15.429999,
+          "end": 15.91
+        },
+        {
+          "text": "y",
+          "start": 15.91,
+          "end": 16.07
+        },
+        {
+          "text": "sin",
+          "start": 16.07,
+          "end": 16.39
+        },
+        {
+          "text": "figura?",
+          "start": 16.39,
+          "end": 16.919998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/011.wav",
+      "seconds": 15.55,
+      "elapsed": 1.1950998,
+      "cleanup_ms": 67.04129999999999,
+      "speech_seconds": 15.358,
+      "chunks": 1,
+      "reference": "por eso te decía que callaras y así en silencio muda dejases que tu pena poco a poco desde la hondura de ese tu corazón que cual el mío bate la eterna angustia te subiese a la boca",
+      "text": "Por eso te decía que callaras, y así, en silencio, muda, dejases que tu pena, poco a poco, desde la hondura de ese tu corazón, que cual el mío bate la eterna angustia, te subiese a la boca.",
+      "tidied": "Por eso te decía que callaras, y así, en silencio, muda, dejases que tu pena, poco a poco, desde la hondura de ese tu corazón, que cual el mío bate la eterna angustia, te subiese a la boca.",
+      "words": [
+        {
+          "text": "Por",
+          "start": 0.14999998,
+          "end": 0.46999997
+        },
+        {
+          "text": "eso",
+          "start": 0.46999997,
+          "end": 0.78999996
+        },
+        {
+          "text": "te",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "decía",
+          "start": 0.9499999,
+          "end": 1.43
+        },
+        {
+          "text": "que",
+          "start": 1.43,
+          "end": 1.5899999
+        },
+        {
+          "text": "callaras,",
+          "start": 1.5899999,
+          "end": 2.23
+        },
+        {
+          "text": "y",
+          "start": 2.23,
+          "end": 2.3899999
+        },
+        {
+          "text": "así,",
+          "start": 2.3899999,
+          "end": 2.87
+        },
+        {
+          "text": "en",
+          "start": 2.87,
+          "end": 3.1899998
+        },
+        {
+          "text": "silencio,",
+          "start": 3.1899998,
+          "end": 4.15
+        },
+        {
+          "text": "muda,",
+          "start": 4.15,
+          "end": 5.0299997
+        },
+        {
+          "text": "dejases",
+          "start": 5.0299997,
+          "end": 5.75
+        },
+        {
+          "text": "que",
+          "start": 5.75,
+          "end": 5.91
+        },
+        {
+          "text": "tu",
+          "start": 5.91,
+          "end": 6.0699997
+        },
+        {
+          "text": "pena,",
+          "start": 6.0699997,
+          "end": 6.79
+        },
+        {
+          "text": "poco",
+          "start": 6.79,
+          "end": 7.19
+        },
+        {
+          "text": "a",
+          "start": 7.19,
+          "end": 7.43
+        },
+        {
+          "text": "poco,",
+          "start": 7.43,
+          "end": 8.07
+        },
+        {
+          "text": "desde",
+          "start": 8.07,
+          "end": 8.47
+        },
+        {
+          "text": "la",
+          "start": 8.47,
+          "end": 8.63
+        },
+        {
+          "text": "hondura",
+          "start": 8.63,
+          "end": 9.2699995
+        },
+        {
+          "text": "de",
+          "start": 9.2699995,
+          "end": 9.429999
+        },
+        {
+          "text": "ese",
+          "start": 9.429999,
+          "end": 9.83
+        },
+        {
+          "text": "tu",
+          "start": 9.83,
+          "end": 9.99
+        },
+        {
+          "text": "corazón,",
+          "start": 9.99,
+          "end": 10.63
+        },
+        {
+          "text": "que",
+          "start": 10.63,
+          "end": 10.87
+        },
+        {
+          "text": "cual",
+          "start": 10.87,
+          "end": 11.11
+        },
+        {
+          "text": "el",
+          "start": 11.11,
+          "end": 11.2699995
+        },
+        {
+          "text": "mío",
+          "start": 11.2699995,
+          "end": 11.67
+        },
+        {
+          "text": "bate",
+          "start": 11.67,
+          "end": 12.07
+        },
+        {
+          "text": "la",
+          "start": 12.07,
+          "end": 12.23
+        },
+        {
+          "text": "eterna",
+          "start": 12.23,
+          "end": 12.79
+        },
+        {
+          "text": "angustia,",
+          "start": 12.79,
+          "end": 13.509999
+        },
+        {
+          "text": "te",
+          "start": 13.509999,
+          "end": 13.75
+        },
+        {
+          "text": "subiese",
+          "start": 13.75,
+          "end": 14.469999
+        },
+        {
+          "text": "a",
+          "start": 14.469999,
+          "end": 14.549999
+        },
+        {
+          "text": "la",
+          "start": 14.549999,
+          "end": 14.71
+        },
+        {
+          "text": "boca.",
+          "start": 14.71,
+          "end": 15.08
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/012.wav",
+      "seconds": 12.49,
+      "elapsed": 0.8731027,
+      "cleanup_ms": 47.8301,
+      "speech_seconds": 11.914,
+      "chunks": 1,
+      "reference": "lejos de esos afanes que al mundo abruman casemos nuestras penas en silencio y de este fuerte enlace acaso surja fruto consolador",
+      "text": "Lejos de esos afanes que al mundo abruman, casemos nuestras penas en silencio, y de este fuerte enlace acaso surja fruto consolador.",
+      "tidied": "Lejos de esos afanes que al mundo abruman, casemos nuestras penas en silencio, y de este fuerte enlace acaso surja fruto consolador.",
+      "words": [
+        {
+          "text": "Lejos",
+          "start": 0.06999999,
+          "end": 0.71
+        },
+        {
+          "text": "de",
+          "start": 0.71,
+          "end": 0.87
+        },
+        {
+          "text": "esos",
+          "start": 0.87,
+          "end": 1.1899999
+        },
+        {
+          "text": "afanes",
+          "start": 1.1899999,
+          "end": 1.9099998
+        },
+        {
+          "text": "que",
+          "start": 1.9099998,
+          "end": 2.07
+        },
+        {
+          "text": "al",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "mundo",
+          "start": 2.23,
+          "end": 2.55
+        },
+        {
+          "text": "abruman,",
+          "start": 2.55,
+          "end": 3.59
+        },
+        {
+          "text": "casemos",
+          "start": 3.59,
+          "end": 4.39
+        },
+        {
+          "text": "nuestras",
+          "start": 4.39,
+          "end": 4.71
+        },
+        {
+          "text": "penas",
+          "start": 4.71,
+          "end": 5.19
+        },
+        {
+          "text": "en",
+          "start": 5.19,
+          "end": 5.43
+        },
+        {
+          "text": "silencio,",
+          "start": 5.43,
+          "end": 7.0299997
+        },
+        {
+          "text": "y",
+          "start": 7.0299997,
+          "end": 7.35
+        },
+        {
+          "text": "de",
+          "start": 7.35,
+          "end": 7.5099998
+        },
+        {
+          "text": "este",
+          "start": 7.5099998,
+          "end": 7.83
+        },
+        {
+          "text": "fuerte",
+          "start": 7.83,
+          "end": 8.23
+        },
+        {
+          "text": "enlace",
+          "start": 8.23,
+          "end": 9.19
+        },
+        {
+          "text": "acaso",
+          "start": 9.19,
+          "end": 9.91
+        },
+        {
+          "text": "surja",
+          "start": 9.91,
+          "end": 10.389999
+        },
+        {
+          "text": "fruto",
+          "start": 10.389999,
+          "end": 10.87
+        },
+        {
+          "text": "consolador.",
+          "start": 10.87,
+          "end": 11.8
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/013.wav",
+      "seconds": 17.63,
+      "elapsed": 1.3737856,
+      "cleanup_ms": 76.5758,
+      "speech_seconds": 17.406,
+      "chunks": 1,
+      "reference": "será vuestro consuelo bañaros en las ondas de las eternas lágrimas que curan por fin toda congoja pues en lo eterno del dolor divino la amargura se borra y la miseria deja al miserable dulzura muy sabrosa",
+      "text": "Será vuestro consuelo bañaros en las ondas de las eternas lágrimas que curan, por fin toda congoja, pues en lo eterno del dolor vivino la amargura se borra, y la miseria deja al miserable dulzura muy sabrosa.",
+      "tidied": "Será vuestro consuelo bañaros en las ondas de las eternas lágrimas que curan, por fin toda congoja, pues en lo eterno del dolor vivino la amargura se borra, y la miseria deja al miserable dulzura muy sabrosa.",
+      "words": [
+        {
+          "text": "Será",
+          "start": 0.06999999,
+          "end": 0.63
+        },
+        {
+          "text": "vuestro",
+          "start": 0.63,
+          "end": 1.03
+        },
+        {
+          "text": "consuelo",
+          "start": 1.03,
+          "end": 1.5899999
+        },
+        {
+          "text": "bañaros",
+          "start": 1.5899999,
+          "end": 2.31
+        },
+        {
+          "text": "en",
+          "start": 2.31,
+          "end": 2.3899999
+        },
+        {
+          "text": "las",
+          "start": 2.3899999,
+          "end": 2.55
+        },
+        {
+          "text": "ondas",
+          "start": 2.55,
+          "end": 3.11
+        },
+        {
+          "text": "de",
+          "start": 3.11,
+          "end": 3.27
+        },
+        {
+          "text": "las",
+          "start": 3.27,
+          "end": 3.4299998
+        },
+        {
+          "text": "eternas",
+          "start": 3.4299998,
+          "end": 4.0699997
+        },
+        {
+          "text": "lágrimas",
+          "start": 4.0699997,
+          "end": 4.79
+        },
+        {
+          "text": "que",
+          "start": 4.79,
+          "end": 4.95
+        },
+        {
+          "text": "curan,",
+          "start": 4.95,
+          "end": 5.83
+        },
+        {
+          "text": "por",
+          "start": 5.83,
+          "end": 6.0699997
+        },
+        {
+          "text": "fin",
+          "start": 6.0699997,
+          "end": 6.95
+        },
+        {
+          "text": "toda",
+          "start": 6.95,
+          "end": 7.5099998
+        },
+        {
+          "text": "congoja,",
+          "start": 7.5099998,
+          "end": 8.63
+        },
+        {
+          "text": "pues",
+          "start": 8.63,
+          "end": 9.03
+        },
+        {
+          "text": "en",
+          "start": 9.03,
+          "end": 9.19
+        },
+        {
+          "text": "lo",
+          "start": 9.19,
+          "end": 9.429999
+        },
+        {
+          "text": "eterno",
+          "start": 9.429999,
+          "end": 9.91
+        },
+        {
+          "text": "del",
+          "start": 9.91,
+          "end": 10.15
+        },
+        {
+          "text": "dolor",
+          "start": 10.15,
+          "end": 10.55
+        },
+        {
+          "text": "vivino",
+          "start": 10.55,
+          "end": 11.349999
+        },
+        {
+          "text": "la",
+          "start": 11.349999,
+          "end": 11.509999
+        },
+        {
+          "text": "amargura",
+          "start": 11.509999,
+          "end": 12.23
+        },
+        {
+          "text": "se",
+          "start": 12.23,
+          "end": 12.389999
+        },
+        {
+          "text": "borra,",
+          "start": 12.389999,
+          "end": 13.2699995
+        },
+        {
+          "text": "y",
+          "start": 13.2699995,
+          "end": 13.509999
+        },
+        {
+          "text": "la",
+          "start": 13.509999,
+          "end": 13.67
+        },
+        {
+          "text": "miseria",
+          "start": 13.67,
+          "end": 14.15
+        },
+        {
+          "text": "deja",
+          "start": 14.15,
+          "end": 14.549999
+        },
+        {
+          "text": "al",
+          "start": 14.549999,
+          "end": 14.71
+        },
+        {
+          "text": "miserable",
+          "start": 14.71,
+          "end": 15.349999
+        },
+        {
+          "text": "dulzura",
+          "start": 15.349999,
+          "end": 15.99
+        },
+        {
+          "text": "muy",
+          "start": 15.99,
+          "end": 16.23
+        },
+        {
+          "text": "sabrosa.",
+          "start": 16.23,
+          "end": 17.159998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/014.wav",
+      "seconds": 19.58,
+      "elapsed": 0.9803221,
+      "cleanup_ms": 84.34079999999999,
+      "speech_seconds": 13.536,
+      "chunks": 1,
+      "reference": "si tú no te perdonas cómo has de perdonar perdónate perdón solo perdón perdón tan solo solo perdón fin del poema",
+      "text": "Si tú no te perdonas,¿cómo has de perdonar? Perdónate, perdón, solo perdón, perdón tan solo, solo perdón. Fin del poema.",
+      "tidied": "Si tú no te perdonas, ¿cómo has de perdonar? Perdónate, perdón, solo perdón, perdón tan solo, solo perdón. Fin del poema.",
+      "words": [
+        {
+          "text": "Si",
+          "start": 0.06999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "tú",
+          "start": 0.46999997,
+          "end": 0.71
+        },
+        {
+          "text": "no",
+          "start": 0.71,
+          "end": 0.87
+        },
+        {
+          "text": "te",
+          "start": 0.87,
+          "end": 1.03
+        },
+        {
+          "text": "perdonas,",
+          "start": 1.03,
+          "end": 1.67
+        },
+        {
+          "text": "¿cómo",
+          "start": 1.67,
+          "end": 2.07
+        },
+        {
+          "text": "has",
+          "start": 2.07,
+          "end": 2.31
+        },
+        {
+          "text": "de",
+          "start": 2.31,
+          "end": 2.47
+        },
+        {
+          "text": "perdonar?",
+          "start": 2.47,
+          "end": 3.83
+        },
+        {
+          "text": "Perdónate,",
+          "start": 3.83,
+          "end": 5.5099998
+        },
+        {
+          "text": "perdón,",
+          "start": 5.5099998,
+          "end": 6.39
+        },
+        {
+          "text": "solo",
+          "start": 6.39,
+          "end": 6.87
+        },
+        {
+          "text": "perdón,",
+          "start": 6.87,
+          "end": 7.75
+        },
+        {
+          "text": "perdón",
+          "start": 7.75,
+          "end": 8.389999
+        },
+        {
+          "text": "tan",
+          "start": 8.389999,
+          "end": 8.71
+        },
+        {
+          "text": "solo,",
+          "start": 8.71,
+          "end": 9.67
+        },
+        {
+          "text": "solo",
+          "start": 9.67,
+          "end": 10.23
+        },
+        {
+          "text": "perdón.",
+          "start": 10.23,
+          "end": 11.99
+        },
+        {
+          "text": "Fin",
+          "start": 11.99,
+          "end": 12.389999
+        },
+        {
+          "text": "del",
+          "start": 12.389999,
+          "end": 12.63
+        },
+        {
+          "text": "poema.",
+          "start": 12.63,
+          "end": 13.24
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/015.wav",
+      "seconds": 19.22,
+      "elapsed": 1.4874532999999999,
+      "cleanup_ms": 75.0873,
+      "speech_seconds": 18.996,
+      "chunks": 1,
+      "reference": "la paz viene del fondo del corazón es divino tesoro que en ti dios puso es tesoro de amor esa inquietud interna que te derrite ese anhelo infinito que no se extingue que no se sacia es porque no perdonas",
+      "text": "La paz viene del fondo del corazón, es divino tesoro que en ti Dios puso, es tesoro de amor, esa inquietud interna que te derrite, ese anhelo infinito que no se extingue, que no se sacia, es porque no perdonas.",
+      "tidied": "La paz viene del fondo del corazón, es divino tesoro que en ti Dios puso, es tesoro de amor, esa inquietud interna que te derrite, ese anhelo infinito que no se extingue, que no se sacia, es porque no perdonas.",
+      "words": [
+        {
+          "text": "La",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "text": "paz",
+          "start": 0.39,
+          "end": 1.03
+        },
+        {
+          "text": "viene",
+          "start": 1.03,
+          "end": 1.5899999
+        },
+        {
+          "text": "del",
+          "start": 1.5899999,
+          "end": 1.9099998
+        },
+        {
+          "text": "fondo",
+          "start": 1.9099998,
+          "end": 2.31
+        },
+        {
+          "text": "del",
+          "start": 2.31,
+          "end": 2.55
+        },
+        {
+          "text": "corazón,",
+          "start": 2.55,
+          "end": 3.75
+        },
+        {
+          "text": "es",
+          "start": 3.75,
+          "end": 4.15
+        },
+        {
+          "text": "divino",
+          "start": 4.15,
+          "end": 4.71
+        },
+        {
+          "text": "tesoro",
+          "start": 4.71,
+          "end": 5.27
+        },
+        {
+          "text": "que",
+          "start": 5.27,
+          "end": 5.43
+        },
+        {
+          "text": "en",
+          "start": 5.43,
+          "end": 5.5099998
+        },
+        {
+          "text": "ti",
+          "start": 5.5099998,
+          "end": 5.75
+        },
+        {
+          "text": "Dios",
+          "start": 5.75,
+          "end": 6.1499996
+        },
+        {
+          "text": "puso,",
+          "start": 6.1499996,
+          "end": 6.87
+        },
+        {
+          "text": "es",
+          "start": 6.87,
+          "end": 7.19
+        },
+        {
+          "text": "tesoro",
+          "start": 7.19,
+          "end": 7.75
+        },
+        {
+          "text": "de",
+          "start": 7.75,
+          "end": 7.91
+        },
+        {
+          "text": "amor,",
+          "start": 7.91,
+          "end": 9.59
+        },
+        {
+          "text": "esa",
+          "start": 9.59,
+          "end": 9.99
+        },
+        {
+          "text": "inquietud",
+          "start": 9.99,
+          "end": 10.71
+        },
+        {
+          "text": "interna",
+          "start": 10.71,
+          "end": 11.19
+        },
+        {
+          "text": "que",
+          "start": 11.19,
+          "end": 11.349999
+        },
+        {
+          "text": "te",
+          "start": 11.349999,
+          "end": 11.509999
+        },
+        {
+          "text": "derrite,",
+          "start": 11.509999,
+          "end": 12.549999
+        },
+        {
+          "text": "ese",
+          "start": 12.549999,
+          "end": 12.87
+        },
+        {
+          "text": "anhelo",
+          "start": 12.87,
+          "end": 13.429999
+        },
+        {
+          "text": "infinito",
+          "start": 13.429999,
+          "end": 13.99
+        },
+        {
+          "text": "que",
+          "start": 13.99,
+          "end": 14.23
+        },
+        {
+          "text": "no",
+          "start": 14.23,
+          "end": 14.389999
+        },
+        {
+          "text": "se",
+          "start": 14.389999,
+          "end": 14.549999
+        },
+        {
+          "text": "extingue,",
+          "start": 14.549999,
+          "end": 15.429999
+        },
+        {
+          "text": "que",
+          "start": 15.429999,
+          "end": 15.589999
+        },
+        {
+          "text": "no",
+          "start": 15.589999,
+          "end": 15.75
+        },
+        {
+          "text": "se",
+          "start": 15.75,
+          "end": 16.07
+        },
+        {
+          "text": "sacia,",
+          "start": 16.07,
+          "end": 17.109999
+        },
+        {
+          "text": "es",
+          "start": 17.109999,
+          "end": 17.35
+        },
+        {
+          "text": "porque",
+          "start": 17.35,
+          "end": 17.75
+        },
+        {
+          "text": "no",
+          "start": 17.75,
+          "end": 17.99
+        },
+        {
+          "text": "perdonas.",
+          "start": 17.99,
+          "end": 18.679998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/016.wav",
+      "seconds": 19.45,
+      "elapsed": 1.5141499999999999,
+      "cleanup_ms": 84.1576,
+      "speech_seconds": 19.226,
+      "chunks": 1,
+      "reference": "ni tu deber alegues hay un deber tan solo y es el perdón perdón es sacrificio del que perdona es gracia don divino del que el perdón recibe es gracia y sacrificio fruto de amor de amor no de justicia de caridad",
+      "text": "Ni tu deber alegues, hay un deber tan solo, y es el perdón. Perdón es sacrificio del que perdona. Es gracia, don divino, del que el perdón recibe. Es gracia y sacrificio, fruto de amor, de amor, no de justicia, de caridad.",
+      "tidied": "Ni tu deber alegues, hay un deber tan solo, y es el perdón. Perdón es sacrificio del que perdona. Es gracia, don divino, del que el perdón recibe. Es gracia y sacrificio, fruto de amor, de amor, no de justicia, de caridad.",
+      "words": [
+        {
+          "text": "Ni",
+          "start": 0.06999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "tu",
+          "start": 0.46999997,
+          "end": 0.63
+        },
+        {
+          "text": "deber",
+          "start": 0.63,
+          "end": 0.9499999
+        },
+        {
+          "text": "alegues,",
+          "start": 0.9499999,
+          "end": 1.75
+        },
+        {
+          "text": "hay",
+          "start": 1.75,
+          "end": 1.99
+        },
+        {
+          "text": "un",
+          "start": 1.99,
+          "end": 2.1499999
+        },
+        {
+          "text": "deber",
+          "start": 2.1499999,
+          "end": 2.55
+        },
+        {
+          "text": "tan",
+          "start": 2.55,
+          "end": 2.79
+        },
+        {
+          "text": "solo,",
+          "start": 2.79,
+          "end": 3.35
+        },
+        {
+          "text": "y",
+          "start": 3.35,
+          "end": 3.51
+        },
+        {
+          "text": "es",
+          "start": 3.51,
+          "end": 3.75
+        },
+        {
+          "text": "el",
+          "start": 3.75,
+          "end": 3.9899998
+        },
+        {
+          "text": "perdón.",
+          "start": 3.9899998,
+          "end": 5.27
+        },
+        {
+          "text": "Perdón",
+          "start": 5.27,
+          "end": 5.91
+        },
+        {
+          "text": "es",
+          "start": 5.91,
+          "end": 6.23
+        },
+        {
+          "text": "sacrificio",
+          "start": 6.23,
+          "end": 6.95
+        },
+        {
+          "text": "del",
+          "start": 6.95,
+          "end": 7.19
+        },
+        {
+          "text": "que",
+          "start": 7.19,
+          "end": 7.43
+        },
+        {
+          "text": "perdona.",
+          "start": 7.43,
+          "end": 8.309999
+        },
+        {
+          "text": "Es",
+          "start": 8.309999,
+          "end": 8.63
+        },
+        {
+          "text": "gracia,",
+          "start": 8.63,
+          "end": 9.349999
+        },
+        {
+          "text": "don",
+          "start": 9.349999,
+          "end": 9.75
+        },
+        {
+          "text": "divino,",
+          "start": 9.75,
+          "end": 10.389999
+        },
+        {
+          "text": "del",
+          "start": 10.389999,
+          "end": 10.63
+        },
+        {
+          "text": "que",
+          "start": 10.63,
+          "end": 10.79
+        },
+        {
+          "text": "el",
+          "start": 10.79,
+          "end": 10.95
+        },
+        {
+          "text": "perdón",
+          "start": 10.95,
+          "end": 11.429999
+        },
+        {
+          "text": "recibe.",
+          "start": 11.429999,
+          "end": 12.549999
+        },
+        {
+          "text": "Es",
+          "start": 12.549999,
+          "end": 12.87
+        },
+        {
+          "text": "gracia",
+          "start": 12.87,
+          "end": 13.349999
+        },
+        {
+          "text": "y",
+          "start": 13.349999,
+          "end": 13.59
+        },
+        {
+          "text": "sacrificio,",
+          "start": 13.59,
+          "end": 14.389999
+        },
+        {
+          "text": "fruto",
+          "start": 14.389999,
+          "end": 14.79
+        },
+        {
+          "text": "de",
+          "start": 14.79,
+          "end": 14.95
+        },
+        {
+          "text": "amor,",
+          "start": 14.95,
+          "end": 15.75
+        },
+        {
+          "text": "de",
+          "start": 15.75,
+          "end": 15.99
+        },
+        {
+          "text": "amor,",
+          "start": 15.99,
+          "end": 16.55
+        },
+        {
+          "text": "no",
+          "start": 16.55,
+          "end": 16.869999
+        },
+        {
+          "text": "de",
+          "start": 16.869999,
+          "end": 17.029999
+        },
+        {
+          "text": "justicia,",
+          "start": 17.029999,
+          "end": 18.07
+        },
+        {
+          "text": "de",
+          "start": 18.07,
+          "end": 18.23
+        },
+        {
+          "text": "caridad.",
+          "start": 18.23,
+          "end": 18.759998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/017.wav",
+      "seconds": 16.86,
+      "elapsed": 1.258856,
+      "cleanup_ms": 72.097,
+      "speech_seconds": 16.448,
+      "chunks": 1,
+      "reference": "mira mi pobre amigo mi fiel creyente al ver morir tus ojos que me miran al ver cristalizarse tu mirada antes fluída yo también te pregunto á dónde vamos",
+      "text": "Mira, mi pobre amigo, mi fiel creyente, al ver morir tus ojos que me miran, al ver cristalizarse tu mirada, antes fluida, yo también te pregunto,¿a dónde vamos?",
+      "tidied": "Mira, mi pobre amigo, mi fiel creyente, al ver morir tus ojos que me miran, al ver cristalizarse tu mirada, antes fluida, yo también te pregunto, ¿a dónde vamos?",
+      "words": [
+        {
+          "text": "Mira,",
+          "start": 0.06999999,
+          "end": 0.9499999
+        },
+        {
+          "text": "mi",
+          "start": 0.9499999,
+          "end": 1.27
+        },
+        {
+          "text": "pobre",
+          "start": 1.27,
+          "end": 1.67
+        },
+        {
+          "text": "amigo,",
+          "start": 1.67,
+          "end": 2.31
+        },
+        {
+          "text": "mi",
+          "start": 2.31,
+          "end": 2.47
+        },
+        {
+          "text": "fiel",
+          "start": 2.47,
+          "end": 2.9499998
+        },
+        {
+          "text": "creyente,",
+          "start": 2.9499998,
+          "end": 3.9899998
+        },
+        {
+          "text": "al",
+          "start": 3.9899998,
+          "end": 4.31
+        },
+        {
+          "text": "ver",
+          "start": 4.31,
+          "end": 4.63
+        },
+        {
+          "text": "morir",
+          "start": 4.63,
+          "end": 5.19
+        },
+        {
+          "text": "tus",
+          "start": 5.19,
+          "end": 5.43
+        },
+        {
+          "text": "ojos",
+          "start": 5.43,
+          "end": 5.83
+        },
+        {
+          "text": "que",
+          "start": 5.83,
+          "end": 5.99
+        },
+        {
+          "text": "me",
+          "start": 5.99,
+          "end": 6.23
+        },
+        {
+          "text": "miran,",
+          "start": 6.23,
+          "end": 7.1099997
+        },
+        {
+          "text": "al",
+          "start": 7.1099997,
+          "end": 7.43
+        },
+        {
+          "text": "ver",
+          "start": 7.43,
+          "end": 7.75
+        },
+        {
+          "text": "cristalizarse",
+          "start": 7.75,
+          "end": 8.87
+        },
+        {
+          "text": "tu",
+          "start": 8.87,
+          "end": 9.03
+        },
+        {
+          "text": "mirada,",
+          "start": 9.03,
+          "end": 9.99
+        },
+        {
+          "text": "antes",
+          "start": 9.99,
+          "end": 10.55
+        },
+        {
+          "text": "fluida,",
+          "start": 10.55,
+          "end": 11.59
+        },
+        {
+          "text": "yo",
+          "start": 11.59,
+          "end": 11.99
+        },
+        {
+          "text": "también",
+          "start": 11.99,
+          "end": 12.469999
+        },
+        {
+          "text": "te",
+          "start": 12.469999,
+          "end": 12.71
+        },
+        {
+          "text": "pregunto,",
+          "start": 12.71,
+          "end": 13.99
+        },
+        {
+          "text": "¿a",
+          "start": 13.99,
+          "end": 14.469999
+        },
+        {
+          "text": "dónde",
+          "start": 14.469999,
+          "end": 15.19
+        },
+        {
+          "text": "vamos?",
+          "start": 15.19,
+          "end": 15.879999
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/018.wav",
+      "seconds": 10.47,
+      "elapsed": 0.7025325,
+      "cleanup_ms": 43.4942,
+      "speech_seconds": 9.99,
+      "chunks": 1,
+      "reference": "tribunal no levantes dentro de tu alma mantenla pura no te juzgues en juicio oye a tus ansias ansias de paz",
+      "text": "Tribunal no levantes dentro de tu alma. Manténla pura. No te juzgues en juicio. Oye a tus ansia, ansia de paz.",
+      "tidied": "Tribunal no levantes dentro de tu alma. Manténla pura. No te juzgues en juicio. Oye a tus ansia, ansia de paz.",
+      "words": [
+        {
+          "text": "Tribunal",
+          "start": 0.14999998,
+          "end": 0.87
+        },
+        {
+          "text": "no",
+          "start": 0.87,
+          "end": 1.03
+        },
+        {
+          "text": "levantes",
+          "start": 1.03,
+          "end": 1.75
+        },
+        {
+          "text": "dentro",
+          "start": 1.75,
+          "end": 2.1499999
+        },
+        {
+          "text": "de",
+          "start": 2.1499999,
+          "end": 2.31
+        },
+        {
+          "text": "tu",
+          "start": 2.31,
+          "end": 2.55
+        },
+        {
+          "text": "alma.",
+          "start": 2.55,
+          "end": 3.27
+        },
+        {
+          "text": "Manténla",
+          "start": 3.27,
+          "end": 4.0699997
+        },
+        {
+          "text": "pura.",
+          "start": 4.0699997,
+          "end": 4.79
+        },
+        {
+          "text": "No",
+          "start": 4.79,
+          "end": 4.95
+        },
+        {
+          "text": "te",
+          "start": 4.95,
+          "end": 5.19
+        },
+        {
+          "text": "juzgues",
+          "start": 5.19,
+          "end": 5.83
+        },
+        {
+          "text": "en",
+          "start": 5.83,
+          "end": 6.0699997
+        },
+        {
+          "text": "juicio.",
+          "start": 6.0699997,
+          "end": 6.95
+        },
+        {
+          "text": "Oye",
+          "start": 6.95,
+          "end": 7.5099998
+        },
+        {
+          "text": "a",
+          "start": 7.5099998,
+          "end": 7.5899997
+        },
+        {
+          "text": "tus",
+          "start": 7.5899997,
+          "end": 7.83
+        },
+        {
+          "text": "ansia,",
+          "start": 7.83,
+          "end": 8.55
+        },
+        {
+          "text": "ansia",
+          "start": 8.55,
+          "end": 9.11
+        },
+        {
+          "text": "de",
+          "start": 9.11,
+          "end": 9.2699995
+        },
+        {
+          "text": "paz.",
+          "start": 9.2699995,
+          "end": 9.8
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/019.wav",
+      "seconds": 18.38,
+      "elapsed": 1.3630551,
+      "cleanup_ms": 79.4971,
+      "speech_seconds": 18.016,
+      "chunks": 1,
+      "reference": "el otro mundo el otro mundo es el del puro espíritu del espíritu puro oh terrible pureza inanidad vacío no volveré á encontrarte manso amigo serás allí un recuerdo recuerdo puro",
+      "text": "El otro mundo, el otro mundo es el del puro espíritu, del espíritu puro. Oh terrible pureza, inanidad, vacío, no volveré a encontrarte manso amigo, serás allí un recuerdo, recuerdo puro.",
+      "tidied": "El otro mundo, el otro mundo es el del puro espíritu, del espíritu puro. Oh terrible pureza, inanidad, vacío, no volveré a encontrarte manso amigo, serás allí un recuerdo, recuerdo puro.",
+      "words": [
+        {
+          "text": "El",
+          "start": 0.14999998,
+          "end": 0.54999995
+        },
+        {
+          "text": "otro",
+          "start": 0.54999995,
+          "end": 0.9499999
+        },
+        {
+          "text": "mundo,",
+          "start": 0.9499999,
+          "end": 1.75
+        },
+        {
+          "text": "el",
+          "start": 1.75,
+          "end": 1.99
+        },
+        {
+          "text": "otro",
+          "start": 1.99,
+          "end": 2.31
+        },
+        {
+          "text": "mundo",
+          "start": 2.31,
+          "end": 2.55
+        },
+        {
+          "text": "es",
+          "start": 2.55,
+          "end": 2.71
+        },
+        {
+          "text": "el",
+          "start": 2.71,
+          "end": 2.9499998
+        },
+        {
+          "text": "del",
+          "start": 2.9499998,
+          "end": 3.1899998
+        },
+        {
+          "text": "puro",
+          "start": 3.1899998,
+          "end": 3.59
+        },
+        {
+          "text": "espíritu,",
+          "start": 3.59,
+          "end": 4.63
+        },
+        {
+          "text": "del",
+          "start": 4.63,
+          "end": 4.95
+        },
+        {
+          "text": "espíritu",
+          "start": 4.95,
+          "end": 5.67
+        },
+        {
+          "text": "puro.",
+          "start": 5.67,
+          "end": 6.79
+        },
+        {
+          "text": "Oh",
+          "start": 6.79,
+          "end": 7.35
+        },
+        {
+          "text": "terrible",
+          "start": 7.35,
+          "end": 7.99
+        },
+        {
+          "text": "pureza,",
+          "start": 7.99,
+          "end": 8.71
+        },
+        {
+          "text": "inanidad,",
+          "start": 8.71,
+          "end": 9.83
+        },
+        {
+          "text": "vacío,",
+          "start": 9.83,
+          "end": 11.2699995
+        },
+        {
+          "text": "no",
+          "start": 11.2699995,
+          "end": 11.59
+        },
+        {
+          "text": "volveré",
+          "start": 11.59,
+          "end": 12.07
+        },
+        {
+          "text": "a",
+          "start": 12.07,
+          "end": 12.23
+        },
+        {
+          "text": "encontrarte",
+          "start": 12.23,
+          "end": 13.03
+        },
+        {
+          "text": "manso",
+          "start": 13.03,
+          "end": 13.67
+        },
+        {
+          "text": "amigo,",
+          "start": 13.67,
+          "end": 14.63
+        },
+        {
+          "text": "serás",
+          "start": 14.63,
+          "end": 15.19
+        },
+        {
+          "text": "allí",
+          "start": 15.19,
+          "end": 15.509999
+        },
+        {
+          "text": "un",
+          "start": 15.509999,
+          "end": 15.67
+        },
+        {
+          "text": "recuerdo,",
+          "start": 15.67,
+          "end": 16.55
+        },
+        {
+          "text": "recuerdo",
+          "start": 16.55,
+          "end": 17.19
+        },
+        {
+          "text": "puro.",
+          "start": 17.19,
+          "end": 17.72
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/020.wav",
+      "seconds": 16.89,
+      "elapsed": 1.1897026,
+      "cleanup_ms": 67.5499,
+      "speech_seconds": 15.808,
+      "chunks": 1,
+      "reference": "se fueron a moisés llenos de angustia confesaron su falta moisés oró al señor y a su mandado una serpiente de metal les labra y ante el pueblo rendido sereno la levanta",
+      "text": "Se fueron a Moisés llenos de angustia, confesaron su falta. Moisés oró al Señor, y a su mandado una serpiente de metal les labra, y ante el pueblo rendido, sereno, la levanta.",
+      "tidied": "Se fueron a Moisés llenos de angustia, confesaron su falta. Moisés oró al Señor, y a su mandado una serpiente de metal les labra, y ante el pueblo rendido, sereno, la levanta.",
+      "words": [
+        {
+          "text": "Se",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "fueron",
+          "start": 0.39,
+          "end": 0.78999996
+        },
+        {
+          "text": "a",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "Moisés",
+          "start": 0.9499999,
+          "end": 1.51
+        },
+        {
+          "text": "llenos",
+          "start": 1.51,
+          "end": 1.99
+        },
+        {
+          "text": "de",
+          "start": 1.99,
+          "end": 2.1499999
+        },
+        {
+          "text": "angustia,",
+          "start": 2.1499999,
+          "end": 2.9499998
+        },
+        {
+          "text": "confesaron",
+          "start": 2.9499998,
+          "end": 3.75
+        },
+        {
+          "text": "su",
+          "start": 3.75,
+          "end": 3.9099998
+        },
+        {
+          "text": "falta.",
+          "start": 3.9099998,
+          "end": 4.87
+        },
+        {
+          "text": "Moisés",
+          "start": 4.87,
+          "end": 5.5099998
+        },
+        {
+          "text": "oró",
+          "start": 5.5099998,
+          "end": 5.99
+        },
+        {
+          "text": "al",
+          "start": 5.99,
+          "end": 6.23
+        },
+        {
+          "text": "Señor,",
+          "start": 6.23,
+          "end": 7.19
+        },
+        {
+          "text": "y",
+          "start": 7.19,
+          "end": 7.5099998
+        },
+        {
+          "text": "a",
+          "start": 7.5099998,
+          "end": 7.6699996
+        },
+        {
+          "text": "su",
+          "start": 7.6699996,
+          "end": 7.91
+        },
+        {
+          "text": "mandado",
+          "start": 7.91,
+          "end": 8.389999
+        },
+        {
+          "text": "una",
+          "start": 8.389999,
+          "end": 8.63
+        },
+        {
+          "text": "serpiente",
+          "start": 8.63,
+          "end": 9.19
+        },
+        {
+          "text": "de",
+          "start": 9.19,
+          "end": 9.349999
+        },
+        {
+          "text": "metal",
+          "start": 9.349999,
+          "end": 9.75
+        },
+        {
+          "text": "les",
+          "start": 9.75,
+          "end": 9.99
+        },
+        {
+          "text": "labra,",
+          "start": 9.99,
+          "end": 10.95
+        },
+        {
+          "text": "y",
+          "start": 10.95,
+          "end": 11.19
+        },
+        {
+          "text": "ante",
+          "start": 11.19,
+          "end": 11.509999
+        },
+        {
+          "text": "el",
+          "start": 11.509999,
+          "end": 11.67
+        },
+        {
+          "text": "pueblo",
+          "start": 11.67,
+          "end": 12.15
+        },
+        {
+          "text": "rendido,",
+          "start": 12.15,
+          "end": 13.2699995
+        },
+        {
+          "text": "sereno,",
+          "start": 13.2699995,
+          "end": 14.469999
+        },
+        {
+          "text": "la",
+          "start": 14.469999,
+          "end": 14.79
+        },
+        {
+          "text": "levanta.",
+          "start": 14.79,
+          "end": 15.48
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/021.wav",
+      "seconds": 12.51,
+      "elapsed": 0.8490129,
+      "cleanup_ms": 51.3544,
+      "speech_seconds": 12.158,
+      "chunks": 1,
+      "reference": "mis ojos fueron para ti ventana del otro mundo si supieras mi perro que triste está tu dios porque te has muerto también tu dios se morirá algún día",
+      "text": "Mis ojos fueron para ti ventana del otro mundo. Si supieras, mi perro, que triste está tu Dios porque te has muerto. También tu Dios se morirá algún día.",
+      "tidied": "Mis ojos fueron para ti ventana del otro mundo. Si supieras, mi perro, que triste está tu Dios porque te has muerto. También tu Dios se morirá algún día.",
+      "words": [
+        {
+          "text": "Mis",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "text": "ojos",
+          "start": 0.39,
+          "end": 0.78999996
+        },
+        {
+          "text": "fueron",
+          "start": 0.78999996,
+          "end": 1.1899999
+        },
+        {
+          "text": "para",
+          "start": 1.1899999,
+          "end": 1.3499999
+        },
+        {
+          "text": "ti",
+          "start": 1.3499999,
+          "end": 1.75
+        },
+        {
+          "text": "ventana",
+          "start": 1.75,
+          "end": 2.3899999
+        },
+        {
+          "text": "del",
+          "start": 2.3899999,
+          "end": 2.6299999
+        },
+        {
+          "text": "otro",
+          "start": 2.6299999,
+          "end": 2.9499998
+        },
+        {
+          "text": "mundo.",
+          "start": 2.9499998,
+          "end": 3.9099998
+        },
+        {
+          "text": "Si",
+          "start": 3.9099998,
+          "end": 4.23
+        },
+        {
+          "text": "supieras,",
+          "start": 4.23,
+          "end": 5.0299997
+        },
+        {
+          "text": "mi",
+          "start": 5.0299997,
+          "end": 5.27
+        },
+        {
+          "text": "perro,",
+          "start": 5.27,
+          "end": 6.0699997
+        },
+        {
+          "text": "que",
+          "start": 6.0699997,
+          "end": 6.39
+        },
+        {
+          "text": "triste",
+          "start": 6.39,
+          "end": 6.95
+        },
+        {
+          "text": "está",
+          "start": 6.95,
+          "end": 7.27
+        },
+        {
+          "text": "tu",
+          "start": 7.27,
+          "end": 7.5099998
+        },
+        {
+          "text": "Dios",
+          "start": 7.5099998,
+          "end": 7.91
+        },
+        {
+          "text": "porque",
+          "start": 7.91,
+          "end": 8.15
+        },
+        {
+          "text": "te",
+          "start": 8.15,
+          "end": 8.389999
+        },
+        {
+          "text": "has",
+          "start": 8.389999,
+          "end": 8.63
+        },
+        {
+          "text": "muerto.",
+          "start": 8.63,
+          "end": 9.59
+        },
+        {
+          "text": "También",
+          "start": 9.59,
+          "end": 10.15
+        },
+        {
+          "text": "tu",
+          "start": 10.15,
+          "end": 10.309999
+        },
+        {
+          "text": "Dios",
+          "start": 10.309999,
+          "end": 10.55
+        },
+        {
+          "text": "se",
+          "start": 10.55,
+          "end": 10.79
+        },
+        {
+          "text": "morirá",
+          "start": 10.79,
+          "end": 11.19
+        },
+        {
+          "text": "algún",
+          "start": 11.19,
+          "end": 11.509999
+        },
+        {
+          "text": "día.",
+          "start": 11.509999,
+          "end": 11.88
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/022.wav",
+      "seconds": 12.32,
+      "elapsed": 0.8322405,
+      "cleanup_ms": 53.436499999999995,
+      "speech_seconds": 11.584,
+      "chunks": 1,
+      "reference": "sabes lo que es sentir tus pensamientos agitarse en la sombra por debajo y no verles los ojos ni de su voz sentir el dulce llanto",
+      "text": "Sabes lo que es sentir tus pensamientos agitarse en la sombra, por debajo, y no verles los ojos, ni de su voz sentir el dulce llanto.",
+      "tidied": "Sabes lo que es sentir tus pensamientos agitarse en la sombra, por debajo, y no verles los ojos, ni de su voz sentir el dulce llanto.",
+      "words": [
+        {
+          "text": "Sabes",
+          "start": 0.14999998,
+          "end": 1.03
+        },
+        {
+          "text": "lo",
+          "start": 1.03,
+          "end": 1.27
+        },
+        {
+          "text": "que",
+          "start": 1.27,
+          "end": 1.3499999
+        },
+        {
+          "text": "es",
+          "start": 1.3499999,
+          "end": 1.5899999
+        },
+        {
+          "text": "sentir",
+          "start": 1.5899999,
+          "end": 2.07
+        },
+        {
+          "text": "tus",
+          "start": 2.07,
+          "end": 2.31
+        },
+        {
+          "text": "pensamientos",
+          "start": 2.31,
+          "end": 3.03
+        },
+        {
+          "text": "agitarse",
+          "start": 3.03,
+          "end": 3.9099998
+        },
+        {
+          "text": "en",
+          "start": 3.9099998,
+          "end": 4.0699997
+        },
+        {
+          "text": "la",
+          "start": 4.0699997,
+          "end": 4.23
+        },
+        {
+          "text": "sombra,",
+          "start": 4.23,
+          "end": 5.1099997
+        },
+        {
+          "text": "por",
+          "start": 5.1099997,
+          "end": 5.35
+        },
+        {
+          "text": "debajo,",
+          "start": 5.35,
+          "end": 6.23
+        },
+        {
+          "text": "y",
+          "start": 6.23,
+          "end": 6.47
+        },
+        {
+          "text": "no",
+          "start": 6.47,
+          "end": 6.79
+        },
+        {
+          "text": "verles",
+          "start": 6.79,
+          "end": 7.35
+        },
+        {
+          "text": "los",
+          "start": 7.35,
+          "end": 7.5899997
+        },
+        {
+          "text": "ojos,",
+          "start": 7.5899997,
+          "end": 8.23
+        },
+        {
+          "text": "ni",
+          "start": 8.23,
+          "end": 8.55
+        },
+        {
+          "text": "de",
+          "start": 8.55,
+          "end": 8.79
+        },
+        {
+          "text": "su",
+          "start": 8.79,
+          "end": 8.95
+        },
+        {
+          "text": "voz",
+          "start": 8.95,
+          "end": 9.429999
+        },
+        {
+          "text": "sentir",
+          "start": 9.429999,
+          "end": 9.91
+        },
+        {
+          "text": "el",
+          "start": 9.91,
+          "end": 10.07
+        },
+        {
+          "text": "dulce",
+          "start": 10.07,
+          "end": 10.63
+        },
+        {
+          "text": "llanto.",
+          "start": 10.63,
+          "end": 11.24
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/023.wav",
+      "seconds": 11.58,
+      "elapsed": 0.7892324,
+      "cleanup_ms": 48.249,
+      "speech_seconds": 11.232,
+      "chunks": 1,
+      "reference": "calla que hay otro mundo por dentro del que vemos un mundo en el que tejen las tinieblas y es todo cielo tres",
+      "text": "Calla, que hay otro mundo por dentro del que vemos, un mundo en el que tejen las tinieblas y es todo cielo.",
+      "tidied": "Calla, que hay otro mundo por dentro del que vemos, un mundo en el que tejen las tinieblas y es todo cielo.",
+      "words": [
+        {
+          "text": "Calla,",
+          "start": 0.14999998,
+          "end": 1.03
+        },
+        {
+          "text": "que",
+          "start": 1.03,
+          "end": 1.27
+        },
+        {
+          "text": "hay",
+          "start": 1.27,
+          "end": 1.5899999
+        },
+        {
+          "text": "otro",
+          "start": 1.5899999,
+          "end": 1.8299999
+        },
+        {
+          "text": "mundo",
+          "start": 1.8299999,
+          "end": 2.23
+        },
+        {
+          "text": "por",
+          "start": 2.23,
+          "end": 2.3899999
+        },
+        {
+          "text": "dentro",
+          "start": 2.3899999,
+          "end": 2.79
+        },
+        {
+          "text": "del",
+          "start": 2.79,
+          "end": 3.03
+        },
+        {
+          "text": "que",
+          "start": 3.03,
+          "end": 3.1899998
+        },
+        {
+          "text": "vemos,",
+          "start": 3.1899998,
+          "end": 4.23
+        },
+        {
+          "text": "un",
+          "start": 4.23,
+          "end": 4.5499997
+        },
+        {
+          "text": "mundo",
+          "start": 4.5499997,
+          "end": 4.87
+        },
+        {
+          "text": "en",
+          "start": 4.87,
+          "end": 5.0299997
+        },
+        {
+          "text": "el",
+          "start": 5.0299997,
+          "end": 5.19
+        },
+        {
+          "text": "que",
+          "start": 5.19,
+          "end": 5.43
+        },
+        {
+          "text": "tejen",
+          "start": 5.43,
+          "end": 6.0699997
+        },
+        {
+          "text": "las",
+          "start": 6.0699997,
+          "end": 6.23
+        },
+        {
+          "text": "tinieblas",
+          "start": 6.23,
+          "end": 7.43
+        },
+        {
+          "text": "y",
+          "start": 7.43,
+          "end": 7.75
+        },
+        {
+          "text": "es",
+          "start": 7.75,
+          "end": 8.07
+        },
+        {
+          "text": "todo",
+          "start": 8.07,
+          "end": 8.71
+        },
+        {
+          "text": "cielo.",
+          "start": 8.71,
+          "end": 9.8
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/024.wav",
+      "seconds": 13.68,
+      "elapsed": 0.9589687,
+      "cleanup_ms": 53.022600000000004,
+      "speech_seconds": 13.376,
+      "chunks": 1,
+      "reference": "un día más que fue lo sabes pero vendrá mañana y no será otro día te aseguro pues en nuestra alma todos los días son un solo día",
+      "text": "Un día más que fue, lo sabes, pero vendrá mañana, y no ser otro día, te aseguro, pues en nuestra alma todos los días son un solo día.",
+      "tidied": "Un día más que fue, lo sabes, pero vendrá mañana, y no ser otro día, te aseguro, pues en nuestra alma todos los días son un solo día.",
+      "words": [
+        {
+          "text": "Un",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "día",
+          "start": 0.39,
+          "end": 0.78999996
+        },
+        {
+          "text": "más",
+          "start": 0.78999996,
+          "end": 1.03
+        },
+        {
+          "text": "que",
+          "start": 1.03,
+          "end": 1.27
+        },
+        {
+          "text": "fue,",
+          "start": 1.27,
+          "end": 1.9099998
+        },
+        {
+          "text": "lo",
+          "start": 1.9099998,
+          "end": 2.1499999
+        },
+        {
+          "text": "sabes,",
+          "start": 2.1499999,
+          "end": 3.27
+        },
+        {
+          "text": "pero",
+          "start": 3.27,
+          "end": 3.6699998
+        },
+        {
+          "text": "vendrá",
+          "start": 3.6699998,
+          "end": 4.23
+        },
+        {
+          "text": "mañana,",
+          "start": 4.23,
+          "end": 5.35
+        },
+        {
+          "text": "y",
+          "start": 5.35,
+          "end": 5.5899997
+        },
+        {
+          "text": "no",
+          "start": 5.5899997,
+          "end": 5.83
+        },
+        {
+          "text": "ser",
+          "start": 5.83,
+          "end": 6.23
+        },
+        {
+          "text": "otro",
+          "start": 6.23,
+          "end": 6.47
+        },
+        {
+          "text": "día,",
+          "start": 6.47,
+          "end": 6.95
+        },
+        {
+          "text": "te",
+          "start": 6.95,
+          "end": 7.19
+        },
+        {
+          "text": "aseguro,",
+          "start": 7.19,
+          "end": 8.47
+        },
+        {
+          "text": "pues",
+          "start": 8.47,
+          "end": 8.87
+        },
+        {
+          "text": "en",
+          "start": 8.87,
+          "end": 9.11
+        },
+        {
+          "text": "nuestra",
+          "start": 9.11,
+          "end": 9.51
+        },
+        {
+          "text": "alma",
+          "start": 9.51,
+          "end": 10.23
+        },
+        {
+          "text": "todos",
+          "start": 10.23,
+          "end": 10.71
+        },
+        {
+          "text": "los",
+          "start": 10.71,
+          "end": 10.95
+        },
+        {
+          "text": "días",
+          "start": 10.95,
+          "end": 11.67
+        },
+        {
+          "text": "son",
+          "start": 11.67,
+          "end": 12.07
+        },
+        {
+          "text": "un",
+          "start": 12.07,
+          "end": 12.309999
+        },
+        {
+          "text": "solo",
+          "start": 12.309999,
+          "end": 12.63
+        },
+        {
+          "text": "día.",
+          "start": 12.63,
+          "end": 13.16
+        }
+      ]
+    }
+  ]
+}

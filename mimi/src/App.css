@@ -1,0 +1,1009 @@
+/* The Stage design: an angular, bright poster with Mimi in the center. */
+:root {
+  --ground: #e6e8ec;
+  --dots: #c4c7ce;
+  --ink: #1e1d24;
+  --muted: #565963;
+  --line: #a9adb6;
+  --panel: #f7f8fa;
+  --coral: #ff8f96;
+  --wordmark: #f2606b;
+  --alert: #a81f2c;
+  /* Text on dark fills, on the coral button and on the red delete button. */
+  --on-ink: #ffffff;
+  --on-coral: #1e1d24;
+  --on-alert: #ffffff;
+  /* The neon poster: hollow glowing letters, a band with fine screen lines and neon edges. */
+  --neon: #f2406f;
+  --neon-glow: rgba(242, 64, 111, 0.45);
+  --band-fill:
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.12) 0 1px, transparent 1px 4px),
+    #ff8f96;
+  --shadow: #f2406f;
+  --shadow-strength: 0.22;
+  --shadow-blur: 0px;
+  color-scheme: light;
+  --display: "Oxanium Variable", "Segoe UI", sans-serif;
+  --body: "Manrope Variable", "Segoe UI", "Yu Gothic UI", "Hiragino Sans", sans-serif;
+  font-family: var(--body);
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--ground);
+}
+
+/* Dark mode: a dark plum, never black, that picks up the pink in Mimi's outfit. */
+:root[data-theme="dark"] {
+  --ground: #2b2231;
+  --dots: #3d3244;
+  --ink: #f3ecf4;
+  --muted: #bcadc1;
+  --line: #64546d;
+  --panel: #362c3d;
+  --coral: #ff8f96;
+  --wordmark: #f2606b;
+  --alert: #ff8a94;
+  --on-ink: #1e1d24;
+  --on-coral: #1e1d24;
+  --on-alert: #1e1d24;
+  --neon: #ff4fa3;
+  --neon-glow: rgba(255, 79, 163, 0.7);
+  --band-fill:
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 4px),
+    linear-gradient(180deg, #4a1a4a 0%, #24122b 100%);
+  --shadow: #ff4fa3;
+  --shadow-strength: 0.35;
+  --shadow-blur: 6px;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 44px minmax(0, 1fr);
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--ground);
+  background-image: radial-gradient(var(--dots) 1px, transparent 1px);
+  background-size: 28px 28px;
+  /* One unit for the whole poster, so Mimi, the band and the word grow together and never
+     run into the side columns. */
+  --poster: min(calc(100vh - 44px), calc((100vw - 650px) / 0.7738));
+}
+
+.titlebar {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  background: var(--ground);
+  border-bottom: 1px solid var(--dots);
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  user-select: none;
+}
+
+.brand-name {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/* 耳, "mimi", beside her name, in the same coral as the big kanji. */
+.brand-kana {
+  font-family: "Yu Gothic UI", "Yu Gothic", "Hiragino Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--wordmark);
+}
+
+.window-buttons {
+  display: flex;
+}
+
+.window-buttons button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 43px;
+}
+
+.window-buttons button:hover {
+  background: var(--dots);
+}
+
+.window-buttons button:focus-visible {
+  outline-offset: -4px;
+}
+
+.columns {
+  display: grid;
+  /* The right column grows a little on big or maximized windows. */
+  grid-template-columns: 230px minmax(0, 1fr) clamp(420px, 28vw, 560px);
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Left column */
+.side {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  min-width: 0;
+  min-height: 0;
+  padding: 40px 0 24px 24px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nav button {
+  height: 46px;
+  padding: 0 18px;
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: left;
+}
+
+.nav button:hover {
+  background: var(--dots);
+}
+
+.nav button[aria-current="page"] {
+  background: var(--ink);
+  color: var(--on-ink);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
+}
+
+.nav button:focus-visible {
+  outline-offset: -4px;
+}
+
+.nav button[aria-current="page"]:focus-visible {
+  outline-color: var(--on-ink);
+}
+
+.side-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Light or dark, like a phone switch: the knob slides toward the sun or the moon. */
+.theme-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  align-self: flex-start;
+  padding: 4px 0;
+  color: var(--muted);
+}
+
+.theme-switch .icon {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  transition: color 200ms ease, transform 300ms ease;
+}
+
+.theme-switch .icon.on {
+  color: var(--ink);
+  transform: scale(1.1);
+}
+
+.theme-track {
+  position: relative;
+  width: 52px;
+  height: 30px;
+  border-radius: 15px;
+  background: var(--line);
+  transition: background-color 250ms ease;
+}
+
+.theme-switch[aria-checked="true"] .theme-track {
+  background: var(--wordmark);
+}
+
+.theme-knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 280ms cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+
+.theme-switch[aria-checked="true"] .theme-knob {
+  transform: translateX(22px);
+}
+
+.theme-switch:focus-visible {
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-knob,
+  .theme-track,
+  .theme-switch .icon {
+    transition: none;
+  }
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+  font-family: var(--display);
+}
+
+.facts dt {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+}
+
+.facts dd {
+  margin: 2px 0 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* The stage */
+.stage {
+  position: relative;
+  min-width: 0;
+}
+
+.band {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: calc(var(--poster) * 0.3968);
+  transform: translateX(-50%);
+  background: var(--band-fill);
+  box-shadow: -2px 0 0 var(--neon), 2px 0 0 var(--neon), 0 0 26px var(--neon-glow);
+}
+
+/* "mimi" in lowercase, like her logo and her top, in hollow neon letters. */
+.word {
+  position: absolute;
+  top: calc(var(--poster) * 0.02);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--display);
+  font-size: calc(var(--poster) * 0.31);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0;
+  color: transparent;
+  -webkit-text-stroke: 3px var(--neon);
+  text-shadow: 0 0 20px var(--neon-glow);
+  white-space: nowrap;
+  user-select: none;
+}
+
+/* 耳, "mimi", which also means "ear": Mimi's name in kanji, in the empty space to her left. */
+.kana-mark {
+  position: absolute;
+  top: calc(var(--poster) * 0.55);
+  left: calc((50% - var(--poster) * 0.1984) / 2);
+  transform: translateX(-50%);
+  writing-mode: vertical-rl;
+  font-family: "Yu Gothic UI", "Yu Gothic", "Meiryo", "Hiragino Sans", sans-serif;
+  font-size: calc(var(--poster) * 0.19);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  color: var(--neon);
+  text-shadow: 0 0 16px var(--neon-glow);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.kana-mark small {
+  display: block;
+  margin-top: 0.5em;
+  font-family: var(--display);
+  font-size: calc(var(--poster) * 0.022);
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: var(--muted);
+}
+
+.ring {
+  position: absolute;
+  bottom: calc(var(--poster) * 0.0106);
+  left: 50%;
+  width: calc(var(--poster) * 0.3968);
+  height: calc(var(--poster) * 0.045);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: var(--shadow);
+  opacity: var(--shadow-strength);
+  filter: blur(var(--shadow-blur));
+}
+
+.ring.on {
+  animation: ring 1.2s ease-in-out infinite;
+}
+
+@keyframes ring {
+  0%,
+  100% {
+    opacity: 0.12;
+  }
+  50% {
+    opacity: 0.26;
+  }
+}
+
+.mimi {
+  position: absolute;
+  bottom: calc(var(--poster) * -0.0079);
+  left: 50%;
+  width: auto;
+  height: calc(var(--poster) * 0.9735);
+  transform: translateX(-50%);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.mimi-live {
+  position: absolute;
+  bottom: calc(var(--poster) * -0.0159);
+  left: 50%;
+  width: calc(var(--poster) * 0.7738);
+  height: calc(var(--poster) * 1.0132);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.mimi.hidden {
+  opacity: 0;
+}
+
+/* It keeps its size while hidden, because Mimi is drawn once before she is shown. */
+.mimi-live.hidden {
+  opacity: 0;
+}
+
+/* Right column */
+.panel {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  min-height: 0;
+  padding: 24px 24px 20px 12px;
+}
+
+.controls {
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.status {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.wave {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 3px;
+  height: 44px;
+}
+
+.wave span {
+  display: block;
+  width: 4px;
+  background: var(--ink);
+  transform: scaleY(0.14);
+  transition: transform 90ms linear;
+}
+
+.wave.on span {
+  background: #d93a47;
+}
+
+.shortcut {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.shortcut kbd {
+  padding: 4px 9px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.hint {
+  margin-left: 4px;
+}
+
+.shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.keys,
+.key-part {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.key-part kbd,
+.shortcut-row kbd {
+  padding: 4px 9px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.shortcut-settings {
+  gap: 10px;
+}
+
+.shortcut-settings .field-note {
+  font-family: var(--body);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.shortcut-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.shortcut-what {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.shortcut-name {
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+
+.shortcut-waiting {
+  font-family: var(--body);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--alert);
+}
+
+.small-button {
+  flex: none;
+  padding: 8px 14px;
+  border: 1px solid var(--ink);
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--ink);
+}
+
+.small-button:hover:not(:disabled) {
+  background: var(--dots);
+}
+
+.small-button:disabled,
+.text-button:disabled {
+  opacity: 0.5;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.languages-title {
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+}
+
+.languages details {
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.languages summary {
+  padding: 8px 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.languages details p {
+  margin: 0;
+  padding: 0 12px 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.talk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 58px;
+  padding: 0 22px;
+  background: var(--coral);
+  color: var(--on-coral);
+  font-family: var(--display);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  transition: background-color 120ms ease;
+}
+
+.talk:hover:not(:disabled) {
+  background: #ff7a83;
+}
+
+.talk:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.talk:focus-visible {
+  outline-offset: -5px;
+}
+
+.problem {
+  flex: none;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--alert);
+}
+
+.history-area {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+}
+
+.history-area h2 {
+  flex: none;
+  margin: 0;
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+}
+
+.history-empty {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.history {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 0;
+  margin: 0;
+  padding: 0 4px 0 0;
+  overflow-y: auto;
+  list-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+.history li {
+  display: flex;
+  flex: none;
+  gap: 6px;
+  padding: 12px 6px 12px 14px;
+  background: var(--panel);
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+.entry-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.entry-meta {
+  margin: 0 0 4px;
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+}
+
+.entry-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  user-select: text;
+}
+
+.copy {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.copy:focus-visible {
+  outline-offset: -4px;
+}
+
+/* Settings */
+.settings-list {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+  padding-right: 6px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+}
+
+.field select {
+  height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.field select:disabled {
+  opacity: 0.6;
+}
+
+.field-note {
+  margin: 0 0 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.switch input {
+  appearance: none;
+  flex: none;
+  width: 40px;
+  height: 22px;
+  margin: 0;
+  background: var(--line);
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+
+.switch input::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: 4px;
+  background: #fff;
+  transition: transform 120ms ease;
+}
+
+.switch input:checked {
+  background: var(--wordmark);
+}
+
+.switch input:checked::before {
+  transform: translateX(18px);
+}
+
+.switch input:focus-visible {
+  outline: none;
+  background: var(--ink);
+}
+
+.quit {
+  flex: none;
+  align-self: flex-start;
+  height: 40px;
+  margin-top: 6px;
+  padding: 0 16px;
+  border: 1px solid var(--ink);
+  font-family: var(--display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.quit:hover {
+  background: var(--dots);
+}
+
+/* Snippets */
+.field input,
+.field textarea {
+  padding: 10px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.field input {
+  flex: none;
+  height: 44px;
+}
+
+.field textarea {
+  flex: 1 1 auto;
+  min-height: 120px;
+  line-height: 1.45;
+  resize: none;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 0;
+}
+
+.field.grow {
+  flex: 1 1 auto;
+  min-height: 150px;
+}
+
+.form-buttons {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 12px;
+}
+
+.talk.small {
+  flex: 1 1 auto;
+  justify-content: center;
+  height: 48px;
+}
+
+.form-buttons .quit {
+  height: 48px;
+  margin-top: 0;
+}
+
+.snippet-phrase {
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.snippet-text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  color: var(--muted);
+}
+
+.confirm {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0 0;
+}
+
+.confirm button {
+  height: 34px;
+  padding: 0 12px;
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.confirm-delete {
+  background: var(--alert);
+  color: var(--on-alert);
+}
+
+.confirm-keep {
+  border: 1px solid var(--line);
+}
+
+/* History search */
+.history-head {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 32px;
+}
+
+.search {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  gap: 8px;
+  max-width: 270px;
+  height: 32px;
+  padding: 0 4px 0 10px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--muted);
+}
+
+.search:focus-within {
+  outline: 2px solid var(--ink);
+  outline-offset: 0;
+}
+
+.search svg {
+  flex: none;
+}
+
+.search input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.search button {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+.confirm-all {
+  align-self: stretch;
+  margin-top: 6px;
+  padding: 12px 14px;
+  border: 1px solid var(--alert);
+}
+.confirm-all p:first-child {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.text-button {
+  padding: 0 4px;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}

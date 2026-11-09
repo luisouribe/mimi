@@ -1,0 +1,2313 @@
+{
+  "engine": "mimi-pipeline",
+  "model": "parakeet",
+  "load_seconds": 1.6170714,
+  "peak_memory_mb": 757.8984375,
+  "rate": 16000,
+  "gain": 1.0,
+  "lead_silence": 0.0,
+  "first_words": [
+    {
+      "text": "I",
+      "start": 0.0,
+      "end": 0.06999999
+    },
+    {
+      "text": "think",
+      "start": 0.06999999,
+      "end": 0.39
+    },
+    {
+      "text": "we",
+      "start": 0.39,
+      "end": 0.63
+    },
+    {
+      "text": "should",
+      "start": 0.63,
+      "end": 0.9499999
+    },
+    {
+      "text": "go.",
+      "start": 0.9499999,
+      "end": 1.67
+    },
+    {
+      "text": "New",
+      "start": 1.67,
+      "end": 2.1499999
+    },
+    {
+      "text": "line.",
+      "start": 2.1499999,
+      "end": 3.11
+    },
+    {
+      "text": "See",
+      "start": 3.11,
+      "end": 3.4299998
+    }
+  ],
+  "clips": [
+    {
+      "lang": "en",
+      "file": "en/e01.wav",
+      "seconds": 5.0,
+      "elapsed": 0.2875508,
+      "cleanup_ms": 18.9651,
+      "speech_seconds": 4.64,
+      "chunks": 1,
+      "reference": "I think we should go / new line / see you tomorrow.",
+      "text": "I think we should go. New line. See you tomorrow.",
+      "tidied": "I think we should go.\nSee you tomorrow.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "think",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "we",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "should",
+          "start": 0.63,
+          "end": 0.9499999
+        },
+        {
+          "text": "go.",
+          "start": 0.9499999,
+          "end": 1.67
+        },
+        {
+          "text": "New",
+          "start": 1.67,
+          "end": 2.1499999
+        },
+        {
+          "text": "line.",
+          "start": 2.1499999,
+          "end": 3.11
+        },
+        {
+          "text": "See",
+          "start": 3.11,
+          "end": 3.4299998
+        },
+        {
+          "text": "you",
+          "start": 3.4299998,
+          "end": 3.6699998
+        },
+        {
+          "text": "tomorrow.",
+          "start": 3.6699998,
+          "end": 4.36
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/e02.wav",
+      "seconds": 4.25,
+      "elapsed": 0.2433498,
+      "cleanup_ms": 17.3618,
+      "speech_seconds": 3.872,
+      "chunks": 1,
+      "reference": "Um, I think we should, uh, leave early.",
+      "text": "Um, I think we should, uh, leave early.",
+      "tidied": "I think we should leave early.",
+      "words": [
+        {
+          "text": "Um,",
+          "start": 0.0,
+          "end": 0.71
+        },
+        {
+          "text": "I",
+          "start": 0.71,
+          "end": 0.87
+        },
+        {
+          "text": "think",
+          "start": 0.87,
+          "end": 1.27
+        },
+        {
+          "text": "we",
+          "start": 1.27,
+          "end": 1.51
+        },
+        {
+          "text": "should,",
+          "start": 1.51,
+          "end": 2.07
+        },
+        {
+          "text": "uh,",
+          "start": 2.07,
+          "end": 2.71
+        },
+        {
+          "text": "leave",
+          "start": 2.71,
+          "end": 3.11
+        },
+        {
+          "text": "early.",
+          "start": 3.11,
+          "end": 3.56
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/e03.wav",
+      "seconds": 3.11,
+      "elapsed": 0.186779,
+      "cleanup_ms": 12.4808,
+      "speech_seconds": 2.752,
+      "chunks": 1,
+      "reference": "I I I think the the plan is very very good.",
+      "text": "I I I I I I I I I I I I think that the plan is very very good.",
+      "tidied": "I think that the plan is very very good.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "I",
+          "start": 0.14999998,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "I",
+          "start": 0.46999997,
+          "end": 0.54999995
+        },
+        {
+          "text": "think",
+          "start": 0.54999995,
+          "end": 0.78999996
+        },
+        {
+          "text": "that",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "the",
+          "start": 0.9499999,
+          "end": 1.03
+        },
+        {
+          "text": "plan",
+          "start": 1.03,
+          "end": 1.3499999
+        },
+        {
+          "text": "is",
+          "start": 1.3499999,
+          "end": 1.51
+        },
+        {
+          "text": "very",
+          "start": 1.51,
+          "end": 1.8299999
+        },
+        {
+          "text": "very",
+          "start": 1.8299999,
+          "end": 2.07
+        },
+        {
+          "text": "good.",
+          "start": 2.07,
+          "end": 2.36
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/e04.wav",
+      "seconds": 3.08,
+      "elapsed": 0.1828881,
+      "cleanup_ms": 12.1976,
+      "speech_seconds": 2.688,
+      "chunks": 1,
+      "reference": "We launched a new line of products this year.",
+      "text": "We launched a new line of products this year.",
+      "tidied": "We launched a new line of products this year.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "launched",
+          "start": 0.14999998,
+          "end": 0.63
+        },
+        {
+          "text": "a",
+          "start": 0.63,
+          "end": 0.71
+        },
+        {
+          "text": "new",
+          "start": 0.71,
+          "end": 0.9499999
+        },
+        {
+          "text": "line",
+          "start": 0.9499999,
+          "end": 1.1899999
+        },
+        {
+          "text": "of",
+          "start": 1.1899999,
+          "end": 1.3499999
+        },
+        {
+          "text": "products",
+          "start": 1.3499999,
+          "end": 1.8299999
+        },
+        {
+          "text": "this",
+          "start": 1.8299999,
+          "end": 1.99
+        },
+        {
+          "text": "year.",
+          "start": 1.99,
+          "end": 2.4399998
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/e05.wav",
+      "seconds": 6.22,
+      "elapsed": 0.3925288,
+      "cleanup_ms": 24.9224,
+      "speech_seconds": 5.888,
+      "chunks": 1,
+      "reference": "The first topic is done / new paragraph / The second one starts here.",
+      "text": "The first topic is done. New paragraph. The second one starts here.",
+      "tidied": "The first topic is done.\n\nThe second one starts here.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "first",
+          "start": 0.14999998,
+          "end": 0.46999997
+        },
+        {
+          "text": "topic",
+          "start": 0.46999997,
+          "end": 0.9499999
+        },
+        {
+          "text": "is",
+          "start": 0.9499999,
+          "end": 1.1899999
+        },
+        {
+          "text": "done.",
+          "start": 1.1899999,
+          "end": 2.07
+        },
+        {
+          "text": "New",
+          "start": 2.07,
+          "end": 2.47
+        },
+        {
+          "text": "paragraph.",
+          "start": 2.47,
+          "end": 3.75
+        },
+        {
+          "text": "The",
+          "start": 3.75,
+          "end": 3.9899998
+        },
+        {
+          "text": "second",
+          "start": 3.9899998,
+          "end": 4.47
+        },
+        {
+          "text": "one",
+          "start": 4.47,
+          "end": 4.71
+        },
+        {
+          "text": "starts",
+          "start": 4.71,
+          "end": 5.19
+        },
+        {
+          "text": "here.",
+          "start": 5.19,
+          "end": 5.56
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/e06.wav",
+      "seconds": 3.05,
+      "elapsed": 0.1922714,
+      "cleanup_ms": 12.424299999999999,
+      "speech_seconds": 2.688,
+      "chunks": 1,
+      "reference": "Dear John new line thanks for your message.",
+      "text": "Dear John New Line Thanks for your message.",
+      "tidied": "Dear John New Line Thanks for your message.",
+      "words": [
+        {
+          "text": "Dear",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "John",
+          "start": 0.22999999,
+          "end": 0.54999995
+        },
+        {
+          "text": "New",
+          "start": 0.54999995,
+          "end": 0.87
+        },
+        {
+          "text": "Line",
+          "start": 0.87,
+          "end": 1.27
+        },
+        {
+          "text": "Thanks",
+          "start": 1.27,
+          "end": 1.5899999
+        },
+        {
+          "text": "for",
+          "start": 1.5899999,
+          "end": 1.67
+        },
+        {
+          "text": "your",
+          "start": 1.67,
+          "end": 1.8299999
+        },
+        {
+          "text": "message.",
+          "start": 1.8299999,
+          "end": 2.36
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/e07.wav",
+      "seconds": 3.05,
+      "elapsed": 0.2010172,
+      "cleanup_ms": 13.865300000000001,
+      "speech_seconds": 2.72,
+      "chunks": 1,
+      "reference": "Please add a new paragraph about the budget.",
+      "text": "Please add a new paragraph about the budget.",
+      "tidied": "Please add a new paragraph about the budget.",
+      "words": [
+        {
+          "text": "Please",
+          "start": 0.0,
+          "end": 0.31
+        },
+        {
+          "text": "add",
+          "start": 0.31,
+          "end": 0.63
+        },
+        {
+          "text": "a",
+          "start": 0.63,
+          "end": 0.71
+        },
+        {
+          "text": "new",
+          "start": 0.71,
+          "end": 0.9499999
+        },
+        {
+          "text": "paragraph",
+          "start": 0.9499999,
+          "end": 1.51
+        },
+        {
+          "text": "about",
+          "start": 1.51,
+          "end": 1.75
+        },
+        {
+          "text": "the",
+          "start": 1.75,
+          "end": 1.9099998
+        },
+        {
+          "text": "budget.",
+          "start": 1.9099998,
+          "end": 2.52
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s01.wav",
+      "seconds": 5.07,
+      "elapsed": 0.454007,
+      "cleanup_ms": 41.230799999999995,
+      "speech_seconds": 4.736,
+      "chunks": 1,
+      "reference": "Hola Juan / nueva línea / gracias por tu mensaje.",
+      "text": "Hola Juan. Nueva línea. Gracias por tu mensaje.",
+      "tidied": "Hola Juan.\nGracias por tu mensaje.",
+      "words": [
+        {
+          "text": "Hola",
+          "start": 0.0,
+          "end": 0.31
+        },
+        {
+          "text": "Juan.",
+          "start": 0.31,
+          "end": 1.27
+        },
+        {
+          "text": "Nueva",
+          "start": 1.27,
+          "end": 1.8299999
+        },
+        {
+          "text": "línea.",
+          "start": 1.8299999,
+          "end": 2.79
+        },
+        {
+          "text": "Gracias",
+          "start": 2.79,
+          "end": 3.35
+        },
+        {
+          "text": "por",
+          "start": 3.35,
+          "end": 3.59
+        },
+        {
+          "text": "tu",
+          "start": 3.59,
+          "end": 3.83
+        },
+        {
+          "text": "mensaje.",
+          "start": 3.83,
+          "end": 4.36
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s02.wav",
+      "seconds": 4.04,
+      "elapsed": 0.2947154,
+      "cleanup_ms": 29.2909,
+      "speech_seconds": 3.712,
+      "chunks": 1,
+      "reference": "Eh, creo que, em, deberíamos salir temprano.",
+      "text": "Eh, creo que, em, deberíamos salir temprano.",
+      "tidied": "Creo que deberíamos salir temprano.",
+      "words": [
+        {
+          "text": "Eh,",
+          "start": 0.0,
+          "end": 0.46999997
+        },
+        {
+          "text": "creo",
+          "start": 0.46999997,
+          "end": 0.78999996
+        },
+        {
+          "text": "que,",
+          "start": 0.78999996,
+          "end": 1.1899999
+        },
+        {
+          "text": "em,",
+          "start": 1.1899999,
+          "end": 1.8299999
+        },
+        {
+          "text": "deberíamos",
+          "start": 1.8299999,
+          "end": 2.47
+        },
+        {
+          "text": "salir",
+          "start": 2.47,
+          "end": 2.79
+        },
+        {
+          "text": "temprano.",
+          "start": 2.79,
+          "end": 3.3999999
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s03.wav",
+      "seconds": 3.26,
+      "elapsed": 0.2242893,
+      "cleanup_ms": 14.4182,
+      "speech_seconds": 2.912,
+      "chunks": 1,
+      "reference": "Yo yo yo creo que el el plan es muy muy bueno.",
+      "text": "Yo yo yo yo yo yo yo yo yo yo yo yo creo que él el el el el el el el el el el plan es muy muy bueno.",
+      "tidied": "Yo creo que el plan es muy muy bueno.",
+      "words": [
+        {
+          "text": "Yo",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "yo",
+          "start": 0.22999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.46999997
+        },
+        {
+          "text": "yo",
+          "start": 0.46999997,
+          "end": 0.63
+        },
+        {
+          "text": "creo",
+          "start": 0.63,
+          "end": 0.87
+        },
+        {
+          "text": "que",
+          "start": 0.87,
+          "end": 0.9499999
+        },
+        {
+          "text": "él",
+          "start": 0.9499999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.1899999
+        },
+        {
+          "text": "el",
+          "start": 1.1899999,
+          "end": 1.3499999
+        },
+        {
+          "text": "plan",
+          "start": 1.3499999,
+          "end": 1.67
+        },
+        {
+          "text": "es",
+          "start": 1.67,
+          "end": 1.75
+        },
+        {
+          "text": "muy",
+          "start": 1.75,
+          "end": 2.07
+        },
+        {
+          "text": "muy",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "bueno.",
+          "start": 2.23,
+          "end": 2.6
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s04.wav",
+      "seconds": 3.54,
+      "elapsed": 0.2309253,
+      "cleanup_ms": 15.717600000000001,
+      "speech_seconds": 3.2,
+      "chunks": 1,
+      "reference": "Lanzamos una nueva línea de productos este año.",
+      "text": "Lanzamos una nueva línea de productos este año.",
+      "tidied": "Lanzamos una nueva línea de productos este año.",
+      "words": [
+        {
+          "text": "Lanzamos",
+          "start": 0.0,
+          "end": 0.71
+        },
+        {
+          "text": "una",
+          "start": 0.71,
+          "end": 0.87
+        },
+        {
+          "text": "nueva",
+          "start": 0.87,
+          "end": 1.1899999
+        },
+        {
+          "text": "línea",
+          "start": 1.1899999,
+          "end": 1.5899999
+        },
+        {
+          "text": "de",
+          "start": 1.5899999,
+          "end": 1.67
+        },
+        {
+          "text": "productos",
+          "start": 1.67,
+          "end": 2.23
+        },
+        {
+          "text": "este",
+          "start": 2.23,
+          "end": 2.55
+        },
+        {
+          "text": "año.",
+          "start": 2.55,
+          "end": 2.9199998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s05.wav",
+      "seconds": 6.01,
+      "elapsed": 0.4173309,
+      "cleanup_ms": 24.5342,
+      "speech_seconds": 5.696,
+      "chunks": 1,
+      "reference": "Terminé el primer tema / nuevo párrafo / Ahora empieza el segundo.",
+      "text": "Terminé el primer tema. Nuevo párrafo. Ahora empieza el segundo.",
+      "tidied": "Terminé el primer tema.\n\nAhora empieza el segundo.",
+      "words": [
+        {
+          "text": "Terminé",
+          "start": 0.0,
+          "end": 0.63
+        },
+        {
+          "text": "el",
+          "start": 0.63,
+          "end": 0.78999996
+        },
+        {
+          "text": "primer",
+          "start": 0.78999996,
+          "end": 1.11
+        },
+        {
+          "text": "tema.",
+          "start": 1.11,
+          "end": 2.07
+        },
+        {
+          "text": "Nuevo",
+          "start": 2.07,
+          "end": 2.55
+        },
+        {
+          "text": "párrafo.",
+          "start": 2.55,
+          "end": 3.6699998
+        },
+        {
+          "text": "Ahora",
+          "start": 3.6699998,
+          "end": 4.15
+        },
+        {
+          "text": "empieza",
+          "start": 4.15,
+          "end": 4.63
+        },
+        {
+          "text": "el",
+          "start": 4.63,
+          "end": 4.79
+        },
+        {
+          "text": "segundo.",
+          "start": 4.79,
+          "end": 5.32
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s06.wav",
+      "seconds": 5.42,
+      "elapsed": 0.3646063,
+      "cleanup_ms": 27.755300000000002,
+      "speech_seconds": 5.088,
+      "chunks": 1,
+      "reference": "Llegamos tarde / punto y aparte / Mañana seguimos.",
+      "text": "Llegamos tarde. Punto y aparte. Mañana seguimos.",
+      "tidied": "Llegamos tarde.\n\nMañana seguimos.",
+      "words": [
+        {
+          "text": "Llegamos",
+          "start": 0.0,
+          "end": 0.63
+        },
+        {
+          "text": "tarde.",
+          "start": 0.63,
+          "end": 1.5899999
+        },
+        {
+          "text": "Punto",
+          "start": 1.5899999,
+          "end": 2.1499999
+        },
+        {
+          "text": "y",
+          "start": 2.1499999,
+          "end": 2.3899999
+        },
+        {
+          "text": "aparte.",
+          "start": 2.3899999,
+          "end": 3.4299998
+        },
+        {
+          "text": "Mañana",
+          "start": 3.4299998,
+          "end": 4.0699997
+        },
+        {
+          "text": "seguimos.",
+          "start": 4.0699997,
+          "end": 4.76
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s07.wav",
+      "seconds": 3.23,
+      "elapsed": 0.2245567,
+      "cleanup_ms": 13.0771,
+      "speech_seconds": 2.912,
+      "chunks": 1,
+      "reference": "Hola Juan nueva línea gracias por tu mensaje.",
+      "text": "Hola Juan Nueva Línea, gracias por tu mensaje.",
+      "tidied": "Hola Juan Nueva Línea, gracias por tu mensaje.",
+      "words": [
+        {
+          "text": "Hola",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "Juan",
+          "start": 0.14999998,
+          "end": 0.54999995
+        },
+        {
+          "text": "Nueva",
+          "start": 0.54999995,
+          "end": 0.87
+        },
+        {
+          "text": "Línea,",
+          "start": 0.87,
+          "end": 1.3499999
+        },
+        {
+          "text": "gracias",
+          "start": 1.3499999,
+          "end": 1.75
+        },
+        {
+          "text": "por",
+          "start": 1.75,
+          "end": 1.8299999
+        },
+        {
+          "text": "tu",
+          "start": 1.8299999,
+          "end": 1.99
+        },
+        {
+          "text": "mensaje.",
+          "start": 1.99,
+          "end": 2.52
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/s08.wav",
+      "seconds": 3.79,
+      "elapsed": 0.2520015,
+      "cleanup_ms": 17.2672,
+      "speech_seconds": 3.488,
+      "chunks": 1,
+      "reference": "Por favor agrega un nuevo párrafo sobre el presupuesto.",
+      "text": "Por favor, agrega un nuevo párrafo sobre el presupuesto.",
+      "tidied": "Por favor, agrega un nuevo párrafo sobre el presupuesto.",
+      "words": [
+        {
+          "text": "Por",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "favor,",
+          "start": 0.06999999,
+          "end": 0.46999997
+        },
+        {
+          "text": "agrega",
+          "start": 0.46999997,
+          "end": 1.11
+        },
+        {
+          "text": "un",
+          "start": 1.11,
+          "end": 1.1899999
+        },
+        {
+          "text": "nuevo",
+          "start": 1.1899999,
+          "end": 1.51
+        },
+        {
+          "text": "párrafo",
+          "start": 1.51,
+          "end": 1.99
+        },
+        {
+          "text": "sobre",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "el",
+          "start": 2.23,
+          "end": 2.31
+        },
+        {
+          "text": "presupuesto.",
+          "start": 2.31,
+          "end": 3.08
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/p100e.wav",
+      "seconds": 3.6,
+      "elapsed": 0.2405248,
+      "cleanup_ms": 15.288,
+      "speech_seconds": 3.264,
+      "chunks": 1,
+      "reference": "I think we should go / new line / see you tomorrow.",
+      "text": "I think we should go, new line, see you tomorrow.",
+      "tidied": "I think we should go.\nSee you tomorrow.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "think",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "we",
+          "start": 0.39,
+          "end": 0.54999995
+        },
+        {
+          "text": "should",
+          "start": 0.54999995,
+          "end": 0.71
+        },
+        {
+          "text": "go,",
+          "start": 0.71,
+          "end": 1.11
+        },
+        {
+          "text": "new",
+          "start": 1.11,
+          "end": 1.43
+        },
+        {
+          "text": "line,",
+          "start": 1.43,
+          "end": 1.99
+        },
+        {
+          "text": "see",
+          "start": 1.99,
+          "end": 2.23
+        },
+        {
+          "text": "you",
+          "start": 2.23,
+          "end": 2.3899999
+        },
+        {
+          "text": "tomorrow.",
+          "start": 2.3899999,
+          "end": 2.9199998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/p100s.wav",
+      "seconds": 3.67,
+      "elapsed": 0.2359722,
+      "cleanup_ms": 16.036,
+      "speech_seconds": 3.328,
+      "chunks": 1,
+      "reference": "Hola Juan / nueva línea / gracias por tu mensaje.",
+      "text": "Hola Juan, nueva línea, gracias por tu mensaje.",
+      "tidied": "Hola Juan,\nGracias por tu mensaje.",
+      "words": [
+        {
+          "text": "Hola",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "Juan,",
+          "start": 0.22999999,
+          "end": 0.71
+        },
+        {
+          "text": "nueva",
+          "start": 0.71,
+          "end": 1.11
+        },
+        {
+          "text": "línea,",
+          "start": 1.11,
+          "end": 1.67
+        },
+        {
+          "text": "gracias",
+          "start": 1.67,
+          "end": 2.07
+        },
+        {
+          "text": "por",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "tu",
+          "start": 2.23,
+          "end": 2.3899999
+        },
+        {
+          "text": "mensaje.",
+          "start": 2.3899999,
+          "end": 2.9199998
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/q100e.wav",
+      "seconds": 4.26,
+      "elapsed": 0.2704919,
+      "cleanup_ms": 17.6588,
+      "speech_seconds": 3.904,
+      "chunks": 1,
+      "reference": "The report is ready / new paragraph / please review it today.",
+      "text": "The report is ready, new paragraph, please review it today.",
+      "tidied": "The report is ready.\n\nPlease review it today.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "report",
+          "start": 0.06999999,
+          "end": 0.54999995
+        },
+        {
+          "text": "is",
+          "start": 0.54999995,
+          "end": 0.71
+        },
+        {
+          "text": "ready,",
+          "start": 0.71,
+          "end": 1.27
+        },
+        {
+          "text": "new",
+          "start": 1.27,
+          "end": 1.5899999
+        },
+        {
+          "text": "paragraph,",
+          "start": 1.5899999,
+          "end": 2.31
+        },
+        {
+          "text": "please",
+          "start": 2.31,
+          "end": 2.71
+        },
+        {
+          "text": "review",
+          "start": 2.71,
+          "end": 3.03
+        },
+        {
+          "text": "it",
+          "start": 3.03,
+          "end": 3.1899998
+        },
+        {
+          "text": "today.",
+          "start": 3.1899998,
+          "end": 3.6399999
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/r100s.wav",
+      "seconds": 3.83,
+      "elapsed": 0.2564155,
+      "cleanup_ms": 16.087400000000002,
+      "speech_seconds": 3.488,
+      "chunks": 1,
+      "reference": "We finished the review / new line / thanks for your help.",
+      "text": "We finished the review, new line, thanks for your help.",
+      "tidied": "We finished the review.\nThanks for your help.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "finished",
+          "start": 0.22999999,
+          "end": 0.63
+        },
+        {
+          "text": "the",
+          "start": 0.63,
+          "end": 0.71
+        },
+        {
+          "text": "review,",
+          "start": 0.71,
+          "end": 1.27
+        },
+        {
+          "text": "new",
+          "start": 1.27,
+          "end": 1.5899999
+        },
+        {
+          "text": "line,",
+          "start": 1.5899999,
+          "end": 2.07
+        },
+        {
+          "text": "thanks",
+          "start": 2.07,
+          "end": 2.3899999
+        },
+        {
+          "text": "for",
+          "start": 2.3899999,
+          "end": 2.55
+        },
+        {
+          "text": "your",
+          "start": 2.55,
+          "end": 2.71
+        },
+        {
+          "text": "help.",
+          "start": 2.71,
+          "end": 3.08
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/q100s.wav",
+      "seconds": 4.57,
+      "elapsed": 0.296451,
+      "cleanup_ms": 18.0502,
+      "speech_seconds": 4.256,
+      "chunks": 1,
+      "reference": "El informe está listo / nuevo párrafo / por favor revísalo hoy.",
+      "text": "El informe está listo, nuevo párrafo, por favor revísalo hoy.",
+      "tidied": "El informe está listo.\n\nPor favor revísalo hoy.",
+      "words": [
+        {
+          "text": "El",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "informe",
+          "start": 0.14999998,
+          "end": 0.71
+        },
+        {
+          "text": "está",
+          "start": 0.71,
+          "end": 1.03
+        },
+        {
+          "text": "listo,",
+          "start": 1.03,
+          "end": 1.51
+        },
+        {
+          "text": "nuevo",
+          "start": 1.51,
+          "end": 1.9099998
+        },
+        {
+          "text": "párrafo,",
+          "start": 1.9099998,
+          "end": 2.55
+        },
+        {
+          "text": "por",
+          "start": 2.55,
+          "end": 2.71
+        },
+        {
+          "text": "favor",
+          "start": 2.71,
+          "end": 3.03
+        },
+        {
+          "text": "revísalo",
+          "start": 3.03,
+          "end": 3.6699998
+        },
+        {
+          "text": "hoy.",
+          "start": 3.6699998,
+          "end": 3.96
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/p200e.wav",
+      "seconds": 3.8,
+      "elapsed": 0.2490487,
+      "cleanup_ms": 15.327399999999999,
+      "speech_seconds": 3.456,
+      "chunks": 1,
+      "reference": "I think we should go / new line / see you tomorrow.",
+      "text": "I think we should go, new line, see you tomorrow.",
+      "tidied": "I think we should go.\nSee you tomorrow.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "think",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "we",
+          "start": 0.39,
+          "end": 0.54999995
+        },
+        {
+          "text": "should",
+          "start": 0.54999995,
+          "end": 0.78999996
+        },
+        {
+          "text": "go,",
+          "start": 0.78999996,
+          "end": 1.1899999
+        },
+        {
+          "text": "new",
+          "start": 1.1899999,
+          "end": 1.5899999
+        },
+        {
+          "text": "line,",
+          "start": 1.5899999,
+          "end": 2.1499999
+        },
+        {
+          "text": "see",
+          "start": 2.1499999,
+          "end": 2.3899999
+        },
+        {
+          "text": "you",
+          "start": 2.3899999,
+          "end": 2.55
+        },
+        {
+          "text": "tomorrow.",
+          "start": 2.55,
+          "end": 3.08
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/p200s.wav",
+      "seconds": 3.87,
+      "elapsed": 0.2498121,
+      "cleanup_ms": 15.4611,
+      "speech_seconds": 3.552,
+      "chunks": 1,
+      "reference": "Hola Juan / nueva línea / gracias por tu mensaje.",
+      "text": "Hola Juan, nueva línea, gracias por tu mensaje.",
+      "tidied": "Hola Juan,\nGracias por tu mensaje.",
+      "words": [
+        {
+          "text": "Hola",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "Juan,",
+          "start": 0.22999999,
+          "end": 0.78999996
+        },
+        {
+          "text": "nueva",
+          "start": 0.78999996,
+          "end": 1.1899999
+        },
+        {
+          "text": "línea,",
+          "start": 1.1899999,
+          "end": 1.8299999
+        },
+        {
+          "text": "gracias",
+          "start": 1.8299999,
+          "end": 2.31
+        },
+        {
+          "text": "por",
+          "start": 2.31,
+          "end": 2.47
+        },
+        {
+          "text": "tu",
+          "start": 2.47,
+          "end": 2.6299999
+        },
+        {
+          "text": "mensaje.",
+          "start": 2.6299999,
+          "end": 3.1599998
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/q200e.wav",
+      "seconds": 4.46,
+      "elapsed": 0.2928948,
+      "cleanup_ms": 18.468700000000002,
+      "speech_seconds": 4.096,
+      "chunks": 1,
+      "reference": "The report is ready / new paragraph / please review it today.",
+      "text": "The report is ready, new paragraph, please review it today.",
+      "tidied": "The report is ready.\n\nPlease review it today.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "report",
+          "start": 0.06999999,
+          "end": 0.54999995
+        },
+        {
+          "text": "is",
+          "start": 0.54999995,
+          "end": 0.71
+        },
+        {
+          "text": "ready,",
+          "start": 0.71,
+          "end": 1.3499999
+        },
+        {
+          "text": "new",
+          "start": 1.3499999,
+          "end": 1.67
+        },
+        {
+          "text": "paragraph,",
+          "start": 1.67,
+          "end": 2.47
+        },
+        {
+          "text": "please",
+          "start": 2.47,
+          "end": 2.87
+        },
+        {
+          "text": "review",
+          "start": 2.87,
+          "end": 3.27
+        },
+        {
+          "text": "it",
+          "start": 3.27,
+          "end": 3.4299998
+        },
+        {
+          "text": "today.",
+          "start": 3.4299998,
+          "end": 3.8000002
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/r200s.wav",
+      "seconds": 4.03,
+      "elapsed": 0.2645228,
+      "cleanup_ms": 18.5509,
+      "speech_seconds": 3.68,
+      "chunks": 1,
+      "reference": "We finished the review / new line / thanks for your help.",
+      "text": "We finished the review, new line, thanks for your help.",
+      "tidied": "We finished the review.\nThanks for your help.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "finished",
+          "start": 0.22999999,
+          "end": 0.63
+        },
+        {
+          "text": "the",
+          "start": 0.63,
+          "end": 0.71
+        },
+        {
+          "text": "review,",
+          "start": 0.71,
+          "end": 1.3499999
+        },
+        {
+          "text": "new",
+          "start": 1.3499999,
+          "end": 1.67
+        },
+        {
+          "text": "line,",
+          "start": 1.67,
+          "end": 2.23
+        },
+        {
+          "text": "thanks",
+          "start": 2.23,
+          "end": 2.55
+        },
+        {
+          "text": "for",
+          "start": 2.55,
+          "end": 2.71
+        },
+        {
+          "text": "your",
+          "start": 2.71,
+          "end": 2.9499998
+        },
+        {
+          "text": "help.",
+          "start": 2.9499998,
+          "end": 3.32
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/q200s.wav",
+      "seconds": 4.77,
+      "elapsed": 0.3031567,
+      "cleanup_ms": 23.895,
+      "speech_seconds": 4.448,
+      "chunks": 1,
+      "reference": "El informe está listo / nuevo párrafo / por favor revísalo hoy.",
+      "text": "El informe está listo, nuevo párrafo, por favor revísalo hoy.",
+      "tidied": "El informe está listo.\n\nPor favor revísalo hoy.",
+      "words": [
+        {
+          "text": "El",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "informe",
+          "start": 0.14999998,
+          "end": 0.71
+        },
+        {
+          "text": "está",
+          "start": 0.71,
+          "end": 1.03
+        },
+        {
+          "text": "listo,",
+          "start": 1.03,
+          "end": 1.5899999
+        },
+        {
+          "text": "nuevo",
+          "start": 1.5899999,
+          "end": 1.99
+        },
+        {
+          "text": "párrafo,",
+          "start": 1.99,
+          "end": 2.71
+        },
+        {
+          "text": "por",
+          "start": 2.71,
+          "end": 2.87
+        },
+        {
+          "text": "favor",
+          "start": 2.87,
+          "end": 3.1899998
+        },
+        {
+          "text": "revísalo",
+          "start": 3.1899998,
+          "end": 3.83
+        },
+        {
+          "text": "hoy.",
+          "start": 3.83,
+          "end": 4.12
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/p300e.wav",
+      "seconds": 4.0,
+      "elapsed": 0.2646803,
+      "cleanup_ms": 17.1647,
+      "speech_seconds": 3.648,
+      "chunks": 1,
+      "reference": "I think we should go / new line / see you tomorrow.",
+      "text": "I think we should go, new line, see you tomorrow.",
+      "tidied": "I think we should go.\nSee you tomorrow.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "think",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "we",
+          "start": 0.39,
+          "end": 0.54999995
+        },
+        {
+          "text": "should",
+          "start": 0.54999995,
+          "end": 0.78999996
+        },
+        {
+          "text": "go,",
+          "start": 0.78999996,
+          "end": 1.27
+        },
+        {
+          "text": "new",
+          "start": 1.27,
+          "end": 1.67
+        },
+        {
+          "text": "line,",
+          "start": 1.67,
+          "end": 2.31
+        },
+        {
+          "text": "see",
+          "start": 2.31,
+          "end": 2.55
+        },
+        {
+          "text": "you",
+          "start": 2.55,
+          "end": 2.79
+        },
+        {
+          "text": "tomorrow.",
+          "start": 2.79,
+          "end": 3.32
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/p300s.wav",
+      "seconds": 4.07,
+      "elapsed": 0.2961168,
+      "cleanup_ms": 33.033899999999996,
+      "speech_seconds": 3.744,
+      "chunks": 1,
+      "reference": "Hola Juan / nueva línea / gracias por tu mensaje.",
+      "text": "Hola Juan, nueva línea, gracias por tu mensaje.",
+      "tidied": "Hola Juan,\nGracias por tu mensaje.",
+      "words": [
+        {
+          "text": "Hola",
+          "start": 0.0,
+          "end": 0.31
+        },
+        {
+          "text": "Juan,",
+          "start": 0.31,
+          "end": 0.87
+        },
+        {
+          "text": "nueva",
+          "start": 0.87,
+          "end": 1.27
+        },
+        {
+          "text": "línea,",
+          "start": 1.27,
+          "end": 1.99
+        },
+        {
+          "text": "gracias",
+          "start": 1.99,
+          "end": 2.47
+        },
+        {
+          "text": "por",
+          "start": 2.47,
+          "end": 2.6299999
+        },
+        {
+          "text": "tu",
+          "start": 2.6299999,
+          "end": 2.79
+        },
+        {
+          "text": "mensaje.",
+          "start": 2.79,
+          "end": 3.32
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/q300e.wav",
+      "seconds": 4.66,
+      "elapsed": 0.2802261,
+      "cleanup_ms": 18.323900000000002,
+      "speech_seconds": 4.288,
+      "chunks": 1,
+      "reference": "The report is ready / new paragraph / please review it today.",
+      "text": "The report is ready, new paragraph, please review it today.",
+      "tidied": "The report is ready.\n\nPlease review it today.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "report",
+          "start": 0.06999999,
+          "end": 0.54999995
+        },
+        {
+          "text": "is",
+          "start": 0.54999995,
+          "end": 0.78999996
+        },
+        {
+          "text": "ready,",
+          "start": 0.78999996,
+          "end": 1.43
+        },
+        {
+          "text": "new",
+          "start": 1.43,
+          "end": 1.75
+        },
+        {
+          "text": "paragraph,",
+          "start": 1.75,
+          "end": 2.6299999
+        },
+        {
+          "text": "please",
+          "start": 2.6299999,
+          "end": 3.03
+        },
+        {
+          "text": "review",
+          "start": 3.03,
+          "end": 3.4299998
+        },
+        {
+          "text": "it",
+          "start": 3.4299998,
+          "end": 3.59
+        },
+        {
+          "text": "today.",
+          "start": 3.59,
+          "end": 3.96
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/r300s.wav",
+      "seconds": 4.23,
+      "elapsed": 0.2556587,
+      "cleanup_ms": 22.7533,
+      "speech_seconds": 3.872,
+      "chunks": 1,
+      "reference": "We finished the review / new line / thanks for your help.",
+      "text": "We finished the review, new line, thanks for your help.",
+      "tidied": "We finished the review.\nThanks for your help.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "finished",
+          "start": 0.22999999,
+          "end": 0.63
+        },
+        {
+          "text": "the",
+          "start": 0.63,
+          "end": 0.78999996
+        },
+        {
+          "text": "review,",
+          "start": 0.78999996,
+          "end": 1.43
+        },
+        {
+          "text": "new",
+          "start": 1.43,
+          "end": 1.75
+        },
+        {
+          "text": "line,",
+          "start": 1.75,
+          "end": 2.3899999
+        },
+        {
+          "text": "thanks",
+          "start": 2.3899999,
+          "end": 2.79
+        },
+        {
+          "text": "for",
+          "start": 2.79,
+          "end": 2.9499998
+        },
+        {
+          "text": "your",
+          "start": 2.9499998,
+          "end": 3.11
+        },
+        {
+          "text": "help.",
+          "start": 3.11,
+          "end": 3.4799998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/q300s.wav",
+      "seconds": 4.97,
+      "elapsed": 0.3020283,
+      "cleanup_ms": 19.0168,
+      "speech_seconds": 4.64,
+      "chunks": 1,
+      "reference": "El informe está listo / nuevo párrafo / por favor revísalo hoy.",
+      "text": "El informe está listo, nuevo párrafo. Por favor revísalo hoy.",
+      "tidied": "El informe está listo.\n\nPor favor revísalo hoy.",
+      "words": [
+        {
+          "text": "El",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "informe",
+          "start": 0.14999998,
+          "end": 0.71
+        },
+        {
+          "text": "está",
+          "start": 0.71,
+          "end": 1.03
+        },
+        {
+          "text": "listo,",
+          "start": 1.03,
+          "end": 1.67
+        },
+        {
+          "text": "nuevo",
+          "start": 1.67,
+          "end": 2.07
+        },
+        {
+          "text": "párrafo.",
+          "start": 2.07,
+          "end": 2.87
+        },
+        {
+          "text": "Por",
+          "start": 2.87,
+          "end": 3.03
+        },
+        {
+          "text": "favor",
+          "start": 3.03,
+          "end": 3.35
+        },
+        {
+          "text": "revísalo",
+          "start": 3.35,
+          "end": 4.0699997
+        },
+        {
+          "text": "hoy.",
+          "start": 4.0699997,
+          "end": 4.36
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/p500e.wav",
+      "seconds": 4.4,
+      "elapsed": 0.2606874,
+      "cleanup_ms": 18.0855,
+      "speech_seconds": 4.064,
+      "chunks": 1,
+      "reference": "I think we should go / new line / see you tomorrow.",
+      "text": "I think we should go. New line. See you tomorrow.",
+      "tidied": "I think we should go.\nSee you tomorrow.",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "think",
+          "start": 0.06999999,
+          "end": 0.39
+        },
+        {
+          "text": "we",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "should",
+          "start": 0.63,
+          "end": 0.87
+        },
+        {
+          "text": "go.",
+          "start": 0.87,
+          "end": 1.43
+        },
+        {
+          "text": "New",
+          "start": 1.43,
+          "end": 1.8299999
+        },
+        {
+          "text": "line.",
+          "start": 1.8299999,
+          "end": 2.55
+        },
+        {
+          "text": "See",
+          "start": 2.55,
+          "end": 2.87
+        },
+        {
+          "text": "you",
+          "start": 2.87,
+          "end": 3.11
+        },
+        {
+          "text": "tomorrow.",
+          "start": 3.11,
+          "end": 3.7199998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/p500s.wav",
+      "seconds": 4.47,
+      "elapsed": 0.5644557,
+      "cleanup_ms": 18.1579,
+      "speech_seconds": 4.128,
+      "chunks": 1,
+      "reference": "Hola Juan / nueva línea / gracias por tu mensaje.",
+      "text": "Hola Juan. Nueva línea. Gracias por tu mensaje.",
+      "tidied": "Hola Juan.\nGracias por tu mensaje.",
+      "words": [
+        {
+          "text": "Hola",
+          "start": 0.0,
+          "end": 0.31
+        },
+        {
+          "text": "Juan.",
+          "start": 0.31,
+          "end": 1.03
+        },
+        {
+          "text": "Nueva",
+          "start": 1.03,
+          "end": 1.51
+        },
+        {
+          "text": "línea.",
+          "start": 1.51,
+          "end": 2.23
+        },
+        {
+          "text": "Gracias",
+          "start": 2.23,
+          "end": 2.79
+        },
+        {
+          "text": "por",
+          "start": 2.79,
+          "end": 3.03
+        },
+        {
+          "text": "tu",
+          "start": 3.03,
+          "end": 3.1899998
+        },
+        {
+          "text": "mensaje.",
+          "start": 3.1899998,
+          "end": 3.7199998
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/q500e.wav",
+      "seconds": 5.06,
+      "elapsed": 0.4197702,
+      "cleanup_ms": 53.1909,
+      "speech_seconds": 4.672,
+      "chunks": 1,
+      "reference": "The report is ready / new paragraph / please review it today.",
+      "text": "The report is ready. New paragraph. Please review it today.",
+      "tidied": "The report is ready.\n\nPlease review it today.",
+      "words": [
+        {
+          "text": "The",
+          "start": 0.0,
+          "end": 0.06999999
+        },
+        {
+          "text": "report",
+          "start": 0.06999999,
+          "end": 0.54999995
+        },
+        {
+          "text": "is",
+          "start": 0.54999995,
+          "end": 0.78999996
+        },
+        {
+          "text": "ready.",
+          "start": 0.78999996,
+          "end": 1.51
+        },
+        {
+          "text": "New",
+          "start": 1.51,
+          "end": 1.9099998
+        },
+        {
+          "text": "paragraph.",
+          "start": 1.9099998,
+          "end": 2.9499998
+        },
+        {
+          "text": "Please",
+          "start": 2.9499998,
+          "end": 3.4299998
+        },
+        {
+          "text": "review",
+          "start": 3.4299998,
+          "end": 3.83
+        },
+        {
+          "text": "it",
+          "start": 3.83,
+          "end": 3.9899998
+        },
+        {
+          "text": "today.",
+          "start": 3.9899998,
+          "end": 4.44
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/r500s.wav",
+      "seconds": 4.63,
+      "elapsed": 0.3088553,
+      "cleanup_ms": 22.6471,
+      "speech_seconds": 4.256,
+      "chunks": 1,
+      "reference": "We finished the review / new line / thanks for your help.",
+      "text": "We finished the review. New line. Thanks for your help.",
+      "tidied": "We finished the review.\nThanks for your help.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "finished",
+          "start": 0.22999999,
+          "end": 0.63
+        },
+        {
+          "text": "the",
+          "start": 0.63,
+          "end": 0.78999996
+        },
+        {
+          "text": "review.",
+          "start": 0.78999996,
+          "end": 1.5899999
+        },
+        {
+          "text": "New",
+          "start": 1.5899999,
+          "end": 1.99
+        },
+        {
+          "text": "line.",
+          "start": 1.99,
+          "end": 2.6299999
+        },
+        {
+          "text": "Thanks",
+          "start": 2.6299999,
+          "end": 3.11
+        },
+        {
+          "text": "for",
+          "start": 3.11,
+          "end": 3.27
+        },
+        {
+          "text": "your",
+          "start": 3.27,
+          "end": 3.51
+        },
+        {
+          "text": "help.",
+          "start": 3.51,
+          "end": 3.96
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/q500s.wav",
+      "seconds": 5.37,
+      "elapsed": 0.3732038,
+      "cleanup_ms": 24.6521,
+      "speech_seconds": 5.056,
+      "chunks": 1,
+      "reference": "El informe está listo / nuevo párrafo / por favor revísalo hoy.",
+      "text": "El informe está listo. Nuevo párrafo. Por favor, revísalo hoy.",
+      "tidied": "El informe está listo.\n\nPor favor, revísalo hoy.",
+      "words": [
+        {
+          "text": "El",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "informe",
+          "start": 0.14999998,
+          "end": 0.71
+        },
+        {
+          "text": "está",
+          "start": 0.71,
+          "end": 1.03
+        },
+        {
+          "text": "listo.",
+          "start": 1.03,
+          "end": 1.8299999
+        },
+        {
+          "text": "Nuevo",
+          "start": 1.8299999,
+          "end": 2.31
+        },
+        {
+          "text": "párrafo.",
+          "start": 2.31,
+          "end": 3.1899998
+        },
+        {
+          "text": "Por",
+          "start": 3.1899998,
+          "end": 3.35
+        },
+        {
+          "text": "favor,",
+          "start": 3.35,
+          "end": 3.75
+        },
+        {
+          "text": "revísalo",
+          "start": 3.75,
+          "end": 4.47
+        },
+        {
+          "text": "hoy.",
+          "start": 4.47,
+          "end": 4.76
+        }
+      ]
+    }
+  ]
+}

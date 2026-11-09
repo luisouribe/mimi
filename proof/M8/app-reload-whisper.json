@@ -1,0 +1,170 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\ja\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793900359173,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 3.1,
+          "text": "水をマレーシアから買わなくてはならないのです。",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "水をマレーシアから買わなくてはならないのです。",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 14.1587,
+          "mic_ready_ms": 1156.9258,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0034,
+          "recognition_ms": 244.6543,
+          "recorded_seconds": 3.1,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.1,
+          "stop_to_text_ms": 258.9859,
+          "tidy_ms": 0.0968,
+          "total_ms": 259.18350000000004
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 63,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\ja\\001.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793900379021,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 4.24,
+          "text": "木曜日、定選会談は何の進展もないまま終了します。",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "木曜日、定選会談は何の進展もないまま終了します。",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 17.8152,
+          "mic_ready_ms": 1.3709,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0033,
+          "recognition_ms": 495.0856,
+          "recorded_seconds": 4.24,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.24,
+          "stop_to_text_ms": 512.9883,
+          "tidy_ms": 0.0209,
+          "total_ms": 513.1135
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 2.9872981,
+    "model": "whisper-turbo",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": true
+  },
+  "history": [
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793900379021,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 4.24,
+      "text": "木曜日、定選会談は何の進展もないまま終了します。",
+      "word_count": 1
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793900359173,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 3.1,
+      "text": "水をマレーシアから買わなくてはならないのです。",
+      "word_count": 1
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "Spanish, English and 23 more. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "Japanese and 100+ languages. Most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "Japanese and 100+ languages. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "screen": {
+    "animateSwitchWorks": true,
+    "hideAllowed": true,
+    "manropeLoaded": true,
+    "mimiCanvasWidth": 523,
+    "oxaniumLoaded": true
+  },
+  "settings": {
+    "animate_mimi": true,
+    "cleanup": true,
+    "language": "ja",
+    "model": "whisper-turbo",
+    "whisper_cpu_only": false
+  },
+  "snippets": [],
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "ja",
+      "model": "whisper-turbo",
+      "seconds": 2.261799999982119,
+      "status": {
+        "load_seconds": 1.8860522,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    }
+  ]
+}

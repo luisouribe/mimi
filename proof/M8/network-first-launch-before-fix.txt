@@ -1,0 +1,2 @@
+﻿Watched 120 s from launch. Processes: 8. Non-local connections: 1.
+150.171.28.11:443 (Established) at 120 s

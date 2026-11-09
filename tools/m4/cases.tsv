@@ -1,0 +1,36 @@
+# id	language	voice	text ("|" is a spoken pause)
+e01	en	Microsoft Zira Desktop	I think we should go | new line | see you tomorrow.
+e02	en	Microsoft David Desktop	Um, I think we should, uh, leave early.
+e03	en	Microsoft Zira Desktop	I I I think the the plan is very very good.
+e04	en	Microsoft David Desktop	We launched a new line of products this year.
+e05	en	Microsoft Zira Desktop	The first topic is done | new paragraph | The second one starts here.
+e06	en	Microsoft David Desktop	Dear John new line thanks for your message.
+e07	en	Microsoft Zira Desktop	Please add a new paragraph about the budget.
+s01	es	Microsoft Sabina Desktop	Hola Juan | nueva línea | gracias por tu mensaje.
+s02	es	Microsoft Sabina Desktop	Eh, creo que, em, deberíamos salir temprano.
+s03	es	Microsoft Sabina Desktop	Yo yo yo creo que el el plan es muy muy bueno.
+s04	es	Microsoft Sabina Desktop	Lanzamos una nueva línea de productos este año.
+s05	es	Microsoft Sabina Desktop	Terminé el primer tema | nuevo párrafo | Ahora empieza el segundo.
+s06	es	Microsoft Sabina Desktop	Llegamos tarde | punto y aparte | Mañana seguimos.
+s07	es	Microsoft Sabina Desktop	Hola Juan nueva línea gracias por tu mensaje.
+s08	es	Microsoft Sabina Desktop	Por favor agrega un nuevo párrafo sobre el presupuesto.
+p100e	en	Microsoft Zira Desktop	I think we should go {100} new line {100} see you tomorrow.
+p100s	es	Microsoft Sabina Desktop	Hola Juan {100} nueva línea {100} gracias por tu mensaje.
+q100e	en	Microsoft David Desktop	The report is ready {100} new paragraph {100} please review it today.
+r100s	en	Microsoft Zira Desktop	We finished the review {100} new line {100} thanks for your help.
+q100s	es	Microsoft Sabina Desktop	El informe está listo {100} nuevo párrafo {100} por favor revísalo hoy.
+p200e	en	Microsoft Zira Desktop	I think we should go {200} new line {200} see you tomorrow.
+p200s	es	Microsoft Sabina Desktop	Hola Juan {200} nueva línea {200} gracias por tu mensaje.
+q200e	en	Microsoft David Desktop	The report is ready {200} new paragraph {200} please review it today.
+r200s	en	Microsoft Zira Desktop	We finished the review {200} new line {200} thanks for your help.
+q200s	es	Microsoft Sabina Desktop	El informe está listo {200} nuevo párrafo {200} por favor revísalo hoy.
+p300e	en	Microsoft Zira Desktop	I think we should go {300} new line {300} see you tomorrow.
+p300s	es	Microsoft Sabina Desktop	Hola Juan {300} nueva línea {300} gracias por tu mensaje.
+q300e	en	Microsoft David Desktop	The report is ready {300} new paragraph {300} please review it today.
+r300s	en	Microsoft Zira Desktop	We finished the review {300} new line {300} thanks for your help.
+q300s	es	Microsoft Sabina Desktop	El informe está listo {300} nuevo párrafo {300} por favor revísalo hoy.
+p500e	en	Microsoft Zira Desktop	I think we should go {500} new line {500} see you tomorrow.
+p500s	es	Microsoft Sabina Desktop	Hola Juan {500} nueva línea {500} gracias por tu mensaje.
+q500e	en	Microsoft David Desktop	The report is ready {500} new paragraph {500} please review it today.
+r500s	en	Microsoft Zira Desktop	We finished the review {500} new line {500} thanks for your help.
+q500s	es	Microsoft Sabina Desktop	El informe está listo {500} nuevo párrafo {500} por favor revísalo hoy.

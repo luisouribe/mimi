@@ -1,0 +1,19 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-11-03T21:30:00Z" },
+  "title": "Mimi Design Proposals",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": { "x": 0, "y": 0, "w": 1280, "h": 800, "title": "A: Stage, home screen", "is_interactive": true, "expand": "fill" },
+    "A-Indicator.dc.html": { "x": 1360, "y": 0, "w": 620, "h": 300, "title": "A: Stage, recording indicator" },
+    "B-Home.dc.html": { "x": 0, "y": 1240, "w": 1280, "h": 800, "title": "B: Ribbon, home screen", "is_interactive": true, "expand": "fill" },
+    "B-Indicator.dc.html": { "x": 1360, "y": 1240, "w": 620, "h": 300, "title": "B: Ribbon, recording indicator" }
+  },
+  "order": ["Main.dc.html", "A-Indicator.dc.html", "B-Home.dc.html", "B-Indicator.dc.html"],
+  "notes": {
+    "titleA": { "x": 0, "y": -300, "text": "Proposal A: Stage", "kind": "title1", "maxW": 1980 },
+    "titleB": { "x": 0, "y": 940, "text": "Proposal B: Ribbon", "kind": "title1", "maxW": 1980 }
+  },
+  "designSystems": []
+}

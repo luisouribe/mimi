@@ -1,0 +1,62 @@
+[
+    {
+        "lang":  "es",
+        "file":  "es/l01.wav",
+        "seconds":  11.17,
+        "reference":  "Para mañana necesito / primero / comprar pan / segundo / llamar a Juan / y tercero / mandar el video."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/l02.wav",
+        "seconds":  9.44,
+        "reference":  "Ingredientes / viñeta / harina / viñeta / huevos / viñeta / leche."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/l03.wav",
+        "seconds":  13.06,
+        "reference":  "Tengo tres cosas. / Primero / el guion. / Segundo / el casting. / Y por último / la locación."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/l04.wav",
+        "seconds":  10.5,
+        "reference":  "Uno / revisar el correo. / Dos / editar el video. / Tres / subirlo a YouTube."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/l05.wav",
+        "seconds":  9.96,
+        "reference":  "We need three things / first / a script / second / a camera / and third / a crew."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/l06.wav",
+        "seconds":  9.94,
+        "reference":  "Shopping list / bullet point / apples / bullet point / bread / bullet point / milk."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/n01.wav",
+        "seconds":  2.83,
+        "reference":  "Primero voy a comer y luego me duermo."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/n02.wav",
+        "seconds":  3.33,
+        "reference":  "Compré dos panes y tres leches para la casa."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/n03.wav",
+        "seconds":  2.8,
+        "reference":  "Esta viñeta del cómic es muy buena."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/n04.wav",
+        "seconds":  3.04,
+        "reference":  "First I want to thank you all for coming."
+    }
+]

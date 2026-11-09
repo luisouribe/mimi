@@ -1,0 +1,170 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\ja\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793848456600,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 3.19,
+          "text": "水をマレーシアから買わなくてはならないのです。",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "水をマレーシアから買わなくてはならないのです。",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 13.6321,
+          "mic_ready_ms": 1.6574,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.007,
+          "recognition_ms": 252.15729999999996,
+          "recorded_seconds": 3.19,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.19,
+          "stop_to_text_ms": 265.901,
+          "total_ms": 266.1542
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 70,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\en\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793848465115,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 5.663,
+          "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+          "word_count": 17
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 23.7245,
+          "mic_ready_ms": 1.5986,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0045000000000000005,
+          "recognition_ms": 379.8123,
+          "recorded_seconds": 5.855,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 5.663,
+          "stop_to_text_ms": 403.6427000000001,
+          "total_ms": 403.7759
+        },
+        "word_count": 17
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 124,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 1.7736383,
+    "model": "parakeet",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": false
+  },
+  "history": [
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793848465115,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 5.663,
+      "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+      "word_count": 17
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793848456600,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 3.19,
+      "text": "水をマレーシアから買わなくてはならないのです。",
+      "word_count": 1
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "Spanish, English and 23 more. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "Japanese and 100+ languages. Most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "Japanese and 100+ languages. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "settings": {
+    "language": null,
+    "model": "parakeet",
+    "whisper_cpu_only": false
+  },
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "ja",
+      "model": "whisper-turbo",
+      "seconds": 2.088800000011921,
+      "status": {
+        "load_seconds": 1.7185679,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    },
+    {
+      "language": "",
+      "model": "parakeet",
+      "seconds": 1.8626999999880791,
+      "status": {
+        "load_seconds": 1.7736383,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    }
+  ]
+}

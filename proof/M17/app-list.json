@@ -1,0 +1,188 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m17\\es\\l01.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Lockapp",
+          "created_at_ms": 1793990333067,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 10.848,
+          "text": "Para mañana necesito:\n1. Comprar pan.\n2. Llamar a Juan.\n3. Mandar el video.",
+          "word_count": 14
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Para mañana necesito:\n1. Comprar pan.\n2. Llamar a Juan.\n3. Mandar el video.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 75.75139999999999,
+          "mic_ready_ms": 3.952,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0046,
+          "recognition_ms": 1254.7368,
+          "recorded_seconds": 11.17,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 10.848,
+          "stop_to_text_ms": 1331.3652,
+          "tidy_ms": 0.4762,
+          "total_ms": 1331.8423
+        },
+        "word_count": 14
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 264,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m17\\es\\l02.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Lockapp",
+          "created_at_ms": 1793990345452,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 9.12,
+          "text": "Ingredientes:\n- Harina\n- Huevos\n- Leche",
+          "word_count": 7
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Ingredientes:\n- Harina\n- Huevos\n- Leche",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 70.8869,
+          "mic_ready_ms": 3.7383,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0062,
+          "recognition_ms": 975.9233,
+          "recorded_seconds": 9.435,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 9.12,
+          "stop_to_text_ms": 1048.4146999999998,
+          "tidy_ms": 0.5088,
+          "total_ms": 1048.9804
+        },
+        "word_count": 7
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 225,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 1.6322564000000002,
+    "model": "parakeet",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": false
+  },
+  "history": [
+    {
+      "app_name": "Lockapp",
+      "created_at_ms": 1793990345452,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 9.12,
+      "text": "Ingredientes:\n- Harina\n- Huevos\n- Leche",
+      "word_count": 7
+    },
+    {
+      "app_name": "Lockapp",
+      "created_at_ms": 1793990333067,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 10.848,
+      "text": "Para mañana necesito:\n1. Comprar pan.\n2. Llamar a Juan.\n3. Mandar el video.",
+      "word_count": 14
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "25 European languages, Spanish and English included. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "100 languages, Japanese included. The most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "99 languages, Japanese included. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "screen": {
+    "animateSwitchWorks": true,
+    "hideAllowed": true,
+    "manropeLoaded": true,
+    "mimiCanvasWidth": 523,
+    "oxaniumLoaded": true
+  },
+  "settings": {
+    "animate_mimi": true,
+    "appearance": "light",
+    "chimes": true,
+    "cleanup": true,
+    "hold_shortcut": {
+      "alt": false,
+      "ctrl": true,
+      "key": 32,
+      "key_name": "Space",
+      "shift": false
+    },
+    "language": null,
+    "model": "parakeet",
+    "quiet_other_apps": true,
+    "start_with_windows": true,
+    "tap_shortcut": {
+      "alt": false,
+      "ctrl": true,
+      "key": 32,
+      "key_name": "Space",
+      "shift": true
+    },
+    "whisper_cpu_only": false
+  },
+  "snippets": [],
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "",
+      "model": "parakeet",
+      "seconds": 1.91889999999851,
+      "status": {
+        "load_seconds": 1.6322564000000002,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    }
+  ]
+}

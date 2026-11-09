@@ -1,0 +1,7 @@
+﻿Window appeared after: 0.23 seconds
+Window title: Mimi
+Window size on screen: 1296 x 839
+Processes (app plus its web view): 7
+Private memory while idle: 164 MB
+Processor use while idle: 0.04% of the whole PC
+Closed.

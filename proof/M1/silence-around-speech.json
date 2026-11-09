@@ -1,0 +1,603 @@
+{
+  "engine": "mimi-pipeline",
+  "model": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\mimi\\src-tauri\\..\\..\\models\\parakeet-tdt-0.6b-v3-int8",
+  "load_seconds": 2.4998799,
+  "peak_memory_mb": 848.921875,
+  "rate": 48000,
+  "gain": 1.0,
+  "lead_silence": 2.0,
+  "first_words": [
+    {
+      "text": "mister",
+      "start": 0.06999999,
+      "end": 0.39
+    },
+    {
+      "text": "Quilter",
+      "start": 0.39,
+      "end": 1.1899999
+    },
+    {
+      "text": "is",
+      "start": 1.1899999,
+      "end": 1.27
+    },
+    {
+      "text": "the",
+      "start": 1.27,
+      "end": 1.43
+    },
+    {
+      "text": "apostle",
+      "start": 1.43,
+      "end": 1.9099998
+    },
+    {
+      "text": "of",
+      "start": 1.9099998,
+      "end": 2.07
+    },
+    {
+      "text": "the",
+      "start": 2.07,
+      "end": 2.1499999
+    },
+    {
+      "text": "middle",
+      "start": 2.1499999,
+      "end": 2.47
+    }
+  ],
+  "clips": [
+    {
+      "lang": "en",
+      "file": "en/000.wav",
+      "seconds": 5.86,
+      "elapsed": 0.5372122,
+      "cleanup_ms": 109.1006,
+      "speech_seconds": 5.664,
+      "chunks": 1,
+      "reference": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "text": "mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+    },
+    {
+      "lang": "en",
+      "file": "en/001.wav",
+      "seconds": 4.82,
+      "elapsed": 0.4564461,
+      "cleanup_ms": 104.8181,
+      "speech_seconds": 4.672,
+      "chunks": 1,
+      "reference": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "text": "Nor is mister Quilter's manner less interesting than his matter."
+    },
+    {
+      "lang": "en",
+      "file": "en/002.wav",
+      "seconds": 12.49,
+      "elapsed": 1.1954974,
+      "cleanup_ms": 180.0448,
+      "speech_seconds": 12.192,
+      "chunks": 1,
+      "reference": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "text": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+    },
+    {
+      "lang": "en",
+      "file": "en/003.wav",
+      "seconds": 9.9,
+      "elapsed": 0.9170785,
+      "cleanup_ms": 189.3055,
+      "speech_seconds": 9.664,
+      "chunks": 1,
+      "reference": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "text": "He has grave doubts whether Sir Frederick Leighton's work is really Greek after all, and can discover in it but little of Rocky Ithaca."
+    },
+    {
+      "lang": "en",
+      "file": "en/004.wav",
+      "seconds": 29.4,
+      "elapsed": 3.095551,
+      "cleanup_ms": 395.5113,
+      "speech_seconds": 29.248,
+      "chunks": 2,
+      "reference": "LINNELL'S PICTURES ARE A SORT OF UP GUARDS AND AT EM PAINTINGS AND MASON'S EXQUISITE IDYLLS ARE AS NATIONAL AS A JINGO POEM MISTER BIRKET FOSTER'S LANDSCAPES SMILE AT ONE MUCH IN THE SAME WAY THAT MISTER CARKER USED TO FLASH HIS TEETH AND MISTER JOHN COLLIER GIVES HIS SITTER A CHEERFUL SLAP ON THE BACK BEFORE HE SAYS LIKE A SHAMPOOER IN A TURKISH BATH NEXT MAN",
+      "text": "Lynell's pictures are a sort of Up Guards and Adam paintings, and Mason's exquisite idols are as national as a jingo poem. mister Burkett Foster's landscapes smile at one much in the same way that mister Carker used to flash his teeth. And mister John Collier gives his sitter a cheerful slap on the back, before he says, like a shampooer in a Turkish bath, Next, man"
+    },
+    {
+      "lang": "en",
+      "file": "en/005.wav",
+      "seconds": 9.01,
+      "elapsed": 0.8265827,
+      "cleanup_ms": 160.8814,
+      "speech_seconds": 8.768,
+      "chunks": 1,
+      "reference": "IT IS OBVIOUSLY UNNECESSARY FOR US TO POINT OUT HOW LUMINOUS THESE CRITICISMS ARE HOW DELICATE IN EXPRESSION",
+      "text": "It is obviously unnecessary for us to point out how luminous these criticisms are, how delicate in expression."
+    },
+    {
+      "lang": "en",
+      "file": "en/006.wav",
+      "seconds": 5.64,
+      "elapsed": 0.5726211,
+      "cleanup_ms": 103.7364,
+      "speech_seconds": 5.824,
+      "chunks": 1,
+      "reference": "ON THE GENERAL PRINCIPLES OF ART MISTER QUILTER WRITES WITH EQUAL LUCIDITY",
+      "text": "On the general principles of art, mister Quilter writes with equal lucidity"
+    },
+    {
+      "lang": "en",
+      "file": "en/007.wav",
+      "seconds": 9.24,
+      "elapsed": 0.8246239,
+      "cleanup_ms": 161.9437,
+      "speech_seconds": 8.992,
+      "chunks": 1,
+      "reference": "PAINTING HE TELLS US IS OF A DIFFERENT QUALITY TO MATHEMATICS AND FINISH IN ART IS ADDING MORE FACT",
+      "text": "Painting, he tells us, is of a different quality to mathematics, and finish in art is adding more fact."
+    },
+    {
+      "lang": "en",
+      "file": "en/008.wav",
+      "seconds": 5.12,
+      "elapsed": 0.473193,
+      "cleanup_ms": 107.94470000000001,
+      "speech_seconds": 4.832,
+      "chunks": 1,
+      "reference": "AS FOR ETCHINGS THEY ARE OF TWO KINDS BRITISH AND FOREIGN",
+      "text": "As for etchings, they are of two kinds, British and foreign."
+    },
+    {
+      "lang": "en",
+      "file": "en/009.wav",
+      "seconds": 18.29,
+      "elapsed": 2.0194268,
+      "cleanup_ms": 259.6968,
+      "speech_seconds": 18.4,
+      "chunks": 1,
+      "reference": "HE LAMENTS MOST BITTERLY THE DIVORCE THAT HAS BEEN MADE BETWEEN DECORATIVE ART AND WHAT WE USUALLY CALL PICTURES MAKES THE CUSTOMARY APPEAL TO THE LAST JUDGMENT AND REMINDS US THAT IN THE GREAT DAYS OF ART MICHAEL ANGELO WAS THE FURNISHING UPHOLSTERER",
+      "text": "He laments most bitterly the divorce that has been made between decorative art and what we usually call pictures, makes a customary appeal to the last judgment and reminds us that in the great days of art Michelangelo was the furnishing upholsterer."
+    },
+    {
+      "lang": "en",
+      "file": "en/010.wav",
+      "seconds": 5.6,
+      "elapsed": 0.5550264,
+      "cleanup_ms": 113.6326,
+      "speech_seconds": 5.664,
+      "chunks": 1,
+      "reference": "NEAR THE FIRE AND THE ORNAMENTS FRED BROUGHT HOME FROM INDIA ON THE MANTEL BOARD",
+      "text": "near the fire, and the ornaments Fred brought home from India on the mantle board."
+    },
+    {
+      "lang": "en",
+      "file": "en/011.wav",
+      "seconds": 15.12,
+      "elapsed": 1.5878865,
+      "cleanup_ms": 237.0067,
+      "speech_seconds": 15.36,
+      "chunks": 1,
+      "reference": "IN FACT HE IS QUITE SEVERE ON MISTER RUSKIN FOR NOT RECOGNISING THAT A PICTURE SHOULD DENOTE THE FRAILTY OF MAN AND REMARKS WITH PLEASING COURTESY AND FELICITOUS GRACE THAT MANY PHASES OF FEELING",
+      "text": "In fact, he is quite severe on mister Ruskin for not recognizing that a picture should denote the frailty of man, and remarks with pleasing courtesy and felicitous grace that many phases of feeling"
+    },
+    {
+      "lang": "en",
+      "file": "en/012.wav",
+      "seconds": 5.38,
+      "elapsed": 0.5865118,
+      "cleanup_ms": 125.9642,
+      "speech_seconds": 5.728,
+      "chunks": 1,
+      "reference": "ONLY UNFORTUNATELY HIS OWN WORK NEVER DOES GET GOOD",
+      "text": "Only, unfortunately, his own work never does get good."
+    },
+    {
+      "lang": "en",
+      "file": "en/013.wav",
+      "seconds": 7.1,
+      "elapsed": 0.6580856,
+      "cleanup_ms": 138.2333,
+      "speech_seconds": 6.816,
+      "chunks": 1,
+      "reference": "MISTER QUILTER HAS MISSED HIS CHANCE FOR HE HAS FAILED EVEN TO MAKE HIMSELF THE TUPPER OF PAINTING",
+      "text": "mister Quilter has missed his chance, for he has failed even to make himself the Tupper of Painting."
+    },
+    {
+      "lang": "en",
+      "file": "en/014.wav",
+      "seconds": 2.25,
+      "elapsed": 0.2729045,
+      "cleanup_ms": 68.3887,
+      "speech_seconds": 2.4,
+      "chunks": 1,
+      "reference": "BY HARRY QUILTER M A",
+      "text": "by Harry Quilter, M. A."
+    },
+    {
+      "lang": "en",
+      "file": "en/015.wav",
+      "seconds": 10.89,
+      "elapsed": 1.0625486,
+      "cleanup_ms": 198.04749999999999,
+      "speech_seconds": 10.656,
+      "chunks": 1,
+      "reference": "BECAUSE YOU WERE SLEEPING INSTEAD OF CONQUERING THE LOVELY ROSE PRINCESS HAS BECOME A FIDDLE WITHOUT A BOW WHILE POOR SHAGGY SITS THERE A COOING DOVE",
+      "text": "Because you are sleeping instead of conquering, the lovely rose princess has become a fiddle without a bow, while poor Shaggy sits there a cooing dove."
+    },
+    {
+      "lang": "en",
+      "file": "en/016.wav",
+      "seconds": 11.13,
+      "elapsed": 1.0571723,
+      "cleanup_ms": 166.06779999999998,
+      "speech_seconds": 10.848,
+      "chunks": 1,
+      "reference": "HE HAS GONE AND GONE FOR GOOD ANSWERED POLYCHROME WHO HAD MANAGED TO SQUEEZE INTO THE ROOM BESIDE THE DRAGON AND HAD WITNESSED THE OCCURRENCES WITH MUCH INTEREST",
+      "text": "He has gone, and gone for good, answered Polychrome, who had managed to squeeze into the room beside the dragon, and had witnessed the occurrences with much interest."
+    },
+    {
+      "lang": "en",
+      "file": "en/017.wav",
+      "seconds": 11.48,
+      "elapsed": 1.1291276,
+      "cleanup_ms": 194.5486,
+      "speech_seconds": 11.424,
+      "chunks": 1,
+      "reference": "I HAVE REMAINED A PRISONER ONLY BECAUSE I WISHED TO BE ONE AND WITH THIS HE STEPPED FORWARD AND BURST THE STOUT CHAINS AS EASILY AS IF THEY HAD BEEN THREADS",
+      "text": "I have remained a prisoner only because I wished to be one. And with this he stepped forward and burst the stout chains as easily as if they had been threads."
+    },
+    {
+      "lang": "en",
+      "file": "en/018.wav",
+      "seconds": 4.76,
+      "elapsed": 0.4394932,
+      "cleanup_ms": 101.4689,
+      "speech_seconds": 4.736,
+      "chunks": 1,
+      "reference": "THE LITTLE GIRL HAD BEEN ASLEEP BUT SHE HEARD THE RAPS AND OPENED THE DOOR",
+      "text": "The little girl had been asleep, but she heard the raps and opened the door."
+    },
+    {
+      "lang": "en",
+      "file": "en/019.wav",
+      "seconds": 4.23,
+      "elapsed": 0.417476,
+      "cleanup_ms": 106.1404,
+      "speech_seconds": 4.192,
+      "chunks": 1,
+      "reference": "THE KING HAS FLED IN DISGRACE AND YOUR FRIENDS ARE ASKING FOR YOU",
+      "text": "The king has flooded a disgrace and your friends are asking for you."
+    },
+    {
+      "lang": "en",
+      "file": "en/020.wav",
+      "seconds": 4.63,
+      "elapsed": 0.4354872,
+      "cleanup_ms": 101.2834,
+      "speech_seconds": 4.672,
+      "chunks": 1,
+      "reference": "I BEGGED RUGGEDO LONG AGO TO SEND HIM AWAY BUT HE WOULD NOT DO SO",
+      "text": "I begged Ruggedow long ago to send him away, but he would not do so."
+    },
+    {
+      "lang": "en",
+      "file": "en/021.wav",
+      "seconds": 4.09,
+      "elapsed": 0.3988231,
+      "cleanup_ms": 99.6339,
+      "speech_seconds": 4.128,
+      "chunks": 1,
+      "reference": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+      "text": "I also offered to help your brother to escape, but he would not go."
+    },
+    {
+      "lang": "en",
+      "file": "en/022.wav",
+      "seconds": 4.06,
+      "elapsed": 0.386978,
+      "cleanup_ms": 88.9332,
+      "speech_seconds": 3.904,
+      "chunks": 1,
+      "reference": "HE EATS AND SLEEPS VERY STEADILY REPLIED THE NEW KING",
+      "text": "He eats and sleeps very steadily, replied the new king."
+    },
+    {
+      "lang": "en",
+      "file": "en/023.wav",
+      "seconds": 3.67,
+      "elapsed": 0.3774354,
+      "cleanup_ms": 105.0487,
+      "speech_seconds": 3.488,
+      "chunks": 1,
+      "reference": "I HOPE HE DOESN'T WORK TOO HARD SAID SHAGGY",
+      "text": "I hope he doesn't work too hard, said Shaggy."
+    },
+    {
+      "lang": "en",
+      "file": "en/024.wav",
+      "seconds": 1.91,
+      "elapsed": 0.2598941,
+      "cleanup_ms": 84.5209,
+      "speech_seconds": 1.888,
+      "chunks": 1,
+      "reference": "HE DOESN'T WORK AT ALL",
+      "text": "He doesn't work at all."
+    },
+    {
+      "lang": "es",
+      "file": "es/000.wav",
+      "seconds": 16.27,
+      "elapsed": 1.7360821,
+      "cleanup_ms": 242.0443,
+      "speech_seconds": 16.064,
+      "chunks": 1,
+      "reference": "y las almas buscando algún alivio se revuelven ansiosas y hacen el mundo que así resulta ser del dolor obra el dolor o la nada quien tenga corazón venga y escoja",
+      "text": "Y las almas, buscando algún alivio, se revuelven ansiosas y hacen el mundo, que así resulta ser del dolor obra, el dolor o la nada. Quien tenga corazón venga y escoja."
+    },
+    {
+      "lang": "es",
+      "file": "es/001.wav",
+      "seconds": 18.62,
+      "elapsed": 1.9946492,
+      "cleanup_ms": 278.06419999999997,
+      "speech_seconds": 18.016,
+      "chunks": 1,
+      "reference": "cuando calla el dolor se oye a la muerte las alas tenebrosas batir en los profundos cual si fuesen las olas del mar de la ilusión en que los seres sin rumbo bogan donde se mecen frágiles barquillas las fugitivas formas",
+      "text": "Cuando cae el dolor, se oye a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las olas del mar de la ilusión, en que los seres sin rumbo bogan, donde se mecen frágiles barquillas, las fugitivas formas."
+    },
+    {
+      "lang": "es",
+      "file": "es/002.wav",
+      "seconds": 17.86,
+      "elapsed": 2.0034327,
+      "cleanup_ms": 267.83430000000004,
+      "speech_seconds": 17.952,
+      "chunks": 1,
+      "reference": "echar fuera la vida y acallar las domésticas cuestiones con el huero fragor de las políticas no hagas caso á los hombres que se juntan y gritan hojas sus gritos son que el viento lleva mientras en silencio su dolor radica",
+      "text": "echar fuera la vida y acallar las domésticas cuestiones con el güero fragor de las políticas. No hagas caso a los hombres que se juntan y gritan. Hojas sus gritos son, que el viento lleva, mientras en silencio su dolor radica."
+    },
+    {
+      "lang": "es",
+      "file": "es/003.wav",
+      "seconds": 18.09,
+      "elapsed": 1.9880787,
+      "cleanup_ms": 306.0609,
+      "speech_seconds": 17.696,
+      "chunks": 1,
+      "reference": "el vivir con el hombre pobre bestia te ha dado acaso un anhelar oscuro que el lobo no conoce tal vez cuando acostabas la cabeza en mi regazo vagamente soñabas en ser hombre después de muerto ser hombre pobre bestia",
+      "text": "El vivir con el hombre, pobre bestia, te ha dado acaso un anhelar oscuro que el lobo no conoce. Tal vez cuando acostabas la cabeza en mi regazo, vagamente soñabas en ser hombre después de muerto. Ser hombre, pobre bestia."
+    },
+    {
+      "lang": "es",
+      "file": "es/004.wav",
+      "seconds": 19.2,
+      "elapsed": 2.080813,
+      "cleanup_ms": 267.6866,
+      "speech_seconds": 18.496,
+      "chunks": 1,
+      "reference": "no sabe lo que busca y tú para él mi alma sólo tienes esta palabra nunca a dar voces vacías pobrecillos se juntan y gritan y más gritan y sus penas ocultan y piden no sé que ni ellos saben aunque crean saberlo en su locura",
+      "text": "No sabe lo que busca y tú para él, mi alma, solo tienes esta palabra, nunca. A dar voces vacías, pobrecillos se juntan, y gritan y más gritan, y sus penas ocultan, y piden no sé qué, ni ellos saben, aunque crean saberlo en su locura."
+    },
+    {
+      "lang": "es",
+      "file": "es/005.wav",
+      "seconds": 14.96,
+      "elapsed": 1.5276106999999999,
+      "cleanup_ms": 234.6911,
+      "speech_seconds": 14.432,
+      "chunks": 1,
+      "reference": "como todas las penas aunque tantas son una sola pena una sola infinita soberana la pena de vivir llevando al todo temblando ante la nada",
+      "text": "Como todas las penas, aunque tantas, son una sola pena, una sola, infinita, soberana, la pena de vivir llevando al todo, temblando ante la nada."
+    },
+    {
+      "lang": "es",
+      "file": "es/006.wav",
+      "seconds": 14.71,
+      "elapsed": 1.5802249000000002,
+      "cleanup_ms": 281.0221,
+      "speech_seconds": 14.592,
+      "chunks": 1,
+      "reference": "pero allí no tendremos en torno de nuestra alma las almas de las cosas de que vive el alma de los campos las almas de las rocas las almas de los árboles y ríos las de las bestias",
+      "text": "Pero allí no tendremos en torno de nuestra alma las almas de las cosas de que vive, el alma de los campos, las almas de las rocas, las almas de los árboles y ríos, las de las bestias."
+    },
+    {
+      "lang": "es",
+      "file": "es/007.wav",
+      "seconds": 10.49,
+      "elapsed": 1.0836176,
+      "cleanup_ms": 198.73170000000002,
+      "speech_seconds": 9.952,
+      "chunks": 1,
+      "reference": "tú has muerto en mansedumbre tú con dulzura entregándote á mí en la suprema sumisión de la vida pero él",
+      "text": "Tú has muerto en mansedumbre, tú con dulzura, entregándote a mí en la suprema sumisión de la vida, pero él"
+    },
+    {
+      "lang": "es",
+      "file": "es/008.wav",
+      "seconds": 13.51,
+      "elapsed": 1.5090054,
+      "cleanup_ms": 242.6982,
+      "speech_seconds": 13.28,
+      "chunks": 1,
+      "reference": "el que gime junto a la tumba de su dios de su amo ni morir sabe tú al morir presentías vagamente vivir en mi memoria no morirte del todo",
+      "text": "El que gime junto a la tumba de su Dios, de su amo, ni morir sabe. Tú, al morir, presentías vagamente vivir en mi memoria, no morirte del todo."
+    },
+    {
+      "lang": "es",
+      "file": "es/009.wav",
+      "seconds": 16.61,
+      "elapsed": 1.9782790000000001,
+      "cleanup_ms": 288.0975,
+      "speech_seconds": 16.16,
+      "chunks": 1,
+      "reference": "allá en el otro mundo tu alma pobre perro no habrá de recostar en mi regazo espiritual su espiritual cabeza la lengua de tu alma pobre amigo no lamerá la mano de mi alma",
+      "text": "Allá, en el otro mundo, tu alma, pobre perro, no habrá de recostar en mi regazo espiritual su espiritual cabeza. La lengua de tu alma, pobre amigo, no lamirá la mano de mi alma."
+    },
+    {
+      "lang": "es",
+      "file": "es/010.wav",
+      "seconds": 17.28,
+      "elapsed": 2.1570126,
+      "cleanup_ms": 323.711,
+      "speech_seconds": 17.376,
+      "chunks": 1,
+      "reference": "métete en tu dolor y en él trabaja por escardar la broza cinco no te acuerdas mi amor que te decía cómo en mi seno luchan por darse a luz oscuros pensamientos sin voz y sin figura",
+      "text": "Métete en tu dolor y en el trabaja por escardar la brosa. Cinco No te acuerdas, mi amor, que te decía cómo en mi seno luchan por darse a luz oscuros pensamientos, sin voz y sin figura."
+    },
+    {
+      "lang": "es",
+      "file": "es/011.wav",
+      "seconds": 15.55,
+      "elapsed": 1.7191600999999999,
+      "cleanup_ms": 266.5797,
+      "speech_seconds": 15.232,
+      "chunks": 1,
+      "reference": "por eso te decía que callaras y así en silencio muda dejases que tu pena poco a poco desde la hondura de ese tu corazón que cual el mío bate la eterna angustia te subiese a la boca",
+      "text": "Por eso te decía que callaras, y así, en silencio, muda, dejases que tu pena, poco a poco, desde la hondura de ese tu corazón, que cual el mío bate la eterna angustia, te subiese a la boca."
+    },
+    {
+      "lang": "es",
+      "file": "es/012.wav",
+      "seconds": 12.49,
+      "elapsed": 1.3237477,
+      "cleanup_ms": 214.0154,
+      "speech_seconds": 12.096,
+      "chunks": 1,
+      "reference": "lejos de esos afanes que al mundo abruman casemos nuestras penas en silencio y de este fuerte enlace acaso surja fruto consolador",
+      "text": "Lejos de esos afanes que al mundo abruman, casemos nuestras penas en silencio, y de este fuerte enlace acaso surja fruto consolador."
+    },
+    {
+      "lang": "es",
+      "file": "es/013.wav",
+      "seconds": 17.63,
+      "elapsed": 1.9387737999999999,
+      "cleanup_ms": 302.89860000000004,
+      "speech_seconds": 17.44,
+      "chunks": 1,
+      "reference": "será vuestro consuelo bañaros en las ondas de las eternas lágrimas que curan por fin toda congoja pues en lo eterno del dolor divino la amargura se borra y la miseria deja al miserable dulzura muy sabrosa",
+      "text": "Será vuestro consuelo bañaros en las ondas de las eternas lágrimas que curan, por fin toda congoja, pues en lo eterno del dolor vivino la amargura se borra, y la miseria deja al miserable dulzura muy sabrosa."
+    },
+    {
+      "lang": "es",
+      "file": "es/014.wav",
+      "seconds": 19.58,
+      "elapsed": 1.5329972,
+      "cleanup_ms": 324.44620000000003,
+      "speech_seconds": 13.536,
+      "chunks": 1,
+      "reference": "si tú no te perdonas cómo has de perdonar perdónate perdón solo perdón perdón tan solo solo perdón fin del poema",
+      "text": "Si tú no te perdonas,¿cómo has de perdonar? Perdónate, perdón, solo perdón, perdón tan solo, solo perdón. Fin del poema."
+    },
+    {
+      "lang": "es",
+      "file": "es/015.wav",
+      "seconds": 19.22,
+      "elapsed": 2.2399732,
+      "cleanup_ms": 316.5324,
+      "speech_seconds": 19.168,
+      "chunks": 1,
+      "reference": "la paz viene del fondo del corazón es divino tesoro que en ti dios puso es tesoro de amor esa inquietud interna que te derrite ese anhelo infinito que no se extingue que no se sacia es porque no perdonas",
+      "text": "La paz viene del fondo del corazón. Es divino tesoro que en ti Dios puso, es tesoro de amor, esa inquietud interna que te derrite, ese anhelo infinito que no se extingue, que no se sacia, es porque no perdonas."
+    },
+    {
+      "lang": "es",
+      "file": "es/016.wav",
+      "seconds": 19.45,
+      "elapsed": 2.3598878,
+      "cleanup_ms": 331.5356,
+      "speech_seconds": 19.328,
+      "chunks": 1,
+      "reference": "ni tu deber alegues hay un deber tan solo y es el perdón perdón es sacrificio del que perdona es gracia don divino del que el perdón recibe es gracia y sacrificio fruto de amor de amor no de justicia de caridad",
+      "text": "Ni tu deber alegues, hay un deber tan solo, y es el perdón. Perdón es sacrificio del que perdona, es gracia, don divino, del que el perdón recibe. Es gracia y sacrificio, fruto de amor, de amor, no de justicia, de caridad."
+    },
+    {
+      "lang": "es",
+      "file": "es/017.wav",
+      "seconds": 16.86,
+      "elapsed": 1.8630860999999999,
+      "cleanup_ms": 303.8947,
+      "speech_seconds": 16.416,
+      "chunks": 1,
+      "reference": "mira mi pobre amigo mi fiel creyente al ver morir tus ojos que me miran al ver cristalizarse tu mirada antes fluída yo también te pregunto á dónde vamos",
+      "text": "Mira, mi pobre amigo, mi fiel creyente, al ver morir tus ojos que me miran, al ver cristalizarse tu mirada, antes fluida, yo también te pregunto,¿a dónde vamos?"
+    },
+    {
+      "lang": "es",
+      "file": "es/018.wav",
+      "seconds": 10.47,
+      "elapsed": 1.1138036,
+      "cleanup_ms": 228.427,
+      "speech_seconds": 10.08,
+      "chunks": 1,
+      "reference": "tribunal no levantes dentro de tu alma mantenla pura no te juzgues en juicio oye a tus ansias ansias de paz",
+      "text": "Tribunal, no levantes dentro de tu alma, manténla pura, no te juzgues en juicio, oye a tus ansias, ansias de paz."
+    },
+    {
+      "lang": "es",
+      "file": "es/019.wav",
+      "seconds": 18.38,
+      "elapsed": 2.0309224,
+      "cleanup_ms": 274.4361,
+      "speech_seconds": 18.048,
+      "chunks": 1,
+      "reference": "el otro mundo el otro mundo es el del puro espíritu del espíritu puro oh terrible pureza inanidad vacío no volveré á encontrarte manso amigo serás allí un recuerdo recuerdo puro",
+      "text": "el otro mundo, el otro mundo es el del puro espíritu, del espíritu puro, oh terrible pureza, inanidad, vacío, no volveré a encontrarte manso amigo, serás allí un recuerdo, recuerdo puro."
+    },
+    {
+      "lang": "es",
+      "file": "es/020.wav",
+      "seconds": 16.89,
+      "elapsed": 1.7446205,
+      "cleanup_ms": 253.5323,
+      "speech_seconds": 15.84,
+      "chunks": 1,
+      "reference": "se fueron a moisés llenos de angustia confesaron su falta moisés oró al señor y a su mandado una serpiente de metal les labra y ante el pueblo rendido sereno la levanta",
+      "text": "Se fueron a Moisés llenos de angustia, confesaron su falta. Moisés oró al Señor, y a su mandado una serpiente de metal les labra, y ante el pueblo rendido, sereno, la levanta."
+    },
+    {
+      "lang": "es",
+      "file": "es/021.wav",
+      "seconds": 12.51,
+      "elapsed": 1.3327845,
+      "cleanup_ms": 274.5548,
+      "speech_seconds": 12.224,
+      "chunks": 1,
+      "reference": "mis ojos fueron para ti ventana del otro mundo si supieras mi perro que triste está tu dios porque te has muerto también tu dios se morirá algún día",
+      "text": "Mis ojos fueron para ti ventana del otro mundo. Si supieras, mi perro, que triste está tu Dios porque te has muerto. También tu Dios se morirá algún día."
+    },
+    {
+      "lang": "es",
+      "file": "es/022.wav",
+      "seconds": 12.32,
+      "elapsed": 1.2384358,
+      "cleanup_ms": 197.1694,
+      "speech_seconds": 11.648,
+      "chunks": 1,
+      "reference": "sabes lo que es sentir tus pensamientos agitarse en la sombra por debajo y no verles los ojos ni de su voz sentir el dulce llanto",
+      "text": "Sabes lo que es sentir tus pensamientos agitarse en la sombra, por debajo, y no verles los ojos, ni de su voz sentir el dulce llanto."
+    },
+    {
+      "lang": "es",
+      "file": "es/023.wav",
+      "seconds": 11.58,
+      "elapsed": 1.1897748,
+      "cleanup_ms": 194.5166,
+      "speech_seconds": 11.296,
+      "chunks": 1,
+      "reference": "calla que hay otro mundo por dentro del que vemos un mundo en el que tejen las tinieblas y es todo cielo tres",
+      "text": "Calla, que hay otro mundo por dentro del que vemos, un mundo en el que tejen las tinieblas y es todo cielo. Tres."
+    },
+    {
+      "lang": "es",
+      "file": "es/024.wav",
+      "seconds": 13.68,
+      "elapsed": 1.4331438,
+      "cleanup_ms": 206.6962,
+      "speech_seconds": 13.376,
+      "chunks": 1,
+      "reference": "un día más que fue lo sabes pero vendrá mañana y no será otro día te aseguro pues en nuestra alma todos los días son un solo día",
+      "text": "Un día más que fue, lo sabes, pero vendrá mañana, y no será otro día, te aseguro, pues en nuestra alma todos los días son un solo día."
+    }
+  ]
+}

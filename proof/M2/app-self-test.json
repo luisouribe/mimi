@@ -1,0 +1,145 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\en\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793814755531,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 5.663,
+          "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+          "word_count": 17
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 24.7112,
+          "mic_ready_ms": 14.2092,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0177,
+          "recognition_ms": 434.4202,
+          "recorded_seconds": 5.855,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 5.663,
+          "stop_to_text_ms": 459.233,
+          "total_ms": 459.4814
+        },
+        "word_count": 17
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 124,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\48k-stereo\\es\\001.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793814764503,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 7.616,
+          "text": "Cuando cae el dolor, se oyen a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las",
+          "word_count": 20
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Cuando cae el dolor, se oyen a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 86.2668,
+          "mic_ready_ms": 27.2651,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0087,
+          "recognition_ms": 533.2184,
+          "recorded_seconds": 8.16,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 7.616,
+          "stop_to_text_ms": 619.6599,
+          "total_ms": 619.9535999999999
+        },
+        "word_count": 20
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 166,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\special\\silence.wav",
+      "dictation": {
+        "entry": null,
+        "heard_speech": false,
+        "outcome": null,
+        "text": "",
+        "timings": {
+          "chunk_count": 0,
+          "cleanup_ms": 21.924200000000003,
+          "mic_ready_ms": 12.1558,
+          "outcome": "nothing to paste",
+          "paste_ms": 0,
+          "recognition_ms": 0,
+          "recorded_seconds": 3,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 0,
+          "stop_to_text_ms": 22.008699999999997,
+          "total_ms": 22.0096
+        },
+        "word_count": 0
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 2.6526556,
+    "state": "ready"
+  },
+  "history": [
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793814764503,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 7.616,
+      "text": "Cuando cae el dolor, se oyen a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las",
+      "word_count": 20
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793814755531,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 5.663,
+      "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+      "word_count": 17
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  }
+}

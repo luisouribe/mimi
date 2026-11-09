@@ -1,0 +1,181 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\en\\e01.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793890902292,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 4.64,
+          "text": "I think we should go.\nSee you tomorrow.",
+          "word_count": 8
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "I think we should go.\nSee you tomorrow.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 20.2969,
+          "mic_ready_ms": 1.6963,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0036,
+          "recognition_ms": 262.9357,
+          "recorded_seconds": 4.995,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.64,
+          "stop_to_text_ms": 283.4491,
+          "tidy_ms": 0.0586,
+          "total_ms": 283.6629
+        },
+        "word_count": 8
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\es\\s02.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793890910579,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 3.712,
+          "text": "Creo que deberíamos salir temprano.",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Creo que deberíamos salir temprano.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 16.721799999999998,
+          "mic_ready_ms": 1.9529,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031999999999999997,
+          "recognition_ms": 256.834,
+          "recorded_seconds": 4.04,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.712,
+          "stop_to_text_ms": 273.7195,
+          "tidy_ms": 0.0486,
+          "total_ms": 273.8853
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 3.5571674,
+    "model": "whisper-turbo",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": true
+  },
+  "history": [
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793890910579,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 3.712,
+      "text": "Creo que deberíamos salir temprano.",
+      "word_count": 5
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793890902292,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 4.64,
+      "text": "I think we should go.\nSee you tomorrow.",
+      "word_count": 8
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "Spanish, English and 23 more. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "Japanese and 100+ languages. Most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "Japanese and 100+ languages. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "screen": {
+    "animateSwitchWorks": true,
+    "hideAllowed": true,
+    "manropeLoaded": true,
+    "mimiCanvasWidth": 523,
+    "oxaniumLoaded": true
+  },
+  "settings": {
+    "animate_mimi": true,
+    "cleanup": true,
+    "language": "es",
+    "model": "whisper-turbo",
+    "whisper_cpu_only": false
+  },
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "",
+      "model": "parakeet",
+      "seconds": 1.8955,
+      "status": {
+        "load_seconds": 1.6678232,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 3.689300000011921,
+      "status": {
+        "load_seconds": 3.5571674,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    }
+  ]
+}

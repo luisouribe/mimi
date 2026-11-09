@@ -1,0 +1,212 @@
+[
+    {
+        "lang":  "en",
+        "file":  "en/e01.wav",
+        "seconds":  5,
+        "reference":  "I think we should go / new line / see you tomorrow."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/e02.wav",
+        "seconds":  4.25,
+        "reference":  "Um, I think we should, uh, leave early."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/e03.wav",
+        "seconds":  3.11,
+        "reference":  "I I I think the the plan is very very good."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/e04.wav",
+        "seconds":  3.08,
+        "reference":  "We launched a new line of products this year."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/e05.wav",
+        "seconds":  6.22,
+        "reference":  "The first topic is done / new paragraph / The second one starts here."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/e06.wav",
+        "seconds":  3.05,
+        "reference":  "Dear John new line thanks for your message."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/e07.wav",
+        "seconds":  3.05,
+        "reference":  "Please add a new paragraph about the budget."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s01.wav",
+        "seconds":  5.07,
+        "reference":  "Hola Juan / nueva línea / gracias por tu mensaje."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s02.wav",
+        "seconds":  4.04,
+        "reference":  "Eh, creo que, em, deberíamos salir temprano."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s03.wav",
+        "seconds":  3.26,
+        "reference":  "Yo yo yo creo que el el plan es muy muy bueno."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s04.wav",
+        "seconds":  3.54,
+        "reference":  "Lanzamos una nueva línea de productos este año."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s05.wav",
+        "seconds":  6.01,
+        "reference":  "Terminé el primer tema / nuevo párrafo / Ahora empieza el segundo."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s06.wav",
+        "seconds":  5.42,
+        "reference":  "Llegamos tarde / punto y aparte / Mañana seguimos."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s07.wav",
+        "seconds":  3.23,
+        "reference":  "Hola Juan nueva línea gracias por tu mensaje."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/s08.wav",
+        "seconds":  3.79,
+        "reference":  "Por favor agrega un nuevo párrafo sobre el presupuesto."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/p100e.wav",
+        "seconds":  3.6,
+        "reference":  "I think we should go / new line / see you tomorrow."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/p100s.wav",
+        "seconds":  3.67,
+        "reference":  "Hola Juan / nueva línea / gracias por tu mensaje."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/q100e.wav",
+        "seconds":  4.26,
+        "reference":  "The report is ready / new paragraph / please review it today."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/r100s.wav",
+        "seconds":  3.83,
+        "reference":  "We finished the review / new line / thanks for your help."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/q100s.wav",
+        "seconds":  4.57,
+        "reference":  "El informe está listo / nuevo párrafo / por favor revísalo hoy."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/p200e.wav",
+        "seconds":  3.8,
+        "reference":  "I think we should go / new line / see you tomorrow."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/p200s.wav",
+        "seconds":  3.87,
+        "reference":  "Hola Juan / nueva línea / gracias por tu mensaje."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/q200e.wav",
+        "seconds":  4.46,
+        "reference":  "The report is ready / new paragraph / please review it today."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/r200s.wav",
+        "seconds":  4.03,
+        "reference":  "We finished the review / new line / thanks for your help."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/q200s.wav",
+        "seconds":  4.77,
+        "reference":  "El informe está listo / nuevo párrafo / por favor revísalo hoy."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/p300e.wav",
+        "seconds":  4,
+        "reference":  "I think we should go / new line / see you tomorrow."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/p300s.wav",
+        "seconds":  4.07,
+        "reference":  "Hola Juan / nueva línea / gracias por tu mensaje."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/q300e.wav",
+        "seconds":  4.66,
+        "reference":  "The report is ready / new paragraph / please review it today."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/r300s.wav",
+        "seconds":  4.23,
+        "reference":  "We finished the review / new line / thanks for your help."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/q300s.wav",
+        "seconds":  4.97,
+        "reference":  "El informe está listo / nuevo párrafo / por favor revísalo hoy."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/p500e.wav",
+        "seconds":  4.4,
+        "reference":  "I think we should go / new line / see you tomorrow."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/p500s.wav",
+        "seconds":  4.47,
+        "reference":  "Hola Juan / nueva línea / gracias por tu mensaje."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/q500e.wav",
+        "seconds":  5.06,
+        "reference":  "The report is ready / new paragraph / please review it today."
+    },
+    {
+        "lang":  "en",
+        "file":  "en/r500s.wav",
+        "seconds":  4.63,
+        "reference":  "We finished the review / new line / thanks for your help."
+    },
+    {
+        "lang":  "es",
+        "file":  "es/q500s.wav",
+        "seconds":  5.37,
+        "reference":  "El informe está listo / nuevo párrafo / por favor revísalo hoy."
+    }
+]

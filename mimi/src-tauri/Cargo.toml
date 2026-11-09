@@ -1,0 +1,66 @@
+[package]
+name = "mimi"
+version = "0.1.0"
+description = "Mimi, an offline dictation app"
+authors = ["Luiso Uribe"]
+edition = "2024"
+default-run = "mimi"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+# The `_lib` suffix may seem redundant but it is necessary
+# to make the lib name unique and wouldn't conflict with the bin name.
+# This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
+name = "mimi_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+# Test tools stay out of the installer. Build them with `--features test-tools`.
+[features]
+test-tools = []
+
+[[bin]]
+name = "mimi"
+path = "src/main.rs"
+
+[[bin]]
+name = "pipeline_check"
+path = "src/bin/pipeline_check.rs"
+required-features = ["test-tools"]
+
+[[bin]]
+name = "tidy_check"
+path = "src/bin/tidy_check.rs"
+required-features = ["test-tools"]
+
+[[bin]]
+name = "history_speed"
+path = "src/bin/history_speed.rs"
+required-features = ["test-tools"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-single-instance = "2"
+rusqlite = { version = "0.41", features = ["bundled"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+cpal = "0.18"
+hound = "3"
+windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_Graphics_Gdi", "Win32_Security", "Win32_System_DataExchange", "Win32_System_Memory", "Win32_System_ProcessStatus", "Win32_System_Registry", "Win32_System_Threading", "Win32_UI_Input_KeyboardAndMouse", "Win32_UI_WindowsAndMessaging"] }
+# The same version the microphone library uses. Plays the chimes and lowers other apps.
+windows = { version = "0.62", features = ["Win32_Foundation", "Win32_Media_Audio", "Win32_System_Com", "Win32_System_Com_StructuredStorage", "Win32_System_Variant"] }
+# transcribe-rs 0.3.12 breaks on ort rc.15, so stay on the version it was written for.
+ort = "=2.0.0-rc.12"
+transcribe-rs = { version = "=0.3.12", features = ["onnx", "whisper-cpp", "whisper-vulkan"] }
+
+
+# Read the optimization guideline for more details: https://tauri.app/concept/size/#cargo-configuration
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"
+strip = true

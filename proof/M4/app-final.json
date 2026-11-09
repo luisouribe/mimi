@@ -1,0 +1,467 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\en\\e01.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857711526,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 4.64,
+          "text": "I think we should go.\nSee you tomorrow.",
+          "word_count": 8
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "I think we should go.\nSee you tomorrow.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 20.6256,
+          "mic_ready_ms": 1.7257,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.004,
+          "recognition_ms": 272.40340000000003,
+          "recorded_seconds": 4.995,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.64,
+          "stop_to_text_ms": 293.1955,
+          "tidy_ms": 0.0759,
+          "total_ms": 293.4221
+        },
+        "word_count": 8
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\en\\e02.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857716107,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 3.872,
+          "text": "I think we should leave early.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "I think we should leave early.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 17.5601,
+          "mic_ready_ms": 5.8201,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.004,
+          "recognition_ms": 235.5881,
+          "recorded_seconds": 4.24,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.872,
+          "stop_to_text_ms": 253.2634,
+          "tidy_ms": 0.0302,
+          "total_ms": 253.4046
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\es\\s03.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857721632,
+          "id": 3,
+          "pasted": false,
+          "speech_seconds": 2.912,
+          "text": "Yo creo que el plan es muy muy bueno.",
+          "word_count": 9
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Yo creo que el plan es muy muy bueno.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 14.0362,
+          "mic_ready_ms": 1.64,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0036,
+          "recognition_ms": 196.8975,
+          "recorded_seconds": 3.26,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.912,
+          "stop_to_text_ms": 211.1085,
+          "tidy_ms": 0.106,
+          "total_ms": 211.2311
+        },
+        "word_count": 9
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\es\\s01.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857727242,
+          "id": 4,
+          "pasted": false,
+          "speech_seconds": 4.736,
+          "text": "Hola Juan.\nGracias por tu mensaje.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Hola Juan.\nGracias por tu mensaje.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 20.6012,
+          "mic_ready_ms": 1.7493,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0035,
+          "recognition_ms": 278.58860000000004,
+          "recorded_seconds": 5.065,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 4.736,
+          "stop_to_text_ms": 299.4427,
+          "tidy_ms": 0.0307,
+          "total_ms": 299.5688
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 106,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\es\\s04.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857731781,
+          "id": 5,
+          "pasted": false,
+          "speech_seconds": 3.2,
+          "text": "Lanzamos una nueva línea de productos este año.",
+          "word_count": 8
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Lanzamos una nueva línea de productos este año.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 16.7742,
+          "mic_ready_ms": 5.6387,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0034,
+          "recognition_ms": 208.0589,
+          "recorded_seconds": 3.54,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.2,
+          "stop_to_text_ms": 224.9638,
+          "tidy_ms": 0.0437,
+          "total_ms": 225.0889
+        },
+        "word_count": 8
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\es\\s02.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857738933,
+          "id": 6,
+          "pasted": false,
+          "speech_seconds": 3.712,
+          "text": "Creo que deberíamos salir temprano.",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Creo que deberíamos salir temprano.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 16.798199999999998,
+          "mic_ready_ms": 2.4285,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0040999999999999995,
+          "recognition_ms": 560.9657,
+          "recorded_seconds": 4.04,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.712,
+          "stop_to_text_ms": 577.8583000000001,
+          "tidy_ms": 0.0313,
+          "total_ms": 577.9889999999999
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 86,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\es\\s06.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857744745,
+          "id": 7,
+          "pasted": false,
+          "speech_seconds": 5.088,
+          "text": "Llegamos tarde.\n\nMañana seguimos.",
+          "word_count": 4
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Llegamos tarde.\n\nMañana seguimos.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 21.9213,
+          "mic_ready_ms": 52.6166,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0031999999999999997,
+          "recognition_ms": 471.1706,
+          "recorded_seconds": 5.24,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 5.088,
+          "stop_to_text_ms": 493.1927,
+          "tidy_ms": 0.0232,
+          "total_ms": 493.3195
+        },
+        "word_count": 4
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 105,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-m4\\en\\e05.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1793857751532,
+          "id": 8,
+          "pasted": false,
+          "speech_seconds": 5.888,
+          "text": "The first topic is done.\n\nThe second one starts here.",
+          "word_count": 10
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "The first topic is done.\n\nThe second one starts here.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 25.2124,
+          "mic_ready_ms": 1.9877,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0052,
+          "recognition_ms": 444.1825,
+          "recorded_seconds": 6.2,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 5.888,
+          "stop_to_text_ms": 469.5348,
+          "tidy_ms": 0.0481,
+          "total_ms": 469.7161
+        },
+        "word_count": 10
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 126,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 2.1419219,
+    "model": "whisper-turbo",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": true
+  },
+  "history": [
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857751532,
+      "id": 8,
+      "pasted": false,
+      "speech_seconds": 5.888,
+      "text": "The first topic is done.\n\nThe second one starts here.",
+      "word_count": 10
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857744745,
+      "id": 7,
+      "pasted": false,
+      "speech_seconds": 5.088,
+      "text": "Llegamos tarde.\n\nMañana seguimos.",
+      "word_count": 4
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857738933,
+      "id": 6,
+      "pasted": false,
+      "speech_seconds": 3.712,
+      "text": "Creo que deberíamos salir temprano.",
+      "word_count": 5
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857731781,
+      "id": 5,
+      "pasted": false,
+      "speech_seconds": 3.2,
+      "text": "Lanzamos una nueva línea de productos este año.",
+      "word_count": 8
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857727242,
+      "id": 4,
+      "pasted": false,
+      "speech_seconds": 4.736,
+      "text": "Hola Juan.\nGracias por tu mensaje.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857721632,
+      "id": 3,
+      "pasted": false,
+      "speech_seconds": 2.912,
+      "text": "Yo creo que el plan es muy muy bueno.",
+      "word_count": 9
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857716107,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 3.872,
+      "text": "I think we should leave early.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1793857711526,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 4.64,
+      "text": "I think we should go.\nSee you tomorrow.",
+      "word_count": 8
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "Spanish, English and 23 more. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "Japanese and 100+ languages. Most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "Japanese and 100+ languages. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "settings": {
+    "cleanup": true,
+    "language": "en",
+    "model": "whisper-turbo",
+    "whisper_cpu_only": false
+  },
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "",
+      "model": "parakeet",
+      "seconds": 2.059799999982119,
+      "status": {
+        "load_seconds": 1.6641679,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 2.258699999988079,
+      "status": {
+        "load_seconds": 2.1419219,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-turbo",
+      "seconds": 0.006200000017881393,
+      "status": {
+        "load_seconds": 2.1419219,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    }
+  ]
+}

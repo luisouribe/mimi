@@ -1,0 +1,3 @@
+# A short output folder avoids the Windows 260-character path limit in the speech build.
+[build]
+target-dir = "C:/mimi-build/app"

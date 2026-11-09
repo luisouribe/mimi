@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ribbon recording indicator</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet">
+<style>
+body { margin: 0; }
+.bi-bar { display: block; width: 3px; border-radius: 2px; background: #B8145F; animation: bi-bar 800ms ease-in-out infinite alternate; }
+.bi-dot { display: block; width: 8px; height: 8px; border-radius: 4px; background: #B8145F; animation: bi-dot 900ms ease-in-out infinite; }
+@keyframes bi-bar { from { transform: scaleY(0.25); } to { transform: scaleY(1); } }
+@keyframes bi-dot { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .bi-bar, .bi-dot { animation: none; } }
+</style>
+</helmet>
+<div style="width: 620px; height: 300px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 22px; background: #AEB2BA; font-family: 'M PLUS Rounded 1c', sans-serif; color: #231A21;">
+
+  <div style="display: flex; align-items: center; gap: 12px; height: 60px; padding: 0 24px 0 8px; background: #FFFFFF; border-radius: 30px;">
+    <div style="position: relative; flex: none; width: 44px; height: 44px; border-radius: 22px; overflow: hidden; background: #F7A6C6;">
+      <img src="/_blob/1a9d78db8fdcf866293e9320f6cc33c1" alt="Mimi smiling" style="position: absolute; left: -44px; top: -6px; width: 130px; height: auto; max-width: none;">
+    </div>
+    <div aria-hidden="true" style="display: flex; align-items: center; gap: 3px; height: 28px;">
+      <sc-for list="{{bars}}" as="bar" hint-placeholder-count="14">
+        <span class="bi-bar" style="height: {{bar.h}}; animation-delay: {{bar.delay}};"></span>
+      </sc-for>
+    </div>
+    <span style="font-weight: 800; font-size: 15px;">I'm listening</span>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 12px; height: 60px; padding: 0 24px 0 8px; background: #FFFFFF; border-radius: 30px;">
+    <div style="position: relative; flex: none; width: 44px; height: 44px; border-radius: 22px; overflow: hidden; background: #F7A6C6;">
+      <img src="/_blob/1a9d78db8fdcf866293e9320f6cc33c1" alt="Mimi smiling" style="position: absolute; left: -44px; top: -6px; width: 130px; height: auto; max-width: none;">
+    </div>
+    <div aria-hidden="true" style="display: flex; align-items: center; gap: 5px;">
+      <span class="bi-dot"></span>
+      <span class="bi-dot" style="animation-delay: 150ms;"></span>
+      <span class="bi-dot" style="animation-delay: 300ms;"></span>
+    </div>
+    <span style="font-weight: 800; font-size: 15px;">Typing it for you</span>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":620,"height":300}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const heights = [10, 18, 26, 14, 24, 8, 20, 26, 12, 22, 16, 26, 10, 18];
+    return { bars: heights.map((h, i) => ({ h: h + 'px', delay: (i * 83) % 800 + 'ms' })) };
+  }
+}
+</script>
+</body>
+</html>

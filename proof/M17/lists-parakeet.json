@@ -1,0 +1,713 @@
+{
+  "engine": "mimi-pipeline",
+  "model": "parakeet",
+  "load_seconds": 1.7641259,
+  "peak_memory_mb": 810.46484375,
+  "rate": 16000,
+  "gain": 1.0,
+  "lead_silence": 0.0,
+  "first_words": [
+    {
+      "text": "Para",
+      "start": 0.0,
+      "end": 0.31
+    },
+    {
+      "text": "mañana",
+      "start": 0.31,
+      "end": 0.87
+    },
+    {
+      "text": "necesito.",
+      "start": 0.87,
+      "end": 2.1499999
+    },
+    {
+      "text": "Primero.",
+      "start": 2.1499999,
+      "end": 3.4299998
+    },
+    {
+      "text": "Comprar",
+      "start": 3.4299998,
+      "end": 4.0699997
+    },
+    {
+      "text": "pan.",
+      "start": 4.0699997,
+      "end": 5.0299997
+    },
+    {
+      "text": "Segundo.",
+      "start": 5.0299997,
+      "end": 6.31
+    },
+    {
+      "text": "Llamar",
+      "start": 6.31,
+      "end": 6.87
+    }
+  ],
+  "clips": [
+    {
+      "lang": "es",
+      "file": "es/l01.wav",
+      "seconds": 11.17,
+      "elapsed": 1.1057314,
+      "cleanup_ms": 49.853500000000004,
+      "speech_seconds": 10.848,
+      "chunks": 1,
+      "reference": "Para mañana necesito / primero / comprar pan / segundo / llamar a Juan / y tercero / mandar el video.",
+      "text": "Para mañana necesito. Primero. Comprar pan. Segundo. Llamar a Juan. Y tercero. Mandar el video.",
+      "tidied": "Para mañana necesito.\n1. Comprar pan.\n2. Llamar a Juan.\n3. Mandar el video.",
+      "words": [
+        {
+          "text": "Para",
+          "start": 0.0,
+          "end": 0.31
+        },
+        {
+          "text": "mañana",
+          "start": 0.31,
+          "end": 0.87
+        },
+        {
+          "text": "necesito.",
+          "start": 0.87,
+          "end": 2.1499999
+        },
+        {
+          "text": "Primero.",
+          "start": 2.1499999,
+          "end": 3.4299998
+        },
+        {
+          "text": "Comprar",
+          "start": 3.4299998,
+          "end": 4.0699997
+        },
+        {
+          "text": "pan.",
+          "start": 4.0699997,
+          "end": 5.0299997
+        },
+        {
+          "text": "Segundo.",
+          "start": 5.0299997,
+          "end": 6.31
+        },
+        {
+          "text": "Llamar",
+          "start": 6.31,
+          "end": 6.87
+        },
+        {
+          "text": "a",
+          "start": 6.87,
+          "end": 7.0299997
+        },
+        {
+          "text": "Juan.",
+          "start": 7.0299997,
+          "end": 7.91
+        },
+        {
+          "text": "Y",
+          "start": 7.91,
+          "end": 8.15
+        },
+        {
+          "text": "tercero.",
+          "start": 8.15,
+          "end": 9.429999
+        },
+        {
+          "text": "Mandar",
+          "start": 9.429999,
+          "end": 9.91
+        },
+        {
+          "text": "el",
+          "start": 9.91,
+          "end": 10.07
+        },
+        {
+          "text": "video.",
+          "start": 10.07,
+          "end": 10.44
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/l02.wav",
+      "seconds": 9.44,
+      "elapsed": 0.9466218,
+      "cleanup_ms": 42.4333,
+      "speech_seconds": 9.12,
+      "chunks": 1,
+      "reference": "Ingredientes / viñeta / harina / viñeta / huevos / viñeta / leche.",
+      "text": "Ingredientes. Viñeta. Harina. Viñeta. Huevos. Vineta. Leche.",
+      "tidied": "Ingredientes.\n- Harina\n- Huevos\n- Leche",
+      "words": [
+        {
+          "text": "Ingredientes.",
+          "start": 0.0,
+          "end": 1.51
+        },
+        {
+          "text": "Viñeta.",
+          "start": 1.51,
+          "end": 2.87
+        },
+        {
+          "text": "Harina.",
+          "start": 2.87,
+          "end": 4.15
+        },
+        {
+          "text": "Viñeta.",
+          "start": 4.15,
+          "end": 5.43
+        },
+        {
+          "text": "Huevos.",
+          "start": 5.43,
+          "end": 6.71
+        },
+        {
+          "text": "Vineta.",
+          "start": 6.71,
+          "end": 8.07
+        },
+        {
+          "text": "Leche.",
+          "start": 8.07,
+          "end": 8.76
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/l03.wav",
+      "seconds": 13.06,
+      "elapsed": 1.2958624,
+      "cleanup_ms": 68.5137,
+      "speech_seconds": 12.704,
+      "chunks": 1,
+      "reference": "Tengo tres cosas. / Primero / el guion. / Segundo / el casting. / Y por último / la locación.",
+      "text": "Tengo tres cosas. Primero, el guión. Segundo. El casting. Y por último, la locación.",
+      "tidied": "Tengo tres cosas.\n1. El guión.\n2. El casting.\n3. La locación.",
+      "words": [
+        {
+          "text": "Tengo",
+          "start": 0.0,
+          "end": 0.46999997
+        },
+        {
+          "text": "tres",
+          "start": 0.46999997,
+          "end": 0.78999996
+        },
+        {
+          "text": "cosas.",
+          "start": 0.78999996,
+          "end": 2.6299999
+        },
+        {
+          "text": "Primero,",
+          "start": 2.6299999,
+          "end": 3.9099998
+        },
+        {
+          "text": "el",
+          "start": 3.9099998,
+          "end": 4.15
+        },
+        {
+          "text": "guión.",
+          "start": 4.15,
+          "end": 6.1499996
+        },
+        {
+          "text": "Segundo.",
+          "start": 6.1499996,
+          "end": 7.43
+        },
+        {
+          "text": "El",
+          "start": 7.43,
+          "end": 7.75
+        },
+        {
+          "text": "casting.",
+          "start": 7.75,
+          "end": 9.67
+        },
+        {
+          "text": "Y",
+          "start": 9.67,
+          "end": 9.99
+        },
+        {
+          "text": "por",
+          "start": 9.99,
+          "end": 10.23
+        },
+        {
+          "text": "último,",
+          "start": 10.23,
+          "end": 11.349999
+        },
+        {
+          "text": "la",
+          "start": 11.349999,
+          "end": 11.59
+        },
+        {
+          "text": "locación.",
+          "start": 11.59,
+          "end": 12.36
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/l04.wav",
+      "seconds": 10.5,
+      "elapsed": 1.0635687,
+      "cleanup_ms": 46.201,
+      "speech_seconds": 10.176,
+      "chunks": 1,
+      "reference": "Uno / revisar el correo. / Dos / editar el video. / Tres / subirlo a YouTube.",
+      "text": "1. Revisar el correo. 2. Editar el video. 3. Subirlo a YouTube.",
+      "tidied": "1. Revisar el correo.\n2. Editar el video.\n3. Subirlo a YouTube.",
+      "words": [
+        {
+          "text": "1.",
+          "start": 0.06999999,
+          "end": 1.03
+        },
+        {
+          "text": "Revisar",
+          "start": 1.03,
+          "end": 1.67
+        },
+        {
+          "text": "el",
+          "start": 1.67,
+          "end": 1.8299999
+        },
+        {
+          "text": "correo.2.",
+          "start": 1.8299999,
+          "end": 4.79
+        },
+        {
+          "text": "Editar",
+          "start": 4.79,
+          "end": 5.43
+        },
+        {
+          "text": "el",
+          "start": 5.43,
+          "end": 5.5899997
+        },
+        {
+          "text": "video.3.",
+          "start": 5.5899997,
+          "end": 8.47
+        },
+        {
+          "text": "Subirlo",
+          "start": 8.47,
+          "end": 9.19
+        },
+        {
+          "text": "a",
+          "start": 9.19,
+          "end": 9.349999
+        },
+        {
+          "text": "YouTube.",
+          "start": 9.349999,
+          "end": 9.8
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/l05.wav",
+      "seconds": 9.96,
+      "elapsed": 1.0382482,
+      "cleanup_ms": 48.7978,
+      "speech_seconds": 9.632,
+      "chunks": 1,
+      "reference": "We need three things / first / a script / second / a camera / and third / a crew.",
+      "text": "We need three things. First, a script. Second. A camera. And third. A crew.",
+      "tidied": "We need three things.\n1. A script.\n2. A camera.\n3. A crew.",
+      "words": [
+        {
+          "text": "We",
+          "start": 0.0,
+          "end": 0.14999998
+        },
+        {
+          "text": "need",
+          "start": 0.14999998,
+          "end": 0.46999997
+        },
+        {
+          "text": "three",
+          "start": 0.46999997,
+          "end": 0.87
+        },
+        {
+          "text": "things.",
+          "start": 0.87,
+          "end": 1.8299999
+        },
+        {
+          "text": "First,",
+          "start": 1.8299999,
+          "end": 3.03
+        },
+        {
+          "text": "a",
+          "start": 3.03,
+          "end": 3.27
+        },
+        {
+          "text": "script.",
+          "start": 3.27,
+          "end": 4.5499997
+        },
+        {
+          "text": "Second.",
+          "start": 4.5499997,
+          "end": 5.75
+        },
+        {
+          "text": "A",
+          "start": 5.75,
+          "end": 5.99
+        },
+        {
+          "text": "camera.",
+          "start": 5.99,
+          "end": 7.19
+        },
+        {
+          "text": "And",
+          "start": 7.19,
+          "end": 7.5099998
+        },
+        {
+          "text": "third.",
+          "start": 7.5099998,
+          "end": 8.47
+        },
+        {
+          "text": "A",
+          "start": 8.47,
+          "end": 8.71
+        },
+        {
+          "text": "crew.",
+          "start": 8.71,
+          "end": 9.32
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/l06.wav",
+      "seconds": 9.94,
+      "elapsed": 0.9567567,
+      "cleanup_ms": 51.09,
+      "speech_seconds": 9.568,
+      "chunks": 1,
+      "reference": "Shopping list / bullet point / apples / bullet point / bread / bullet point / milk.",
+      "text": "Shopping list Bullet Point Apples Bullet Point Bread Bullet Point Milk",
+      "tidied": "Shopping list Bullet Point Apples Bullet Point Bread Bullet Point Milk",
+      "words": [
+        {
+          "text": "Shopping",
+          "start": 0.0,
+          "end": 0.71
+        },
+        {
+          "text": "list",
+          "start": 0.71,
+          "end": 1.5899999
+        },
+        {
+          "text": "Bullet",
+          "start": 1.5899999,
+          "end": 2.23
+        },
+        {
+          "text": "Point",
+          "start": 2.23,
+          "end": 3.11
+        },
+        {
+          "text": "Apples",
+          "start": 3.11,
+          "end": 4.39
+        },
+        {
+          "text": "Bullet",
+          "start": 4.39,
+          "end": 5.0299997
+        },
+        {
+          "text": "Point",
+          "start": 5.0299997,
+          "end": 5.91
+        },
+        {
+          "text": "Bread",
+          "start": 5.91,
+          "end": 7.0299997
+        },
+        {
+          "text": "Bullet",
+          "start": 7.0299997,
+          "end": 7.6699996
+        },
+        {
+          "text": "Point",
+          "start": 7.6699996,
+          "end": 8.55
+        },
+        {
+          "text": "Milk",
+          "start": 8.55,
+          "end": 8.84
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/n01.wav",
+      "seconds": 2.83,
+      "elapsed": 0.3261477,
+      "cleanup_ms": 16.1548,
+      "speech_seconds": 2.496,
+      "chunks": 1,
+      "reference": "Primero voy a comer y luego me duermo.",
+      "text": "Primero voy a comer y luego me duermo.",
+      "tidied": "Primero voy a comer y luego me duermo.",
+      "words": [
+        {
+          "text": "Primero",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "text": "voy",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "a",
+          "start": 0.63,
+          "end": 0.78999996
+        },
+        {
+          "text": "comer",
+          "start": 0.78999996,
+          "end": 1.11
+        },
+        {
+          "text": "y",
+          "start": 1.11,
+          "end": 1.27
+        },
+        {
+          "text": "luego",
+          "start": 1.27,
+          "end": 1.51
+        },
+        {
+          "text": "me",
+          "start": 1.51,
+          "end": 1.67
+        },
+        {
+          "text": "duermo.",
+          "start": 1.67,
+          "end": 2.1999998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/n02.wav",
+      "seconds": 3.33,
+      "elapsed": 0.3755376,
+      "cleanup_ms": 15.811499999999999,
+      "speech_seconds": 3.008,
+      "chunks": 1,
+      "reference": "Compré dos panes y tres leches para la casa.",
+      "text": "Compré dos panes y tres leches para la casa.",
+      "tidied": "Compré dos panes y tres leches para la casa.",
+      "words": [
+        {
+          "text": "Compré",
+          "start": 0.0,
+          "end": 0.46999997
+        },
+        {
+          "text": "dos",
+          "start": 0.46999997,
+          "end": 0.71
+        },
+        {
+          "text": "panes",
+          "start": 0.71,
+          "end": 1.11
+        },
+        {
+          "text": "y",
+          "start": 1.11,
+          "end": 1.1899999
+        },
+        {
+          "text": "tres",
+          "start": 1.1899999,
+          "end": 1.43
+        },
+        {
+          "text": "leches",
+          "start": 1.43,
+          "end": 1.9099998
+        },
+        {
+          "text": "para",
+          "start": 1.9099998,
+          "end": 2.07
+        },
+        {
+          "text": "la",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "casa.",
+          "start": 2.23,
+          "end": 2.6799998
+        }
+      ]
+    },
+    {
+      "lang": "es",
+      "file": "es/n03.wav",
+      "seconds": 2.8,
+      "elapsed": 0.3221806,
+      "cleanup_ms": 13.3846,
+      "speech_seconds": 2.464,
+      "chunks": 1,
+      "reference": "Esta viñeta del cómic es muy buena.",
+      "text": "Esta viñeta del cómic es muy buena.",
+      "tidied": "Esta viñeta del cómic es muy buena.",
+      "words": [
+        {
+          "text": "Esta",
+          "start": 0.0,
+          "end": 0.22999999
+        },
+        {
+          "text": "viñeta",
+          "start": 0.22999999,
+          "end": 0.78999996
+        },
+        {
+          "text": "del",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "cómic",
+          "start": 0.9499999,
+          "end": 1.43
+        },
+        {
+          "text": "es",
+          "start": 1.43,
+          "end": 1.5899999
+        },
+        {
+          "text": "muy",
+          "start": 1.5899999,
+          "end": 1.75
+        },
+        {
+          "text": "buena.",
+          "start": 1.75,
+          "end": 2.12
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "file": "en/n04.wav",
+      "seconds": 3.04,
+      "elapsed": 0.3230719,
+      "cleanup_ms": 15.597,
+      "speech_seconds": 2.656,
+      "chunks": 1,
+      "reference": "First I want to thank you all for coming.",
+      "text": "First I want to thank you all for coming.",
+      "tidied": "First I want to thank you all for coming.",
+      "words": [
+        {
+          "text": "First",
+          "start": 0.0,
+          "end": 0.39
+        },
+        {
+          "text": "I",
+          "start": 0.39,
+          "end": 0.63
+        },
+        {
+          "text": "want",
+          "start": 0.63,
+          "end": 0.78999996
+        },
+        {
+          "text": "to",
+          "start": 0.78999996,
+          "end": 0.9499999
+        },
+        {
+          "text": "thank",
+          "start": 0.9499999,
+          "end": 1.27
+        },
+        {
+          "text": "you",
+          "start": 1.27,
+          "end": 1.43
+        },
+        {
+          "text": "all",
+          "start": 1.43,
+          "end": 1.67
+        },
+        {
+          "text": "for",
+          "start": 1.67,
+          "end": 1.9099998
+        },
+        {
+          "text": "coming.",
+          "start": 1.9099998,
+          "end": 2.28
+        }
+      ]
+    }
+  ]
+}

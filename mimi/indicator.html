@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mimi indicator</title>
+    <link rel="stylesheet" href="/src/indicator.css" />
+  </head>
+  <body>
+    <div class="pill" id="pill">
+      <div class="face"><img src="/mimi-face.png" alt="" /></div>
+      <div class="bars" id="bars" aria-hidden="true"></div>
+      <svg class="spinner" id="spinner" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true">
+        <path d="M10 2a8 8 0 1 1-8 8"></path>
+      </svg>
+      <span class="label" id="label" role="status">LISTENING</span>
+      <span class="clock" id="clock"></span>
+    </div>
+    <script type="module" src="/src/indicator.ts"></script>
+  </body>
+</html>

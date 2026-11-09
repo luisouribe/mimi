@@ -1,0 +1,436 @@
+{
+  "dictations": [
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\en\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Chrome",
+          "created_at_ms": 1793847109951,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 5.663,
+          "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+          "word_count": 17
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 25.7524,
+          "mic_ready_ms": 1.483,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0070999999999999995,
+          "recognition_ms": 392.9716,
+          "recorded_seconds": 5.855,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 5.663,
+          "stop_to_text_ms": 418.8539,
+          "total_ms": 419.2032
+        },
+        "word_count": 17
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 124,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\ja\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Chrome",
+          "created_at_ms": 1793847115600,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 3.19,
+          "text": "水をマレーシアから買わなくてはならないのです。",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "水をマレーシアから買わなくてはならないのです。",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 15.1598,
+          "mic_ready_ms": 1.3005,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0065,
+          "recognition_ms": 452.6945,
+          "recorded_seconds": 3.19,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.19,
+          "stop_to_text_ms": 467.9645,
+          "total_ms": 468.1824
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 70,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\ja\\001.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Chrome",
+          "created_at_ms": 1793847119987,
+          "id": 3,
+          "pasted": false,
+          "speech_seconds": 3.76,
+          "text": "木曜日、停戦会談は何の進展もないまま",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "木曜日、停戦会談は何の進展もないまま",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 18.4356,
+          "mic_ready_ms": 1.503,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.007700000000000001,
+          "recognition_ms": 523.4088,
+          "recorded_seconds": 3.76,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.76,
+          "stop_to_text_ms": 541.9434,
+          "total_ms": 542.2011
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 76,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\special\\silence.wav",
+      "dictation": {
+        "entry": null,
+        "heard_speech": false,
+        "outcome": null,
+        "text": "",
+        "timings": {
+          "chunk_count": 0,
+          "cleanup_ms": 22.2354,
+          "mic_ready_ms": 2.8705,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0001,
+          "recognition_ms": 0,
+          "recorded_seconds": 3,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 0,
+          "stop_to_text_ms": 22.3047,
+          "total_ms": 22.3054
+        },
+        "word_count": 0
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\special\\loud-noise.wav",
+      "dictation": {
+        "entry": null,
+        "heard_speech": false,
+        "outcome": null,
+        "text": "",
+        "timings": {
+          "chunk_count": 0,
+          "cleanup_ms": 51.0454,
+          "mic_ready_ms": 6.2912,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0001,
+          "recognition_ms": 0,
+          "recorded_seconds": 3,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 0,
+          "stop_to_text_ms": 51.382200000000005,
+          "total_ms": 51.383
+        },
+        "word_count": 0
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 66,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio-variants\\48k-stereo\\es\\001.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Snippingtool",
+          "created_at_ms": 1793847135927,
+          "id": 4,
+          "pasted": false,
+          "speech_seconds": 7.636,
+          "text": "Cuando calla el dolor, se oye a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las sombras.",
+          "word_count": 21
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Cuando calla el dolor, se oye a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las sombras.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 141.5405,
+          "mic_ready_ms": 28.5242,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0048,
+          "recognition_ms": 713.5595999999999,
+          "recorded_seconds": 8.18,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 7.636,
+          "stop_to_text_ms": 855.2507,
+          "total_ms": 855.5336
+        },
+        "word_count": 21
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 166,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\ja\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Chrome",
+          "created_at_ms": 1793847140740,
+          "id": 5,
+          "pasted": false,
+          "speech_seconds": 3.19,
+          "text": "水をマレーシアから買わなくてはならないのです。",
+          "word_count": 1
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "水をマレーシアから買わなくてはならないのです。",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 15.5853,
+          "mic_ready_ms": 1.7662000000000002,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0108,
+          "recognition_ms": 399.3515,
+          "recorded_seconds": 3.19,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.19,
+          "stop_to_text_ms": 415.0269,
+          "total_ms": 415.4214
+        },
+        "word_count": 1
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 70,
+      "readyEvents": 1
+    },
+    {
+      "clip": "C:\\Users\\Luiso Uribe\\Documents\\Claude\\DictatorApp\\test-audio\\en\\000.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Chrome",
+          "created_at_ms": 1793847149255,
+          "id": 6,
+          "pasted": false,
+          "speech_seconds": 5.663,
+          "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+          "word_count": 17
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 24.8337,
+          "mic_ready_ms": 1.5964,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.0056,
+          "recognition_ms": 386.6099,
+          "recorded_seconds": 5.855,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 5.663,
+          "stop_to_text_ms": 411.5749,
+          "total_ms": 411.8997
+        },
+        "word_count": 17
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 124,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 1.7432617,
+    "model": "parakeet",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": false
+  },
+  "history": [
+    {
+      "app_name": "Chrome",
+      "created_at_ms": 1793847149255,
+      "id": 6,
+      "pasted": false,
+      "speech_seconds": 5.663,
+      "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+      "word_count": 17
+    },
+    {
+      "app_name": "Chrome",
+      "created_at_ms": 1793847140740,
+      "id": 5,
+      "pasted": false,
+      "speech_seconds": 3.19,
+      "text": "水をマレーシアから買わなくてはならないのです。",
+      "word_count": 1
+    },
+    {
+      "app_name": "Snippingtool",
+      "created_at_ms": 1793847135927,
+      "id": 4,
+      "pasted": false,
+      "speech_seconds": 7.636,
+      "text": "Cuando calla el dolor, se oye a la muerte las alas tenebrosas batir en los profundos, cual si fuesen las sombras.",
+      "word_count": 21
+    },
+    {
+      "app_name": "Chrome",
+      "created_at_ms": 1793847119987,
+      "id": 3,
+      "pasted": false,
+      "speech_seconds": 3.76,
+      "text": "木曜日、停戦会談は何の進展もないまま",
+      "word_count": 1
+    },
+    {
+      "app_name": "Chrome",
+      "created_at_ms": 1793847115600,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 3.19,
+      "text": "水をマレーシアから買わなくてはならないのです。",
+      "word_count": 1
+    },
+    {
+      "app_name": "Chrome",
+      "created_at_ms": 1793847109951,
+      "id": 1,
+      "pasted": false,
+      "speech_seconds": 5.663,
+      "text": "mister Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+      "word_count": 17
+    }
+  ],
+  "microphonesListed": [
+    {
+      "is_default": true,
+      "name": "Micrófono (Realtek(R) Audio)"
+    }
+  ],
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "Spanish, English and 23 more. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "Japanese and 100+ languages. Most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "Japanese and 100+ languages. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "settings": {
+    "language": null,
+    "model": "parakeet",
+    "whisper_cpu_only": false
+  },
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "ja",
+      "model": "whisper-turbo",
+      "seconds": 1.6479000000059605,
+      "status": {
+        "load_seconds": 1.5794803,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 0.010199999988079071,
+      "status": {
+        "load_seconds": 1.5794803,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "ja",
+      "model": "whisper-small",
+      "seconds": 0.8780999999940395,
+      "status": {
+        "load_seconds": 0.8182208,
+        "model": "whisper-small",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "",
+      "model": "parakeet",
+      "seconds": 1.8750999999940396,
+      "status": {
+        "load_seconds": 1.7432617,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    }
+  ]
+}
