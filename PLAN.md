@@ -59,7 +59,7 @@ After the plan, the owner asked for four extras on 2026-11-05:
 | M18 | Lists as people really count: no pauses, "primero" followed by "dos, tres", and the first number mid-sentence | Built 2026-11-06. The owner's test made the list, then asked how to end one, which led to M19. Proof in `proof/M18` |
 | M19 | Ending a list ("y ya", "eso es todo", "punto y aparte") and writing a number said twice only once | Built 2026-11-06. The owner's next test showed Parakeet writing lists as digits, which led to M20. Proof in `proof/M19` |
 | M20 | Lists written as digits or a mix of digits and words, anywhere in a sentence, tested across 44 ways of writing one list | Signed off by the owner on 2026-11-09 after testing with their own voice, proof in `proof/M20` |
-| Mac | A Mac version | Not started. The project goes to the Mac through a private GitHub repository. `MAC.md` is the guide for Claude on the Mac |
+| Mac | A Mac version | In progress. M-Mac-1 (dictating), M-Mac-2 (shortcuts), M-Mac-3 (pasting), M-Mac-4 (indicator and chimes) M-Mac-5 (stable signing and lowering the volume) and M-Mac-6 (installer and start at sign-in) confirmed by the owner on 2026-11-09, except a real restart, proof in `proof/`. `MAC.md` is the guide for Claude on the Mac |
 
 ## Speed goals on this PC
 

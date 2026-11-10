@@ -9,6 +9,7 @@ import { runSelfTest, type SelfTestPlan } from "./selfTest";
 import HistoryPanel from "./HistoryPanel";
 import Snippets from "./Snippets";
 import { MODEL_LANGUAGES } from "./languages";
+import { computerName, onMac } from "./platform";
 import "./App.css";
 
 export type ModelChoice = "parakeet" | "whisper-turbo" | "whisper-small";
@@ -101,7 +102,7 @@ const LANGUAGES: [string, string][] = [
 ];
 
 function shortcutKeys(shortcut: Shortcut) {
-  return [shortcut.ctrl && "Ctrl", shortcut.alt && "Alt", shortcut.shift && "Shift", shortcut.key_name].filter(
+  return [shortcut.ctrl && "Ctrl", shortcut.alt && (onMac ? "Option" : "Alt"), shortcut.shift && "Shift", shortcut.key_name].filter(
     (key): key is string => Boolean(key),
   );
 }
@@ -711,7 +712,7 @@ export default function App() {
                 </div>
                 <div>
                   <dt>AUDIO</dt>
-                  <dd>Offline, stays on this PC</dd>
+                  <dd>Offline, stays on this {computerName}</dd>
                 </div>
               </dl>
             )}
@@ -876,7 +877,7 @@ export default function App() {
               <label className="field">
                 <span>MICROPHONE</span>
                 <select value={mic} onChange={(event) => chooseMic(event.target.value)} disabled={phase !== "idle"}>
-                  <option value="">Windows default</option>
+                  <option value="">{onMac ? "Mac default" : "Windows default"}</option>
                   {mics.map((item) => (
                     <option key={item.name} value={item.name}>
                       {item.name}
@@ -995,7 +996,7 @@ export default function App() {
                       checked={settings.start_with_windows}
                       onChange={(event) => void changeSwitch("set_start_with_windows", event.target.checked)}
                     />
-                    <span>Start with Windows</span>
+                    <span>{onMac ? "Ejecutarse cuando se prende la Mac" : "Start with Windows"}</span>
                   </label>
                   <p className="field-note">
                     Mimi waits in the tray from the moment you sign in, ready for{" "}
@@ -1018,7 +1019,7 @@ export default function App() {
               ) : (
                 <div className="confirm-all" role="alertdialog" aria-label="Delete all dictations">
                   <p>
-                    Delete all {clearCount} {clearCount === 1 ? "dictation" : "dictations"} from this PC? Snippets stay.
+                    Delete all {clearCount} {clearCount === 1 ? "dictation" : "dictations"} from this {computerName}? Snippets stay.
                     This can't be undone.
                   </p>
                   <p className="confirm">

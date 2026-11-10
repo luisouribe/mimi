@@ -78,10 +78,19 @@ fn path_in(folder: &Path) -> PathBuf {
 
 /// A missing or damaged file simply means the defaults, so it can never stop Mimi from opening.
 pub fn load(folder: &Path) -> Settings {
-    std::fs::read_to_string(path_in(folder))
+    let mut settings: Settings = std::fs::read_to_string(path_in(folder))
         .ok()
         .and_then(|text| serde_json::from_str(&text).ok())
-        .unwrap_or_default()
+        .unwrap_or_default();
+    // Windows' two defaults can't work on a Mac, where Ctrl + Space switches keyboard languages.
+    if cfg!(target_os = "macos")
+        && settings.hold_shortcut == Shortcut::ctrl_space()
+        && settings.tap_shortcut == Shortcut::ctrl_shift_space()
+    {
+        settings.hold_shortcut = Shortcut::hold_default();
+        settings.tap_shortcut = Shortcut::tap_default();
+    }
+    settings
 }
 
 /// Writes to a temporary file first, so a crash mid-save can't damage the settings.
@@ -114,9 +123,29 @@ mod tests {
         assert!(settings.start_with_windows);
         assert!(settings.chimes);
         assert!(settings.quiet_other_apps);
-        assert_eq!(settings.hold_shortcut.label(), "Ctrl + Space");
-        assert_eq!(settings.tap_shortcut.label(), "Ctrl + Shift + Space");
+        let (hold, tap) = if cfg!(target_os = "macos") {
+            ("Option + Space", "Option + Shift + Space")
+        } else {
+            ("Ctrl + Space", "Ctrl + Shift + Space")
+        };
+        assert_eq!(settings.hold_shortcut.label(), hold);
+        assert_eq!(settings.tap_shortcut.label(), tap);
         assert_eq!(settings.appearance, Appearance::Light);
+    }
+
+    #[cfg(target_os = "macos")]
+    #[test]
+    fn windows_default_shortcuts_become_the_mac_ones() {
+        let folder = temporary_folder("windows-shortcuts");
+        let settings = Settings {
+            hold_shortcut: Shortcut::ctrl_space(),
+            tap_shortcut: Shortcut::ctrl_shift_space(),
+            ..Settings::default()
+        };
+        save(&folder, &settings).unwrap();
+        assert_eq!(load(&folder).hold_shortcut.label(), "Option + Space");
+        assert_eq!(load(&folder).tap_shortcut.label(), "Option + Shift + Space");
+        std::fs::remove_dir_all(&folder).unwrap();
     }
 
     #[test]

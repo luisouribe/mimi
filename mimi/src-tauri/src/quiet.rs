@@ -14,15 +14,17 @@ use std::time::Duration;
 /// How loud other apps are while Mimi listens. Zero is silent.
 pub const QUIET_LEVEL: f32 = 0.0;
 const FADE_OUT: Duration = Duration::from_millis(160);
-const FADE_IN: Duration = Duration::from_millis(450);
-/// Lets the stop chime start before other sounds return.
-const WAIT_BEFORE_RETURNING: Duration = Duration::from_millis(180);
+/// A Mac lowers its whole volume, so the stop chime waits for this and it needs to be quick.
+const FADE_IN: Duration = Duration::from_millis(if cfg!(target_os = "macos") { 200 } else { 450 });
+/// Lets the stop chime start before other sounds return. A Mac plays it after they're back.
+const WAIT_BEFORE_RETURNING: Duration = Duration::from_millis(if cfg!(target_os = "macos") { 0 } else { 180 });
 const FADE_STEPS: u32 = 10;
 /// Volume sliders are stored as decimals, so equal levels can differ very slightly.
 const SAME_LEVEL: f32 = 0.02;
 
 enum Command {
     Lower(Option<Sender<()>>),
+    LowerAfter(Duration),
     Restore { fade: bool, reply: Option<Sender<()>> },
 }
 
@@ -60,6 +62,11 @@ impl Quieter {
                             worker.lower();
                             reply.map(|reply| reply.send(()));
                         }
+                        // Waiting here keeps the order: a restore sent meanwhile runs afterwards.
+                        Command::LowerAfter(delay) => {
+                            thread::sleep(delay);
+                            worker.lower();
+                        }
                         Command::Restore { fade, reply } => {
                             worker.restore(fade);
                             reply.map(|reply| reply.send(()));
@@ -74,6 +81,19 @@ impl Quieter {
     /// Fades other apps down, without waiting.
     pub fn lower(&self) {
         let _ = self.commands.send(Command::Lower(None));
+    }
+
+    /// Fades down after a delay, without waiting, so a chime can finish first.
+    pub fn lower_after(&self, delay: Duration) {
+        let _ = self.commands.send(Command::LowerAfter(delay));
+    }
+
+    /// Fades back up and waits until it's done, so a chime can follow at full volume.
+    pub fn restore_and_wait(&self) {
+        let (reply, done) = channel();
+        if self.commands.send(Command::Restore { fade: true, reply: Some(reply) }).is_ok() {
+            let _ = done.recv_timeout(Duration::from_secs(3));
+        }
     }
 
     /// Fades other apps back up after a short pause, without waiting.
@@ -301,21 +321,8 @@ impl Worker {
 use other_systems::{Session, sessions};
 
 #[cfg(not(windows))]
-mod other_systems {
-    use super::Targets;
-    pub struct Session {
-        pub name: String,
-    }
-    impl Session {
-        pub fn level(&self) -> Option<f32> {
-            None
-        }
-        pub fn set_level(&self, _level: f32) {}
-    }
-    pub fn sessions(_targets: Targets) -> Vec<Session> {
-        Vec::new()
-    }
-}
+#[path = "mac/quiet_volume.rs"]
+mod other_systems;
 
 #[cfg(test)]
 mod tests {
@@ -379,6 +386,7 @@ mod tests {
     }
 
     #[test]
+    #[cfg_attr(not(windows), ignore = "needs each app's own volume slider, which only Windows has")]
     fn an_app_is_lowered_then_restored_to_its_own_level() {
         let _turn = ONE_AT_A_TIME.lock().unwrap_or_else(|e| e.into_inner());
         let Some(_player) = silent_player() else {
@@ -406,6 +414,7 @@ mod tests {
     }
 
     #[test]
+    #[cfg_attr(not(windows), ignore = "needs each app's own volume slider, which only Windows has")]
     fn a_slider_moved_while_listening_is_left_alone() {
         let _turn = ONE_AT_A_TIME.lock().unwrap_or_else(|e| e.into_inner());
         let Some(_player) = silent_player() else { return };
@@ -424,6 +433,7 @@ mod tests {
     }
 
     #[test]
+    #[cfg_attr(not(windows), ignore = "needs each app's own volume slider, which only Windows has")]
     fn levels_left_low_by_a_crash_come_back_on_the_next_start() {
         let _turn = ONE_AT_A_TIME.lock().unwrap_or_else(|e| e.into_inner());
         let Some(_player) = silent_player() else { return };

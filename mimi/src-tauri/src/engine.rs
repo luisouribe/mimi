@@ -462,6 +462,9 @@ fn model_places() -> Vec<PathBuf> {
         && let Some(folder) = exe.parent()
     {
         places.push(folder.join("models"));
+        // A Mac app keeps them in Contents/Resources, beside Contents/MacOS.
+        #[cfg(target_os = "macos")]
+        places.push(folder.join("..").join("Resources").join("models"));
     }
     places.push(Path::new(env!("CARGO_MANIFEST_DIR")).join("..").join("..").join("models"));
     places
@@ -528,6 +531,7 @@ pub fn clear_graphics_card_check(data_folder: &Path) {
 /// Screen recorders and overlays can inject code into graphics programs and crash them.
 /// This asks Windows' graphics loader to skip them. It must run before any threads start.
 pub fn prepare_graphics_environment() {
+    #[cfg(windows)]
     unsafe {
         std::env::set_var("VK_LOADER_LAYERS_DISABLE", "~implicit~");
     }

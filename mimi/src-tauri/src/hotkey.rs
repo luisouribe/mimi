@@ -10,6 +10,7 @@
 
 use serde::{Deserialize, Serialize};
 use std::sync::mpsc::Sender;
+#[cfg(windows)]
 use std::thread;
 use std::time::{Duration, Instant};
 
@@ -61,12 +62,25 @@ pub struct Shortcut {
 }
 
 impl Shortcut {
+    fn with_space(ctrl: bool, alt: bool, shift: bool) -> Self {
+        Self { ctrl, alt, shift, key: VK_SPACE, key_name: "Space".into() }
+    }
+
+    pub fn ctrl_space() -> Self {
+        Self::with_space(true, false, false)
+    }
+
+    pub fn ctrl_shift_space() -> Self {
+        Self::with_space(true, false, true)
+    }
+
+    /// macOS keeps Ctrl + Space for switching keyboard languages, so Mac uses Option + Space.
     pub fn hold_default() -> Self {
-        Self { ctrl: true, alt: false, shift: false, key: VK_SPACE, key_name: "Space".into() }
+        if cfg!(target_os = "macos") { Self::with_space(false, true, false) } else { Self::ctrl_space() }
     }
 
     pub fn tap_default() -> Self {
-        Self { ctrl: true, alt: false, shift: true, key: VK_SPACE, key_name: "Space".into() }
+        if cfg!(target_os = "macos") { Self::with_space(false, true, true) } else { Self::ctrl_shift_space() }
     }
 
     fn modifiers(&self) -> Modifiers {
@@ -80,7 +94,7 @@ impl Shortcut {
             parts.push("Ctrl");
         }
         if self.alt {
-            parts.push("Alt");
+            parts.push(if cfg!(target_os = "macos") { "Option" } else { "Alt" });
         }
         if self.shift {
             parts.push("Shift");
@@ -137,7 +151,11 @@ pub fn problem_with(pressed: &Pressed, name: &str) -> Option<String> {
     let Modifiers { ctrl, alt, shift, win } = pressed.modifiers;
     let key = pressed.key;
     if win {
-        return Some("Windows keeps the Windows key for its own shortcuts. Please choose one without it.".into());
+        return Some(if cfg!(target_os = "macos") {
+            "macOS keeps the Command key for its own shortcuts. Please choose one without it.".into()
+        } else {
+            "Windows keeps the Windows key for its own shortcuts. Please choose one without it.".into()
+        });
     }
     if !ctrl && !alt && !shift && (types_text(key) || edits_text(key)) {
         return Some(format!("{name} on its own is needed for typing. Add Ctrl, Alt or Shift, or choose a key like F8."));
@@ -194,7 +212,7 @@ pub struct HotkeyLogic {
 
 impl Default for HotkeyLogic {
     fn default() -> Self {
-        Self::new(Shortcut::hold_default(), Shortcut::tap_default())
+        Self::new(Shortcut::ctrl_space(), Shortcut::ctrl_shift_space())
     }
 }
 
@@ -675,6 +693,13 @@ pub fn shortcut_from(pressed: &Pressed, other: &Shortcut, other_name: &str) -> R
 #[cfg(windows)]
 pub use windows_hook::{cancel_capture, capture, captured_from_screen, configure, from_screen, install, set_recording};
 
+#[cfg(not(windows))]
+#[path = "mac/hotkey_carbon.rs"]
+mod mac_hot_keys;
+
+#[cfg(not(windows))]
+pub use mac_hot_keys::{cancel_capture, capture, captured_from_screen, configure, from_screen, install, set_recording};
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -952,10 +977,10 @@ mod tests {
 
     #[test]
     fn both_shortcuts_must_be_different() {
-        let hold = Shortcut::hold_default();
+        let hold = Shortcut::ctrl_space();
         let result = shortcut_from(&pressed(true, false, false, VK_SPACE), &hold, "hold to talk");
         assert_eq!(result.unwrap_err(), "Ctrl + Space is already your hold to talk shortcut.");
         let tap = shortcut_from(&pressed(false, true, false, 0x44), &hold, "hold to talk").unwrap();
-        assert_eq!(tap.label(), "Alt + D");
+        assert_eq!(tap.label(), if cfg!(target_os = "macos") { "Option + D" } else { "Alt + D" });
     }
 }

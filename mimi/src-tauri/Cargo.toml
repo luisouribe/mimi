@@ -42,20 +42,30 @@ required-features = ["test-tools"]
 tauri-build = { version = "2", features = [] }
 
 [dependencies]
-tauri = { version = "2", features = ["tray-icon"] }
+# macos-private-api gives the recording indicator a see-through background. It only acts on Mac.
+tauri = { version = "2", features = ["tray-icon", "macos-private-api"] }
 tauri-plugin-single-instance = "2"
 rusqlite = { version = "0.41", features = ["bundled"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 cpal = "0.18"
 hound = "3"
+# transcribe-rs 0.3.12 breaks on ort rc.15, so stay on the version it was written for.
+ort = "=2.0.0-rc.12"
+transcribe-rs = { version = "=0.3.12", features = ["onnx", "whisper-cpp"] }
+
+[target.'cfg(windows)'.dependencies]
 windows-sys = { version = "0.59", features = ["Win32_Foundation", "Win32_Graphics_Gdi", "Win32_Security", "Win32_System_DataExchange", "Win32_System_Memory", "Win32_System_ProcessStatus", "Win32_System_Registry", "Win32_System_Threading", "Win32_UI_Input_KeyboardAndMouse", "Win32_UI_WindowsAndMessaging"] }
 # The same version the microphone library uses. Plays the chimes and lowers other apps.
 windows = { version = "0.62", features = ["Win32_Foundation", "Win32_Media_Audio", "Win32_System_Com", "Win32_System_Com_StructuredStorage", "Win32_System_Variant"] }
-# transcribe-rs 0.3.12 breaks on ort rc.15, so stay on the version it was written for.
-ort = "=2.0.0-rc.12"
-transcribe-rs = { version = "=0.3.12", features = ["onnx", "whisper-cpp", "whisper-vulkan"] }
+transcribe-rs = { version = "=0.3.12", features = ["whisper-vulkan"] }
 
+[target.'cfg(target_os = "macos")'.dependencies]
+transcribe-rs = { version = "=0.3.12", features = ["whisper-metal"] }
+# The same versions the window library uses. For the clipboard and finding the app in front.
+objc2 = "0.6"
+objc2-foundation = { version = "0.3", default-features = false, features = ["std", "NSArray", "NSData", "NSGeometry", "NSString"] }
+objc2-app-kit = { version = "0.3", default-features = false, features = ["std", "libc", "NSGraphics", "NSPasteboard", "NSPasteboardItem", "NSResponder", "NSRunningApplication", "NSScreen", "NSSound", "NSWindow", "NSWorkspace"] }
 
 # Read the optimization guideline for more details: https://tauri.app/concept/size/#cargo-configuration
 [profile.release]

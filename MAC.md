@@ -39,8 +39,14 @@ Keep `ort` at `=2.0.0-rc.12`, because `transcribe-rs` 0.3.12 doesn't compile wit
    - Xcode command line tools (`xcode-select --install`)
    - Rust (rustup)
    - Node 20 or newer
+   - CMake, which Whisper's build needs
 2. Get the speech models (about 1.4 GB). They aren't on GitHub because they're too big. Run `sh tools/mac/get_models.sh` from the project folder. It downloads them into `models/` and checks every file matches the Windows copies exactly.
 3. Install the screens' packages: run `npm install` in `mimi/`.
+4. Before any `cargo` or `tauri` command, run `. tools/mac/env.sh` from the project folder. To build the app, run `npx tauri build --bundles app` in `mimi/`.
+
+**Progress:** dictating (M-Mac-1), global shortcuts on Option + Space (M-Mac-2), pasting (M-Mac-3), the indicator and chimes (M-Mac-4), stable signing and lowering the whole volume (M-Mac-5), and the installer and start at sign-in (M-Mac-6) work. See `proof/`. Keep one copy of the app, in Applications. To make the installer, run `sh tools/mac/build_installer.sh`, and let the owner install it.
+
+**Signing:** builds use the owner's personal certificate "Mimi Local Signing", made by `tools/mac/create_signing_certificate.sh` and picked up by `tools/mac/env.sh`. It keeps Accessibility across builds, confirmed in M-Mac-5. If pasting ever stops with "copied" outcomes and macOS logs `Failed to match existing code requirement`, have the owner run `tccutil reset Accessibility com.mimi.dictation` and add `/Applications/Mimi.app` again. Don't change this permission for them. To update, the owner replaces the copy in Applications. The shortcuts are system hot keys, not the event tap suggested below, and need no permission.
 
 ## What's already the same on Mac
 

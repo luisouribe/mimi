@@ -210,6 +210,15 @@ fn open(device: Option<String>) -> Result<(Arc<Capture>, Active), String> {
     Ok((capture, Active::Stream(stream)))
 }
 
+#[cfg(target_os = "macos")]
+fn explain_open_error(error: impl std::fmt::Display) -> String {
+    format!(
+        "Mimi couldn't open the microphone. Check that it's connected and that Mimi is allowed in \
+         System Settings, Privacy & Security, Microphone. ({error})"
+    )
+}
+
+#[cfg(not(target_os = "macos"))]
 fn explain_open_error(error: impl std::fmt::Display) -> String {
     format!(
         "Mimi couldn't open the microphone. Check that it's connected and that Windows allows \

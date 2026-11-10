@@ -1,0 +1,13 @@
+{
+  "bundle": {
+    "targets": ["app"],
+    "resources": {
+      "bundle-files/": null
+    },
+    "macOS": {
+      "minimumSystemVersion": "11.0",
+      "signingIdentity": "-",
+      "entitlements": "./Entitlements.plist"
+    }
+  }
+}

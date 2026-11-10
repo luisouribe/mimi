@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { invoke } from "@tauri-apps/api/core";
 import type { HistoryEntry } from "./App";
+import { computerName } from "./platform";
 
 const COPIED_TIME_MS = 1800;
 const SEARCH_WAIT_MS = 120;
@@ -110,7 +111,7 @@ export default function HistoryPanel({ entries, loadMore, onDeleted, onProblem }
 
       {shown.length === 0 ? (
         <p className="history-empty">
-          {searching ? `Nothing found for "${query.trim()}".` : "Everything you dictate is saved here, on this PC only."}
+          {searching ? `Nothing found for "${query.trim()}".` : `Everything you dictate is saved here, on this ${computerName} only.`}
         </p>
       ) : (
         <ul

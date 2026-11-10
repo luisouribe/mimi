@@ -1,0 +1,395 @@
+{
+  "dictations": [
+    {
+      "clip": "test-audio-m9/es/k01.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1794261465801,
+          "id": 1,
+          "pasted": false,
+          "speech_seconds": 1.856,
+          "text": "Este libro es muy bueno.",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Este libro es muy bueno.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 11.417166,
+          "mic_ready_ms": 0.367791,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.001458,
+          "recognition_ms": 83.48441700000001,
+          "recorded_seconds": 2.19,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.856,
+          "stop_to_text_ms": 95.021917,
+          "tidy_ms": 0.073125,
+          "total_ms": 95.091208
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 62,
+      "readyEvents": 1
+    },
+    {
+      "clip": "test-audio-m9/es/f03.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1794261470265,
+          "id": 2,
+          "pasted": false,
+          "speech_seconds": 3.008,
+          "text": "Pues no sé qué decirte.",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Pues no sé qué decirte.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 17.8835,
+          "mic_ready_ms": 0.834417,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.001458,
+          "recognition_ms": 134.713416,
+          "recorded_seconds": 3.33,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.008,
+          "stop_to_text_ms": 152.715416,
+          "tidy_ms": 0.045541000000000005,
+          "total_ms": 152.763125
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 81,
+      "readyEvents": 1
+    },
+    {
+      "clip": "test-audio-m4/en/e02.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1794261475726,
+          "id": 3,
+          "pasted": false,
+          "speech_seconds": 3.872,
+          "text": "I think we should leave early.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "I think we should leave early.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 20.313666,
+          "mic_ready_ms": 0.7630830000000001,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.001166,
+          "recognition_ms": 134.572041,
+          "recorded_seconds": 4.25,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.872,
+          "stop_to_text_ms": 154.99870900000002,
+          "tidy_ms": 0.049957999999999995,
+          "total_ms": 155.051584
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 99,
+      "readyEvents": 1
+    },
+    {
+      "clip": "test-audio-m4/en/e03.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1794261480146,
+          "id": 4,
+          "pasted": false,
+          "speech_seconds": 2.752,
+          "text": "I think that the plan is very very good.",
+          "word_count": 9
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "I think that the plan is very very good.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 12.133542,
+          "mic_ready_ms": 0.607708,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.001334,
+          "recognition_ms": 101.457125,
+          "recorded_seconds": 3.11,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 2.752,
+          "stop_to_text_ms": 113.742083,
+          "tidy_ms": 0.075542,
+          "total_ms": 113.792417
+        },
+        "word_count": 9
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 81,
+      "readyEvents": 1
+    },
+    {
+      "clip": "test-audio-m9/es/k01.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1794261485638,
+          "id": 5,
+          "pasted": false,
+          "speech_seconds": 1.856,
+          "text": "Este libro es muy bueno.",
+          "word_count": 5
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "Este libro es muy bueno.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 13.247167,
+          "mic_ready_ms": 0.906209,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.001041,
+          "recognition_ms": 857.385292,
+          "recorded_seconds": 2.19,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 1.856,
+          "stop_to_text_ms": 870.733083,
+          "tidy_ms": 0.046584,
+          "total_ms": 870.826917
+        },
+        "word_count": 5
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 62,
+      "readyEvents": 1
+    },
+    {
+      "clip": "test-audio-m4/en/e02.wav",
+      "dictation": {
+        "entry": {
+          "app_name": "Mimi",
+          "created_at_ms": 1794261491583,
+          "id": 6,
+          "pasted": false,
+          "speech_seconds": 3.872,
+          "text": "I think we should leave early.",
+          "word_count": 6
+        },
+        "heard_speech": true,
+        "outcome": null,
+        "text": "I think we should leave early.",
+        "timings": {
+          "chunk_count": 1,
+          "cleanup_ms": 19.884542000000003,
+          "mic_ready_ms": 0.8025,
+          "outcome": "nothing to paste",
+          "paste_ms": 0.001125,
+          "recognition_ms": 212.539833,
+          "recorded_seconds": 4.25,
+          "shortcut_to_recording_ms": null,
+          "speech_seconds": 3.872,
+          "stop_to_text_ms": 232.530583,
+          "tidy_ms": 0.046166,
+          "total_ms": 232.577
+        },
+        "word_count": 6
+      },
+      "doubleStart": {
+        "message": "Mimi is already listening.",
+        "rejected": true
+      },
+      "levels": 99,
+      "readyEvents": 1
+    }
+  ],
+  "engine": {
+    "load_seconds": 0.253450375,
+    "model": "whisper-small",
+    "problem": null,
+    "state": "ready",
+    "uses_graphics_card": true
+  },
+  "history": [
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1794261491583,
+      "id": 6,
+      "pasted": false,
+      "speech_seconds": 3.872,
+      "text": "I think we should leave early.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1794261485638,
+      "id": 5,
+      "pasted": false,
+      "speech_seconds": 1.856,
+      "text": "Este libro es muy bueno.",
+      "word_count": 5
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1794261480146,
+      "id": 4,
+      "pasted": false,
+      "speech_seconds": 2.752,
+      "text": "I think that the plan is very very good.",
+      "word_count": 9
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1794261475726,
+      "id": 3,
+      "pasted": false,
+      "speech_seconds": 3.872,
+      "text": "I think we should leave early.",
+      "word_count": 6
+    },
+    {
+      "app_name": "Mimi",
+      "created_at_ms": 1794261470265,
+      "id": 2,
+      "pasted": false,
+      "speech_seconds": 3.008,
+      "text": "Pues no sé qué decirte.",
+      "word_count": 5
+    }
+  ],
+  "historyCheck": {
+    "deleted": true,
+    "found": 1,
+    "foundAfterDelete": 0,
+    "foundInCapitals": 1,
+    "listAfter": 3,
+    "listBefore": 4,
+    "word": "libro"
+  },
+  "microphonesListed": "4 microphones found (names left out)",
+  "missingMicrophone": {
+    "message": "The microphone \"A microphone that does not exist\" isn't connected.",
+    "rejected": true
+  },
+  "models": [
+    {
+      "description": "25 European languages, Spanish and English included. Fastest, and no graphics card needed.",
+      "id": "parakeet",
+      "installed": true,
+      "name": "Parakeet V3"
+    },
+    {
+      "description": "100 languages, Japanese included. The most accurate Whisper.",
+      "id": "whisper-turbo",
+      "installed": true,
+      "name": "Whisper Turbo"
+    },
+    {
+      "description": "99 languages, Japanese included. Lighter, but less accurate.",
+      "id": "whisper-small",
+      "installed": true,
+      "name": "Whisper Small"
+    }
+  ],
+  "screen": {
+    "animateSwitchWorks": true,
+    "hideAllowed": true,
+    "manropeLoaded": true,
+    "mimiCanvasWidth": 523,
+    "oxaniumLoaded": true
+  },
+  "settings": {
+    "animate_mimi": true,
+    "appearance": "light",
+    "chimes": true,
+    "cleanup": true,
+    "hold_shortcut": {
+      "alt": false,
+      "ctrl": true,
+      "key": 32,
+      "key_name": "Space",
+      "shift": false
+    },
+    "language": "en",
+    "model": "whisper-small",
+    "quiet_other_apps": true,
+    "start_with_windows": true,
+    "tap_shortcut": {
+      "alt": false,
+      "ctrl": true,
+      "key": 32,
+      "key_name": "Space",
+      "shift": true
+    },
+    "whisper_cpu_only": false
+  },
+  "snippets": [],
+  "stopWithoutStart": {
+    "message": "Mimi isn't listening.",
+    "rejected": true
+  },
+  "switches": [
+    {
+      "language": "",
+      "model": "parakeet",
+      "seconds": 0.606,
+      "status": {
+        "load_seconds": 0.582395084,
+        "model": "parakeet",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": false
+      }
+    },
+    {
+      "language": "es",
+      "model": "whisper-turbo",
+      "seconds": 1.3090000000000035,
+      "status": {
+        "load_seconds": 1.130497,
+        "model": "whisper-turbo",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    },
+    {
+      "language": "en",
+      "model": "whisper-small",
+      "seconds": 0.405,
+      "status": {
+        "load_seconds": 0.253450375,
+        "model": "whisper-small",
+        "problem": null,
+        "state": "ready",
+        "uses_graphics_card": true
+      }
+    }
+  ]
+}

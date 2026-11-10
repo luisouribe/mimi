@@ -20,6 +20,8 @@ const HIGH: f32 = 880.0; // A5
 const FIRST_NOTE: f32 = 0.085;
 const SECOND_NOTE: f32 = 0.24;
 const LOUDNESS: f32 = 0.32;
+/// How long a chime takes to play, rounded up.
+pub const CHIME_LENGTH: std::time::Duration = std::time::Duration::from_millis(350);
 
 fn notes(chime: Chime) -> [f32; 2] {
     match chime {
@@ -80,12 +82,29 @@ pub fn play(chime: Chime) {
         Chime::Start => START.get_or_init(|| wav(Chime::Start)),
         Chime::Stop => STOP.get_or_init(|| wav(Chime::Stop)),
     };
+    #[cfg(target_os = "macos")]
+    std::thread::spawn(move || play_on_mac(sound));
     #[cfg(windows)]
     unsafe {
         use windows::Win32::Media::Audio::{PlaySoundW, SND_ASYNC, SND_MEMORY, SND_NODEFAULT};
         use windows::core::PCWSTR;
         let _ = PlaySoundW(PCWSTR(sound.as_ptr().cast()), None, SND_MEMORY | SND_ASYNC | SND_NODEFAULT);
     }
+}
+
+/// Keeps the sound alive on its own thread until it has finished, so playing never waits.
+#[cfg(target_os = "macos")]
+fn play_on_mac(sound: &[u8]) {
+    use objc2::AnyThread;
+    use objc2_app_kit::NSSound;
+    use objc2_foundation::NSData;
+    objc2::rc::autoreleasepool(|_| {
+        let data = NSData::with_bytes(sound);
+        if let Some(player) = NSSound::initWithData(NSSound::alloc(), &data) {
+            player.play();
+            std::thread::sleep(std::time::Duration::from_millis(((FIRST_NOTE + SECOND_NOTE) * 1000.0) as u64 + 150));
+        }
+    });
 }
 
 #[cfg(test)]

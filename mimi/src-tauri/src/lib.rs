@@ -1,14 +1,26 @@
 //! Connects the shortcut, microphone, speech engine, pasting, history and screens.
 
 pub mod audio;
+#[cfg(windows)]
+pub mod autostart;
+#[cfg(not(windows))]
+#[path = "mac/autostart.rs"]
 pub mod autostart;
 pub mod clean;
 pub mod diag;
 pub mod engine;
 pub mod history;
 pub mod hotkey;
+#[cfg(windows)]
+pub mod indicator;
+#[cfg(not(windows))]
+#[path = "mac/indicator.rs"]
 pub mod indicator;
 pub mod lists;
+#[cfg(windows)]
+pub mod paste;
+#[cfg(not(windows))]
+#[path = "mac/paste.rs"]
 pub mod paste;
 pub mod quiet;
 pub mod settings;
@@ -42,6 +54,7 @@ const TRAY_ID: &str = "mimi";
 const HISTORY_SEARCH_LIMIT: usize = 200;
 /// How long a short message stays on the indicator.
 const NOTICE_TIME: Duration = Duration::from_millis(2_600);
+const COPIED_NOTICE: &str = if cfg!(target_os = "macos") { "COPIED: PRESS CMD + V" } else { "COPIED: PRESS CTRL + V" };
 
 struct Session {
     capture: Arc<Capture>,
@@ -130,13 +143,7 @@ fn begin(app: &AppHandle, device: Option<String>, shortcut_at: Option<Instant>) 
     }
     let device = device.or_else(|| state.chosen_microphone.lock().ok().and_then(|chosen| chosen.clone()));
     let (chimes, quiet_other_apps) = listening_sounds(&state);
-    // Other apps fade out while the chime plays and the microphone opens.
-    if quiet_other_apps {
-        state.quieter.lower();
-    }
-    if chimes {
-        sounds::play(Chime::Start);
-    }
+    start_sounds(&state, chimes, quiet_other_apps);
 
     // Show the indicator first, because opening a microphone can take most of a second.
     if !is_self_test() {
@@ -205,7 +212,7 @@ fn finish(app: &AppHandle) -> Result<Dictation, String> {
     hotkey::set_recording(false);
     match &result {
         Ok(dictation) => match &dictation.outcome {
-            Some(PasteOutcome::CopiedInstead { .. }) => notify_then_idle(app, "COPIED: PRESS CTRL + V"),
+            Some(PasteOutcome::CopiedInstead { .. }) => notify_then_idle(app, COPIED_NOTICE),
             _ if !dictation.heard_speech => notify_then_idle(app, "NO SPEECH HEARD"),
             _ => go_idle(app),
         },
@@ -225,12 +232,7 @@ fn process(
     session.stop_levels.store(true, Ordering::Relaxed);
     // Played only once the microphone is closed, so the chime isn't recorded.
     let (chimes, quiet_other_apps) = listening_sounds(state);
-    if chimes {
-        sounds::play(Chime::Stop);
-    }
-    if quiet_other_apps {
-        state.quieter.restore();
-    }
+    stop_sounds(state, chimes, quiet_other_apps);
 
     let samples = session.capture.take_samples();
     let rate = session.capture.rate();
@@ -348,6 +350,49 @@ fn listening_sounds(state: &AppState) -> (bool, bool) {
         return (false, false);
     }
     state.settings.lock().map_or((true, true), |settings| (settings.chimes, settings.quiet_other_apps))
+}
+
+/// Windows lowers each other app, so its chime can play over the fade. A Mac lowers everything,
+/// chimes included, so the volume only drops once the chime has played.
+fn start_sounds(state: &AppState, chimes: bool, quiet_other_apps: bool) {
+    if cfg!(target_os = "macos") {
+        if chimes {
+            sounds::play(Chime::Start);
+        }
+        if quiet_other_apps {
+            state.quieter.lower_after(if chimes { sounds::CHIME_LENGTH } else { Duration::ZERO });
+        }
+        return;
+    }
+    // Other apps fade out while the chime plays and the microphone opens.
+    if quiet_other_apps {
+        state.quieter.lower();
+    }
+    if chimes {
+        sounds::play(Chime::Start);
+    }
+}
+
+/// On a Mac the chime waits for the volume to come back, on its own thread so text isn't delayed.
+fn stop_sounds(state: &AppState, chimes: bool, quiet_other_apps: bool) {
+    if cfg!(target_os = "macos") {
+        let quieter = state.quieter.clone();
+        thread::spawn(move || {
+            if quiet_other_apps {
+                quieter.restore_and_wait();
+            }
+            if chimes {
+                sounds::play(Chime::Stop);
+            }
+        });
+        return;
+    }
+    if chimes {
+        sounds::play(Chime::Stop);
+    }
+    if quiet_other_apps {
+        state.quieter.restore();
+    }
 }
 
 fn go_idle(app: &AppHandle) {
@@ -729,10 +774,24 @@ fn start_tray(app: &AppHandle) -> tauri::Result<()> {
     Ok(())
 }
 
+/// Where Mimi keeps her settings and dictations.
+fn default_data_folder() -> Option<PathBuf> {
+    #[cfg(target_os = "macos")]
+    let folder = std::env::var_os("HOME").map(|home| PathBuf::from(home).join("Library/Application Support/Mimi"));
+    #[cfg(not(target_os = "macos"))]
+    let folder = std::env::var_os("LOCALAPPDATA").map(|local| PathBuf::from(local).join("Mimi"));
+    folder
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     engine::prepare_graphics_environment();
     let mut builder = tauri::Builder::default();
+    // The hidden self test must never take focus from whatever the owner is doing.
+    #[cfg(target_os = "macos")]
+    if is_self_test() {
+        builder = builder.activate_ignoring_other_apps(false);
+    }
     // A second copy would listen for the same shortcut and paste everything twice.
     // The hidden self test is allowed to run beside a copy that's already open.
     if !is_self_test() {
@@ -740,10 +799,14 @@ pub fn run() {
     }
     builder
         .setup(|app| {
+            #[cfg(target_os = "macos")]
+            if is_self_test() {
+                app.set_activation_policy(tauri::ActivationPolicy::Accessory);
+            }
             // Tests use their own folder, so they never touch real settings or dictations.
             let data_folder = std::env::var_os("MIMI_DATA_DIR")
                 .map(PathBuf::from)
-                .or_else(|| std::env::var_os("LOCALAPPDATA").map(|local| PathBuf::from(local).join("Mimi")))
+                .or_else(default_data_folder)
                 .unwrap_or_else(std::env::temp_dir);
             let timings_file = Some(data_folder.join("timings.jsonl"));
             if !is_self_test() {
@@ -853,6 +916,17 @@ pub fn run() {
             if let RunEvent::Exit = event {
                 app.state::<AppState>().quieter.restore_now();
                 engine::clear_graphics_card_check(&app.state::<AppState>().data_folder);
+                // whisper.cpp's Metal cleanup aborts if a model is still loaded while the program
+                // closes, which macOS would report as a crash. Everything is saved by now.
+                #[cfg(target_os = "macos")]
+                unsafe {
+                    _exit(0)
+                };
             }
         });
+}
+
+#[cfg(target_os = "macos")]
+unsafe extern "C" {
+    fn _exit(code: i32) -> !;
 }
